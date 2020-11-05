@@ -5,8 +5,8 @@ date: '2020-11-01'
 slug: use-fcitx5-in-rstudio-on-kubuntu20.10
 categories: []
 tags:
-  - fcitx5
-  - rstudio
+  - Fcitx5
+  - Rstudio
 lastmod: '2020-11-01T22:13:13+08:00'
 keywords: []
 toc: false
