@@ -7,7 +7,6 @@ categories: []
 tags:
   - Kubuntu
   - KDE Plasma
-lastmod: '2020-11-15T09:54:16+08:00'
 keywords: []
 description: ''
 ---

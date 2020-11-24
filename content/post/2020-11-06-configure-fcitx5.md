@@ -6,7 +6,6 @@ categories: []
 tags:
   - Fcitx5
   - Ubuntu
-lastmod: '2020-11-06T14:34:04+08:00'
 ---
 
 # 安装
