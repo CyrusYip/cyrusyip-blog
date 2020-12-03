@@ -178,9 +178,9 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     pagePV = true
 
   [params.reward]                                         # 文章打赏
-    enable = false
-    wechat = "/path/to/your/wechat-qr-code.png"           # 微信二维码
-    alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
+    enable = true
+    wechat = "https://raw.githubusercontent.com/CyrusYip/blog-static/main/images/wechat-qrcode.png"           # 微信二维码
+    alipay = "https://raw.githubusercontent.com/CyrusYip/blog-static/main/images/alipay-qrcode.jpg"           # 支付宝二维码
 
   # [params.social]                                         # 社交链接
     a-email = "mailto:your@email.com"
