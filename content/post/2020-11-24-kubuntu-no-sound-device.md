@@ -8,6 +8,16 @@ tags:
   - Kubuntu
 ---
 
-有时候电脑开机之后，没有音频设备，没办法播音乐了。突然想去设置看看，就发现解决方法就是切换一下音频设备。
+执行命令：
 
-进入 `System Settings -> Hardware -> Audio -> Advanced -> Device Profiles`，把 `Profile` 改成 `Stereo Output + Analog Stereo Input`。
+```bash
+sudo alsa force-reload
+pulseaudio -k
+start-pulseaudio-x11
+```
+
+进入 `System Settings -> Hardware -> Audio -> Advanced -> Device Profiles`，把 `Profile` 改成 `Analog Stereo Duplex`。
+
+---
+
+参考：[(K)Ubuntu 17.10 - No Audio devices found, no settings, no sound](https://askubuntu.com/a/978992/1154635)
