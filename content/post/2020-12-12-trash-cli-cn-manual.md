@@ -11,7 +11,7 @@ slug: trash-cli-manual
 
 > 译者：
 >
-> `rm` 是常用的 `BASH` 命令，但是误删文件后比较难恢复。用 [trash-cli](https://github.com/andreafrancia/trash-cli) 更安全，它只是把文件移动到回收站，这样误删文件也很容易恢复。Ubuntu 可以用 `sudo apt install trash-cli` 来安装。我觉得这个软件挺好用的，就把[官方文档](https://github.com/andreafrancia/trash-cli/blob/master/README.rst)翻译成中文了。
+> `rm` 是常用的 `BASH` 命令，但是误删文件后比较难恢复。用 [trash-cli](https://github.com/andreafrancia/trash-cli) 更安全，它只是把文件移动到回收站，这样误删文件也很容易恢复。我觉得这个软件挺好用的，就把[官方文档](https://github.com/andreafrancia/trash-cli/blob/master/README.rst)翻译成[中文](https://github.com/andreafrancia/trash-cli/blob/master/README_zh-CN.rst)了。
 
 <!--
 # trash-cli - Command Line Interface to FreeDesktop.org Trash.
@@ -19,7 +19,7 @@ slug: trash-cli-manual
 
 # trash-cli——FreeDesktop.org 回收站的命令行界面
 
-![Donate](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif)
+[![Donate](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=93L6PYT4WBN5A)
 
 <!--
 trash-cli trashes files recording the original path, deletion date, and permissions. It uses the same trashcan used by KDE, GNOME, and XFCE, but you can invoke it from the command line (and scripts).
@@ -362,6 +362,13 @@ For uninstalling use:
 卸载命令：
 
     pip uninstall trash-cli
+
+
+### 用包管理器安装
+
+Debian/Ubuntu (apt):
+
+    sudo apt install trash-cli
 
 <!--
 ## Bugs and feedback
