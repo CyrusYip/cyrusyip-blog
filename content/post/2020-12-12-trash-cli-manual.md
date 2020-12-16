@@ -9,8 +9,6 @@ tags:
 slug: trash-cli-manual
 ---
 
-> 译者：
->
 > `rm` 是常用的 `BASH` 命令，但是误删文件后比较难恢复。用 [trash-cli](https://github.com/andreafrancia/trash-cli) 更安全，它只是把文件移动到回收站，这样误删文件也很容易恢复。我觉得这个软件挺好用的，就把[官方文档](https://github.com/andreafrancia/trash-cli/blob/master/README.rst)翻译成[中文](https://github.com/andreafrancia/trash-cli/blob/master/README_zh-CN.rst)了。
 
 <!--

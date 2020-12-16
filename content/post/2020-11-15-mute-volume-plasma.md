@@ -52,7 +52,7 @@ chmod +x 0-vol.sh
 
 ## GUI 设置
 
-`System Settings -> Workspace -> Startup and Shutdown -> Autostart -> Add Script`，直接在设置搜索 `Autostart` 也行，添加的脚本内容如下：
+点击 `System Settings -> Workspace -> Startup and Shutdown -> Autostart -> Add Script`，直接在设置搜索 `Autostart` 也行，添加的脚本内容如下：
 
 ```bash
 #!/bin/bash
