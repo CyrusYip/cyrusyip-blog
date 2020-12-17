@@ -1,13 +1,13 @@
 ---
 title: GitHub 图床教程
-author: ''
 date: '2020-12-05'
 slug: host-images-on-github
-categories: []
 tags:
   - Github
   - blog
 ---
+
+<!--more-->
 
 - 新建[公共仓库](https://github.com/new)[^why public]
 

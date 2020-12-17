@@ -8,8 +8,6 @@ tags:
   - LaTeX
 ---
 
-<!--more-->
-
 # extra_dependencies
 
 ```
@@ -19,6 +17,8 @@ output:
     extra_dependencies: ["bbm", "threeparttable"]
 ---
 ```
+
+<!--more-->
 
 ```
 ---

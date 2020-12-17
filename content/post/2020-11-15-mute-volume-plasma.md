@@ -1,15 +1,13 @@
 ---
 title: KDE Plasma 开机静音设置
-author: ''
 date: '2020-11-15'
 slug: mute-volume-plasma
-categories: []
 tags:
   - Kubuntu
   - KDE Plasma
-keywords: []
-description: ''
 ---
+
+<!--more-->
 
 Kubuntu 休眠之后开机总会报错：
 

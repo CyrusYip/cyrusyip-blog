@@ -2,15 +2,14 @@
 title: 在扫描版 PDF 文档中查找内容
 date: '2020-11-05'
 slug: search-scanned-pdf
-categories: []
 tags:
   - PDF
   - regex
-keywords: []
-description: ''
 ---
 
 扫描版的 PDF 都是图片，在里面查找内容是不可能的。所以「在扫描版 PDF 文档中查找内容」这个问题可以拆解为两部分：一是识别 PDF 中的文字，二是搜索里面的内容。
+
+<!--more-->
 
 # 安装软件
 

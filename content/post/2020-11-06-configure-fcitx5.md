@@ -2,11 +2,12 @@
 title: 在 Ubuntu 下配置 Fcitx5
 date: '2020-11-06'
 slug: configure-fcitx5-on-ubuntu
-categories: []
 tags:
   - Fcitx5
   - Ubuntu
 ---
+
+<!--more-->
 
 # 安装
 

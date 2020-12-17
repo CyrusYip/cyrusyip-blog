@@ -1,14 +1,14 @@
 ---
 title: 增强计算机安全性的技巧
-author: ''
 date: '2020-12-08'
 slug: secure-computer
-categories: []
 tags:
   - BIOS
   - UEFI
   - security
 ---
+
+<!--more-->
 
 # 关闭 BIOS 的 USB Boot 和 PXE Boot 选项
 

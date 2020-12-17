@@ -2,11 +2,12 @@
 title: 大学咸鱼指北
 date: '2020-11-28'
 slug: nobody-in-university
-categories: []
 tags:
   - university
   - life
 ---
+
+<!--more-->
 
 # 工地大学
 
