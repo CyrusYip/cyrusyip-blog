@@ -1,5 +1,5 @@
 ---
-title: 在 Rmarkdown 中加载 Latex 宏包
+title: 在 Rmarkdown 中加载 LaTeX 宏包
 date: '2020-12-17'
 slug: rmarkdown-load-latex-packages
 tags:
