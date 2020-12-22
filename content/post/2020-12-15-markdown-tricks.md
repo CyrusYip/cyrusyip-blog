@@ -6,6 +6,20 @@ tags:
   - Markdown
 ---
 
+# 使用 Rmarkdown
+
+常用的 GitHub Flavored Markdown 功能很少，熟悉之后可以使用更强大的 [Rmarkdown](https://bookdown.org/yihui/rmarkdown/)。
+
+Rmarkdown 的优势：
+
+- 多用途
+
+    Rmarkdown 可以用来写文档，输出格式为 PDF、HTML、Word 等，写书可以用 [bookdown](https://bookdown.org/yihui/bookdown/)。除了写文档，Rmarkdown 还可以用来写幻灯片（ioslides、Slidy、Beamer、Powerpoint、xaringan 等）和写博客（[blogdown](https://bookdown.org/yihui/blogdown/)）。
+
+- 可运行代码
+
+    Rmarkdown 中可以插入代码，编译文档后代码结果会在输出文档里面。这样的话，改了代码新的结果也会自动插入到输出文档，就不用自己手动插入图片了。
+
 # 有序列表只有第 1 个数字有作用
 
 <!--more-->
@@ -534,3 +548,45 @@ Subhead
 ```
 
 有很长一段时间，我都没法区分哪种标题是 ATX，哪种是 Setext。我特地用词典查 ATX 和 Setext，根本查不到释义。最近在谷歌和维基百科的帮助下，才发现原来这两个标题写法不是 Markdown 原创的，是出自 [atx(the true structured text format)](http://www.aaronsw.com/2002/atx/intro.html) 和 [Setext (Structure Enhanced Text)](https://en.wikipedia.org/wiki/Setext)。
+
+# 避免使用其他标记语言
+
+Markdown 的格式有限，要使用 Markdown 不支持格式，就只能混用其他标记语言。但是混用标记语言可能会让你陷入追求格式的泥潭。举个例子，Markdown 不支持右对齐，要对文字右对齐只能使用 HTML 代码，比如 `<div style="text-align: right">右对齐的文字</div>`。这么做有两个问题，一是要输入长长的代码，二是转换成 HTML 以外的文档（如 PDF）右对齐代码就失效了。下面这个 Markdown 文件转换成 PDF 的话，右对齐会失效。
+
+```markdown
+> 春有百花秋有月，夏有凉风冬有雪。
+>
+> 若无闲事挂心头，便是人间好时节。
+>
+> <div style="text-align: right">——无门慧开</div>
+```
+
+> 春有百花秋有月，夏有凉风冬有雪。
+>
+> 若无闲事挂心头，便是人间好时节。
+>
+> <div style="text-align: right">——无门慧开</div>
+
+其实在 Rmarkdown 中有让右对齐代码同时对 HTML 与 PDF 生效的方法（参考资料：[9.6 Custom blocks (*) | R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html)）。
+
+```markdown
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+
+<style>
+.flushright {
+  text-align: right;
+}
+</style>
+
+> If your mind isn’t clouded by unnecessary things,
+>
+> This is the best season of your life.
+>
+> ::: {.flushright data-latex=""}
+> --- Wu-Men
+> :::
+```
