@@ -6,6 +6,8 @@ tags:
   - Markdown
 ---
 
+<!--more-->
+
 # 使用 Rmarkdown
 
 常用的 GitHub Flavored Markdown 功能很少，熟悉之后可以使用更强大的 [Rmarkdown](https://bookdown.org/yihui/rmarkdown/)。
@@ -21,8 +23,6 @@ Rmarkdown 的优势：
     Rmarkdown 中可以插入代码，编译文档后代码结果会在输出文档里面。这样的话，改了代码新的结果也会自动插入到输出文档，就不用自己手动插入图片了。
 
 # 有序列表只有第 1 个数字有作用
-
-<!--more-->
 
 下面的有序列表显示效果一样
 
