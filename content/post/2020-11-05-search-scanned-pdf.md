@@ -1,5 +1,5 @@
 ---
-title: 在扫描版 PDF 文档中查找内容
+title: 在扫描版 PDF 中查找内容
 date: '2020-11-05'
 slug: search-scanned-pdf
 tags:
@@ -68,9 +68,7 @@ sudo apt install grep
 
 可见文字识别的效果实在不太行，不仅有错字，还有多余的空格和换行。直接搜索想找的内容肯定是不行的，但是[正则表达式](https://zh.wikipedia.org/zh-cn/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F)就可以。先观察一下上面那段文字，有文字、空格和换行符，共 58 个字符。所以我们要查找带有包含文字、空格和换行的组合。
 
-使用 egrep[^regex] 查找：
-
-[^regex]: 如果你看不懂这条命令，就先去学习一下[正则表达式](https://zh.wikipedia.org/zh-cn/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F)。这份教程（[LEARN REGEX THE EASY WAY](https://github.com/ziishaned/learn-regex)）很简洁，应该两三个小时就可以学完。学完之后再读一读 `grep` 的[手册](https://www.gnu.org/software/grep/manual/grep.html)。
+使用 `egrep`（相当于 `grep -E`） 查找：
 
 ```bash
 egrep "[除了眼睛，他身上处处都显得苍老。可是他的眼睛跟海水一样颜色，活泼而坚定 \n]{10,}" 老人与海-余光中.txt
