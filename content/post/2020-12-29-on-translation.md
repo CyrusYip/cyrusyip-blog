@@ -65,6 +65,7 @@ toc: false
 
 延伸阅读：
 
+- [中英混杂语之十恶之首：动词 work - Yihui Xie | 谢益辉](https://yihui.org/cn/2018/11/work/)
+- [江阔云低断雁叫西风 - Yihui Xie | 谢益辉](https://yihui.org/cn/2014/06/on-writing/)
 - [欧化中文 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E6%AD%90%E5%8C%96%E4%B8%AD%E6%96%87)
-
 - [连淑能, 2010. 英汉对比研究[M]. 高等教育出版社.](https://book.douban.com/subject/5297697/)
