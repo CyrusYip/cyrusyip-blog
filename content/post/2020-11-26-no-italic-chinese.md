@@ -15,4 +15,17 @@ toc: false
 
 ![Garamond Roman Oblique](https://upload.wikimedia.org/wikipedia/commons/c/ca/Oblique_type_example.svg)
 
-中文里没有「斜体」（意大利体、伪斜体）的概念，所以千万不要照搬西文的习惯，用斜体来强调中文内容。可以用**粗体**来强调中文内容。另外，*斜体真的很丑*。
+中文里没有「斜体」（意大利体、伪斜体）的概念，所以千万不要照搬西文的习惯，用斜体来强调中文内容。*斜体中文既错误又丑陋*。可以用**粗体**或楷体来强调中文内容，正文内容用宋体或黑体。楷体看起来比较温和，粗体更为突出。
+
+LaTeX 的 ctex 宏包对强调中文的处理挺不错的，用了 ctex 文档类或宏包之后，正文是宋体，`\emph{中文}` 是楷体，`\textbf{中文}` 是黑体。
+
+```latex
+\documentclass[fontset=windows]{ctexart}
+\begin{document}
+你好 \emph{你好} \textbf{你好} \textbf{\emph{你好}}
+
+Hi \emph{Hi} \textbf{Hi} \textbf{\emph{Hi}}
+\end{document}
+```
+
+![ctex](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-11-26_ctex.png)
