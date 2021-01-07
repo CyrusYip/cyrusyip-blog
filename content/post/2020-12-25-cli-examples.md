@@ -8,9 +8,23 @@ tags:
   - Ubuntu
 ---
 
+<!--more-->
+
 本文用于收集~~我记不住的~~实用的命令行用法。
 
-<!--more-->
+# 转换图片格式
+
+先安装 [ImageMagick](https://imagemagick.org/)：
+
+```bash
+sudo apt install imagemagick
+```
+
+把 jpg 图片转换为 png 图片：
+
+```bash
+convert input.jpg output.png
+```
 
 # 合成 MP3
 
