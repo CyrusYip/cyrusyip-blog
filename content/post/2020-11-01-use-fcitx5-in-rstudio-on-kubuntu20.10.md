@@ -8,9 +8,9 @@ tags:
 toc: false
 ---
 
-在 Kubuntu 20.10 使用 Rstudio 的时候，发现它不支持 Fcitx。参考 [Rstudio 官方的方法](https://support.rstudio.com/hc/en-us/articles/205605748-Using-RStudio-0-99-with-Fctix-on-Linux)，成功在 Rstudio 里面用上了 Fcitx 5。里面部分内容已经过时，应该用下面这个命令才对：
-
 <!--more-->
+
+在 Kubuntu 20.10 使用 Rstudio 的时候，发现它不支持 Fcitx。参考 [Rstudio 官方的方法](https://support.rstudio.com/hc/en-us/articles/205605748-Using-RStudio-0-99-with-Fctix-on-Linux)，成功在 Rstudio 里面用上了 Fcitx 5。里面部分内容已经过时，应该用下面这个命令才对：
 
 ```bash
 sudo ln -s /usr/lib/$(dpkg-architecture -qDEB_BUILD_MULTIARCH)/qt5/plugins/platforminputcontexts/libfcitxplatforminputcontextplugin.so /usr/lib/rstudio/plugins/platforminputcontexts

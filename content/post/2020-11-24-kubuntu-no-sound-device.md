@@ -7,6 +7,8 @@ tags:
 toc: false
 ---
 
+<!--more-->
+
 执行命令：
 
 ```bash
@@ -15,8 +17,6 @@ sudo alsa force-reload
 pulseaudio -k
 start-pulseaudio-x11
 ```
-
-<!--more-->
 
 进入 `System Settings -> Hardware -> Audio -> Advanced -> Device Profiles`，把 `Profile` 改成 `Analog Stereo Duplex`。
 
