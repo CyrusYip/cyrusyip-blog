@@ -1,5 +1,5 @@
 ---
-title: 热水除臭法
+title: 沸水除臭法
 date: '2021-01-10'
 slug: remove-odor
 tags:
