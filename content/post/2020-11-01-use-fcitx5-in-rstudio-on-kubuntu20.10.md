@@ -1,24 +1,24 @@
 ---
-title: 在 Rstudio 中使用 Fcitx5（Kubuntu 20.10）
+title: 在 RStudio 中使用 Fcitx5（Kubuntu 20.10）
 date: '2020-11-01'
 slug: use-fcitx5-in-rstudio-on-kubuntu20.10
 tags:
   - Fcitx5
-  - Rstudio
+  - RStudio
 toc: false
 ---
 
 <!--more-->
 
-在 Kubuntu 20.10 使用 Rstudio 的时候，发现它不支持 Fcitx。参考 [Rstudio 官方的方法](https://support.rstudio.com/hc/en-us/articles/205605748-Using-RStudio-0-99-with-Fctix-on-Linux)，成功在 Rstudio 里面用上了 Fcitx 5。里面部分内容已经过时，应该用下面这个命令才对：
+在 Kubuntu 20.10 使用 RStudio 的时候，发现它不支持 Fcitx。参考 [RStudio 官方的方法](https://support.rstudio.com/hc/en-us/articles/205605748-Using-RStudio-0-99-with-Fctix-on-Linux)，成功在 RStudio 里面用上了 Fcitx 5。里面部分内容已经过时，应该用下面这个命令才对：
 
 ```bash
 sudo ln -s /usr/lib/$(dpkg-architecture -qDEB_BUILD_MULTIARCH)/qt5/plugins/platforminputcontexts/libfcitxplatforminputcontextplugin.so /usr/lib/rstudio/plugins/platforminputcontexts
 ```
 
-最近把 Kubuntu 20.04 升级到了 20.10,结果无法在 Rstudio 中使用 Fcitx5 了。可恶，为什么 Rstudio 不支持 Fcitx！官方不作为，那只好自己动手了。
+最近把 Kubuntu 20.04 升级到了 20.10,结果无法在 RStudio 中使用 Fcitx5 了。可恶，为什么 RStudio 不支持 Fcitx！官方不作为，那只好自己动手了。
 
-首先尝试了编译 fcitx-qt5，失败。不行，我要~~死磕这个问题~~认怂了，用 Ibus 去了。把输入法设置成 Ibus 之后，用了一段时间；感觉真是难用，还没有云拼音，突然十分怀念 Fcitx5。于是我启动了 Fcitx5，发现它可以和 Ibus 共存，真是不可思议。又可以在 Rstudio 里用 Fcitx5了。
+首先尝试了编译 fcitx-qt5，失败。不行，我要~~死磕这个问题~~认怂了，用 Ibus 去了。把输入法设置成 Ibus 之后，用了一段时间；感觉真是难用，还没有云拼音，突然十分怀念 Fcitx5。于是我启动了 Fcitx5，发现它可以和 Ibus 共存，真是不可思议。又可以在 RStudio 里用 Fcitx5了。
 
 下面是设置方法：
 
