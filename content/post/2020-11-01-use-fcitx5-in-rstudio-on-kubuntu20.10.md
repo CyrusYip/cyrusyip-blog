@@ -49,6 +49,18 @@ fcitx5-configtool
 # sudo add-apt-repository ppa:hosxy/fcitx5
 ```
 
-这个方法有个坏处：Fcitx5 在某些软件中显示的位置不正确，原因不明。
+这个方法有个坏处：Fcitx5 在某些软件中显示的位置不正确。
 
 ![fcitx5-in-rstudio](https://user-images.githubusercontent.com/60951091/97728651-c4c90d00-1b0c-11eb-833d-09ab5753def9.png)
+
+---
+
+延伸阅读
+
+- [解决 Debian 中 Mendeley Desktop 和 RStudio 无法使用 fcitx 输入中文的问题](https://jiangjun.link/post/debian-mendeley-rstudio-fcitx/)
+
+    通过编译 fcitx-qt5 来让 RStudio 支持 Fcitx5
+
+- [RStudio should bundle a proper libfcitxplatforminputcontextplugin.so file in binary package #1903](https://github.com/rstudio/rstudio/issues/1903)
+
+    RStudio 中无法使用 Fcitx 的报告
