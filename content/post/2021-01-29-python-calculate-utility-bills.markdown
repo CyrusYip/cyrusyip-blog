@@ -1,0 +1,106 @@
+---
+title: 用 Python 计算水电费
+date: '2021-01-29'
+slug: python-calculate-utility-bills
+tags:
+  - programming
+  - Python
+  - R Markdown
+---
+
+<!--more-->
+
+
+
+
+
+前段时间搬家了，在之前住的小区还有些费用没缴，包括水电费、物业费和公摊费。一开始用计算器和笔算，好几次算错。每次出错都要从头到尾算一遍，算得我很烦躁。我突然灵机一动，为什么不用 Python 算这笔麻烦帐呢？于是我就在 R Markdown 里用 Python 算帐了。把数字都放到变量里，搞错了就改某个变量的值，然后计算机就会计算出正确的结果，很快就算好了。计算机果然很擅长做这种琐碎的计算。
+
+注意，以下代码用到的 `f'{expr=}'` 是 Python 3.8 引入的[语法](https://docs.python.org/3/whatsnew/3.8.html#f-strings-support-for-self-documenting-expressions-and-debugging)。另外，在 blogdown 里运行代码最好用 `.Rmarkdown` 而不是 `.Rmd`。用 `.Rmd` 之后目录显示不正常，用 `.Rmarkdown` 就没问题[^ti]。
+
+[^ti]: [r markdown - How to make floating table of contents work using the loveit theme with blogdown - Stack Overflow](https://stackoverflow.com/a/62627206/14399237)
+
+# Python 版本
+
+
+```python
+import sys
+print(sys.version)
+```
+
+```
+## 3.8.6 (default, Sep 25 2020, 09:36:53) 
+## [GCC 10.2.0]
+```
+
+# 公摊费
+
+
+```python
+公摊费单价 = 20
+公摊费已出帐 = 190.72
+公摊费未出帐 = 20 * 6
+# 最近 6 个月的公摊费都未出帐，只好按照平均价格计算了。
+公摊费总价 = 公摊费已出帐 + 公摊费未出帐
+print(f"{公摊费总价=}")
+```
+
+```
+## 公摊费总价=310.72
+```
+
+# 物业费
+
+
+```python
+物业费单价 = 125.7
+物业费月份 = 2
+物业费总价 = 物业费单价 * 物业费月份
+print(f"{物业费总价=}")
+```
+
+```
+## 物业费总价=251.4
+```
+
+# 水费
+
+
+```python
+水费单价 = 4.75
+水费起数 = 90
+水费止数 = 103
+水费总价 = (水费止数 - 水费起数) * 水费单价
+print(f"水费总价：{水费总价}")
+```
+
+```
+## 水费总价：61.75
+```
+
+# 电费
+
+
+```python
+电费单价 = 0.65
+电费起数 = 2474
+电费止数 = 2569
+电费总价 = (电费止数 - 电费起数) * 电费单价
+print(f"{电费总价=}")
+```
+
+```
+## 电费总价=61.75
+```
+
+# 总价
+
+
+```python
+总价 = 物业费总价 + 水费总价 + 电费总价 + 公摊费总价
+print(f"{总价=}")
+```
+
+```
+## 总价=685.62
+```
