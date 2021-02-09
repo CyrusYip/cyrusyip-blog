@@ -32,11 +32,11 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   priority = 0.5
   filename = "sitemap.xml"
 
-[[menu.main]]             # config your menu              # 配置目录
-  name = "首页"
-  weight = 10
-  identifier = "home"
-  url = "/"
+# [[menu.main]]             # config your menu              # 配置目录
+  # name = "首页"
+  # weight = 10
+  # identifier = "home"
+  # url = "/"
 [[menu.main]]
   name = "日志"
   weight = 20
