@@ -1,7 +1,11 @@
 # Cyrus Yip's Blog
 
-This is Cyrus Yip's personal website.
+This is Cyrus Yip's personal website. The content of all pages is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-The Hugo theme [Even](https://github.com/olOwOlo/hugo-theme-even) is licensed under [MIT License](LICENSE.md), The content of my blog posts is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).
+# Contributing Guidelines
 
-If you want to submit pull requests, please read the [contributing guidelines](CONTRIBUTING.md) at first.
+First off, thank you for considering contributing to this project. Any help would be much appreciated.
+
+Please feel free to improve the quality of this content by submitting pull requests. A merged PR will make you appear in the contributor list. It will, however, be considered a donation of your work to this project. You are still bound by the conditions of the license, meaning that you are not considered an author or owner of the content once it has been merged in.
+
+You may also open issues for pointing out mistakes or suggesting ideas.
