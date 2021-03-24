@@ -13,6 +13,10 @@
       "permanent": false,
       "source": "/index.xml",
       "destination": "/post/index.xml"
+    },
+    {
+      "source": "/post/2021/03/18/git-proxy-settings/",
+      "destination": "/post/2021/03/24/configure-proxy/"
     }
   ]
 }
