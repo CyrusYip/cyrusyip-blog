@@ -134,3 +134,7 @@ kstart5 plasmashell # start plasma
 ```
 
 参考：[kwin - Can I restart the KDE Plasma Desktop without logging out? - Ask Ubuntu](https://askubuntu.com/a/481738/1154635)
+
+# 设置代理
+
+[设置代理 - 叶寻 | Cyrus Yip](/post/2021/03/24/configure-proxy/)
