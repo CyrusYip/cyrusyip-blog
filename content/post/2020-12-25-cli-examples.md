@@ -26,7 +26,7 @@ sudo apt install imagemagick
 convert input.jpg output.png
 ```
 
-# 合成 MP3
+# 合成音频文件
 
 [SoX](http://sox.sourceforge.net/) 和 [Mp3Wrap](http://mp3wrap.sourceforge.net/) 都可以用来合成 MP3。他们的区别如下（测试文件大小为 3.7 MB 和 4.4 MB）[^env]：
 
@@ -78,6 +78,14 @@ mp3splt -w output_MP3WRAP.mp3
 ```
 
 上述命令会把 `output_MP3WRAP.mp3` 还原成原来的 `input-1.mp3` 和 `input-2.mp3`（不会删除 `output_MP3WRAP.mp3`）。还原出来的文件和原文件是一模一样的。
+
+# 拆分音频文件
+
+把 MP3 拆分多个文件，每份 30 秒：
+
+```bash
+ffmpeg -i input.mp3 -f segment -segment_time 30 -c copy out%03d.mp3
+```
 
 # 剪辑视频
 
