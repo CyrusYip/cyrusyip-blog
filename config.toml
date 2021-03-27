@@ -18,7 +18,7 @@ pygmentsCodefencesGuessSyntax = true
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 paginate = 10                                              # 首页每页显示的文章数
 disqusShortname = "cyrusyip"      # disqus_shortname
-googleAnalytics = ""      # UA-XXXXXXXX-X
+googleAnalytics = ""              # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [permalinks]
@@ -107,7 +107,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   baiduAnalytics = ""      # Baidu Analytics
   baiduVerification = ""   # Baidu Verification
   googleVerification = ""  # Google Verification         # 谷歌
-
+  googleAnalyticsID = "G-8TSPGDFPRC"  # Google Analytics 4
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   customCSS = []
@@ -202,9 +202,9 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
   [privacy.googleAnalytics]
-    anonymizeIP = true      # 12.214.31.144 -> 12.214.31.0
+    anonymizeIP = false      # 12.214.31.144 -> 12.214.31.0
   [privacy.youtube]
-    privacyEnhanced = true
+    privacyEnhanced = false
 
 # see https://gohugo.io/getting-started/configuration-markup
 [markup]
