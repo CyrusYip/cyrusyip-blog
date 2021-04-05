@@ -28,7 +28,6 @@ sudo apt install ibus
 im-config -n ibus
 
 # 安装 Fctix5
-
 sudo apt install \
 fcitx5 \
 fcitx5-pinyin \
@@ -45,7 +44,7 @@ cp /usr/share/applications/fcitx5.desktop ~/.config/autostart/
 # 设置 Fcitx5（如果已经设置过了就跳过这一步）
 fcitx5-configtool
 
-如果有缺失的包就先添加下面的 PPA：
+# 如果有缺失的包就先添加下面的 PPA：
 # sudo add-apt-repository ppa:hosxy/fcitx5
 ```
 
