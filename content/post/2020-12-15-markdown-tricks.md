@@ -86,7 +86,7 @@ Rmarkdown 的优势：
 
 [![octocat](https://octodex.github.com/images/kimonotocat.png)](https://github.com/)
 
-点击上面这张图片就可以跳转到 GitHub。
+因为本站使用了 fancybox，所以点击上面的图片不会跳转到 GitHub。不过你可以把代码复制到 Markdown 编辑器试试看。
 
 # 使用包含 \`\`\` 的代码块
 
