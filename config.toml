@@ -38,6 +38,10 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   # identifier = "home"
   # url = "/"
 [[menu.main]]
+  name = "随想"
+  weight = 10
+  url = "/post/2021/04/01/random-thoughts/"
+[[menu.main]]
   name = "日志"
   weight = 20
   identifier = "archives"
