@@ -35,3 +35,18 @@ weight: 50
 - 部署：Vercel
 - 评论系统：Disqus 和 utterances
 - 域名注册：Namecheap
+
+# 问题反馈
+
+如果文章的有错别字，可以
+
+- 直接留言
+- 在代码库提交合并请求
+    - 点击[这里](https://github.com/CyrusYip/cyrusyip-blog/find/main)
+    - 输入文章网址的最后一部分，比如 `live-for-myself`
+    - 点击文件
+    - 点击铅笔图标
+    - 编辑
+    - 提交
+
+如果网站有问题，请在代码库[反馈](https://github.com/CyrusYip/cyrusyip-blog/issues)。如果不方便的话，在本页评论也行。
