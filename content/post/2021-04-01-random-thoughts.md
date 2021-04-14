@@ -35,3 +35,11 @@ tags:
 ## 阿斯巴甜
 
 阿斯巴甜是甜度高热量低的甜味剂，可用于代替食糖，从而减少热量摄入。阿斯巴甜很适合减脂/健身人群。我称之为人类伟大的发明、神奇的化学物质、减脂伴侣。阿斯巴甜真的超甜，用的时候先放一点点试试味道。如果放一勺下去可能会甜死。
+
+# 2021-04-14
+
+## Microsoft Edge 浏览器
+
+Linux 版的 Edge 浏览器现在可以[登录微软帐号](https://techcommunity.microsoft.com/t5/articles/users-can-now-sign-in-and-sync-their-favorites-with-microsoft/m-p/2230134)，[侧面标签页](https://techcommunity.microsoft.com/t5/articles/vertical-tabs-preview-now-available-in-the-canary-and-dev/m-p/1823751)的功能超级好用，而且不翻墙也能装插件。现在 Edge 已经是我的主力浏览器了。
+
+![Vertical tabs](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/229553iB000EE470B363ACA/image-size/large?v=v2&px=999)
