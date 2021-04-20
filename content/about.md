@@ -7,6 +7,12 @@ weight: 50
 
 > Do few things and do them well.
 
+- [我是谁](#我是谁)
+- [个人兴趣](#个人兴趣)
+- [网站帐号](#网站帐号)
+- [本站架构](#本站架构)
+- [问题反馈](#问题反馈)
+
 # 我是谁
 
 我叫叶寻，英文名是 Cyrus Yip，性别男，2021 年本科毕业。相信自学的力量，觉得为满足好奇心而学习是件十分幸福的事。本站就是通过自学搭建起来的。
@@ -25,6 +31,13 @@ weight: 50
 
 八方旅人是我第一个打通的英文游戏（我玩的时候还没中文），玩了一百个小时。精致的像素风画面很对我胃口，毕竟我是玩红白机游戏长大的。游戏音乐也很好听。打通游戏之后感觉之前努力学英语真好啊，玩游戏都不用等中文版了，对自己的英语水平也更有信心了。
 
+# 网站帐号
+
+- [Stack Overflow](https://stackoverflow.com/users/14399237/cyrus-yip)
+- [GitHub](https://github.com/CyrusYip)
+- [统计之都](https://d.cosx.org/u/CyrusYip)
+- [Disqus](https://disqus.com/by/cyrusyip/)
+
 # 本站架构
 
 本站采用以下工具搭建。
@@ -34,7 +47,9 @@ weight: 50
 - 代码托管：GitHub
 - 部署：Vercel
 - 评论系统：Disqus 和 utterances
-- 域名注册：Namecheap
+- 域名注册：Namecheap[^Namecheap]
+
+[^Namecheap]: 我看中 Namecheap 是因为它免费提供隐私保护（Domain privacy），保证个人信息不被查询。隔壁的 Name.com 和 GoDaddy 的隐私保护都是付费的。
 
 # 问题反馈
 
