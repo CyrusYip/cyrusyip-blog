@@ -43,3 +43,11 @@ tags:
 Linux 版的 Edge 浏览器现在可以[登录微软帐号](https://techcommunity.microsoft.com/t5/articles/users-can-now-sign-in-and-sync-their-favorites-with-microsoft/m-p/2230134)，[侧面标签页](https://techcommunity.microsoft.com/t5/articles/vertical-tabs-preview-now-available-in-the-canary-and-dev/m-p/1823751)的功能超级好用，而且不翻墙也能装插件。现在 Edge 已经是我的主力浏览器了。
 
 ![Vertical tabs](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/229553iB000EE470B363ACA/image-size/large?v=v2&px=999)
+
+# 2021-05-02
+
+## 自我牺牲
+
+当孩子需求和父母认为的不一致时，父母还执意以自己的方式对孩子好，这就成了自我感动。对一个人好，就应该以他希望的方式，而不是自己认为的方式，或是社会公认的方式。
+
+父母以一种自我牺牲的方式对我好的时候，我很难接受这种好。首先，我不需要这种好。第二，我会有亏欠感。我感觉压力太大了，我可不希望父母做让自己不舒服的事情。良好的关系，应该是轻松舒适的。
