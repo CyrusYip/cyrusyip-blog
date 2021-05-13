@@ -52,14 +52,11 @@ fcitx5-configtool
 
 ![fcitx5-in-rstudio](https://user-images.githubusercontent.com/60951091/97728651-c4c90d00-1b0c-11eb-833d-09ab5753def9.png)
 
+俗话说，如果解决不了问题，就把提出问题的人解决掉。软件亦是如此，这个软件有问题，就换另一个咯。你可以用 RStudio Server，它是用浏览器访问的，Chrome 和 Firefox 都支持 Fcitx 5。如果你还是搞不定，那可以抛弃 RStudio，改用 Visual Studio Code。VS Code 也是支持 [R 语言](https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.r)的。
+
 ---
 
 延伸阅读
 
-- [解决 Debian 中 Mendeley Desktop 和 RStudio 无法使用 fcitx 输入中文的问题](https://jiangjun.link/post/debian-mendeley-rstudio-fcitx/)
-
-    通过编译 fcitx-qt5 来让 RStudio 支持 Fcitx5
-
-- [RStudio should bundle a proper libfcitxplatforminputcontextplugin.so file in binary package #1903](https://github.com/rstudio/rstudio/issues/1903)
-
-    RStudio 中无法使用 Fcitx 的报告
+- [真正的解决方法：通过编译 fcitx-qt5 来让 RStudio 支持 Fcitx5](https://jiangjun.link/post/debian-mendeley-rstudio-fcitx/)
+- [RStudio 中无法使用 Fcitx 的报告](https://github.com/rstudio/rstudio/issues/1903)
