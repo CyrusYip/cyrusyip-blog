@@ -17,11 +17,12 @@ options(
   blogdown.knit.on_save = TRUE,
   # build .Rmd to .html (via Pandoc); to build to Markdown, set this option to 'markdown'
   blogdown.method = 'html',
-  blogdown.new_bundle = FALSE
+  # create single file instead of bundle
+  blogdown.new_bundle = FALSE,
+  # fix Hugo version
+  blogdown.hugo.version = "0.82.0",
+  # remove empty fields in YAML
+  blogdown.yaml.empty = FALSE,
+  # enable RStudio Addin in VS Code
+  vsc.rstudioapi = TRUE
 )
-
-# fix Hugo version
-options(blogdown.hugo.version = "0.82.0")
-
-# enable RStudio Addin in VSCode
-options(vsc.rstudioapi = TRUE)
