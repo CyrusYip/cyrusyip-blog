@@ -47,9 +47,7 @@ weight: 50
 - 代码托管：GitHub
 - 部署：Vercel
 - 评论系统：Disqus 和 utterances
-- 域名注册：Namecheap[^Namecheap]
-
-[^Namecheap]: 我看中 Namecheap 是因为它免费提供隐私保护（Domain privacy），保证个人信息不被查询。隔壁的 Name.com 和 GoDaddy 的隐私保护都是付费的。
+- 域名注册：Porkbun
 
 # 问题反馈
 
