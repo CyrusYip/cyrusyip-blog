@@ -10,8 +10,9 @@ weight: 50
 - [我是谁](#我是谁)
 - [个人兴趣](#个人兴趣)
 - [网站帐号](#网站帐号)
-- [本站架构](#本站架构)
+- [我喜欢的网站](#我喜欢的网站)
 - [问题反馈](#问题反馈)
+- [本站架构](#本站架构)
 
 # 我是谁
 
@@ -39,20 +40,13 @@ weight: 50
 - [Disqus](https://disqus.com/by/cyrusyip/)
 - [豆瓣](https://www.douban.com/people/92568183/)
 
-# 本站架构
+# 我喜欢的网站
 
-本站采用以下工具搭建。
-
-- 搭建：blogdown
-- 主题：[Even](https://github.com/olOwOlo/hugo-theme-even)
-- 代码托管：GitHub
-- 部署：Vercel
-- 评论系统：Disqus 和 utterances
-- 域名注册：Porkbun
+- [關注婦女性暴力協會](https://rainlily.org.hk/)：反对性暴力和性骚扰
 
 # 问题反馈
 
-如果文章的有错别字，可以
+如果文章内容有误，可以
 
 - 直接留言
 - 在代码库提交合并请求
@@ -64,3 +58,14 @@ weight: 50
     - 提交
 
 如果网站有问题，请在代码库[反馈](https://github.com/CyrusYip/cyrusyip-blog/issues)。如果不方便的话，在本页评论也行。
+
+# 本站架构
+
+本站采用以下工具搭建。
+
+- 搭建：blogdown
+- 主题：[Even](https://github.com/olOwOlo/hugo-theme-even)
+- 代码托管：GitHub
+- 部署：Vercel
+- 评论系统：Disqus 和 utterances
+- 域名注册：Porkbun
