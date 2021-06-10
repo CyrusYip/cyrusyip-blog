@@ -37,6 +37,7 @@ weight: 50
 - [GitHub](https://github.com/CyrusYip)
 - [统计之都](https://d.cosx.org/u/CyrusYip)
 - [Disqus](https://disqus.com/by/cyrusyip/)
+- [豆瓣](https://www.douban.com/people/92568183/)
 
 # 本站架构
 
