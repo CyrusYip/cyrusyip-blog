@@ -189,7 +189,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   [params.social]                                         # 社交链接
     # a-email = "mailto:your@email.com"
     b-stack-overflow = "https://stackoverflow.com/users/14399237/cyrus-yip"
-    # c-twitter = "http://localhost:1313"
+    c-twitter = "https://twitter.com/CyrusYip10"
     # d-facebook = "http://localhost:1313"
     # e-linkedin = "http://localhost:1313"
     # f-google = "http://localhost:1313"

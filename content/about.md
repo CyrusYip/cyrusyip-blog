@@ -34,11 +34,12 @@ weight: 50
 
 # 网站帐号
 
+- [Twitter](https://twitter.com/CyrusYip10)
 - [Stack Overflow](https://stackoverflow.com/users/14399237/cyrus-yip)
 - [GitHub](https://github.com/CyrusYip)
 - [统计之都](https://d.cosx.org/u/CyrusYip)
-- [Disqus](https://disqus.com/by/cyrusyip/)
 - [豆瓣](https://www.douban.com/people/92568183/)
+- [Disqus](https://disqus.com/by/cyrusyip/)
 
 # 喜欢的网站
 
