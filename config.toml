@@ -38,11 +38,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   # identifier = "home"
   # url = "/"
 [[menu.main]]
-  name = "随想"
-  weight = 10
-  url = "/post/2021/04/01/random-thoughts/"
-[[menu.main]]
-  name = "日志"
+  name = "文章"
   weight = 20
   identifier = "archives"
   url = "/post/"
@@ -67,9 +63,9 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   gitRepo = "https://github.com/CyrusYip/cyrusyip-blog"
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "叶寻的日志"        # default: the title value    # 默认值: 上面设置的title值
+  logoTitle = "叶寻的博客"        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["叶寻","Cyrus Yip"]
-  description = "叶寻的日志; Cyrus Yip's Blog"
+  description = "叶寻的博客; Cyrus Yip's Blog"
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
   archivePaginate = 99999

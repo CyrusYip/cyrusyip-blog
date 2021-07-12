@@ -2,7 +2,7 @@
 date: "2020-12-29"
 menu: main
 title: 关于
-weight: 50
+weight: 10
 ---
 
 > Do few things and do them well.
