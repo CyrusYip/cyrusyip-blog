@@ -1,15 +1,16 @@
 ---
-title: 咨询录：关于心理咨询的疑问
+title: 关于心理咨询的疑问
 date: '2021-04-30'
 slug: about-psychological-counseling
 tags:
   - life
+categories:
   - psychological counseling
 ---
 
 <!--more-->
 
-「咨询录」的意思是「心理咨询记录」。最近感觉心理咨询的谈话内容挺值得记录的，就写下来了。
+最近感觉心理咨询的谈话内容挺值得记录的，就写下来了。
 
 # 假装重要
 

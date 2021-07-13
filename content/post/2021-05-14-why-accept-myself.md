@@ -1,9 +1,10 @@
 ---
-title: 咨询录：为什么要接纳自己
+title: 为什么要接纳自己
 date: '2021-05-14'
 slug: why-accept-myself
 tags:
   - life
+categories:
   - psychological counseling
 ---
 
