@@ -12,6 +12,23 @@ tags:
 
 本文用于收集~~我记不住的~~实用的命令行用法。
 
+# 下载视频
+
+```bash
+# 安装工具
+pip install you-get youtube-dl -U
+
+# 下载视频
+you-get https://www.iqiyi.com/v_m72044yl88.html
+youtube-dl https://www.youtube.com/watch\?v\=9gfECJHQElo
+```
+
+# 去广告看视频
+
+```bash
+you-get -p vlc https://www.iqiyi.com/v_m72044yl88.html
+```
+
 # 转换图片格式
 
 先安装 [ImageMagick](https://imagemagick.org/)：
