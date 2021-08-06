@@ -52,6 +52,10 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   weight = 40
   identifier = "categories"
   url = "/categories/"
+[[menu.main]]
+  name = "Twitter"
+  weight = 70
+  url = "https://twitter.com/CyrusYip10"
 
 [params]
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
