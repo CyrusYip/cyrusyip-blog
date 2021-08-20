@@ -35,12 +35,14 @@ weight: 10
 
 # 网站帐号
 
-- [Twitter](https://twitter.com/CyrusYip10)
-- [Stack Overflow](https://stackoverflow.com/users/14399237/cyrus-yip)
-- [GitHub](https://github.com/CyrusYip)
-- [统计之都](https://d.cosx.org/u/CyrusYip)
-- [豆瓣](https://www.douban.com/people/92568183/)
 - [Disqus](https://disqus.com/by/cyrusyip/)
+- [GitHub](https://github.com/CyrusYip)
+- [Stack Overflow](https://stackoverflow.com/users/14399237/cyrus-yip)
+- [Twitter](https://twitter.com/CyrusYip10)
+- [豆瓣](https://www.douban.com/people/92568183/)
+- [统计之都](https://d.cosx.org/u/CyrusYip)
+- [知乎](https://www.zhihu.com/people/xie-xun-65-80)
+
 
 # 友情链接
 
