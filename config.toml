@@ -53,7 +53,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   identifier = "categories"
   url = "/categories/"
 [[menu.main]]
-  name = "Twitter"
+  name = "推特"
   weight = 70
   url = "https://twitter.com/CyrusYip10"
 
