@@ -7,7 +7,7 @@ toc: false
 
 <!--more-->
 
-**总结**：最便宜的域名注册商是 Cloudflare，但它不能注册域名，必须从先从其他域名商购入，再转入 Cloudflare。可以先从便宜的 Porkbun 购入域名，必须等待 60 天后才能转入 Cloudflare。Cloudflare 有个缺点：不能改域名服务器。
+**总结**：最便宜的域名注册商是 Cloudflare，但它不能注册域名，必须从先从其他域名商购入，再转入 Cloudflare。可以先从便宜的 Porkbun 购入域名，必须等待 60 天后才能转入 Cloudflare。Cloudflare 有些缺点：不能改域名服务器、WHOIS 信息会显示注册人地址的国家与省份/州，不过其余信息会被隐藏。
 
 最近发现了两个域名价格对比网站：[TLD List](https://tld-list.com/)、[domcomp](https://www.domcomp.com/)，在上面搜了一下我的域名 cyrusyip.org，发现续费最便宜的是 Sav（10.15 美元） 和 Porkbun（10.72）。我用的 Namecheap 续费要 15.16，相比之下 namecheap 真的不太 cheap。虽然网上可以搜到 20% 优惠券，用了之后（12.12）还是比较贵。而且每次都要找优惠券，有点麻烦。由于Sav 的评价不太好，我就决定转移到 Porkbun。转移费是 10.72，转移后域名使用期限会加 1 年。所以其实转移是免费的，转移费拿去续费了。
 
@@ -39,7 +39,7 @@ Cloudflare 的续费价格是 10.11，比 Porkbun 便宜了 0.61。目前 Cloudf
 1. 在 [Cloudflare 主页](https://dash.cloudflare.com/)点击 Add site，根据提示添加域名
 1. 在 [Cloudflare 主页](https://dash.cloudflare.com/)点击 Registrar -> Transfer，按提示操作
 
-操作成功后扣了 10.11 美元，转到 Cloudflare 后就不能更改域名服务器了，除非把账户升级为 Business（200 美元/月）。原来低价域名是推广 Cloudflare 的手段。本站目前用 Vercel 部署，Vercel 和 Cloudflare 都提供 [CDN](https://zh.wikipedia.org/wiki/%E5%85%A7%E5%AE%B9%E5%82%B3%E9%81%9E%E7%B6%B2%E8%B7%AF)，这岂不是套了两层 CDN。果然 [Vercel 文档](https://vercel.com/support/articles/using-cloudflare-with-vercel)说 Cloudflare 会稍微降低网站性能：
+操作成功后扣了 10.11 美元，转到 Cloudflare 后就不能更改域名服务器了，除非把账户升级为 Business（200 美元/月）。域名转到 Cloudflare 之后域名 WHOIS 信息会显示国家和省份/州。原来低价域名是推广 Cloudflare 的手段。本站目前用 Vercel 部署，Vercel 和 Cloudflare 都提供 [CDN](https://zh.wikipedia.org/wiki/%E5%85%A7%E5%AE%B9%E5%82%B3%E9%81%9E%E7%B6%B2%E8%B7%AF)，这岂不是套了两层 CDN。果然 [Vercel 文档](https://vercel.com/support/articles/using-cloudflare-with-vercel)说 Cloudflare 会稍微降低网站性能：
 
 > We don't recommend that you enable the Cloudflare proxy unless you have specific constraints for your project since **it will introduce a minor performance penalty to your website due to the additional hop**.
 
