@@ -37,7 +37,7 @@ tags:
                         └── bcm2711 # 适用于树莓派 4B (64位)
         ```
 
-    - 下载文件名包含  ext4-factory 或 squashfs-factory 的文件，例如 [openwrt-bcm27xx-bcm2711-rpi-4-ext4-factory.img.gz](https://openwrt.cc/releases/targets/bcm27xx/bcm2711/openwrt-bcm27xx-bcm2711-rpi-4-ext4-factory.img.gz)。ext4 固件扩充容量更简单，下文以 ext4 固件为例。固件版本的区别请看[这里](https://mlapp.cn/1004.html)
+    - 下载文件名包含  ext4-factory 或 squashfs-factory 的文件，例如 [openwrt-bcm27xx-bcm2711-rpi-4-ext4-factory.img.gz](https://openwrt.cc/releases/targets/bcm27xx/bcm2711/openwrt-bcm27xx-bcm2711-rpi-4-ext4-factory.img.gz)。squashfs 重置系统更方便，ext4 固件扩充容量更简单。下文以 ext4 固件为例。固件版本的区别请看[这里](https://mlapp.cn/1004.html)
 
     - 解压文件，获得 openwrt-bcm27xx-bcm2711-rpi-4-ext4-factory.img
 
@@ -199,9 +199,36 @@ ping 192.168.0.100
 > 1. 如果以上两个方法未能解决，请尝试在 Lan 口的“物理设置”中取消“桥接接口”的打勾，并在下方的“接口”中选择“eth0”，保存并应用再试。但请注意，此时树莓派的板载无线网卡将无法使用 (有信号但无法上网)。
 > 1. 本篇文章所述设置方法可能对某些型号的华为路由器无效，建议更换其他路由器再试。
 
+# 问答
+
 ## 树莓派与路由器断开连接后，怎么让电脑连接树莓派？
 
 通过 WIFI 或网线连接树莓派，手动把 IP 设置为 192.168.0.100 的同一网段，即 192.168.0.x（0≤x≤255，x≠100），例如 192.168.0.1。此时就能连接，可以用浏览器进入管理界面 192.168.0.100 了。
+
+## 忘了树莓派的 IP 地址怎么办？
+
+先把 microSD 卡插入 Linux 电脑，然后打开终端执行命令。
+
+```bash
+# 查看分区
+# user 为你的用户名
+ls /media/user
+# 11cd116c-beae-43ae-bfb5-b8ec18c9b98a  boot  disk
+
+# 进入分区
+# 请根据情况输入分区名称
+cd /media/user/11cd116c-beae-43ae-bfb5-b8ec18c9b98a
+
+# 查看 ip
+grep "ipaddr" ./upper/etc/config/network
+# option ipaddr '127.0.0.1'
+# option ipaddr '192.168.0.100'
+```
+输出结果里的 192.168.0.100 就是 IP 树莓派地址。如果你不会用 Linux 就重新刷固件吧。
+
+## OpenWrt-Rpi 的插件太多了，有精简版吗？
+
+请使用 OpenWrt-Rpi 的姊妹版 [OpenWrt-Mini](https://github.com/SuLingGG/OpenWrt-Mini)，点击[这里](https://openwrt.cc/snapshots/targets/bcm27xx/bcm2711/)下载，安装方法和 OpenWrt-Rpi 一样。
 
 # 参考资料
 
