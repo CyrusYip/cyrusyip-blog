@@ -8,19 +8,19 @@ tags:
 
 <!--more-->
 
-# 使用 Rmarkdown
+# 使用 R Markdown
 
-常用的 GitHub Flavored Markdown 功能很少，熟悉之后可以使用更强大的 [Rmarkdown](https://bookdown.org/yihui/rmarkdown/)。
+常用的 GitHub Flavored Markdown 功能很少，熟悉之后可以使用更强大的 [R Markdown](https://bookdown.org/yihui/rmarkdown/)。
 
-Rmarkdown 的优势：
+R Markdown 的优势：
 
 - 多用途
 
-    Rmarkdown 可以用来写文档，输出格式为 PDF、HTML、Word 等，写书可以用 [bookdown](https://bookdown.org/yihui/bookdown/)。除了写文档，Rmarkdown 还可以用来写幻灯片（ioslides、Slidy、Beamer、Powerpoint、xaringan 等）和写博客（[blogdown](https://bookdown.org/yihui/blogdown/)）。
+    R Markdown 可以用来写文档，输出格式为 PDF、HTML、Word 等，写书可以用 [bookdown](https://bookdown.org/yihui/bookdown/)。除了写文档，R Markdown 还可以用来写幻灯片（ioslides、Slidy、Beamer、Powerpoint、xaringan 等）和写博客（[blogdown](https://bookdown.org/yihui/blogdown/)）。
 
 - 可运行代码
 
-    Rmarkdown 中可以插入代码，编译文档后代码结果会在输出文档里面。这样的话，改了代码新的结果也会自动插入到输出文档，就不用自己手动插入图片了。
+    R Markdown 中可以插入代码，编译文档后代码结果会在输出文档里面。这样的话，改了代码新的结果也会自动插入到输出文档，就不用自己手动插入图片了。
 
 # 有序列表只有第 1 个数字有作用
 
@@ -569,7 +569,7 @@ Markdown 的格式有限，要使用 Markdown 不支持格式，就只能混用�
 >
 > <div style="text-align: right">——无门慧开</div>
 
-其实在 Rmarkdown 中有让右对齐代码同时对 HTML 与 PDF 生效的方法（参考资料：[9.6 Custom blocks (*) | R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html)）。
+其实在 R Markdown 中有让右对齐代码同时对 HTML 与 PDF 生效的方法（参考资料：[9.6 Custom blocks (*) | R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html)）。
 
 ```markdown
 ---
@@ -593,7 +593,7 @@ output:
 > :::
 ```
 
-# 在 Rmarkdown 中加载 LaTeX 宏包
+# 在 R Markdown 中加载 LaTeX 宏包
 
 
 ## extra_dependencies
