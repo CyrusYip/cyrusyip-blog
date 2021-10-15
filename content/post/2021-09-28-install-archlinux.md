@@ -403,7 +403,7 @@ echo 'export PATH="$PATH:$(yarn global bin)"' >> ~/.zshrc
 
 接下来用 Arch Linux 把 Windows 启动项添加到 GRUB。
 
-```
+```bash
 sudo pacman -Syu os-prober
 ```
 
@@ -414,6 +414,6 @@ sudo pacman -Syu os-prober
 GRUB_DISABLE_OS_PROBER=false
 ```
 
-```
+```bash
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
