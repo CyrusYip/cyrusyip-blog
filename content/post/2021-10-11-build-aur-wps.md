@@ -11,7 +11,7 @@ tags:
 
 最近系统从 Kubuntu 切换到 Arch Linux 了，安装了最新的 [WPS 国内版](https://aur.archlinux.org/packages/wps-office-cn/)，还是遇到了界面模糊的问题。干脆就手动安装旧版的吧。`makepkg` 不支持 root 帐户，所以要使用非 root 帐户操作。
 
-```
+```bash
 # 安装 Git
 sudo pacman -Syu git
 # 获取 PKGBUILD
