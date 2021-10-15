@@ -43,7 +43,7 @@ LC_ALL=
 
 我之前设置的 locale 明明是 en_US.UTF-8。
 
-```
+```bash
 sudo localectl set-locale LANG=en_US.UTF-8
 ```
 
@@ -57,6 +57,6 @@ LANG=C
 
 把 Plasma 的 locale 配置文件删除后重启就行了。
 
-```
+```bash
 rm -i ~/.config/plasma-localerc
 ```
