@@ -12,6 +12,16 @@ tags:
 
 本文用于收集~~我记不住的~~实用的命令行用法。
 
+# docker
+
+```
+# 启动已停止的容器
+docker start f357e2faab77 # restart it in the background
+docker attach f357e2faab77 # reattach the terminal & stdin
+```
+
+[docker - I lose my data when the container exits - Stack Overflow](https://stackoverflow.com/questions/19585028/i-lose-my-data-when-the-container-exits/19616598#19616598)
+
 # 下载视频
 
 ```bash
