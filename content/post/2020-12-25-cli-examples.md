@@ -161,11 +161,13 @@ $ tr ':' '\n' <<< "$PATH"
 
 参考：[shell - Show PATH in a human-readable way - Unix & Linux Stack Exchange](https://unix.stackexchange.com/a/80153/447708)
 
-# 重启 KDE Plasma
+# KDE Plasma
 
 ```bash
-kquitapp5 plasmashell # kill plasma
-kstart5 plasmashell # start plasma
+# 重启 Plasma
+kquitapp5 plasmashell; sleep 2; kstart5 plasmashell
+# 重新加载软件列表
+kbuildsycoca5
 ```
 
 参考：[kwin - Can I restart the KDE Plasma Desktop without logging out? - Ask Ubuntu](https://askubuntu.com/a/481738/1154635)
