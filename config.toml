@@ -182,8 +182,8 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     pagePV = true
 
   [params.reward]                                         # 文章打赏
-    enable = true
-    wechat = "https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/wechat-tip-code.jpg"           # 微信二维码
+    enable = false
+    wechat = ""           # 微信二维码
     alipay = ""           # 支付宝二维码
 
   [params.social]                                         # 社交链接

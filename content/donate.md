@@ -21,7 +21,7 @@ weight: 60
 
 请我喝瓶东方树叶:smile:。
 
-- [微信赞赏码](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/wechat-tip-code.jpg)
 - [爱发电](http://afdian.net/@cyrusyip)（支付宝、微信）
-- [Patreon](https://www.patreon.com/cyrusyip)（信用卡、Paypal、Apple Pay）
 - [Ko-fi](https://ko-fi.com/cyrusyip)（PayPal、Stripe）
+- [Patreon](https://www.patreon.com/cyrusyip)（信用卡、Paypal、Apple Pay）
+
