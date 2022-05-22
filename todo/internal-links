@@ -1,0 +1,27 @@
+content/zh-cn/post/2021-05-06-long-hair.md:[剪寸头](/post/2020/11/28/nobody-in-university/)
+content/zh-cn/post/2021-09-15-openwrt-argon-mini-fan.md:[树莓派 4B 超频教程](/post/2021/09/20/raspberry-pi4-overclock/)
+content/zh-cn/post/2021-07-09-damn-wechat.md:[大学](/post/2020/11/28/nobody-in-university/)
+content/zh-cn/post/2021-10-09-local-ssh.md:[配置并启用 UFW](/post/2021/10/09/ufw-for-local-computers/)
+content/zh-cn/post/2020-11-26-regex-examples.md:[在扫描版 PDF 中查找内容 - 叶寻 | Cyrus Yip](/post/2020/11/05/search-scanned-pdf/)
+content/zh-cn/post/2021-09-22-laptop-openwrt-problems.md:[Miix 510-12IKB](https://www.notebookcheck.net/Lenovo-Miix-510-12IKB-80XE001WHH.205544.0.html)（Miix 5 Plus），后来大三的时候开始学编程。Miix 只有 8G 内存，实在是太小了。于是换了台 16G 内存的 [Magicbook 14](https://item.jd.com/100010816812.html)，从此 Miix 就长期处于闲置状态。最近打开几个月没开机的 Miix，屏幕居然多了两条竖线。也不知道是不是之前寄快递的时候压坏了。去查了保修时间，已经过期了。唉，看来还是不修了吧，修还得花钱。可这屏幕的两条竖线看着真不舒服，拿来刷视频都不行了。真为 Miix 的前途感到担忧，难道它年纪轻轻就要退休了吗？思考再三，我决定以后拿它作[旁路由](https://sspai.com/post/59708)。我现在用[树莓派 4B 作旁路由](/post/2021/08/30/raspberry-pi-4b-openwrt/)
+content/zh-cn/post/2020-12-25-update-packages-script.md:[保存到 PATH 变量包含的目录](/post/2020/12/24/put-software-into-path/)
+content/zh-cn/post/2021-02-18-live-for-myself.md:[杂事](/post/2020/11/28/nobody-in-university/)
+content/zh-cn/post/2021-02-18-live-for-myself.md:[^markdown]。还用 blogdown 搭建了博客，2020 年 11 月 1 日发布了[第一篇文章](/post/2020/11/01/use-fcitx5-in-rstudio-on-kubuntu20.10/)
+content/zh-cn/post/2021-05-07-thesis-and-defense.md:[摸鱼能手](/post/2020/11/28/nobody-in-university/)
+content/zh-cn/post/2021-06-04-difficult-love.md:[一下子失去目标，整个人都迷茫了](/post/2021/02/18/live-for-myself/)
+content/zh-cn/post/2021-09-28-install-archlinux.md:[给本地电脑配置 UFW（Uncomplicated Firewall）防火墙](/post/2021/10/09/ufw-for-local-computers/)
+content/zh-cn/post/2020-12-25-cli-examples.md:[设置代理 - 叶寻 | Cyrus Yip](/post/2021/03/24/configure-proxy/)
+content/zh-cn/post/2021-08-30-raspberry-pi-4b-openwrt.md:[在 OpenWrt 控制树莓派 Argon Mini Fan](/post/2021/09/15/openwrt-argon-mini-fan/)
+content/zh-cn/post/2021-08-30-raspberry-pi-4b-openwrt.md:[树莓派 4B 超频教程](/post/2021/09/20/raspberry-pi4-overclock/)
+content/zh-cn/post/2021-08-10-rent-server.md:[邀请链接](/donate/)
+content/zh-cn/post/2021-06-07-git-notes.md:[这篇文章](/post/2021/01/25/git-remove-sensitive-data/)
+content/zh-cn/post/2021-12-27-fix-vscode-keyboard-mapping.md:[我将 Caps 键改为 Esc 键之后](/post/2021/12/27/kde-plasma-swap-caps-and-esc/)
+content/zh-cn/post/2021-09-20-raspberry-pi4-overclock.md:[在 OpenWrt 控制树莓派 Argon Mini Fan](/post/2021/09/15/openwrt-argon-mini-fan/)
+content/zh-cn/post/2021-09-20-raspberry-pi4-overclock.md:[Argon Mini Fan](/post/2021/09/15/openwrt-argon-mini-fan/)
+content/zh-cn/post/2021-06-09-memories-of-teeth.md:[自学编程](/post/2021/02/18/live-for-myself/)，源代码的有不少不懂的英文单词，于是打算先学英语。我用的书是[《李阳国际音标与美国音标入门》](https://book.douban.com/subject/3859023/)
+content/zh-cn/about.md:> 原文链接：https://cyrusyip.org/post/2021/05/14/why-accept-myself/
+content/zh-cn/about.md:> 作者博客：https://cyrusyip.org/
+content/zh-cn/about.md:> 本文原标题为「[为什么要接纳自己](https://cyrusyip.org/post/2021/05/14/why-accept-myself/)」，作者为「[叶寻](https://cyrusyip.org/)」，许可证为 CC BY-NC-SA 4.0，文章有改动。
+content/zh-cn/subscribe.md:欢迎使用 RSS 阅读器[^qi]订阅更新，本站的 RSS 链接是 <https://cyrusyip.org/post/index.xml>。有时候我会更新旧文，推荐在阅读器点击文章链接，跳转到本站阅读最新版本。
+content/zh-cn/post/2021-01-31-shi-ting.md:刚上大学的时候觉得大学的糟心事太多了，比如浪费时间的素质培养计划和无聊的政治必修课。遂与诗婷吐槽这大学生活和想象的完全不一样。诗婷回复：「那你觉得大学是怎么样的呢？」我就愣了一下，思考了一下。我以为的大学生活是课业不多，有充裕的时间干其他事，但现实就是大学也有不少我讨厌的事情。看来我很容易以为自己的想法就是真相，然后发现大学它不是这样，现实证明了我的想法是错的，打击了我的自恋感。但这样的抱怨也于事无补，还不如学着[在大学摸鱼](https://cyrusyip.org/post/2020/11/28/nobody-in-university/)呢。
+content/zh-cn/post/2021-05-19-transfer-domain.md:最近发现了两个域名价格对比网站：[TLD List](https://tld-list.com/)、[domcomp](https://www.domcomp.com/)，在上面搜了一下我的域名 cyrusyip.org，发现续费最便宜的是 Sav（10.15 美元） 和 Porkbun（10.72）。我用的 Namecheap 续费要 15.16，相比之下 namecheap 真的不太 cheap。虽然网上可以搜到 20% 优惠券，用了之后（12.12）还是比较贵。而且每次都要找优惠券，有点麻烦。由于Sav 的评价不太好，我就决定转移到 Porkbun。转移费是 10.72，转移后域名使用期限会加 1 年。所以其实转移是免费的，转移费拿去续费了。
