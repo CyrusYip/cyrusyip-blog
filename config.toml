@@ -133,7 +133,7 @@ defaultContentLanguage = "en"           # Default language to use
     issueTerm = "pathname"
 
   [params.counter.busuanzi]  # a Chinese visitor counter  # 不蒜子计数器
-    enable = true
+    enable = false
 
   [params.social]                                         # 社交链接
     # a-email = "mailto:your@email.com"
