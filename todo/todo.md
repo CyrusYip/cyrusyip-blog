@@ -1,3 +1,0 @@
-- [x] disqus
-- [x] utterances
-- [x] links to other posts
