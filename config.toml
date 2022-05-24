@@ -2,7 +2,7 @@
 # If you want to see the full configuration, please check `full-config.toml` .
 # And see https://gohugo.io/getting-started/configuration/ .
 
-baseURL = "https://cyrusyip.org/"
+baseURL = "https://bilingual.vercel.app"
 title = "Cyrus Yip | 叶寻"
 enableRobotsTXT = true
 enableEmoji = true
