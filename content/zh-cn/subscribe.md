@@ -1,6 +1,6 @@
 ---
 date: "2020-12-29"
-# menu: main
+menu: main
 title: 订阅
 weight: 50
 ---
