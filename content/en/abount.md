@@ -5,4 +5,4 @@ title: "About"
 # weight: 10
 ---
 
-I am Cyrus Yip(叶寻). I like anime, games, books, and programming.
+I am Cyrus Yip(叶寻). I like anime, games, books, and programming. By the way, I use Arch Linux!
