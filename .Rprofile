@@ -20,7 +20,7 @@ options(
   # create single file instead of bundle
   blogdown.new_bundle = FALSE,
   # fix Hugo version
-  blogdown.hugo.version = "0.82.0",
+  blogdown.hugo.version = "0.99.1",
   # remove empty fields in YAML
   blogdown.yaml.empty = FALSE,
   # enable RStudio Addin in VS Code

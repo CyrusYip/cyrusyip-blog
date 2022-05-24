@@ -7,3 +7,4 @@ resources/_gen
 .DS_Store
 Thumbs.db
 /resources/
+.hugo_build.lock

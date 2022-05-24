@@ -1,7 +1,7 @@
 {
   "build": {
     "env": {
-      "HUGO_VERSION": "0.82.0"
+      "HUGO_VERSION": "0.99.1"
     }
   },
   "github": {
@@ -9,13 +9,20 @@
   },
   "redirects": [
     {
-      "permanent": false,
-      "source": "/index.xml",
-      "destination": "/post/index.xml"
-    },
-    {
       "source": "/post/2021/03/18/git-proxy-settings/",
       "destination": "/post/2021/03/24/configure-proxy/"
+    },
+    {
+      "source": "/post/(index.xml)",
+      "destination": "/zh-cn/$1"
+    },
+    {
+      "source": "/(about|subscribe|donate)(/?)",
+      "destination": "/zh-cn/$1$2"
+    },
+    {
+      "source": "(/post/[0-9].*)",
+      "destination": "/zh-cn$1"
     }
   ]
 }
