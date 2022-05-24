@@ -127,4 +127,4 @@ Vultr 注册完就叫我充值，还有信用卡充值多少就送多少的优�
 
 Vultr 和 Linode 都有注册用余额的活动，在谷歌搜「Vultr coupon」和「Linode coupon」就能找到了，通过 Vultr 和 Linode 用户的邀请链接注册也有优惠。后来我又注册了 DigitalOcean，注册后用优惠券白拿了 15 美元。DigitalOcean 和前面两家厂商也差不多，都是按小时计费，最便宜的服务器也是 5 美元/月。但 DigitalOcean 的帐单不是实时更新，一日更新一次。
 
-如果你想注册 Vultr 或 DigitalOcean，可以试试我的[邀请链接](/donate/)，注册后会有余额奖励。建议使用真实 IP 地址注册，不然有被封号的风险。
+如果你想注册 Vultr 或 DigitalOcean，可以试试我的[邀请链接](/zh-cn/donate/)，注册后会有余额奖励。建议使用真实 IP 地址注册，不然有被封号的风险。

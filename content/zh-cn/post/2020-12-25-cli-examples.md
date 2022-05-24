@@ -174,7 +174,7 @@ kbuildsycoca5
 
 # 设置代理
 
-[设置代理 - 叶寻 | Cyrus Yip](/post/2021/03/24/configure-proxy/)
+[设置代理 - 叶寻 | Cyrus Yip](/zh-cn/post/2021/03/24/configure-proxy/)
 
 # 设置华为笔记本充电阈值（charge threshold）
 
