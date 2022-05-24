@@ -17,6 +17,10 @@
       "destination": "/zh-cn/$1"
     },
     {
+      "source": "/(about|subscribe|donate)(/?)",
+      "destination": "/zh-cn/$1$2"
+    },
+    {
       "source": "(/post/[0-9].*)",
       "destination": "/zh-cn$1"
     }
