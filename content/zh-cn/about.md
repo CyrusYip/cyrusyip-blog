@@ -53,7 +53,7 @@ weight: 10
 
 > 原标题：为什么要接纳自己
 >
-> 原文链接：https://cyrusyip.org/post/2021/05/14/why-accept-myself/
+> 原文链接：https://cyrusyip.org/zh-cn/post/2021/05/14/why-accept-myself/
 >
 > 作者：叶寻
 >
