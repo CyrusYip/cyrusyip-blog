@@ -132,9 +132,9 @@ defaultContentLanguage = "en"           # Default language to use
 
   # use public git repo url to link lastmod git commit, enableGitInfo should be true.
   # 指定 git 仓库地址，可以生成指向最近更新的 git commit 的链接，需要将 enableGitInfo 设置成 true.
-  [params.gitInfo]
-    gitRepo = "https://github.com/CyrusYip/cyrusyip-blog"
-    showCommitMessage = true
+  # [params.gitInfo]
+  #   gitRepo = "https://github.com/CyrusYip/cyrusyip-blog"
+  #   showCommitMessage = true
 
   [params.social]                                         # 社交链接
     # a-email = "mailto:your@email.com"
