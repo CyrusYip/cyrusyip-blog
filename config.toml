@@ -97,11 +97,6 @@ defaultContentLanguage = "en"           # Default language to use
   homeFullContent = false   # if false, show post summaries on home page. Otherwise show full content.
   rssFullContent = true     # if false, Rss feed instead of the summary
 
-  # use public git repo url to link lastmod git commit, enableGitInfo should be true.
-  # 指定 git 仓库地址，可以生成指向最近更新的 git commit 的链接，需要将 enableGitInfo 设置成 true.
-  # [params.gitInfo]
-    gitRepo = "https://github.com/CyrusYip/cyrusyip-blog"
-    # showCommitMessage = true
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
   # logoTitle = "Jane"        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["Cyrus Yip","叶寻"]
@@ -134,6 +129,12 @@ defaultContentLanguage = "en"           # Default language to use
 
   [params.counter.busuanzi]  # a Chinese visitor counter  # 不蒜子计数器
     enable = false
+
+  # use public git repo url to link lastmod git commit, enableGitInfo should be true.
+  # 指定 git 仓库地址，可以生成指向最近更新的 git commit 的链接，需要将 enableGitInfo 设置成 true.
+  [params.gitInfo]
+    gitRepo = "https://github.com/CyrusYip/cyrusyip-blog"
+    showCommitMessage = true
 
   [params.social]                                         # 社交链接
     # a-email = "mailto:your@email.com"
