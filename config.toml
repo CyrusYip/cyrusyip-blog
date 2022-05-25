@@ -162,4 +162,6 @@ defaultContentLanguage = "en"           # Default language to use
 # see https://gohugo.io/getting-started/configuration-markup
 [markup]
   [markup.tableOfContents]
-    startLevel = 1
+    startLevel = 2
+    endLevel = 6
+    # ordered = true
