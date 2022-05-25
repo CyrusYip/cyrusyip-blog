@@ -16,7 +16,7 @@ slug: trash-cli-manual
 # trash-cli - Command Line Interface to FreeDesktop.org Trash.
 -->
 
-# trash-cli——FreeDesktop.org 回收站的命令行界面
+## trash-cli——FreeDesktop.org 回收站的命令行界面
 
 [![Donate](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=93L6PYT4WBN5A)
 
@@ -48,7 +48,7 @@ trash-cli 提供以下命令：
 ## Usage
 -->
 
-## 用法
+### 用法
 
 <!--
 Trash a file:
@@ -193,7 +193,7 @@ Note: you need to use quotes in order to protect the pattern from shell expansio
 ## FAQ
 -->
 
-## 常见问题
+### 常见问题
 
 <!--
 ### How to create a top level .Trash dir?
@@ -205,7 +205,7 @@ Steps :
     sudo chmod +t /.Trash
 -->
 
-### 如何创建顶级 .Trash 目录？
+#### 如何创建顶级 .Trash 目录？
 
 步骤：
 
@@ -217,7 +217,7 @@ Steps :
 ### Can I alias *rm* to *trash-put*?
 -->
 
-### 我能把 *rm* 的别名设置为 *trash-put* 吗？
+#### 我能把 *rm* 的别名设置为 *trash-put* 吗？
 
 <!--
 You can but you shouldn't. In the early days I thought it was a good idea to do that but now I changed my mind.
@@ -233,7 +233,7 @@ Although the interface of *trash-put* seems to be compatible with *rm*, it has d
 ### But sometimes I forget to use *trash-put*, really can't I?
 -->
 
-### 但有时候我忘记用 *trash-put* 了，真的不能给 *rm* 设置别名吗？
+#### 但有时候我忘记用 *trash-put* 了，真的不能给 *rm* 设置别名吗？
 
 <!--
 You could alias *rm* to something that will
@@ -262,7 +262,7 @@ Note that Bash aliases are used only in interactive shells, so using this alias 
 ### Where the trashed files go?
 -->
 
-### 被移动到回收站的文件在哪？
+#### 被移动到回收站的文件在哪？
 
 <!--
 File trashed from the home partition will be moved here:
@@ -278,13 +278,13 @@ File trashed from the home partition will be moved here:
 ## Installation
 -->
 
-## 安装
+### 安装
 
 <!--
 ### The easy way
 -->
 
-### 简单方法
+#### 简单方法
 
 <!--
 Requirements:
@@ -312,7 +312,7 @@ Installation command:
 ### From sources
 -->
 
-### 源码安装
+#### 源码安装
 
 <!--
 System-wide installation:
@@ -363,7 +363,7 @@ For uninstalling use:
     pip uninstall trash-cli
 
 
-### 用包管理器安装
+#### 用包管理器安装
 
 Debian/Ubuntu (apt):
 
@@ -373,7 +373,7 @@ Debian/Ubuntu (apt):
 ## Bugs and feedback
 -->
 
-## 反馈与 Bug 报告
+### 反馈与 Bug 报告
 
 <!--
 If you discover a bug please report it here:
@@ -394,7 +394,7 @@ You can also email me to <andrea@andreafrancia.it>. On Twitter I'm
 ## Development
 -->
 
-## 开发
+### 开发
 
 <!--
 Environment setup:

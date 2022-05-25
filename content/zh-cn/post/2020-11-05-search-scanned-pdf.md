@@ -11,7 +11,7 @@ tags:
 
 扫描版的 PDF 都是图片，在里面查找内容是不可能的。所以「在扫描版 PDF 文档中查找内容」这个问题可以拆解为两部分：一是识别 PDF 中的文字，二是搜索里面的内容。
 
-# 安装软件
+## 安装软件
 
 开始教程之前，先安装好需要的软件：
 
@@ -30,7 +30,7 @@ sudo apt install poppler-utils
 # 这个得到官网下载：https://code.visualstudio.com/
 ```
 
-# 识别文字
+## 识别文字
 
 首先，我们要用 OCR[^ocr] 技术来识别 PDF 中的文字。有很多 OCR 软件，我用的是 [OCRmyPDF](https://github.com/jbarlow83/OCRmyPDF)。接下来用余光中译的[《老人与海》](https://book.douban.com/subject/21371496/)作为例子。
 
@@ -48,9 +48,9 @@ sudo apt install poppler-utils
     pdftotext 老人与海-余光中-ocr.pdf
     ```
 
-# 搜索文字
+## 搜索文字
 
-## 中文
+### 中文
 
 《老人与海》第三段 `除了眼睛，他身上处处都显得苍老。可是他的眼睛跟海水一样颜色，活泼而坚定` 在 `老人与海-余光中-ocr.txt` 里面是这样的：
 
@@ -83,7 +83,7 @@ sudo apt install poppler-utils
 
 把结果复制到 WPS PDF 搜索，就可以找到第三段文字了。注意，不推荐用 grep 搜索，grep 只能搜索一行字符。
 
-# 英文
+## 英文
 
 第三段的英文 `Everything about him was old except his eyes and they were the same color as the sea and were cheerful and undefeated.` 在 `老人与海-余光中-ocr.txt` 里面是这样的：
 

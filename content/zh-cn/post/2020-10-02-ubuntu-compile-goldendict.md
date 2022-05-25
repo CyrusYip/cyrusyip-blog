@@ -11,7 +11,7 @@ tags:
 
 本文测试于 Ubuntu 21.04。
 
-# 安装依赖
+## 安装依赖
 
 ```bash
 sudo apt-get update
@@ -24,7 +24,7 @@ sudo apt-get install git pkg-config build-essential qt5-qmake \
      libopencc-dev liblzma-dev libzstd-dev
 ```
 
-# 编译
+## 编译
 
 ```bash
 # 卸载源里面的 GoldenDict
@@ -48,10 +48,10 @@ chmod +x ./goldendict # 增加可执行权限
 ./goldendict          # 运行
 ```
 
-# Appimage 版本
+## Appimage 版本
 
 想使用最新版的 GoldenDict，也可以试试 [Appimage 版](https://github.com/Abs62/goldendict/releases/tag/continuous)。
 
-# 参考资料
+## 参考资料
 
 - GoldenDict 代码库的[说明文档](https://github.com/goldendict/goldendict/blob/master/README.md)

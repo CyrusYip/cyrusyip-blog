@@ -8,7 +8,7 @@ tags:
 
 <!--more-->
 
-# 使用 R Markdown
+## 使用 R Markdown
 
 常用的 GitHub Flavored Markdown 功能很少，熟悉之后可以使用更强大的 [R Markdown](https://bookdown.org/yihui/rmarkdown/)。
 
@@ -22,7 +22,7 @@ R Markdown 的优势：
 
     R Markdown 中可以插入代码，编译文档后代码结果会在输出文档里面。这样的话，改了代码新的结果也会自动插入到输出文档，就不用自己手动插入图片了。
 
-# 有序列表只有第 1 个数字有作用
+## 有序列表只有第 1 个数字有作用
 
 下面的有序列表显示效果一样
 
@@ -66,7 +66,7 @@ R Markdown 的优势：
 
 在有序列表中使用同一个数字有两个好处：一是不需要自己手动编号、二是使用 `Git` 管理文件时变动更少。
 
-# 图片 + 超链接
+## 图片 + 超链接
 
 超链接的语法是`[链接文本](链接网址)`，图片的语法是`![图片标题](图片网址)`。把图片当成超链接的文本，放到超链接的语句中就可以生成带有超链接的图片，也就是`[![图片标题](图片网址)](链接网址)`。
 
@@ -88,7 +88,7 @@ R Markdown 的优势：
 
 因为本站使用了 fancybox，所以点击上面的图片不会跳转到 GitHub。不过你可以把代码复制到 Markdown 编辑器试试看。
 
-# 使用包含 \`\`\` 的代码块
+## 使用包含 \`\`\` 的代码块
 
 如果代码块里包含 N 个 \`，在需要代码块前后使用 N+1 个 \` 把它包裹起来，不然就会显示错误。下面内容会显示为两个空代码块夹着 `print("Hello, World!")`。
 
@@ -118,7 +118,7 @@ print("Hello, World!")
 ```
 ````
 
-# 用空行隔开不同元素
+## 用空行隔开不同元素
 
 用空行隔开不同元素可以消除歧义，避免错误的显示效果。如果不用空行的话，可能会出现意料之外的显示效果。如果我用下面的写法列举我喜欢吃的食物，猜猜 Markdown 编辑器会如何显示。
 
@@ -170,7 +170,7 @@ print("Hello, World!")
 3. 白切鸡
 ```
 
-# Typora 标题自动标号
+## Typora 标题自动标号
 
 ![typora auto number headings](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-15_typora-auto-number-headings.png)
 
@@ -521,7 +521,7 @@ print("Hello, World!")
 
 - 保存文件并重启 Typora
 
-# 为什么 Markdown 的标题叫 ATX 和 Setext
+## 为什么 Markdown 的标题叫 ATX 和 Setext
 
 Markdown 有两种标题写法，一种是 ATX 标题（ATX headings）：
 
@@ -551,7 +551,7 @@ Subhead
 
 有很长一段时间，我都没法区分哪种标题是 ATX，哪种是 Setext。我特地用词典查 ATX 和 Setext，根本查不到释义。最近在谷歌和维基百科的帮助下，才发现原来这两个标题写法不是 Markdown 原创的，是出自 [atx(the true structured text format)](http://www.aaronsw.com/2002/atx/intro.html) 和 [Setext (Structure Enhanced Text)](https://en.wikipedia.org/wiki/Setext)。
 
-# 避免使用其他标记语言
+## 避免使用其他标记语言
 
 Markdown 的格式有限，要使用 Markdown 不支持格式，就只能混用其他标记语言。但是混用标记语言可能会让你陷入追求格式的泥潭。举个例子，Markdown 不支持右对齐，要对文字右对齐只能使用 HTML 代码，比如 `<div style="text-align: right">右对齐的文字</div>`。这么做有两个问题，一是要输入长长的代码，二是转换成 HTML 以外的文档（如 PDF）右对齐代码就失效了。下面这个 Markdown 文件转换成 PDF 的话，右对齐会失效。
 
@@ -593,10 +593,10 @@ output:
 > :::
 ```
 
-# 在 R Markdown 中加载 LaTeX 宏包
+## 在 R Markdown 中加载 LaTeX 宏包
 
 
-## extra_dependencies
+### extra_dependencies
 
 ```
 ---
@@ -619,7 +619,7 @@ output:
 ---
 ```
 
-## header-includes
+### header-includes
 
 ```
 ---
@@ -630,7 +630,7 @@ output:
 ---
 ```
 
-## in-header
+### in-header
 
 ```
 ---
@@ -649,7 +649,7 @@ output:
 \usepackage{expex}
 ```
 
-## 参考资料
+### 参考资料
 
 - [6.4 Include additional LaTeX packages | R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/latex-extra.html)
 - [knitr - How to include LaTeX package in R Markdown? - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/171711/how-to-include-latex-package-in-r-markdown)

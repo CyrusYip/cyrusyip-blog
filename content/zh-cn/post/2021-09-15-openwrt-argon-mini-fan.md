@@ -13,7 +13,7 @@ tags:
 
 本文测试于 [SuLingGG/OpenWrt-Mini](https://github.com/SuLingGG/OpenWrt-Mini) 固件，系统版本：`ImmortalWrt 18.06-SNAPSHOT r0-b0fa0c9 / LuCI openwrt-18.06-k5.4 branch (git-21.247.81448-3061bdd)`。
 
-# 配置
+## 配置
 
 1. 把风扇的档位调至 PWM
 
@@ -64,7 +64,7 @@ tags:
     reboot
     ```
 
-# 测试
+## 测试
 
 1. 安装压力测试软件 stress-ng 
 
@@ -87,11 +87,11 @@ tags:
 
 1. 超过 60°C 后看看风扇转不转，如果转了就按下 `Ctrl + C` 关闭程序。温度下降后再看看风扇转不转，不转就对了
 
-# 后记
+## 后记
 
 Argon Neo 搭配 Argon Mini Fan 真好用啊！调好风扇之后树莓派就可以做一个安静的路由器了，只有温度过高时风扇才转。要是你的树莓派也用 OpenWrt，不要用 Argon Fan HAT。OpenWrt 不能安装 Argon Fan HAT 的控制脚本，装上风扇后它只会以 50% 的转速一直转。
 
-# 默认的 config.txt
+## 默认的 config.txt
 
 这是 [SuLingGG/OpenWrt-Mini](https://github.com/SuLingGG/OpenWrt-Mini) 固件 `/boot/config.txt` 的内容。
 
@@ -122,7 +122,7 @@ dtparam=i2c_arm=on,audio=on
 dtparam=i2c_arm=on,audio=on
 ```
 
-# 参考资料
+## 参考资料
 
 - [Official Raspberry Pi 4 fan? (Yes!, instructions inside) - Hardware Questions and Recommendations - OpenWrt Forum](https://forum.openwrt.org/t/official-raspberry-pi-4-fan-yes-instructions-inside/93975)
 

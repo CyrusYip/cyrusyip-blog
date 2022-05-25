@@ -33,9 +33,9 @@ kernel:[ 319.150049] Uhhuh. NMI received for unknown reason 2d on CPU 0.
 
 接下来就可以开始设置静音了。
 
-# 设置开机静音
+## 设置开机静音
 
-## 命令行设置
+### 命令行设置
 
 ```bash
 mkdir ~/.config/autostart-scripts
@@ -48,7 +48,7 @@ echo "#\!/bin/bash
 chmod +x 0-vol.sh
 ```
 
-## GUI 设置
+### GUI 设置
 
 点击 `System Settings -> Workspace -> Startup and Shutdown -> Autostart -> Add Script`，直接在设置搜索 `Autostart` 也行，添加的脚本内容如下：
 
@@ -59,7 +59,7 @@ chmod +x 0-vol.sh
 
 休眠后再开机，发现没有静音。经过测试，发现这个方法只适用于关机之后开机。可能从休眠中启动只是把硬盘中保存的东西再重新放入内存，所以并不算开机吧。从休眠中启动完之后会进入解锁界面，所以要设置锁屏静音。
 
-# 设置锁屏静音
+## 设置锁屏静音
 
 这个设置我只找到了 GUI 的方法，同样是在系统设置。
 

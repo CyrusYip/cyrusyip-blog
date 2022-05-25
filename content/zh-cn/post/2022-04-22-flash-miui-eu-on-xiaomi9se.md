@@ -10,13 +10,13 @@ tags:
 
 <!--more-->
 
-# 缘起
+## 缘起
 
 之前看了 Pockies 写的《[老妈钦点，我买了一部Redmi K30 5G版](https://pockies.github.io/2020/03/27/redmi-k30-5g/)》，感觉[欧版 MIUI](https://xiaomi.eu/community/) 真是太棒了，既没有广告和无用的内置软件，还有 Google Play。我手头这台小米 9 SE 也用了两三年了，越来越卡了，用了[冰箱（Ice Box）](https://play.google.com/store/apps/details?id=com.catchingnow.icebox)冻结应用之后还是卡。骁龙 712 + 6G 内存，好歹也是中高端配置吧，怎么就卡了呢！我需要安装一些外国软件，但这台机器没预装 Google Play，自己装上的用几次就不行了。该死，只有骁龙 800 系列的小米手机才配有 Google Play 吗？
 
 我很早就知道国外版本的 MIUI 有 Google Play，但是要解锁 bootloader 才能装。解锁 bootloader 之后呢就可以随便刷 recovery，我担心手机丢了后别人可以通过 recovery 随便查看我的文件，所以一直没换系统。经过 [Pockies 的一番指点](https://github.com/Pockies/pockies.github.io/issues/48#issuecomment-912548330)，我才知道我的认知已经过时了，但还是不太懂。于是我在联想 ZUK Z2 Pro 刷机测试，发现只要开启了系统的加密功能，别人进 recovery 就要输入解锁密码才能读取文件（`\data` 分区）。MIUI 默认开启加密，所以不用担心这个问题。
 
-# 备份
+## 备份
 
 - 手机里唯一值得备份的文件就是图片了，我的图片在这三个文件夹：
 
@@ -43,18 +43,18 @@ tags:
 
 - 这个过程还挺繁琐的，下次换手机就试试小米换机
 
-# 下载系统与工具
+## 下载系统与工具
 
 - [官方解锁软件](http://www.miui.com/unlock/index.html)
 - [SDK Platform Tools（adb 和 fastboot）](https://developer.android.com/studio/releases/platform-tools)（Arch Linux 装 `android-tools` 就行）
 - [TWRP](https://twrp.me/xiaomi/xiaomimi9se.html)（第三方 recovery，用于安装系统）
 - [欧版 MIUI](https://xiaomi.eu/community/threads/miui-12-0-12-1-12-2-12-5-stable-release.56191/)
 
-# 解锁 bootloader
+## 解锁 bootloader
 
 使用[官方软件](http://www.miui.com/unlock/index.html)解锁即可。进入 fastboot 之后要安装驱动，不然识别不了。我直接解锁成功了，不需要等待。解锁过程超折腾，用了三台电脑两条数据线尝试了超多次才检测到手机。
 
-# 刷入 TWRP
+## 刷入 TWRP
 
 先进入 fastboot。
 
@@ -82,7 +82,7 @@ Finished. Total time: 1.746s
 
 重启时要按住「关机键和音量加键」，不然进 MIUI 后 recovery 会变成原版。
 
-# 刷入系统
+## 刷入系统
 
 - Wipe -> Format Data
 
@@ -101,7 +101,7 @@ setprop ro.build.product grus
 
 我刷完固件一开始进了系统，后来重启就总是自动进 TWRP，不知道为啥。重新 Format Data 之后又正常了。
 
-# 配置系统
+## 配置系统
 
 - 登陆谷歌帐号
 - 登陆小米帐户
@@ -118,7 +118,7 @@ setprop ro.build.product grus
 
 [^termux]: Goople Play 的版本似乎停更了，安装不了软件。得去 [F-droid 下载](https://f-droid.org/en/packages/com.termux/)。
 
-# 治理流氓软件
+## 治理流氓软件
 
 平时用的国产软件实在太流氓，需要用以下软件治理。下列软件只需要 adb 就能用，不需要 root，但 adb 激活重启会失效。
 
@@ -135,7 +135,7 @@ adb -d shell sh /data/data/me.piebridge.brevent/brevent.sh; adb shell sh /sdcard
 
 除了用电脑激活，也可以在手机通过无线调试激活（开发者怎么想到的，好厉害！出门在外不需要用电脑激活了）。
 
-# 使用体验
+## 使用体验
 
 用了一周，系统比原来的流畅多了，Google Play 也正常能使用。欧版 MIUI 是基于中国版 MIUI 修改的，所以功能都差不多，但有些小毛病。
 
@@ -145,7 +145,7 @@ adb -d shell sh /data/data/me.piebridge.brevent/brevent.sh; adb shell sh /sdcard
 - ~~不能双击电源键开闪光灯~~（设置 「Turn on torch」）
 - Google Play 买应用麻烦（不能用支付宝/微信，我没有国际信用卡，不知道淘宝的礼品卡好不好使）
 
-# 欧版 MIUI 12 的特性
+## 欧版 MIUI 12 的特性
 
 本节内容出自[欧版 MIUI 官网](https://xiaomi.eu/community/threads/miui-12-0-12-1-12-2-12-5-stable-release.56191/)，这些特性看起来还是很棒的。
 
@@ -210,6 +210,6 @@ adb -d shell sh /data/data/me.piebridge.brevent/brevent.sh; adb shell sh /sdcard
 > - Charging screen
 > - And more, and more made by our 9 years MIUI mods experience.
 
-# 参考资料
+## 参考资料
 
 - [国行小米9 SE刷欧版MIUI 12.5踩坑记录 - 小z博客](https://www.xiaoz.me/archives/16032)

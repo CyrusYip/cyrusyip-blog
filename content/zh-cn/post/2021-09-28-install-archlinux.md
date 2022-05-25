@@ -9,11 +9,11 @@ tags:
 
 <!--more-->
 
-# 使用感受
+## 使用感受
 
 Arch Linux 用起来太爽了，我已经在主力电脑装上了！软件超多，官方仓库加上 [archlinuxcn 仓库](https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/) 和 [AUR](https://aur.archlinux.org/)，真的是什么都能安装。滚动更新保证软件都是最新版，还不用像 Ubuntu 那样苦苦地等半年更新，也不用准备一大段时间来更新系统，每次用电脑更新一下就行，也就几分钟的事情。[ArchWiki](https://wiki.archlinux.org/) 的资料超级全面，我要查的东西里面都有。Arch Linux 平时用起来比 Kubuntu 更快，开机才三四秒，关机也是几秒钟。之前用 Kubuntu 遇到的问题在 Arch Linux 上都没了：关机两三分钟才行、休眠后不会关屏幕、版本更新后要手动修改软件源、KDE Plasma 没有休眠按键。pacman 安装和卸载软件也超快，甩 apt 几条街。AUR 虽然什么软件都有，但都是未经审核的，我还挺担心遇到恶意代码。接下来学学 Bash 和打包软件才行，不然看不懂 AUR 上面的打包脚本。
 
-# 安装
+## 安装
 
 本文多次出现 `cat` 命令，例如：
 
@@ -58,9 +58,9 @@ mount /dev/nvme0n1p1 /mnt/efi
 swapon /dev/nvme0n1p5
 ```
 
-# 配置
+## 配置
 
-## 添加 archlinuxcn 源
+### 添加 archlinuxcn 源
 
 ```
 ❯ cat /etc/pacman.conf
@@ -72,14 +72,14 @@ Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 sudo pacman -Syu archlinuxcn-keyring
 ```
 
-## 让 pacman 同时下载多个包
+### 让 pacman 同时下载多个包
 
 ```
 ❯ cat /etc/pacman.conf
 ParallelDownloads = 16 # 同时下载 16 个包
 ```
 
-## 安装软件
+### 安装软件
 
 Arch Linux [不支持更新部分软件（partial upgrades）](https://wiki.archlinux.org/title/System_maintenance#Partial_upgrades_are_unsupported)，所以我使用 `pacman -Syu package` 命令，先更新所有软件再安装需要的软件。
 
@@ -195,7 +195,7 @@ systemctl enable --now auto-cpufreq
 sudo pacman -Syu linux-zen linux-zen-headers
 ```
 
-## 配置 Fcitx5 输入法
+### 配置 Fcitx5 输入法
 
 ```
 ❯ cat ~/.pam_environment
@@ -215,7 +215,7 @@ export XMODIFIERS=@im=fcitx
 
 Fcitx5 的快捷键是 `Control + Space`，编程软件的补全快捷键也是这个，把 Fcitx5 的快捷键改为 `Super + Space` 以避免冲突。打开 `Fcitx 5 Configuration`，点击 `Configure global options`，把 `Trigger Input Method` 改为 `Super + Space`。
 
-## 配置中文优先级
+### 配置中文优先级
 
 [`noto-fonts-cjk`](https://archlinux.org/packages/extra/any/noto-fonts-cjk/) 包括中文、日文、韩文字体，安装后有时候中文被错误地显示为日文。把中文字体优先级调到日语前面就可以解决这个问题。
 
@@ -254,7 +254,7 @@ fc-match -s | grep 'Noto Sans CJK'
 # NotoSansCJK-Regular.ttc: "Noto Sans CJK SC" "Regular"
 ```
 
-## 配置 GRUB
+### 配置 GRUB
 
 取消 GRUB 的子菜单，并让它记住上次的启动项。这样选择内核的时候更方便。
 
@@ -281,7 +281,7 @@ fc-match -s | grep 'Noto Sans CJK'
     ```
     
 
-## 配置休眠
+### 配置休眠
 
 1.  查看 swap 分区名称
     
@@ -336,7 +336,7 @@ fc-match -s | grep 'Noto Sans CJK'
     ```
     
 
-## 配置 Git 与 Github CLI
+### 配置 Git 与 Github CLI
 
 ```bash
 # 导入 GPG 私钥
@@ -354,7 +354,7 @@ git config --global user.name "Joe"
 git config --global user.email "joe@example.com"
 ```
 
-## 配置 ZSH 与插件
+### 配置 ZSH 与插件
 
 ```bash
 # 启用 Oh My Zsh
@@ -385,17 +385,17 @@ sudo mv ~/_gh /usr/share/zsh/site-functions
 echo 'export PATH="$PATH:$(yarn global bin)"' >> ~/.zshrc
 ```
 
-## 防火墙
+### 防火墙
 
 请看我的这篇教程：[给本地电脑配置 UFW（Uncomplicated Firewall）防火墙](/zh-cn/post/2021/10/09/ufw-for-local-computers/)。
 
-## 迁移 Thunderbird 数据
+### 迁移 Thunderbird 数据
 
 [Moving Thunderbird Data to a New Computer](https://support.mozilla.org/en-US/kb/moving-thunderbird-data-to-a-new-computer)
 
 先把 `~/.thunderbird` 文件夹从旧电脑放入网盘，在新电脑打开网盘内的 `.thunderbird`，把里面的内容复制到新电脑的 `~/.thunderbird`，如果有重复文件就选择覆盖。
 
-## 修复 Windows 引导
+### 修复 Windows 引导
 
 [https://wiki.archlinux.org/title/GRUB#Detecting\_other\_operating_systems](https://wiki.archlinux.org/title/GRUB#Detecting_other_operating_systems)
 

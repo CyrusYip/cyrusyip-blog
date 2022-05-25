@@ -16,7 +16,7 @@ tags:
 1. 还原系统
 1. 重装引导程序
 
-# 准备
+## 准备
 
 1. 待加密的电脑
 1. 移动硬盘
@@ -25,11 +25,11 @@ tags:
 
 备份、还原和写入空数据会花费比较多时间，建议准备 1 天的时间慢慢弄，等待的时候就去干点别的事。请谨慎操作，要是你打错命令（比如：格式化分区时搞错了），可能会丢失数据。可以先在虚拟机练习，弄坏也没关系。用于备份的移动硬盘也加密才是真的安全，为了简化文章，我就忽略这部分了。后面写的加密方法一样适用于移动硬盘。本文适用于 UEFI + GPT。
 
-# 扩大 EFI 分区（可略过）
+## 扩大 EFI 分区（可略过）
 
 如果你把 EFI 分区挂载到 `/efi`，那么只需要把引导程序安装到 EFI 分区，Linux 内核不在 `/efi`，所以不需要占用很多 EFI 分区的空间。但是加密硬盘需要把 EFI 分区挂载到 `/boot`，Linux 内核也要安装到 EFI 分区，这需要占用更多空间。ArchWiki 建议 EFI 分区至少 260 MiB。我安装了 linux 内核、linux-lts 内核、linux-zen 内核和 GRUB，EFI 分区占用 249.4 MiB。260 MiB 就只能安装 3 个 Linux 内核了。如果有安装多个内核的需求，可以把 EFI 分区调得更大，我自己把 EFI 分区扩大到 3 GiB 了。分区工具可以选择 cfdisk 或 GParted。先缩小 EFI 分区隔壁的分区，再把多出的空间加到 EFI 分区就可以了。
 
-# 备份
+## 备份
 
 启动待备份的 Arch Linux，先查看分区信息，nvme0n1p4 就是需要加密的 `/` 分区。
 
@@ -73,7 +73,7 @@ sudo rsync --archive --acls --xattrs --hard-links --sparse --one-file-system --d
 - `--info=progress2`：显示总备份进度
 - `--exclude={...}`：排除不需要备份的文件
 
-# 加密
+## 加密
 
 备份好就关机，启动 U 盘的 Arch Linux 安装镜像，选择「Copy to RAM」。启动后拔下 U 盘，插入移动硬盘。以下命令可以调大字体、调高亮度：
 
@@ -105,7 +105,7 @@ cryptsetup open /dev/nvme0n1p4 cryptroot
 mkfs.ext4 /dev/mapper/cryptroot
 ```
 
-# 还原
+## 还原
 
 还原还是用一样的 rsync 命令，就是把路径反过来写就行了，先写 sdb3 的挂载点，再写加密分区的挂载点。因为备份的时候排除了不需要的文件，所以不需要 `--delete-excluded` 和 `--exclude={...}` 参数。用安装镜像不能方便地复制粘贴命令，我用了简写的命令。
 
@@ -214,11 +214,11 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 按下 `Ctrl + D` 退出 `chroot`，并执行 `reboot` 重启。
 
-# 技巧
+## 技巧
 
 备份、加密和还原完成了，下面是加密后的使用技巧。
 
-## 调整加密分区大小
+### 调整加密分区大小
 
 之前创建了交换分区（swap partition），现在打算改用交换文件(swap file)，所以要把删掉交换分区，把多出的空间加到加密分区。本来打算用 cfdisk 扩展加密分区，但是没成功，于是就用带 GUI 的 endeavouros 了。
 
@@ -228,7 +228,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 1.  右击 /dev/nvme0n1p4 -> Resize/Move -> 把 Maximum size 填入 New Size -> 按下 Enter -> Resize
 1.  点击 Edit -> Apply All Operations -> Apply
 
-## 使用 GRUB 主题的方法
+### 使用 GRUB 主题的方法
 
 ```bash
 # 复制到 /boot
@@ -238,11 +238,11 @@ echo 'GRUB_THEME="/boot/grub/themes/whitesur-white-1080p/theme.txt"' | sudo tee 
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-# 感想
+## 感想
 
 经历了这次加密我才知道可以把整个 Arch Linux 备份下来，那么以后换电脑的时候就不用从头安装系统了。虽然安装 Arch Linux 不是很难（装两三次就熟练了)，但是配置还是很花时间，通过备份还原就再也不用全新安装 Arch Linux了，真爽！还原后只需要根据新电脑的硬件做些调整（更换 microcode、显卡驱动等）就行了。定时备份系统到移动硬盘也挺好的，电脑遗失了，买了新的也能很快还原之前的系统。
 
-# 缘起
+## 缘起
 
 之前用 Windows 的时候，加密硬盘很简单，用 BitLocker 也就是点几个按键就行了。Linux 似乎没有类似的简单易用的工具，所以我用 linux 之后没加密过硬盘。带笔记本出门的时候总担心被偷，然后别人盗取笔记本里面的数据来假扮我……
 
@@ -252,7 +252,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 虽然我说服过自己了，但每次带笔记本出门就特焦虑，一开始想象从笔记本被偷，然后马上快进到小偷拿到了我的 SSH 和 GPG 私钥……那我还是加密硬盘吧， ~~万一我以后成了大人物呢？~~ 这样既安全又能缓解焦虑。
 
-# 参考资料
+## 参考资料
 
 这参考资料也就比我的毕业论文少 1 个 :)
 

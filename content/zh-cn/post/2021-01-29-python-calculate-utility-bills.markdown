@@ -20,7 +20,7 @@ tags:
 
 [^ti]: [r markdown - How to make floating table of contents work using the loveit theme with blogdown - Stack Overflow](https://stackoverflow.com/a/62627206/14399237)
 
-# Python 版本
+## Python 版本
 
 
 ```python
@@ -33,7 +33,7 @@ print(sys.version)
 ## [GCC 10.2.0]
 ```
 
-# 公摊费
+## 公摊费
 
 
 ```python
@@ -49,7 +49,7 @@ print(f"{公摊费总价=}")
 ## 公摊费总价=310.72
 ```
 
-# 物业费
+## 物业费
 
 
 ```python
@@ -63,7 +63,7 @@ print(f"{物业费总价=}")
 ## 物业费总价=251.4
 ```
 
-# 水费
+## 水费
 
 
 ```python
@@ -78,7 +78,7 @@ print(f"水费总价：{水费总价}")
 ## 水费总价：61.75
 ```
 
-# 电费
+## 电费
 
 
 ```python
@@ -93,7 +93,7 @@ print(f"{电费总价=}")
 ## 电费总价=61.75
 ```
 
-# 总价
+## 总价
 
 
 ```python

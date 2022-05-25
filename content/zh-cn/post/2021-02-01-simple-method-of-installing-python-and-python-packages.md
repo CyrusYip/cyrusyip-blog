@@ -9,11 +9,11 @@ tags:
 
 <!--more-->
 
-# 安装
+## 安装
 
 Python 新手遇到的第一个问题就是安装 Python，我看好多教程都推荐到[官网](https://www.python.org/)下载。这当然是正确的做法，不过还有更简单的方法。
 
-## Windows
+### Windows
 
 在 Win 10 安装 Python 特别简单，直接在 Microsoft Store 搜索 Python 就可以安装最新版本。注意，软件开发者是 Python Software Foundation。安装好之后在 Command Prompt 输入 Python 就可以使用了。
 
@@ -21,7 +21,7 @@ Python 新手遇到的第一个问题就是安装 Python，我看好多教程都
 
 如果你用的是 LTSC 版本，就点击[这里](https://github.com/kkkgo/LTSC-Add-MicrosoftStore)下载 Microsoft Store 安装包。如果是 LTSB 就点击[这里](https://github.com/kkkgo/LTSB-Add-MicrosoftStore)下载安装包。如果你用 Win 10 之前的 Windows，就安装 [Miniconda](https://docs.conda.io/en/latest/miniconda.html) 吧，参考下面的用法。
 
-## Linux
+### Linux
 
 在 Linux 发行版一般都自带 Python，可以直接用。比如 Ubuntu 20.10 就自带 Python 3.8.6。不推荐采用源码编译，源码编译可能会覆盖系统自带的 Python。如果要用最新版的 Python，就先安装 [Miniconda](https://docs.conda.io/en/latest/miniconda.html)，再创建虚拟环境：
 
@@ -49,11 +49,11 @@ conda create --name ana anaconda # 创建包含 Anaconda 所有软件包的环�
 conda activate ana # 激活环境
 ```
 
-# 设置镜像源
+## 设置镜像源
 
 咱们大中华局域网连接 Internet 时，时而断线，时而速度慢。这时候就可以给 conda 和 pip 设置国内的镜像源，速度马上就飞起来了。
 
-## pip 镜像源
+### pip 镜像源
 
 下面用的是清华镜像站的 [pypi 镜像](https://mirrors.tuna.tsinghua.edu.cn/help/pypi/)。
 
@@ -71,7 +71,7 @@ pip install --index-url https://pypi.tuna.tsinghua.edu.cn/simple pip --upgrade
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-## conda 镜像源
+### conda 镜像源
 
 下面用的是清华镜像站的 [Anaconda 镜像](https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/)。
 
@@ -103,11 +103,11 @@ custom_channels:
 
 最后运行 `conda clean -i` 清楚缓存，确保用的是清华源的索引。
 
-# 安装 Python 包
+## 安装 Python 包
 
 我们可以用 pip 和 conda 安装 Python 包。
 
-## pip 用法
+### pip 用法
 
 从 Microsoft Store 安装的 Python 自带 pip，Linux 的话就用自带的包管理器安装。
 
@@ -177,7 +177,7 @@ pip 21.0.1 from /home/xxxx/.local/lib/python3.8/site-packages/pip (python 3.8)
     ```
 
 
-## conda 用法
+### conda 用法
 
 运行 `conda --help` 可以查看帮助，安装、卸载和升级同样可以作用于多个软件包。
 
@@ -217,7 +217,7 @@ pip 21.0.1 from /home/xxxx/.local/lib/python3.8/site-packages/pip (python 3.8)
     conda remove pandoc
     ```
 
-# 附录
+## 附录
 
 - [conda 官方手册](https://docs.conda.io/projects/conda/en/latest/index.html)
 - [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/help/)

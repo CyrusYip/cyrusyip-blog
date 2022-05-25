@@ -9,7 +9,7 @@ tags:
 
 <!--more-->
 
-# 安装
+## 安装
 
 ```bash
 # 安装 Fcitx5
@@ -33,9 +33,9 @@ fcitx5-configtool
 cp /usr/share/applications/fcitx5.desktop ~/.config/autostart/
 ```
 
-# 配置
+## 配置
 
-## 修改标点符号键位映射
+### 修改标点符号键位映射
 
 Fcitx5 默认的标点符号键位为：
 
@@ -124,7 +124,7 @@ punc.mb.zh_CN.old                            punc.mb.zh_CN.new
 ] 「 」                                      ] “ ”
 ```
 
-## 使用中文维基词库
+### 使用中文维基词库
 
 1. [下载词库](https://github.com/felixonmars/fcitx5-pinyin-zhwiki/releases)
 

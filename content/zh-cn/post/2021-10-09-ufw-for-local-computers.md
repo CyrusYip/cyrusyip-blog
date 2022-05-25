@@ -9,7 +9,7 @@ tags:
 
 <!--more-->
 
-# 安装
+## 安装
 
 ```bash
 # 安装 UFW 与图形界面
@@ -24,7 +24,7 @@ sudo systemctl enable ufw --now
 sudo ufw status verbose
 ```
 
-# 用法
+## 用法
 
 ```bash
 # 允许 203.0.113.101 访问
@@ -40,11 +40,11 @@ sudo ufw delete allow from 203.0.113.101
 sudo ufw delete allow 8080
 ```
 
-# 服务器注意事项
+## 服务器注意事项
 
 在服务器使用 UFW 必须先执行 `ufw allow ssh`（允许 SSH 连接），再执行 `ufw default deny incoming`，最后执行 `ufw enable`，不然会导致无法用 SSH 连接服务器。
 
-# 延伸阅读
+## 延伸阅读
 
 - [Ubuntu Manpage: ufw - program for managing a netfilter firewall](https://manpages.ubuntu.com/manpages/hirsute/en/man8/ufw.8.html)
 - [Uncomplicated Firewall - ArchWiki](https://wiki.archlinux.org/title/Uncomplicated_Firewall)
