@@ -7,14 +7,6 @@ weight: 10
 
 > Do few things and do them well.
 
-- [自我介绍](#自我介绍)
-- [兴趣爱好](#兴趣爱好)
-- [网站帐号](#网站帐号)
-- [友情链接](#友情链接)
-- [转载指南](#转载指南)
-- [问题反馈](#问题反馈)
-- [本站架构](#本站架构)
-
 ## 自我介绍
 
 我叫叶寻，英文名是 Cyrus Yip，性别男，2021 年本科毕业。相信自学的力量，觉得为满足好奇心而学习是件十分幸福的事。本站就是通过自学搭建起来的。
@@ -84,9 +76,10 @@ weight: 10
 
 本站采用以下工具搭建。
 
-- 搭建：blogdown
-- 主题：[Even](https://github.com/olOwOlo/hugo-theme-even)
-- 代码托管：GitHub
+- 搭建：blogdown、Hugo
+- 主题：[hugo-theme-jane](https://github.com/xianmin/hugo-theme-jane)
+- 代码托管：[GitHub](https://github.com/CyrusYip/cyrusyip-blog)
 - 部署：Vercel
-- 评论系统：Disqus 和 utterances
-- 域名注册：Porkbun
+- 评论系统：Disqus、[utterances](https://github.com/utterance/utterances)
+- 域名注册：[Cloudflare Registrar](https://www.cloudflare.com/products/registrar/)
+
