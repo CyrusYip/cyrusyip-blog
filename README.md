@@ -2,7 +2,39 @@
 
 This is Cyrus Yip's personal website. The content of all pages is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-# Contributing Guidelines
+## Preview locally
+
+Clone this repo with its submodule.
+
+```bash
+# HTTPS
+git clone --recursive https://github.com/CyrusYip/cyrusyip-blog.git
+# SSH
+git clone --recursive git@github.com:CyrusYip/cyrusyip-blog.git
+```
+
+Run the site with blogdown(recommended) or Hugo.
+
+```r
+# R console
+blogdown:::serve_site()
+```
+
+```bash
+# hugo
+hugo server --buildDrafts --buildFuture
+```
+
+You can find the Hugo version that I use in [.Rprofile](.Rprofile) and [vercel.json](vercel.json).
+
+```
+# .Rprofile
+blogdown.hugo.version = "x.xx.x"
+# vercel.json
+"HUGO_VERSION": "x.xx.x"
+```
+
+## Contributing Guidelines
 
 First off, thank you for considering contributing to this project. Any help would be much appreciated.
 
