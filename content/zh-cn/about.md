@@ -78,7 +78,7 @@ weight: 10
 
 - 搭建：blogdown、Hugo
 - 主题：[hugo-theme-jane](https://github.com/xianmin/hugo-theme-jane)
-- 代码托管：[GitHub](https://github.com/CyrusYip/cyrusyip-blog)
+- 代码托管：GitHub（[本站的源代码](https://github.com/CyrusYip/cyrusyip-blog)）
 - 部署：Vercel
 - 评论系统：Disqus、[utterances](https://github.com/utterance/utterances)
 - 域名注册：[Cloudflare Registrar](https://www.cloudflare.com/products/registrar/)
