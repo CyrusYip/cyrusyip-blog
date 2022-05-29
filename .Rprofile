@@ -26,3 +26,7 @@ options(
   # enable RStudio Addin in VS Code
   vsc.rstudioapi = TRUE
 )
+
+# load blogdown
+library(blogdown)
+options(browser = 'firefox')
