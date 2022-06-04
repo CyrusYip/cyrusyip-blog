@@ -25,6 +25,8 @@ blogdown:::serve_site()
 hugo server --buildDrafts --buildFuture
 ```
 
+Besides using command line, you can also preview this site with [RStudio](https://www.rstudio.com/products/rstudio/) or VS Code with [R extension](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r).
+
 You can find the Hugo version that I use in [.Rprofile](.Rprofile) and [vercel.json](vercel.json).
 
 ```
