@@ -165,3 +165,6 @@ defaultContentLanguage = "en"           # Default language to use
     startLevel = 2
     endLevel = 6
     # ordered = true
+ [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
