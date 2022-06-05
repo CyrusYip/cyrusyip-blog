@@ -6,7 +6,6 @@ tags:
   - CLI
   - Linux
   - Ubuntu
-toc: false
 ---
 
 在 Linux 上运行自己写的软件必须指定路径才能运行。举个例子，我写了个 BASH 脚本，把代码保存到 `hello_world` 文件，放到 `~/Desktop`，并赋予它运行权限。

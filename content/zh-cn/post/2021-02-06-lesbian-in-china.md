@@ -6,7 +6,6 @@ tags:
   - homosexuality
   - Chinese culture
   - LGBT
-toc: no
 ---
 
 昨天听了故事 FM 的第 458 期节目《[拉拉自述：和直男接吻后，我决定再也不相亲了](https://mp.weixin.qq.com/s?__biz=Mzk0MDIwNTQxNw==&mid=2247505391&idx=1&sn=f6fd48f8b339117d7840ff321944adbf)》。故事讲述人小A今年 29 岁，生活在贵州贵阳，是一名中学老师，是女同性恋者。

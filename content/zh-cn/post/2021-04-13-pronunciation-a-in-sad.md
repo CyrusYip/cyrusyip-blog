@@ -4,7 +4,6 @@ date: '2021-04-13'
 slug: pronunciation-a-in-sad
 tags:
   - English
-toc: false
 ---
 
 /æ/是一个曾经让我很迷惑的发音。多数情况下，我听到的 /æ/ 和在《[美语音标](https://book.douban.com/subject/25853203/)》听到的是一样的。但我总感觉 /æ/ 跟在鼻音 /m/、/n/、/ŋ/ 后面就变音了。后来我看了 Rachel's English 的讲解视频才发现原来 /æ/ 有 3 种发音，/æ/ 的发音取决于它后面的音标。

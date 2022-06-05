@@ -4,7 +4,6 @@ date: '2020-11-24'
 slug: kubuntu-no-sound-device
 tags:
   - Kubuntu
-toc: false
 ---
 
 执行命令：

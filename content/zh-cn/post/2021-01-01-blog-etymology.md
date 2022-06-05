@@ -6,7 +6,6 @@ tags:
   - blog
   - language
   - English
-toc: false
 ---
 
 Jorn Barger 在 1997 年 12 月发明了 weblog 这个词，weblog 由 web 和 log 组成，指的是用于写日记的个人网站。Peter Merholz 这人比较特别，把 weblog 念成 we blog，简称 blog，然后这个缩略词就流传下来了。blog 除了作名词，亦可做动词，意为写网络日志。而写网络日志的人则称为 blogger。blog 有以下译名：

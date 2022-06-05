@@ -2,7 +2,6 @@
 title: 把域名转移到便宜的域名注册商
 date: '2021-05-19'
 slug: transfer-domain
-toc: false
 ---
 
 **总结**：最便宜的域名注册商是 Cloudflare，但它不能注册域名，必须从先从其他域名商购入，再转入 Cloudflare。可以先从便宜的 Porkbun 购入域名，必须等待 60 天后才能转入 Cloudflare。Cloudflare 有些缺点：不能改域名服务器、WHOIS 信息会显示注册人地址的国家与省份/州，不过其余信息会被隐藏。

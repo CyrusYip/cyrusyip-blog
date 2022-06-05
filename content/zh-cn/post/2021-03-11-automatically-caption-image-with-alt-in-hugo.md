@@ -5,7 +5,6 @@ slug: automatically-caption-image-with-alt-in-hugo
 tags:
   - Markdown
   - blog
-toc: no
 ---
 
 开始写博客之后我发现了 Markdown 缺少一个重要功能：给图片加上说明文字。Markdown 插入图片的语法是这样的：

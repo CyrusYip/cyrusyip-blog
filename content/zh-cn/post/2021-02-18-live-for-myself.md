@@ -4,7 +4,6 @@ date: '2021-02-18'
 slug: live-for-myself
 tags:
   - life
-toc: false
 ---
 
 现在是凌晨四点十三分，我又失眠了。脑海里闪烁着白天和亲戚的对话。

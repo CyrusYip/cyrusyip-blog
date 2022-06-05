@@ -7,7 +7,6 @@ categories:
 tags:
   - test
 comment: no
-toc: no
 ---
 
 This post is used for testing. It will be deleted in the future.
