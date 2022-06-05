@@ -1,6 +1,8 @@
-# This is a simple configuration.
-# If you want to see the full configuration, please check `full-config.toml` .
-# And see https://gohugo.io/getting-started/configuration/ .
+# Reference
+# exampleSite/config.toml
+# exampleSite/full-config.toml
+# dev-config.toml
+# https://gohugo.io/getting-started/configuration/
 
 baseURL = "https://cyrusyip.org/"
 title = "Cyrus Yip | 叶寻"
@@ -9,7 +11,7 @@ enableEmoji = true
 theme = "jane"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 
-hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
+hasCJKLanguage = true
 paginate = 5              # Number of articles displayed on the homepage  # 首页每页显示的文章数
 # rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
 disqusShortname = "cyrusyip"      # disqus_shortname
@@ -23,7 +25,9 @@ pygmentsUseClasses = true # Use CSS classes to format highlighted code
 pygmentsCodefencesGuessSyntax = true
 pygmentsOptions = "linenos=table"
 
-defaultContentLanguageInSubdir = "true" # Render English site under /en
+# Render English site under /en
+defaultContentLanguageInSubdir = "true"
+
 [permalinks]
   post = "/post/:year/:month/:day/:slug/"
 # language support # en / zh-cn / other... translations present in i18n/
@@ -97,26 +101,24 @@ defaultContentLanguage = "en"           # Default language to use
   homeFullContent = false   # if false, show post summaries on home page. Otherwise show full content.
   rssFullContent = true     # if false, Rss feed instead of the summary
 
-  # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  # logoTitle = "Jane"        # default: the title value    # 默认值: 上面设置的title值
+  # site info (optional)
+  # logoTitle = "Jane"        # default: the title value
   keywords = ["Cyrus Yip","叶寻"]
   description = "Cyrus Yip's Blog; 叶寻的博客"
-  # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
+  # paginate of archives, tags and categories
   archive-paginate = 99999
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
 
-  # 一些全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能，在 archetypes/default.md 查看更多信息。
   # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
-  toc = true                                                                            # 是否开启目录
-  photoswipe = true         # see https://github.com/dimsemenov/PhotoSwipe            # 是否启用PhotoSwipe（图片可点击）
+  toc = true
+  photoswipe = true # see https://github.com/dimsemenov/PhotoSwipe # 是否启用PhotoSwipe（图片可点击）
   contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   customCSS = []            # if ['custom.css'], load '/static/css/custom.css' file
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
-  # language chooser
   showMenuLanguageChooser = true
 
   # show word count and read time ?                       # 是否显示字数统计与阅读时间
@@ -137,27 +139,9 @@ defaultContentLanguage = "en"           # Default language to use
   #   showCommitMessage = true
 
   [params.social]                                         # 社交链接
-    # a-email = "mailto:your@email.com"
     b-stack-overflow = "https://stackoverflow.com/users/14399237/cyrus-yip"
     c-twitter = "https://twitter.com/CyrusYip10"
-    # d-facebook = "http://localhost:1313"
-    # e-linkedin = "http://localhost:1313"
-    # f-google = "http://localhost:1313"
     g-github = "https://github.com/CyrusYip"
-    # h-weibo = "http://localhost:1313"
-    # i-zhihu = "http://localhost:1313"
-    # j-douban = "http://localhost:1313"
-    # k-pocket = "http://localhost:1313"
-    # l-tumblr = "http://localhost:1313"
-    # m-instagram = "http://localhost:1313"
-    # n-gitlab = "http://localhost:1313"
-    # o-goodreads = "http://localhost:1313"
-    # p-coding = "http://localhost:1313"
-    # q-bilibili = "http://localhost:1313"
-    # r-codeforces = "http://localhost:1313"
-    # s-mastodon = "http://localhost:1313"
-    # t-youtube = "http://localhost:1313"
-    # u-twitch = "http://localhost:1313"
 
 # see https://gohugo.io/getting-started/configuration-markup
 [markup]
