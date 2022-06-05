@@ -6,8 +6,6 @@ tags:
   - Markdown
 ---
 
-<!--more-->
-
 ## 使用 R Markdown
 
 常用的 GitHub Flavored Markdown 功能很少，熟悉之后可以使用更强大的 [R Markdown](https://bookdown.org/yihui/rmarkdown/)。
@@ -605,8 +603,6 @@ output:
     extra_dependencies: ["bbm", "threeparttable"]
 ---
 ```
-
-<!--more-->
 
 ```
 ---

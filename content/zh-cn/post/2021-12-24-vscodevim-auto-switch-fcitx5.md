@@ -7,8 +7,6 @@ tags:
   - Visual Studio Code
 ---
 
-<!--more-->
-
 在 `$HOME/.config/Code/User/settings.json` 加入以下内容：
 
 ```json

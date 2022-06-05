@@ -7,8 +7,6 @@ tags:
   - Arch Linux
 ---
 
-<!--more-->
-
 ## 安装
 
 ```bash

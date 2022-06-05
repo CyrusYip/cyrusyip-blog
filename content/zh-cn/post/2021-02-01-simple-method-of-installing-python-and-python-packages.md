@@ -7,8 +7,6 @@ tags:
   - Python
 ---
 
-<!--more-->
-
 ## 安装
 
 Python 新手遇到的第一个问题就是安装 Python，我看好多教程都推荐到[官网](https://www.python.org/)下载。这当然是正确的做法，不过还有更简单的方法。

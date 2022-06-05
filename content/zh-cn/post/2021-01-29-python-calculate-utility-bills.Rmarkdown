@@ -8,8 +8,6 @@ tags:
   - R Markdown
 ---
 
-<!--more-->
-
 ```{r, setup, include=FALSE}
 library(reticulate)
 ```

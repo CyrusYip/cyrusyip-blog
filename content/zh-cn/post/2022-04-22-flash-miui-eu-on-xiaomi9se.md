@@ -8,8 +8,6 @@ tags:
   - Xiaomi
 ---
 
-<!--more-->
-
 ## 缘起
 
 之前看了 Pockies 写的《[老妈钦点，我买了一部Redmi K30 5G版](https://pockies.github.io/2020/03/27/redmi-k30-5g/)》，感觉[欧版 MIUI](https://xiaomi.eu/community/) 真是太棒了，既没有广告和无用的内置软件，还有 Google Play。我手头这台小米 9 SE 也用了两三年了，越来越卡了，用了[冰箱（Ice Box）](https://play.google.com/store/apps/details?id=com.catchingnow.icebox)冻结应用之后还是卡。骁龙 712 + 6G 内存，好歹也是中高端配置吧，怎么就卡了呢！我需要安装一些外国软件，但这台机器没预装 Google Play，自己装上的用几次就不行了。该死，只有骁龙 800 系列的小米手机才配有 Google Play 吗？

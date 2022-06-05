@@ -7,8 +7,6 @@ tags:
   - GoldenDict
 ---
 
-<!--more-->
-
 本文测试于 Ubuntu 21.04。
 
 ## 安装依赖

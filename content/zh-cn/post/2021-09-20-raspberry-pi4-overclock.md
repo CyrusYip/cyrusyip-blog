@@ -7,8 +7,6 @@ tags:
   - OpenWrt
 ---
 
-<!--more-->
-
 本文配套文章：[在 OpenWrt 控制树莓派 Argon Mini Fan](/zh-cn/post/2021/09/15/openwrt-argon-mini-fan/)
 
 ## 准备散热器和充电器

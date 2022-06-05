@@ -7,8 +7,6 @@ tags:
   - Ubuntu
 ---
 
-<!--more-->
-
 ## 安装
 
 ```bash

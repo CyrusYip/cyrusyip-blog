@@ -7,8 +7,6 @@ tags:
   - blog
 ---
 
-<!--more-->
-
 - 新建[公共仓库](https://github.com/new)[^why public]
 
     勾选 `Add a README file`，这样待会就可以直接克隆了

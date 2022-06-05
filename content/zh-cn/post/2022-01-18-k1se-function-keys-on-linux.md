@@ -8,8 +8,6 @@ tags:
   - Keychron
 ---
 
-<!--more-->
-
 K1 SE 的功能键在 Linux 上就永远是媒体键，按 `F12` 和 `fn + F12` 都是增加音量。解决办法：
 
 ```bash

@@ -7,8 +7,6 @@ tags:
 toc: false
 ---
 
-<!--more-->
-
 执行命令：
 
 ```bash

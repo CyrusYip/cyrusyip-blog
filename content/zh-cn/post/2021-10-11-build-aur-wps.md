@@ -7,8 +7,6 @@ tags:
   - Linux
 ---
 
-<!--more-->
-
 **更新**：安装好旧版后发现最新的 [WPS 国际版](https://aur.archlinux.org/packages/wps-office/)并没有界面模糊的问题，白折腾了。
 
 ```bash

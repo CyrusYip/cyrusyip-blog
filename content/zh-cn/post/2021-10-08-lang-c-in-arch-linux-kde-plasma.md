@@ -7,8 +7,6 @@ tags:
   - Linux
 ---
 
-<!--more-->
-
 最近在 Arch Linux 上的 Git 显示不了中文，执行了 `git config --global core.quotepath false` 还是不行。`git log` 显示的中文变成这样了：
 
 ```

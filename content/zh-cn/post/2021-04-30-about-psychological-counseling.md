@@ -8,8 +8,6 @@ categories:
   - psychological counseling
 ---
 
-<!--more-->
-
 最近感觉心理咨询的谈话内容挺值得记录的，就写下来了。
 
 ## 假装重要

@@ -8,8 +8,6 @@ tags:
   - Linux
 ---
 
-<!--more-->
-
 最近把 WPS For Linux 更新到最新的 11.1.0.10702，打开就提示「系统DPI不对称，WPS可能存在显示问题」，果然 WPS 都是模糊的。打算去[官网](https://linux.wps.cn/)找上个版本，结果只有最新版，气死我了！在谷歌搜了几次也找不到历史版本。随后我在万能的 AUR（Arch User Repository）找到了 [WPS](https://aur.archlinux.org/packages/wps-office-cn/)，这里有旧版的下载链接。以下是下载与安装步骤：
 
 1. 点击页面的 [View Changes](https://aur.archlinux.org/cgit/aur.git/log/?h=wps-office-cn)

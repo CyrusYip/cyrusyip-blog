@@ -7,8 +7,6 @@ tags:
   - KDE Plasma
 ---
 
-<!--more-->
-
 Kubuntu 休眠之后开机总会报错：
 
 ```

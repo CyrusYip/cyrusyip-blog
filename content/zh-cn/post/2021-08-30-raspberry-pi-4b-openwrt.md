@@ -7,8 +7,6 @@ tags:
   - Raspberry Pi 4B
 ---
 
-<!--more-->
-
 本文内容主要来自 [SuLingGG](https://github.com/SuLingGG) 的 [OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) 文档，感谢 SuLingGG 编译的 OpenWrt 并写了详细的文档。我的~~吃灰派~~树莓派 4B 在墓里躺了近两年，又复活了。欢迎大家[捐赠](https://github.com/SuLingGG/OpenWrt-Mini/blob/main/FUNDING.md) SuLingGG 编译的 OpenWrt。如果本文太难懂，请到 Youtube 或者哔哩哔哩搜索「树莓派安装 OpenWrt」和「树莓派 旁路由」，看看教程视频了解过程。然后~~关闭这篇教程~~再回来看本文。本文主要内容为安装 OpenWrt 固件、旁路由（旁路网关）设置、后续设置（扩充容量、关闭电源灯……）。
 
 ## 树莓派作路由器有什么功能？

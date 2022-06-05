@@ -5,8 +5,6 @@ slug: transfer-domain
 toc: false
 ---
 
-<!--more-->
-
 **总结**：最便宜的域名注册商是 Cloudflare，但它不能注册域名，必须从先从其他域名商购入，再转入 Cloudflare。可以先从便宜的 Porkbun 购入域名，必须等待 60 天后才能转入 Cloudflare。Cloudflare 有些缺点：不能改域名服务器、WHOIS 信息会显示注册人地址的国家与省份/州，不过其余信息会被隐藏。
 
 最近发现了两个域名价格对比网站：[TLD List](https://tld-list.com/)、[domcomp](https://www.domcomp.com/)，在上面搜了一下我的域名 cyrusyip.org，发现续费最便宜的是 Sav（10.15 美元） 和 Porkbun（10.72）。我用的 Namecheap 续费要 15.16，相比之下 namecheap 真的不太 cheap。虽然网上可以搜到 20% 优惠券，用了之后（12.12）还是比较贵。而且每次都要找优惠券，有点麻烦。由于Sav 的评价不太好，我就决定转移到 Porkbun。转移费是 10.72，转移后域名使用期限会加 1 年。所以其实转移是免费的，转移费拿去续费了。
