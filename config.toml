@@ -70,11 +70,6 @@ defaultContentLanguage = "en"           # Default language to use
   weight = 30
   identifier = "tags"
   url = "/tags/"
-[[languages.en.menu.main]]
-  name = "Categories"
-  weight = 40
-  identifier = "categories"
-  url = "/categories/"
 
 [[languages.zh-cn.menu.main]]
   name = "主页"
@@ -82,7 +77,7 @@ defaultContentLanguage = "en"           # Default language to use
   identifier = "home"
   url = "zh-cn/"
 [[languages.zh-cn.menu.main]]
-  name = "归档"
+  name = "文章"
   weight = 20
   identifier = "archives"
   url = "zh-cn/post/"
@@ -91,11 +86,6 @@ defaultContentLanguage = "en"           # Default language to use
   weight = 30
   identifier = "tags"
   url = "zh-cn/tags/"
-[[languages.zh-cn.menu.main]]
-  name = "分类"
-  weight = 40
-  identifier = "categories"
-  url = "zh-cn/categories/"
 
 [params]
   since = "2020"            # Site creation time          # 站点建立时间
