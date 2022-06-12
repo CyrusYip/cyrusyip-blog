@@ -9,10 +9,6 @@
   },
   "redirects": [
     {
-      "source": "/post/2021/03/18/git-proxy-settings/",
-      "destination": "/post/2021/03/24/configure-proxy/"
-    },
-    {
       "source": "/post/(index.xml)",
       "destination": "/zh-cn/$1"
     },

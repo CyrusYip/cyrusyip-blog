@@ -7,7 +7,7 @@ tags:
   - VPS
 ---
 
-最近想租个服务器玩玩，因为我讨厌手机号注册和提交身份信息，就不考虑国内厂商了。之前在知乎好几次看到有人推荐 Vultr，那就试试看吧。注册好就用 Paypal 充了 10 美元，结果就倒霉了。Vultr 提示我帐号审核可能要 24 小时。谷歌查到[一篇文章](https://www.vultrblog.com/vultr-account-verification/.html)说 Vultr 提示需补充资料是因为注册 Vultr 帐号的时候没有使用真实的 IP 地址（可能使用的 IP 代理进行注册）。
+最近想租个服务器玩玩，因为我讨厌手机号注册和提交身份信息，就不考虑国内厂商了。之前在知乎好几次看到有人推荐 Vultr，那就试试看吧。注册好就用 Paypal 充了 10 美元，结果就倒霉了。Vultr 提示我帐号审核可能要 24 小时。
 
 Vultr 的帐号客服只在周一至周五的白天[^tian]上班，而且 Vultr 采用[美国东部时间](https://zh.wikipedia.org/zh-cn/%E5%8C%97%E7%BE%8E%E4%B8%9C%E9%83%A8%E6%97%B6%E5%8C%BA)，比北京时间慢 12 小时。我这边晚上 9 点的时候，对面的客服才刚上班。没有即时聊天，只能发工单，以下是艰难的验证过程（时间为北京时间）。
 
@@ -123,4 +123,4 @@ Vultr 注册完就叫我充值，还有信用卡充值多少就送多少的优�
 
 Vultr 和 Linode 都有注册用余额的活动，在谷歌搜「Vultr coupon」和「Linode coupon」就能找到了，通过 Vultr 和 Linode 用户的邀请链接注册也有优惠。后来我又注册了 DigitalOcean，注册后用优惠券白拿了 15 美元。DigitalOcean 和前面两家厂商也差不多，都是按小时计费，最便宜的服务器也是 5 美元/月。但 DigitalOcean 的帐单不是实时更新，一日更新一次。
 
-如果你想注册 Vultr 或 DigitalOcean，可以试试我的[邀请链接](/zh-cn/donate/)，注册后会有余额奖励。建议使用真实 IP 地址注册，不然有被封号的风险。
+如果你想注册 Vultr 或 DigitalOcean，可以试试我的[邀请链接](/zh-cn/donate/)，注册后会有余额奖励。

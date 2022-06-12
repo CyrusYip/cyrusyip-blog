@@ -158,7 +158,6 @@ $ tr ':' '\n' <<< "$PATH"
 ```
 
 参考：[shell - Show PATH in a human-readable way - Unix & Linux Stack Exchange](https://unix.stackexchange.com/a/80153/447708)
-
 ## KDE Plasma
 
 ```bash
@@ -169,11 +168,6 @@ kbuildsycoca5
 ```
 
 参考：[kwin - Can I restart the KDE Plasma Desktop without logging out? - Ask Ubuntu](https://askubuntu.com/a/481738/1154635)
-
-## 设置代理
-
-[设置代理 - 叶寻 | Cyrus Yip](/zh-cn/post/2021/03/24/configure-proxy/)
-
 ## 设置华为笔记本充电阈值（charge threshold）
 
 ```bash
