@@ -4,6 +4,7 @@
 # dev-config.toml
 # https://gohugo.io/getting-started/configuration/
 
+buildFuture = true
 baseURL = "https://cyrusyip.org/"
 title = "Cyrus Yip | 叶寻"
 enableRobotsTXT = true
