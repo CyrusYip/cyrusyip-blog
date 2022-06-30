@@ -29,11 +29,10 @@ pygmentsOptions = "linenos=table"
 
 # Render English site under /en
 defaultContentLanguageInSubdir = "true"
+defaultContentLanguage = "en"
 
 [permalinks]
   post = "/post/:year/:month/:day/:slug/"
-# language support # en / zh-cn / other... translations present in i18n/
-defaultContentLanguage = "en"           # Default language to use
 [langusges]
 [languages.en]
   title = "Cyrus Yip's Blog"
