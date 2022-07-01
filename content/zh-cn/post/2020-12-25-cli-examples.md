@@ -114,13 +114,33 @@ ffmpeg -i input.mp3 -f segment -segment_time 30 -c copy out%03d.mp3
 
 ## 剪辑视频
 
-剪取 `input.mp4` 06:00 至 08：38 的内容，并保存为 `cut.mp4`：
+剪取 `input.mp4` 06:01.511 至 06:23.841 的内容，并保存为 `output.mp4`：
 
 ```bash
-ffmpeg -i input.mp4 -ss 06:00 -to 08:38 -c copy cut.mp4
+ffmpeg -ss 06:01.511 -to 06:23.841 -i input.mp4 -c copy output.mp4
 ```
 
-`-i` （input）指定输入文件，`-ss` （**s**et the **s**tart time）指定视频开始时间，`-to` 指定结束时间，`-c copy` 表示使用相同编码方式（速度更快），最后的 `cut.mp4` 是输出文件名。
+选项含义：
+
+- `-ss` （**s**et the **s**tart time）指定视频开始时间
+- `-to` 指定结束时间
+- `-i` （input）指定输入文件
+- `-c copy` 表示使用相同编码方式（速度更快）
+- `output.mp4` 是输出文件名
+
+这些选项一定要按照顺序写，不然剪出来的视频时间不对。
+
+我试过把 `-i` 先写在前面，也就是这样：
+
+```
+ffmpeg -i input.mp4 -ss 06:01.511 -to 06:23.841 -c copy output.mp4
+```
+
+结果输出视频开头的时间总是不对，然后整了两小时都不知道咋回事。遇到 ffmpeg 以前，我都不知道命令行软件的选项位置会影响结果。啊！多么痛的领悟！如果把 `-c copy` 选项也去掉的话，输出视频又正确了，真是搞不懂啊。
+
+```
+ffmpeg -i input.mp4 -ss 06:01.511 -to 06:23.841 output.mp4
+```
 
 ## 输出好看的 PATH 变量
 
