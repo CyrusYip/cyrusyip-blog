@@ -117,10 +117,10 @@ ffmpeg -i input.mp3 -f segment -segment_time 30 -c copy out%03d.mp3
 剪取 `input.mp4` 06:00 至 08：38 的内容，并保存为 `cut.mp4`：
 
 ```bash
-ffmpeg -i input.mp4 -ss 06:00 -to 08:38 cut.mp4
+ffmpeg -i input.mp4 -ss 06:00 -to 08:38 -c copy cut.mp4
 ```
 
-`-i` （input）指定输入文件，`-ss` （**s**et the **s**tart time）指定视频开始时间，`-to` 指定结束时间。
+`-i` （input）指定输入文件，`-ss` （**s**et the **s**tart time）指定视频开始时间，`-to` 指定结束时间，`-c copy` 表示使用相同编码方式（速度更快），最后的 `cut.mp4` 是输出文件名。
 
 ## 输出好看的 PATH 变量
 
