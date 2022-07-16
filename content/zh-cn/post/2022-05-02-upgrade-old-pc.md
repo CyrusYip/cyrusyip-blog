@@ -6,6 +6,8 @@ tags:
   - computer
 ---
 
+相关文章：[Windows 10 简易安装教程](/zh-cn/post/2022/07/14/install-windows10/)
+
 最近亲戚抱怨家里的台式电脑很慢，我就打算帮忙升级硬件，让电脑重获新生（苟延残喘）。电脑配置如下。
 
 | 型号   | Dell Optiplex 3020               | 备注                                       |
