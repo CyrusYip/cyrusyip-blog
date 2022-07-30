@@ -186,11 +186,18 @@ https://cyrusyip.org/subscribe/,https://cyrusyip.org/zh-cn/subscribe/
 https://cyrusyip.org/post/2020/11/15/mute-volume-plasma/,https://cyrusyip.org/zh-cn/post/2020/11/15/mute-volume-plasma/
 ```
 
-然后再上传到 Disqus 就可以迁移评论了，Disqus 会合并逗号两边的文章评论，并将评论移动到右边的链接。官方文档说可能需要 24 小时才完成迁移，实际上我迁移了 82 份评论，一瞬间就好了。修改 `.csv` 的每一行都是一样的操作：复制整行内容、加逗号、粘贴、加上 `zh-cn`，所以用 Vim 的 `q` 命令录制一次操作，然后就可以批量更改了。以下是操作视频（速度比较慢，可以调到 2 倍速观看）。
+然后再上传到 Disqus 就可以迁移评论了，Disqus 会合并逗号两边的文章评论，并将评论移动到右边的链接。官方文档说可能需要 24 小时才完成迁移，实际上我迁移了 82 份评论，一瞬间就好了。修改 `.csv` 的每一行都是一样的操作：复制整行内容、加逗号、粘贴、加上 `zh-cn`，所以用 Vim 的 `q` 命令录制一次操作，然后就可以批量更改了。以下是操作视频，速度比较慢，可以调到 2 倍速观看。
 
 <video controls style="width:100%; height:100%">
   <source src="https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/videos/2022-05-30_vim-disqus-csv.mp4"></source>
 </video>
+
+视频 32 秒执行录制命令时特别慢，主要原因是 coc.nvim 和 fcitx.vim。用 Vim 默认配置（`vim --clean`）瞬间就完成了，看来录制命令最好在无插件下使用。[我专门定义了命令来用 Vim 默认配置打开文件](https://github.com/CyrusYip/dotfiles/blob/c7189ee3f334a429e0463b5c98a7aa4c14fc45b0/dot_vimrc#L147-L148)。
+
+```
+" Cv: clean vim, used for fast macro replaying
+command Cv silent! w | wviminfo | !vim -c 'set rnu nuw=1' -c 'file' --clean -i ~/.viminfo %
+```
 
 Disqus 还有[其他迁移方式](https://help.disqus.com/en/articles/1717068-migration-tools)，不过我觉得还是 URL Mapper 最稳妥。
 
