@@ -23,8 +23,6 @@ options(
   blogdown.hugo.version = "0.99.1",
   # remove empty fields in YAML
   blogdown.yaml.empty = FALSE,
-  # include local time and timezone in date field
-  blogdown.time = TRUE,
   # enable RStudio Addin in VS Code
   vsc.rstudioapi = TRUE
 )
