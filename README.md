@@ -22,7 +22,7 @@ blogdown:::serve_site()
 
 ```bash
 # hugo
-hugo server --buildDrafts --buildFuture
+hugo server --navigateToChanged --buildDrafts
 ```
 
 Besides using command line, you can also preview this site with [RStudio](https://www.rstudio.com/products/rstudio/) or VS Code with [R extension](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r).
