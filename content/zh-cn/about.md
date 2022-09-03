@@ -41,7 +41,7 @@ title: 关于
 本站不交换友情链接，以下是单向友情链接，按拼音排序。
 
 - [谢益辉](https://yihui.org/)：生活、R 语言、他开发的 R 软件包让写作变得更简单、[统计之都](https://cosx.org/)创始人、本站早期读者
-- [袁凡](https://yuanfan.vercel.app/)：[阿木狗主](https://yuanfan.vercel.app/posts/my-dog/)、小说、本站早期读者
+- [袁凡](https://yuanfan.rbind.io/)：[阿木狗主](https://yuanfan.vercel.app/posts/my-dog/)、小说、本站早期读者
 - [张列弛](https://www.liechi.org/)：文学、生物、本站早期读者
 
 ## 转载指南
