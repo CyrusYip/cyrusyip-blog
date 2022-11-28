@@ -1,0 +1,14 @@
+19c19
+< disqusShortname = "cyrusyip"      # disqus_shortname
+---
+> # disqusShortname = "cyrusyip"      # disqus_shortname
+124,127c124,127
+<   [params.utteranc]
+<     enable = true
+<     repo = "CyrusYip/blog-comment"    # The repo to store comments
+<     issueTerm = "pathname"
+---
+>   # [params.utteranc]
+>   #   enable = true
+>   #   repo = "CyrusYip/blog-comment"    # The repo to store comments
+>   #   issueTerm = "pathname"
