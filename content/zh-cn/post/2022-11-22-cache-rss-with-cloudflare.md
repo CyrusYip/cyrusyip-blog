@@ -41,10 +41,10 @@ cf-cache-status: REVALIDATED
 
 折腾完之后我又在想：要是订阅文件以外的路径也很多流量怎么办（焦虑发作……）？我还是发现了一劳永逸的方法：改用无限流量的 Cloudflare Pages。Cloudflare Pages 没有超越 Vercel，两者的免费帐号各有优缺点。
 
-|          | Vercel    | Cloudflare Pages |
-|----------|-----------|------------------|
-| 使用量   | 6000 分钟 | 500 次           |
-| 流量     | 无限      | 100 GB           |
-| 配置文件 | 支持      | 不支持           |
+|          | [Vercel](https://vercel.com/pricing) | [Cloudflare Pages](https://www.cloudflare.com/plans/developer-platform/) |
+|----------|--------------------------------------|--------------------------------------------------------------------------|
+| 使用量   | 6000 分钟                            | 500 次                                                                   |
+| 流量     | 100 GB                               | 无限                                                                     |
+| 配置文件 | 支持                                 | 不支持                                                                   |
 
 Cloudflare Pages 除了流量无限，其他都比 Vercel 差。CDN 套壳算是集两家所长，但是 Vercel 文档并不推荐这样做，参看：[Can I use a proxy on top of my Vercel Deployment? – Vercel Docs](https://vercel.com/guides/can-i-use-a-proxy-on-top-of-my-vercel-deployment)。目前就这样吧，慢慢观察这个方案有没有问题。
