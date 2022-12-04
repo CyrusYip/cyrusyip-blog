@@ -7,9 +7,13 @@ tags:
   - Raspberry Pi 4B
 ---
 
-本文内容主要来自 [SuLingGG](https://github.com/SuLingGG) 的 [OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) 文档，感谢 SuLingGG 编译的 OpenWrt 并写了详细的文档。我的~~吃灰派~~树莓派 4B 在墓里躺了近两年，又复活了。欢迎大家[捐赠](https://github.com/SuLingGG/OpenWrt-Mini/blob/main/FUNDING.md) SuLingGG 编译的 OpenWrt。如果本文太难懂，请到 Youtube 或者哔哩哔哩搜索「树莓派安装 OpenWrt」和「树莓派 旁路由」，看看教程视频了解过程。然后~~关闭这篇教程~~再回来看本文。本文主要内容为安装 OpenWrt 固件、旁路由（旁路网关）设置、后续设置（扩充容量、关闭电源灯……）。
+## 2022-12-04 更新
+
+现在树莓派的价格贵得离谱，性价比很低。如果你还没买，建议你别买。如果你已持有树莓派，建议去闲鱼卖了，换成玩法更多、性能更强的 X86 软路由/迷你主机。我 2019 年 10 月买的树莓派 4B 4GB 内存版价格是 462 元，现在同一家店卖 1098 元。我在闲鱼以 950 元卖掉了树莓派 4B 4GB（含外壳、风扇、电源、HDMI 线、内存卡），买了 1095 元的零刻 EQ59（N5105、16GB RAM、500GB SSD）。EQ59 性能远超树莓派 4B，我在 EQ59 装了 Proxmox VE，可以装多个虚拟机，用途更多，比树莓派好用多了。
 
 ## 树莓派作路由器有什么功能？
+
+本文内容主要来自 [SuLingGG](https://github.com/SuLingGG) 的 [OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi) 文档，感谢 SuLingGG 编译的 OpenWrt 并写了详细的文档。我的~~吃灰派~~树莓派 4B 在墓里躺了近两年，又复活了。欢迎大家[捐赠](https://github.com/SuLingGG/OpenWrt-Mini/blob/main/FUNDING.md) SuLingGG 编译的 OpenWrt。如果本文太难懂，请到 Youtube 或者哔哩哔哩搜索「树莓派安装 OpenWrt」和「树莓派 旁路由」，看看教程视频了解过程。然后~~关闭这篇教程~~再回来看本文。本文主要内容为安装 OpenWrt 固件、旁路由（旁路网关）设置、后续设置（扩充容量、关闭电源灯……）。
 
 请看 [SuLingGG](https://github.com/SuLingGG) 的文档：
 
