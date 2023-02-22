@@ -13,7 +13,7 @@ Microcode is the firmware used to fix bugs in the CPU. [It should be installed o
 Add the unstable repo.
 
 ```
-echo "deb http://deb.debian.org/debian/ unstable main contrib non-free" > /etc/apt/sources.list.d/debian-unstable.list
+echo "deb http://deb.debian.org/debian/ unstable non-free-firmware" > /etc/apt/sources.list.d/debian-unstable.list
 ```
 
 Add this to `/etc/apt/preferences.d/unstable-repo`.
@@ -74,7 +74,7 @@ If you want to remove microcode and unstable repo, run:
 
 ```
 # remove microcode
-apt remove amd64-microcode intel-microcode
+apt purge amd64-microcode intel-microcode
 apt autoremove
 # remove unstable repo and config
 rm /etc/apt/sources.list.d/debian-unstable.list /etc/apt/preferences.d/unstable-repo
