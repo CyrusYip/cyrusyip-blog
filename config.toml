@@ -57,13 +57,13 @@ defaultContentLanguage = "en"
   title = "Cyrus Yip's Blog"
   languageName = "English"
   contentDir = 'content/en'
-  # languageCode = "en"
+  languageCode = "en-US"
   # weight = 2
 [languages.zh-cn]
   title = "叶寻的博客"
   languageName = "简体中文"
   contentDir = 'content/zh-cn'
-  # languageCode = "zh-cn"
+  languageCode = "zh-CN"
   # weight = 1
 [[languages.en.menu.main]]
   name = "Home"
