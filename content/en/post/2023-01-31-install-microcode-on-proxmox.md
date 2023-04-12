@@ -28,6 +28,7 @@ Pin-Priority: 10
 Package: intel-microcode
 Pin: release o=Debian,a=unstable
 Pin-Priority: 500
+
 Package: amd64-microcode
 Pin: release o=Debian,a=unstable
 Pin-Priority: 500
