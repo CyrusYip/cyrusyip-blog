@@ -1,0 +1,5 @@
+/* fix ugly link in table header */
+.post .post-content > table th a {
+  color: white;
+  text-decoration: underline;
+}
