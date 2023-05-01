@@ -8,7 +8,13 @@ tags:
   - Debian
 ---
 
-Microcode is the firmware used to fix bugs in the CPU. [It should be installed only on the host instead of virtual machines](https://unix.stackexchange.com/q/572754/447708) because microcode updates are applied during boot. We need to install it from the Debian unstable repository because microcode packages in Proxmox (Debian stable) are out of date.
+In this tutorial, I will help you install latest microcode in a upgradable way so that you can upgrade the microcode via `apt` command. Please don't install packages except microcode packages from the unstable repository to [avoid a broken system](https://wiki.debian.org/DontBreakDebian#Don.27t_make_a_FrankenDebian). My Proxmox version: `pve-manager/7.4-3/9002ab8a (running kernel: 6.2.11-1-pve)`.
+
+I installed Proxmox VE on a Beelink EQ59[^eq59] N5105. I was satisfied at first, but some virtual machines froze from time to time, which bothered me very much. [I found many N5105 CPU users had the same problem](https://forum.proxmox.com/threads/vm-freezes-irregularly.111494/). One of the solutions is installing microcode, so I decided to install latest microcode on EQ59. Though it doesn't completely fix the problem, it really reduce freezing a lot.
+
+[^eq59]: Beelink EQ59 N5105 (零刻 EQ59 N5105) is China version of Beelink U59 N5105.
+
+Microcode is the firmware used to fix bugs in the CPU. [It should be installed only on the host instead of virtual machines](https://unix.stackexchange.com/q/572754/447708) because microcode updates are applied during boot. We need to install it from the Debian unstable repository because microcode packages in Proxmox (Debian stable) may be out of date.
 
 Add the unstable repo.
 
@@ -16,15 +22,15 @@ Add the unstable repo.
 echo "deb http://deb.debian.org/debian/ unstable non-free-firmware" > /etc/apt/sources.list.d/debian-unstable.list
 ```
 
-Add this to `/etc/apt/preferences.d/unstable-repo`.
+To avoid installing other packages from the unstable repository, add this to `/etc/apt/preferences.d/unstable-repo`.
 
 ```
-# lower the priority
+# lower the priority of all packages in the unstable repository
 Package: *
 Pin: release o=Debian,a=unstable
 Pin-Priority: 10
 
-# allow upgrading microcode
+# allow upgrading microcode from the unstable repository
 Package: intel-microcode
 Pin: release o=Debian,a=unstable
 Pin-Priority: 500
@@ -77,6 +83,8 @@ If you want to remove microcode and unstable repo, run:
 # remove microcode
 apt purge amd64-microcode intel-microcode
 apt autoremove
+# make sure there is no installed package from the unstable repository
+apt list --installed | grep '/unstable'
 # remove unstable repo and config
 rm /etc/apt/sources.list.d/debian-unstable.list /etc/apt/preferences.d/unstable-repo
 # reboot
@@ -91,3 +99,4 @@ Further reading:
 - [Do I need CPU (or any) microcode in a QEMU/KVM virtual machine? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/a/572757/447708)
 - [apt - How to install some packages from "unstable" Debian on a computer running "stable" Debian? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/a/8051/447708)
 - [AptConfiguration - Debian Wiki](https://wiki.debian.org/AptConfiguration)
+- [DontBreakDebian - Debian Wiki](https://wiki.debian.org/DontBreakDebian)
