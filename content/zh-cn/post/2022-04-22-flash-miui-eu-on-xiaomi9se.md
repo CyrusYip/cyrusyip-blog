@@ -8,6 +8,10 @@ tags:
   - Xiaomi
 ---
 
+## 2023-05-19 更新：改用 LineageOS
+
+虽然欧版 MIUI 比大陆版流畅，但仍然经不住国产软件毒打，而且系统也没更新过，没有新功能和安全更新。于是改用开源的 LineageOS 20，没想到这台机器还能用上最新的安卓 13，和之前比升级了两个版本号呢，而且更流畅了。用了两个月还是感觉不够流畅了，这配置真的跟不上软件发展了（软件厂商你们怎么不多做优化，非要逼人换手机吗！）。在 <https://lineageosdevices.com/> 和 [LineageOS 设备列表](https://wiki.lineageos.org/devices/) 物色手机，选中小米 11 青春活力版，在京东只用 1199 块就买到了（首发价格 1999），继续用 LineageOS，体验良好。顺便一提，所有 LineageOS ROM 都需要满足严格的[设备支持要求](https://github.com/LineageOS/charter/blob/master/device-support-requirements.md)，所以它软件硬件功能正常，完全可以代替原厂系统。
+
 ## 缘起
 
 之前看了 Pockies 写的《[老妈钦点，我买了一部Redmi K30 5G版](https://pockies.github.io/2020/03/27/redmi-k30-5g/)》，感觉[欧版 MIUI](https://xiaomi.eu/community/) 真是太棒了，既没有广告和无用的内置软件，还有 Google Play。我手头这台小米 9 SE 也用了两三年了，越来越卡了，用了[冰箱（Ice Box）](https://play.google.com/store/apps/details?id=com.catchingnow.icebox)冻结应用之后还是卡。骁龙 712 + 6G 内存，好歹也是中高端配置吧，怎么就卡了呢！我需要安装一些外国软件，但这台机器没预装 Google Play，自己装上的用几次就不行了。该死，只有骁龙 800 系列的小米手机才配有 Google Play 吗？
