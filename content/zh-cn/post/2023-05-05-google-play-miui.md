@@ -9,7 +9,9 @@ tags:
   - Android
 ---
 
-在 [Google Play 支持的设备列表](https://support.google.com/googleplay/answer/1727131)内的小米/红米手机已预装谷歌服务，我们只需要安装 Play 商店。
+在 [Google Play 支持的设备列表](https://support.google.com/googleplay/answer/1727131)[^biao]内的小米/红米手机已预装谷歌服务，我们只需要安装 Play 商店。
+
+[^biao]: 这不是硬性要求。有些不在列表的手机也可以安装 Play 商店。
 
 1. 开启谷歌服务：设置 -> 帐号与同步 -> 谷歌基础服务
 1. 安装 Play 商店：在应用商店搜索「google play」，安装「Google Play 商店」。如果找不到就从 [Aptoide](https://en.aptoide.com/) 安装。

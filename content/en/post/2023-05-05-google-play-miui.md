@@ -9,7 +9,9 @@ tags:
   - Android
 ---
 
-China Xiaomi/Redmi phones in [Google Play supported devices](https://support.google.com/googleplay/answer/1727131) have built-in Google Services. We just need to install Google Play.
+China Xiaomi/Redmi phones in [Google Play supported devices](https://support.google.com/googleplay/answer/1727131)[^devices] have built-in Google Services. We just need to install Google Play.
+
+[^devices]: It's not prerequisite. Google Play is possible to be installed on phones not in the list.
 
 1. Turn on Google Services: Settings -> Account & sync -> Basic Google Services
 1. Install Google Play: search "google play" on GetApps and update "Google Play Store". If Google Play isn't found on GetApps, install it from [Aptoide](https://en.aptoide.com/).
