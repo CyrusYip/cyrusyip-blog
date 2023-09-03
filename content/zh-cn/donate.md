@@ -19,7 +19,7 @@ title: 鼓励
 
 请我喝瓶东方树叶😊。
 
-- [爱发电](http://afdian.net/@cyrusyip)（支付宝、微信）
+- [爱发电](https://afdian.net/a/cyrusyip)（支付宝、微信）
 - [Patreon](https://www.patreon.com/cyrusyip)（信用卡、Paypal、Apple Pay）
 
 ## 互助
