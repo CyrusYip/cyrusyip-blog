@@ -67,7 +67,7 @@ Reboot the Proxmox host.
 reboot
 ```
 
-Check microcode.
+Verify that microcode is loaded.
 
 ```
 journalctl -k --grep="microcode updated early to"
@@ -85,12 +85,9 @@ Feb 12 01:56:47 pve kernel: microcode: microcode updated early to revision 0x240
 
 ## Alternative installation
 
-If you don't want to add the unstable repository, you can download the microcode packages from Debian website.
+If you don't want to add the unstable repository, you can download microcode packages from Debian website. Get the latest download link from [amd64-microcode](https://packages.debian.org/sid/amd64/amd64-microcode/download) or [intel-microcode](https://packages.debian.org/sid/amd64/intel-microcode/download) according to your CPU manufacturer, download the package via `wget 'link'` and install it via `apt install ./filename.deb`.
 
-- [amd64-microcode](https://packages.debian.org/sid/amd64/amd64-microcode/download)
-- [intel-microcode](https://packages.debian.org/sid/amd64/intel-microcode/download)
-
-Install one of the microcode packages according to your CPU manufacturer. Don't copy these commands verbatim and use the latest link instead.
+Example:
 
 ```
 # AMD CPU
@@ -106,10 +103,10 @@ apt install ./intel-microcode_3.20230808.1_amd64.deb
 
 ## Uninstallation
 
-If you want to remove microcode and the unstable repository, run:
+To remove microcode and the unstable repository, run:
 
 ```
-# remove microcode
+# remove microcode packages
 apt purge amd64-microcode intel-microcode
 apt autoremove
 # make sure there is no installed package from the unstable repository
@@ -124,13 +121,14 @@ journalctl -k --grep="microcode updated early to"
 
 ## Motivation
 
-I installed Proxmox VE on a Beelink EQ59[^eq59] N5105. I was satisfied at first, but some virtual machines froze from time to time, which bothered me very much. [I found many N5105 CPU users had the same problem](https://forum.proxmox.com/threads/vm-freezes-irregularly.111494/). One of the solutions is installing microcode, so I decided to install latest microcode on EQ59. Though it doesn't completely fix the problem, it really reduce freezing a lot.
+I installed Proxmox VE on a Beelink EQ59[^eq59] N5105. I was satisfied at first, but some virtual machines froze from time to time, which bothered me very much. [I found many N5105 CPU users had the same problem](https://forum.proxmox.com/threads/vm-freezes-irregularly.111494/). One of the solutions is installing microcode, so I decided to install latest microcode. Though it doesn't completely fix the problem, it really reduce freezing a lot. Besides, I also installed latest kernel in the Proxmox VE No-Subscription Repository.
 
 [^eq59]: Beelink EQ59 N5105 (零刻 EQ59 N5105) is China version of Beelink U59 N5105.
 
 ## Further reading
 
 - [Microcode - Debian Wiki](https://wiki.debian.org/Microcode)
+- [Microcode - ArchWiki](https://wiki.archlinux.org/title/Microcode)
 - [Do I need CPU (or any) microcode in a QEMU/KVM virtual machine? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/a/572757/447708)
 - [apt - How to install some packages from "unstable" Debian on a computer running "stable" Debian? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/a/8051/447708)
 - [AptConfiguration - Debian Wiki](https://wiki.debian.org/AptConfiguration)
