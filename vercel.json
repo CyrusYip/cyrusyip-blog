@@ -23,6 +23,10 @@
     {
       "source": "(/post/[0-9].*)",
       "destination": "/zh-cn$1"
+    },
+    {
+      "source": "/(tags|categories)(/?.*)",
+      "destination": "/zh-cn/$1$2"
     }
   ]
 }
