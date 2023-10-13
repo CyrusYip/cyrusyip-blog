@@ -9,11 +9,11 @@
   },
   "redirects": [
     {
-      "source": "/post/(index.xml)",
+      "source": "/(index.xml)",
       "destination": "/zh-cn/$1"
     },
     {
-      "source": "/(index.xml)",
+      "source": "/(post/index.xml)",
       "destination": "/zh-cn/$1"
     },
     {
