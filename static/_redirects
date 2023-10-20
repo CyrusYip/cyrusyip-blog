@@ -1,5 +1,4 @@
-# test comment
-/post/:year/:month/:day/:slug/ /zh-cn/post/:year/:month/:day/:slug/ 308
+# to improve performance, put splats and placeholders to the bottom
 /index.xml       /zh-cn/index.xml          308
 /post/index.xml  /zh-cn/post/index.xml     308
 /about/          /zh-cn/about/             308
@@ -7,3 +6,4 @@
 /donate/         /zh-cn/donate/            308
 /tags/*          /zh-cn/tags/:splat        308
 /categories/*    /zh-cn/categories/:splat  308
+/post/:year/:month/:day/:slug/ /zh-cn/post/:year/:month/:day/:slug/ 308
