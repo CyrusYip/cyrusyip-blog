@@ -1,8 +1,12 @@
 # to improve performance, put splats and placeholders to the bottom
+
+### old Chinese website ###
+# RSS
 /index.xml       /zh-cn/index.xml          308
 /index.xml/      /zh-cn/index.xml          308
 /post/index.xml  /zh-cn/post/index.xml     308
 /post/index.xml/ /zh-cn/post/index.xml     308
+# menu
 /about           /zh-cn/about/             308
 /about/          /zh-cn/about/             308
 /subscribe       /zh-cn/subscribe/         308
@@ -13,5 +17,6 @@
 /categories      /zh-cn/categories/        308
 /tags/*          /zh-cn/tags/:splat        308
 /categories/*    /zh-cn/categories/:splat  308
+# post
 /post/:year/:month/:day/:slug  /zh-cn/post/:year/:month/:day/:slug/ 308
 /post/:year/:month/:day/:slug/ /zh-cn/post/:year/:month/:day/:slug/ 308
