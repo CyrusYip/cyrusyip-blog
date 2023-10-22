@@ -34,4 +34,5 @@ sudo pacman -Syu
 makepkg --syncdeps # 简写：makepkg -s
 # 安装打包好的 WPS，其实就是使用 pacman -U 安装
 makepkg --install # 简写：makepkg -i
+# 上面两条命令可一并写为 makepkg -si
 ```
