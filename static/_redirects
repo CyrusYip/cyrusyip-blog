@@ -1,14 +1,15 @@
-# to improve performance, put splats and placeholders to the bottom
+# This file is used by Cloudflare Pages
+# To improve performance, put splats and placeholders to the bottom
 
 ###########################
-### old Chinese website ###
+### Old Chinese Website ###
 ###########################
-# RSS
+## RSS
 /index.xml         /zh-cn/index.xml          308
 /index.xml/        /zh-cn/index.xml          308
 /post/index.xml    /zh-cn/post/index.xml     308
 /post/index.xml/   /zh-cn/post/index.xml     308
-# menu
+## Menu
 /about             /zh-cn/about/             308
 /about/            /zh-cn/about/             308
 /subscribe         /zh-cn/subscribe/         308
@@ -19,14 +20,17 @@
 /categories        /zh-cn/categories/        308
 /tags/*            /zh-cn/tags/:splat        308
 /categories/*      /zh-cn/categories/:splat  308
-# post
+## Post
 /post/:year/:month/:day/:slug  /zh-cn/post/:year/:month/:day/:slug/ 308
 /post/:year/:month/:day/:slug/ /zh-cn/post/:year/:month/:day/:slug/ 308
+# Examples:
+# /post/2020/10/02/ubuntu-compile-goldendict
+# /post/2020/10/02/ubuntu-compile-goldendict/
+
 
 #######################
-### current website ###
+### Current Website ###
 #######################
-# RSS links shouldn't contain a trailing slash
+## RSS links shouldn't contain a trailing slash
 /en/index.xml/     /en/index.xml             308
 /zh-cn/index.xml/  /zh-cn/index.xml          308
-
