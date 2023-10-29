@@ -3,3 +3,8 @@
   color: white;
   text-decoration: underline;
 }
+
+/* standardize background color */
+#main {
+  background-color: white;
+}
