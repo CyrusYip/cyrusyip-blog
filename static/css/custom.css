@@ -8,3 +8,11 @@
 #main {
   background-color: white;
 }
+
+/* fix copyright info that extends to the right */
+.post .post-copyright {
+  box-sizing: border-box;
+}
+
+/*
+ */
