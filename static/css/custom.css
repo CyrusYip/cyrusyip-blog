@@ -19,5 +19,20 @@
   padding: 0;
 }
 
+/* align language button and remove icon */
+.menu-item-lang {
+  display: flex;
+  align-items: center;
+}
+.menu-item-lang::after {
+  content: "\00a0▼" !important;
+}
+.menu-item-lang .iconfont {
+  display: none;
+}
+.mobile-menu-item-lang .iconfont {
+  display: none;
+}
+
 /*
  */
