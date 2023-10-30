@@ -14,5 +14,10 @@
   box-sizing: border-box;
 }
 
+/* remove left padding in user agent */
+.pagination ul {
+  padding: 0;
+}
+
 /*
  */
