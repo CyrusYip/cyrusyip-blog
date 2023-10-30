@@ -63,7 +63,7 @@ timeZone = "Etc/GMT-8"    # UTC+08:00 timezone
   # weight = 2
 [languages.zh-cn]
   title = "叶寻的博客"
-  languageName = "简体中文"
+  languageName = "中文"
   contentDir = 'content/zh-cn'
   languageCode = "zh-CN"
   # weight = 1
@@ -120,7 +120,8 @@ timeZone = "Etc/GMT-8"    # UTC+08:00 timezone
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  customCSS = ['custom.css'] # /static/css/custom.css
+  # I use assets/sass/_custom/_custom.scss because Cloudflare caches custom.css
+  customCSS = [] # /static/css/custom.css
   customJS = []              # if ['custom.js'], load '/static/js/custom.js' file
 
   # [params.utteranc]
