@@ -1,3 +1,4 @@
+import custom from "./custom";
 // import backToTop from './backToTop';
 // import mobileNavbar from './mobileNavbar';
 // import toc from './toc';
@@ -226,3 +227,5 @@ $(document).ready(function () {
 });
 
 highlight();
+
+custom()

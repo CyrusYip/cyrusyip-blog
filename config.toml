@@ -121,6 +121,7 @@ timeZone = "Etc/GMT-8"    # UTC+08:00 timezone
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   # I use assets/sass/_custom/_custom.scss because Cloudflare caches custom.css
+  # My custom JS is assets/js/custom.js
   customCSS = [] # /static/css/custom.css
   customJS = []              # if ['custom.js'], load '/static/js/custom.js' file
 
