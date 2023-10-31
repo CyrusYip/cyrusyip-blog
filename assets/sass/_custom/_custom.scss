@@ -37,7 +37,7 @@
 /* lastmod in archive */
 // highlight date
 .archive-post-create-time {
-  color: rgba(0, 0, 0, 0.8) !important;
+  // color: rgba(0, 0, 0, 0.8) !important;
 }
 // desktop
 .archive-post {
@@ -67,7 +67,7 @@
     width: unset !important;
   }
   .archive-post-lastmod-time {
-    margin-left: 0.5em;
+    margin-left: 1em;
   }
 }
 
