@@ -34,5 +34,67 @@
   display: none;
 }
 
+/* lastmod in archive */
+// highlight date
+.archive-post-create-time {
+  color: rgba(0, 0, 0, 0.8) !important;
+}
+// desktop
+.archive-post {
+  display: flex !important;
+  align-items: center;
+}
+.archive-post-time-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+// .archive-post-title {
+//   display: flex !important;
+// }
+
+// mobile
+@media screen and (max-width: 899px) {
+  .archive-post {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .archive-post-time-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .archive-post-time {
+    width: unset !important;
+  }
+  .archive-post-lastmod-time {
+    margin-left: 0.5em;
+  }
+}
+
+// grid desktop
+// proportion date:title = 235/900 = 1:3.829
+// .archive-post-create-time {
+//   color: rgba(0, 0, 0, 0.8) !important;
+// }
+// .archive-post {
+//   display: grid !important;
+//   grid-template-columns: 1fr 4fr;
+//   grid-template-rows: 1fr 1fr;
+//   gap: 0px 0px;
+//   grid-template-areas:
+//     "date    title"
+//     "lastmod title";
+// }
+// .archive-post-create-time {
+//   grid-area: date;
+// }
+// .archive-post-lastmod-time {
+//   grid-area: lastmod;
+// }
+// .archive-post-title {
+//   grid-area: title;
+//   align-self: center;
+// }
+
 /*
  */
