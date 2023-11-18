@@ -1,5 +1,5 @@
 ---
-title: 在 Proxmox VE（PVE）安装最新微码（microcode），改善 N5105 虚拟机死机问题
+title: 在 Proxmox VE 安装最新 microcode
 date: '2023-09-20'
 slug: install-microcode-on-proxmox
 tags:
@@ -9,7 +9,7 @@ tags:
 translationKey: install-microcode-on-proxmox
 ---
 
-本教程介绍用 `apt` 命令安装最新版微码（microcode）的方法。为了避免弄坏系统，请勿从 unstable 软件仓库安装微码以外的软件包。本教程测试于 Proxmox VE 7.4 / 8.0.2。
+本教程介绍用 `apt` 命令安装最新版微码（microcode）的方法，以改善 N5105 虚拟机死机问题。为了避免弄坏系统，请勿从 unstable 软件仓库安装微码以外的软件包。本教程测试于 Proxmox VE 7.4 / 8.0.2。
 
 <!--
 pve-manager/7.4-3/9002ab8a (running kernel: 6.2.11-1-pve)
