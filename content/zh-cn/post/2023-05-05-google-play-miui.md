@@ -25,7 +25,7 @@ tags:
 
 ---
 
-感谢[吴诗涛](https://shitao5.org/)测试小米 14（HyperOS）。
+感谢[吴诗涛](https://shitao5.org/)测试小米 14（小米澎湃 OS）。
 
 <!--
 Xiaomi 14
