@@ -20,15 +20,15 @@ docker attach f357e2faab77 # reattach the terminal & stdin
 
 [docker - I lose my data when the container exits - Stack Overflow](https://stackoverflow.com/questions/19585028/i-lose-my-data-when-the-container-exits/19616598#19616598)
 
-## 下载视频
+## 下载视频和音频
 
 ```bash
-# 安装工具
-pip install you-get youtube-dl -U
-
 # 下载视频
 you-get https://www.iqiyi.com/v_m72044yl88.html
-youtube-dl https://www.youtube.com/watch\?v\=9gfECJHQElo
+yt-dlp https://www.youtube.com/watch\?v\=9gfECJHQElo
+
+# 下载 Youtube 歌单（最佳质量、附上序号）
+yt-dlp --output '%(playlist_index)s-%(title)s.%(ext)s' -f 'bestaudio' 'https://www.youtube.com/watch?v=T4SimnaiktU&list=PLfAuqOtSFlrAwfk6j3PlSXhssBXzcXREw'
 ```
 
 ## 去广告看视频
