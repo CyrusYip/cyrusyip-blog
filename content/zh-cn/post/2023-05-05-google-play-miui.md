@@ -1,5 +1,5 @@
 ---
-title: 小米/红米/MIUI/HyperOS 的 Google Play 安装教程
+title: 小米 / 红米 / MIUI / HyperOS 的 Google Play 安装教程
 date: '2023-05-05'
 slug: google-play-miui
 tags:
