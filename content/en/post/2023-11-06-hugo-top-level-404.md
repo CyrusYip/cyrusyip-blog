@@ -13,7 +13,7 @@ If you build a multilangual Hugo site, you may want to enable `defaultContentLan
 
 As of Hugo v0.120.4, `defaultContentLanguageInSubdir = "true"` still has the side effect that [no 404 page (404.html) is generated at the root of `public` directory](https://github.com/gohugoio/hugo/issues/5161), which causes [Cloudflare Pages to redirect non-exstent pages to root `/`](https://community.cloudflare.com/t/non-existent-page-doesnt-return-an-error-directs-to-root-page/394554). `404.html` at the root is needed to fix the problem.
 
-There are three workarounds: reuse `404.html` in a subdirectory, create `404.md`, and create custom `404.html` in `static` directory.
+There are three workarounds: reuse `404.html` in a subdirectory, create `404.md`, and create custom `404.html` in `static` directory. You don’t need these workarounds if you don’t enable `defaultContentLanguageInSubdir`.
 
 ## Reuse 404.html
 
