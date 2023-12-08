@@ -2,38 +2,50 @@
 
 This is Cyrus Yip's personal website. The content of all pages is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-## Preview locally
+## Usage
 
-Clone this repo with its submodule.
+The minimal requirement is Git and Hugo.
 
 ```bash
-# HTTPS
+# Clone this repo with its submodule.
 git clone --recursive https://github.com/CyrusYip/cyrusyip-blog.git
-# SSH
-git clone --recursive git@github.com:CyrusYip/cyrusyip-blog.git
+# Preview
+cd cyrusyip-blog
+hugo server
 ```
 
-Run the site with blogdown(recommended) or Hugo.
-
-```r
-# R console
-blogdown:::serve_site()
-```
+Actually, I use additional tools to manage Hugo and blogdown.
 
 ```bash
-# hugo
-hugo server --navigateToChanged --buildDrafts
+# Clone this repo with its submodule.
+git clone --recursive https://github.com/CyrusYip/cyrusyip-blog.git
+# git clone --recursive git@github.com:CyrusYip/cyrusyip-blog.git
+
+# Install dependencies
+cd cyrusyip-blog
+npm install
+conda env create -f environment.yml
+
+# Activate blogdown environment
+conda activate blogdown
+
+# Create a post via blogdown
+./new-post.sh
+
+# Deactivate the environment
+conda deactivate
+
+# Preview
+npx hugo server --navigateToChanged
 ```
 
 Besides using command line, you can also preview this site with [RStudio](https://www.rstudio.com/products/rstudio/) or VS Code with [R extension](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r).
 
-You can find the Hugo version that I use in [.Rprofile](.Rprofile) and [vercel.json](vercel.json).
+You can find the Hugo version that I use in [.Rprofile](.Rprofile).
 
 ```
 # .Rprofile
 blogdown.hugo.version = "x.xx.x"
-# vercel.json
-"HUGO_VERSION": "x.xx.x"
 ```
 
 ## Contributing Guidelines
