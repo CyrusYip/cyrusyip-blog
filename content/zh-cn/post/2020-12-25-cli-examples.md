@@ -142,6 +142,14 @@ ffmpeg -i input.mp4 -ss 06:01.511 -to 06:23.841 -c copy output.mp4
 ffmpeg -i input.mp4 -ss 06:01.511 -to 06:23.841 output.mp4
 ```
 
+## 视频遮罩
+
+在 1080P 的视频底部加上 100 像素高的黑色长方形遮罩。文档：<https://ffmpeg.org/ffmpeg-filters.html#drawbox>。
+
+```
+ffmpeg -i input.mp4 -vf "drawbox=x=0:y=(ih-100):w=iw:h=100:color=black:t=fill" output.mp4
+```
+
 ## 输出好看的 PATH 变量
 
 如果直接用 `echo $PATH` 查看 PATH 变量，结果很难看，很难分清楚哪个目录是哪个。
