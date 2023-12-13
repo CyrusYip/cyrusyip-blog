@@ -12,26 +12,15 @@
           "type": "string"
         },
         {
-          "title": "Description",
-          "name": "description",
-          "type": "string"
-        },
-        {
-          "title": "Publishing date",
+          "title": "Date",
           "name": "date",
           "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
+          "dateFormat": "yyyy-MM-dd"
         },
         {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
-        },
-        {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
+          "title": "Slug",
+          "name": "slug",
+          "type": "string"
         },
         {
           "title": "Tags",
@@ -39,12 +28,12 @@
           "type": "tags"
         },
         {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
+          "title": "TranslationKey",
+          "name": "translationKey",
+          "type": "string"
         }
       ]
-    },
+    }
   ],
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",

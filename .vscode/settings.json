@@ -4,5 +4,6 @@
             "language": "markdown",
             "scheme": "file"
         }
-    ]
+    ],
+    "editor.tabSize": 2
 }
