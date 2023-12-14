@@ -60,7 +60,13 @@
   "frontMatter.framework.startCommand": "./node_modules/hugo-extended/vendor/hugo server --buildDrafts --navigateToChanged",
   "frontMatter.custom.scripts": [
     {
-      "title": "Rename (based on date and slug)",
+      "title": "Quote date",
+      "id": "quote-date",
+      "script": "./quote-date.js",
+      "command": "node"
+    },
+    {
+      "title": "Rename",
       "id": "rename",
       "script": "./rename.js",
       "command": "node"
