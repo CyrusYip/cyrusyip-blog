@@ -20,6 +20,7 @@
         {
           "title": "Slug",
           "name": "slug",
+          "editable": true,
           "type": "string"
         },
         {
@@ -56,5 +57,13 @@
       "path": "[[workspace]]/content/zh-cn/post"
     }
   ],
-  "frontMatter.framework.startCommand": "./node_modules/hugo-extended/vendor/hugo server --buildDrafts --navigateToChanged"
+  "frontMatter.framework.startCommand": "./node_modules/hugo-extended/vendor/hugo server --buildDrafts --navigateToChanged",
+  "frontMatter.custom.scripts": [
+    {
+      "title": "Rename (based on date and slug)",
+      "id": "rename",
+      "script": "./rename.js",
+      "command": "node"
+    }
+  ]
 }
