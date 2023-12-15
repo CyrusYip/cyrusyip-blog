@@ -75,5 +75,6 @@
       "script": "./rename.js",
       "command": "node"
     }
-  ]
+  ],
+  "frontMatter.content.fmHighlight": false
 }
