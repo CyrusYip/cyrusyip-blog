@@ -42,19 +42,23 @@
   "frontMatter.content.pageFolders": [
     {
       "title": "/en",
-      "path": "[[workspace]]/content/en"
+      "path": "[[workspace]]/content/en",
+      "previewPath": "/en"
     },
     {
+      "title": "/en/post",
       "path": "[[workspace]]/content/en/post",
-      "title": "/en/post"
+      "previewPath": "'/en/post/'yyyy/MM/dd"
     },
     {
       "title": "/zh-cn",
-      "path": "[[workspace]]/content/zh-cn"
+      "path": "[[workspace]]/content/zh-cn",
+      "previewPath": "/zh-cn"
     },
     {
       "title": "/zh-cn/post",
-      "path": "[[workspace]]/content/zh-cn/post"
+      "path": "[[workspace]]/content/zh-cn/post",
+      "previewPath": "'/zh-cn/post/'yyyy/MM/dd"
     }
   ],
   "frontMatter.framework.startCommand": "./node_modules/hugo-extended/vendor/hugo server --buildDrafts --navigateToChanged",
