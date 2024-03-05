@@ -26,9 +26,15 @@ docker attach f357e2faab77 # reattach the terminal & stdin
 # 下载视频
 you-get https://www.iqiyi.com/v_m72044yl88.html
 yt-dlp https://www.youtube.com/watch\?v\=9gfECJHQElo
-
 # 下载 Youtube 歌单（最佳质量、附上序号）
 yt-dlp --output '%(playlist_index)s-%(title)s.%(ext)s' -f 'bestaudio' 'https://www.youtube.com/watch?v=T4SimnaiktU&list=PLfAuqOtSFlrAwfk6j3PlSXhssBXzcXREw'
+```
+
+## 批量转换媒体格式
+
+```bash
+# 把当前文件夹的所有 .webm 文件转换为 .mp3
+for i in *.webm; do ffmpeg -i "$i" "${i%.*}.mp3"; done
 ```
 
 ## 去广告看视频
