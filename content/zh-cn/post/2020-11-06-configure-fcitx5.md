@@ -124,15 +124,13 @@ punc.mb.zh_CN.old                            punc.mb.zh_CN.new
 
 ### 使用中文维基词库
 
-1. [下载词库](https://github.com/felixonmars/fcitx5-pinyin-zhwiki/releases)
-
-    选择日期最新的 `zhwiki-*.dict` 下载
+1. ~~[下载词库](https://github.com/felixonmars/fcitx5-pinyin-zhwiki/releases)~~（这里很久没更新了，目前可以下载 Arch Linux 的 [fcitx5-pinyin-zhwiki](https://archlinux.org/packages/extra/any/fcitx5-pinyin-zhwiki/download/)，解压后词典路径为`fcitx5-pinyin-zhwiki-1_0.2.4.20240210-1-any.pkg/usr/share/fcitx5/pinyin/dictionaries/zhwiki.dict`）
 
 2. 添加词库
 
     ```bash
     sudo mkdir /usr/share/fcitx5/pinyin/dictionaries # 建立词库目录
-    sudo cp zhwiki-20201020.dict /usr/share/fcitx5/pinyin/dictionaries # 添加词库
+    sudo cp zhwiki.dict /usr/share/fcitx5/pinyin/dictionaries # 添加词库
 
 3. 重启 Fcitx5
 
