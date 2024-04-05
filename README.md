@@ -14,6 +14,26 @@ cd cyrusyip-blog
 hugo server
 ```
 
+I use npm to manage Hugo version, and [estruyf/vscode-front-matter](https://github.com/estruyf/vscode-front-matter) to manage content.
+
+
+```bash
+# Clone this repo with its submodule.
+git clone --recursive https://github.com/CyrusYip/cyrusyip-blog.git
+# git clone --recursive git@github.com:CyrusYip/cyrusyip-blog.git
+
+# Install Hugo
+cd cyrusyip-blog
+npm install
+
+# Preview
+npm run dev
+
+# Build
+npm run build
+```
+
+<!---
 Actually, I use additional tools to manage Hugo and blogdown.
 
 ```bash
@@ -47,10 +67,12 @@ You can find the Hugo version that I use in [.Rprofile](.Rprofile).
 # .Rprofile
 blogdown.hugo.version = "x.xx.x"
 ```
+-->
 
 ## Note
 
-When Hugo version is upgraded, [package.json](package.json), [vercel.json](vercel.json), [netlify.toml](netlify.toml) and [.Rprofile](.Rprofile) should be modified accordingly.
+- When Hugo version is upgraded, [package.json](package.json), [vercel.json](vercel.json), [netlify.toml](netlify.toml) and [.Rprofile](.Rprofile) should be modified accordingly.
+- When [config.toml](config.toml) is modified, run `./apply-no-comments-patch`.
 
 ## Contributing Guidelines
 

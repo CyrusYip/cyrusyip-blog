@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "hugo server --navigateToChanged"
+    "dev": "hugo server --navigateToChanged",
+    "build": "hugo"
   },
   "dependencies": {
     "hugo-extended": "0.124.1"
