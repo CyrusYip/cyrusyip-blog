@@ -3,7 +3,8 @@
     "dev": "hugo server --navigateToChanged",
     "build": "hugo",
     "dev:draft": "hugo server --navigateToChanged --config no-comments.toml",
-    "build:draft": "hugo --config no-comments.toml"
+    "build:draft": "hugo --config no-comments.toml",
+    "clean": "rm --recursive public/"
   },
   "dependencies": {
     "hugo-extended": "0.124.1"
