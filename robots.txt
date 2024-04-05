@@ -1,0 +1,3 @@
+# Dont't crawl draft site
+User-agent: *
+Disallow: /
