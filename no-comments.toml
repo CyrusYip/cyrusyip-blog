@@ -6,7 +6,7 @@
 # https://gohugo.io/getting-started/configuration/
 
 buildFuture = true
-baseURL = "https://cyrusyip.org/"
+baseURL = "https://draft.cyrusyip.org/"
 title = "Cyrus Yip | 叶寻"
 enableRobotsTXT = true
 enableEmoji = true

@@ -1,8 +1,12 @@
+9c9
+< baseURL = "https://cyrusyip.org/"
+---
+> baseURL = "https://draft.cyrusyip.org/"
 19c19
 < disqusShortname = "cyrusyip"      # disqus_shortname
 ---
 > # disqusShortname = "cyrusyip"      # disqus_shortname
-124,127c124,127
+128,131c128,131
 <   [params.utteranc]
 <     enable = true
 <     repo = "CyrusYip/blog-comment"    # The repo to store comments
