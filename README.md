@@ -48,6 +48,10 @@ You can find the Hugo version that I use in [.Rprofile](.Rprofile).
 blogdown.hugo.version = "x.xx.x"
 ```
 
+## Note
+
+When Hugo version is upgraded, [package.json](package.json), [vercel.json](vercel.json), [netlify.toml](netlify.toml) and [.Rprofile](.Rprofile) should be modified accordingly.
+
 ## Contributing Guidelines
 
 First off, thank you for considering contributing to this project. Any help would be much appreciated.

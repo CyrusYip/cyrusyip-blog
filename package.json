@@ -3,6 +3,6 @@
     "dev": "hugo server --navigateToChanged"
   },
   "dependencies": {
-    "hugo-extended": "^0.99.1"
+    "hugo-extended": "0.124.1"
   }
 }
