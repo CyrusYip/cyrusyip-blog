@@ -26,7 +26,22 @@ title: 关于
 
 ## 网站帐号
 
-请看我的 [GitHub 主页](https://github.com/CyrusYip/CyrusYip)。
+- [My Blog](https://cyrusyip.org)
+- [Arch Linux Forum](https://bbs.archlinux.org/profile.php?id=138854)
+- [ArchWiki](https://wiki.archlinux.org/title/Special:Contributions/Cyrus_Yip)
+- [Disqus](https://disqus.com/by/cyrusyip/)
+- [GitHub](https://github.com/CyrusYip)
+- [Hugo forum](https://discourse.gohugo.io/u/cyrusyip/summary)
+- [Mastodon](https://mastodon.social/@cyrusyip)
+- [Matrix](https://matrix.to/#/@cyrusyip:matrix.org) (请勿加好友或者私信)
+- [NixOS Discourse](https://discourse.nixos.org/u/cyrusyip/)
+- [Proxmox Support Forum](https://forum.proxmox.com/members/cyrus.172060/)
+- [Reddit](https://www.reddit.com/user/CyrusYip)
+- [Stack Overflow](https://stackoverflow.com/users/14399237/cyrus-yip)
+- [Twitter](https://twitter.com/CyrusYip10)
+- [Arch Linux 中文社区](https://bbs.archlinuxcn.org/profile.php?id=163433)
+- [小众软件官方论坛](https://meta.appinn.net/u/CyrusYip/)
+- [统计之都](https://d.cosx.org/u/CyrusYip)
 
 ## 常见问题
 
