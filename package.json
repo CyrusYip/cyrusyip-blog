@@ -1,9 +1,9 @@
 {
   "scripts": {
     "build": "hugo",
-    "build:cloudflare": "git fetch --unshallow && hugo",
+    "build:cloudflare": "git fetch --unshallow && hugo --minify",
     "build:draft": "hugo --config no-comments.toml",
-    "build:draft:cloudflare": "git fetch --unshallow && hugo --config no-comments.toml && cp robots.txt public/robots.txt",
+    "build:draft:cloudflare": "git fetch --unshallow && hugo --config no-comments.toml --minify && cp robots.txt public/robots.txt",
     "clean": "rm --recursive public/",
     "dev": "hugo server --navigateToChanged",
     "dev:draft": "hugo server --navigateToChanged --config no-comments.toml"
