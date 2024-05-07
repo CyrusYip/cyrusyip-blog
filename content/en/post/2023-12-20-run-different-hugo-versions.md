@@ -17,6 +17,8 @@ The syntax of `npx` is `npx <package-name>@<version>`. If `@<version>` is not sp
 ```bash
 # local installed version or latest version
 npx hugo-extended
+# Hugo latest
+npx hugo-extended@latest
 # Hugo v0.121.0
 npx hugo-extended@0.121.0
 npx hugo-extended@0.121.0 version
@@ -39,7 +41,7 @@ You can install a specific version of Hugo in a git repository.
 ```bash
 cd cyrusyip-blog
 # install Hugo v0.99.1
-npm install hugo-extended@0.99.1
+npm install --save-dev hugo-extended@0.99.1
 # ignore local npm packages
 echo 'node_modules' >> .gitignore
 # commit change
@@ -49,7 +51,14 @@ git commit --message 'add Hugo'
 npx hugo version # Hugo v0.99.1
 ```
 
-If you clone the repository, install the Hugo before using it.
+To change the version, run install command again.
+
+```bash
+npm install --save-dev hugo-extended@0.125.5
+npm install --save-dev hugo-extended@latest # latest version
+```
+
+If you clone the repository, install Hugo before using it.
 
 ```bash
 git clone --recursive https://github.com/CyrusYip/cyrusyip-blog.git
@@ -71,4 +80,4 @@ npm cache clean --force
 
 ---
 
-This tutorial was tested with npm/npx v10.2.4 and Node.js v21.2.0 on Arch Linux.
+This tutorial was tested with npm/npx v10.5.2 and Node.js v21.7.3 on Arch Linux.
