@@ -8,7 +8,7 @@
     "dev": "hugo server --navigateToChanged",
     "dev:draft": "hugo server --navigateToChanged --config no-comments.toml"
   },
-  "dependencies": {
-    "hugo-extended": "0.124.1"
+  "devDependencies": {
+    "hugo-extended": "^0.125.6"
   }
 }
