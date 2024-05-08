@@ -11,4 +11,4 @@ tags:
 
 修复方法：在文件资源管理器右击 U 盘，点击 `Properties -> Tools -> Error checking -> Check`。
 
-![fix-usb-flash-drive](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-01_fix-usb-flash-drive.png)
+![操作截图](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-01_fix-usb-flash-drive.png)

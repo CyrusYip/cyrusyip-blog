@@ -10,7 +10,7 @@ tags:
 
 疫情刚爆发的时候在家上学，比较清闲，就在网上尝试兼职笔译。在网上搜了一圈笔译网站，感觉有道人工翻译和我译网还可以。有道人工翻译需要投简历，我~~没什么可写~~懒得写就去试试我译网了。注册了帐号之后，不能直接接单，得通过测试才行。参加考试这个事也是六七个月之前了，有些细节可能记得不太清楚。
 
-![exam](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-29_exam.png)
+![](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-29_exam.png "选择考试题目")
 
 先选择语言，再选择领域。选择领域领域的时候一下就蒙了，在学校做的翻译练习几乎都是文学作品翻译。作为英语专业学生，真的是除了英语，啥都不会 ε(´סּ︵סּ\`)з。
 
@@ -36,15 +36,15 @@ tags:
 
 -->
 
-![true or false 1](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-29_true-or-false-1.png)
+![](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-29_true-or-false-1.png "判断题例子 1")
 
 ---
 
-![true or false 2](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-29_true-or-false-2.png)
+![](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-29_true-or-false-2.png "判断题例子 2")
 
 ---
 
-![translation](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-29_translation.png)
+![](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-29_translation.png "翻译题例子 1")
 
 电子游戏的内容还能理解，但是扑克牌的知识我完全不懂，没辙了。翻译的时候还遇到一个问题：有些英语概念我能理解其涵义，但是却不会用中文表达，或者用很长的中文才能表达原意。我猜这是因为我经常用英英词典，导致有些英文概念我只能用英文解释。**总结一下，做笔译除了要懂外语，还要有扎实的母语功底、双语转换能力、了解特定行业的知识。**
 

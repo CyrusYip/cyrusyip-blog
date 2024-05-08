@@ -42,11 +42,11 @@ tags:
 平时一定要正确刷牙，有蛀牙一定要补啊。到不能补牙的时候很悲惨的，只能镶牙或者种牙了。镶牙会磨损旁边两颗牙齿，种牙就把假牙钉到骨头里。想想都觉得可怕，而且还贵，种牙是几千上万一颗。幸亏我补了牙，没走到这个地步。看来还是要定期检查牙齿才行啊，预防是最好的治疗。
 
 
-![补牙](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2021-06-09_dental-fillings.jpg)
+![](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2021-06-09_dental-fillings.jpg "补牙")
 
-![镶牙](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2021-06-09_denture.jpeg)
+![](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2021-06-09_denture.jpeg "镶牙")
 
-![种牙](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2021-06-09_dental-implant.jpg)
+![](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2021-06-09_dental-implant.jpg "种牙")
 
 ## 谜底
 

@@ -20,13 +20,13 @@ tags:
 
 1. 打开几个浏览器的无痕浏览窗口登陆教务系统
 
-    ![inprivate windows](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2021-01-10_inprivate-windows.png)
+    ![无痕窗口](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2021-01-10_inprivate-windows.png)
 
     只要内存够，能开几个窗口就开几个，窗口越多，机会越大。
 
 1. 排列好窗口，留一个窗口看北京时间
 
-    ![multiple windows](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2021-01-10_multiple-windows.png)
+    ![很多个无痕窗口](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2021-01-10_multiple-windows.png)
 
 1. 到时间后点击所有窗口的选课按钮
 

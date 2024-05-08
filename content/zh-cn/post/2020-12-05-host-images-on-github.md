@@ -49,11 +49,9 @@ tags:
 
 自己手动拼凑链接太费劲，我写了个 [Bash 程序](https://github.com/CyrusYip/blog-static/blob/main/url.sh)来获取文件链接并将其写入 X11 剪贴板（使用 [fzf](https://github.com/junegunn/fzf) 模糊搜索，找文件很快）。
 
-![搜索文件](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-05_demo-1.png
-)
+![搜索文件](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-05_demo-1.png)
 
-![获取链接](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-05_demo-2.png
-)
+![获取链接](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-05_demo-2.png)
 
 ```bash
 #!/usr/bin/env bash

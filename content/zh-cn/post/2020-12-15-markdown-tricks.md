@@ -84,7 +84,7 @@ R Markdown 的优势：
 
 [![octocat](https://octodex.github.com/images/kimonotocat.png)](https://github.com/)
 
-因为本站使用了 fancybox，所以点击上面的图片不会跳转到 GitHub。不过你可以把代码复制到 Markdown 编辑器试试看。
+如果点击上面的图片不会跳转到 GitHub，可能是因为本站使用了 [PhotoSwipe](https://photoswipe.com/) 这样的相册插件。你可以把代码复制到 Markdown 编辑器试试看。
 
 ## 使用包含 \`\`\` 的代码块
 
@@ -133,11 +133,11 @@ print("Hello, World!")
 
 [点击这里](https://johnmacfarlane.net/babelmark2/?text=%E6%B0%B4%E6%9E%9C%EF%BC%9A%0A1.+%E6%A4%B0%E5%AD%90%0A2.+%E9%A6%99%E8%95%89%0A3.+%E8%8F%A0%E8%90%9D%0A%E7%83%A7%E8%85%8A%EF%BC%9A%0A1.+%E5%8F%89%E7%83%A7%0A2.+%E7%83%A7%E9%B8%AD%0A3.+%E7%99%BD%E5%88%87%E9%B8%A1)查看不同解析器的结果，有三种显示效果。
 
-![food](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-15_food-1.png)
+![第 1 种显示效果](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-15_food-1.png)
 
-![food](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-15_food-2.png)
+![第 2 种显示效果](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-15_food-2.png)
 
-![food](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-15_food-3.png)
+![第 3 种显示效果](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-15_food-3.png)
 
 现在你应该知道不加空行的严重后果了。我们再来看看那个错误示范。
 
@@ -170,7 +170,7 @@ print("Hello, World!")
 
 ## Typora 标题自动标号
 
-![typora auto number headings](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-15_typora-auto-number-headings.png)
+![Typora 自动标号的截图](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-12-15_typora-auto-number-headings.png)
 
 给 Typora 文章、目录和大纲的标题编号：
 

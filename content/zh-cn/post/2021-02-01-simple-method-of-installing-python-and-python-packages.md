@@ -15,7 +15,7 @@ Python 新手遇到的第一个问题就是安装 Python，我看好多教程都
 
 在 Win 10 安装 Python 特别简单，直接在 Microsoft Store 搜索 Python 就可以安装最新版本。注意，软件开发者是 Python Software Foundation。安装好之后在 Command Prompt 输入 Python 就可以使用了。
 
-![Python in Microsoft Store](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2021-02-01_microsoft-store-python.png)
+![Microsoft Store 里的 Python](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2021-02-01_microsoft-store-python.png)
 
 如果你用的是 LTSC 版本，就点击[这里](https://github.com/kkkgo/LTSC-Add-MicrosoftStore)下载 Microsoft Store 安装包。如果是 LTSB 就点击[这里](https://github.com/kkkgo/LTSB-Add-MicrosoftStore)下载安装包。如果你用 Win 10 之前的 Windows，就安装 [Miniconda](https://docs.conda.io/en/latest/miniconda.html) 吧，参考下面的用法。
 

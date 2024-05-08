@@ -61,11 +61,11 @@ _ ——
 ~ ～
 ```
 
-因为我常用 Markdown 和直角引号，所以把原本是弯引号的键位改成了直角引号，把方括号的键位改成了弯引号，取消了乘号和分隔符。如果要输入乘号和分隔符，就按下 `Ctrl + Alt + Shift + U`，输入`multiplication sign` 或 `middle dot`（用对应的 Unicode 码也行）；使用 `Tab` 和 `Shift Tab` 选择、`↑` 和 `↓` 翻页，`Enter` 确定。
+因为我常用 Markdown 和直角引号，所以把原本是弯引号的键位改成了直角引号，把方括号的键位改成了弯引号，取消了乘号和分隔符。如果要输入乘号和分隔符，就按下 `Ctrl + Alt + Shift + u`，输入`multiplication sign` 或 `middle dot`（用对应的 Unicode 码也行）；使用 `Tab` 和 `Shift Tab` 选择、`↑` 和 `↓` 翻页，`Enter` 确定。
 
-其他键盘上没有的字符也可以用这个方式输入，选中字符后按下 `Ctrl + Alt + Shift + U` 就可以获取字符名称。
+其他键盘上没有的字符也可以用这个方式输入，选中字符后按下 `Ctrl + Alt + Shift + u` 就可以获取字符名称。
 
-![fcitx5 unicode](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-11-06_fcitx5-unicode.gif)
+![动图演示 Ctrl + Alt + Shift + u](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2020-11-06_fcitx5-unicode.gif)
 
 设置方法：
 

@@ -42,9 +42,9 @@ tags:
 | 原料 | 龟板、土茯灵、甘草等中药材 | 仙草、薯粉/淀粉    |
 
 
-![左边是仙草冻，右边的是龟苓膏](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2021-03-15_liangfen-guilinggao.jpg)
+![](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2021-03-15_liangfen-guilinggao.jpg "左边是仙草冻，右边的是龟苓膏")
 
-![左边的是台湾烧仙草，右边的是龟苓膏](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2021-03-15_shaoxiancao-guilinggao.jpg)
+![](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2021-03-15_shaoxiancao-guilinggao.jpg "左边的是台湾烧仙草，右边的是龟苓膏")
 
 简单来说，凉粉和烧仙草是同一种食物，龟苓膏则是另一种食物。不苦的黑色凝胶叫**仙草冻**，又称**凉粉**[^fen]、**烧仙草**[^cao]，原料是草本植物**仙草**、薯粉/淀粉。烧仙草有两个意思，一是仙草冻；二是台湾烧仙草，即仙草冻加奶茶、红豆、绿豆、芋圆、花生等配料。苦的黑色凝胶叫龟苓膏，正统龟苓膏[^gao]原料是龟板、土茯灵、甘草等中药材。
 
