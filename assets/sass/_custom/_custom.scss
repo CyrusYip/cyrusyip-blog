@@ -84,7 +84,7 @@ figure > figcaption {
   color: gray;
 }
 /* image is not clickable because photoswipe is disabled */
-.post .post-content p > img {
+p > img {
   cursor: auto !important;
 }
 /* center img */

@@ -3,17 +3,39 @@ title: 让 Hugo 自动给图片加上说明文字
 date: '2021-03-11'
 slug: automatically-caption-image-with-alt-in-hugo
 tags:
+  - Hugo
   - Markdown
   - blog
 ---
 
-开始写博客之后我发现了 Markdown 缺少一个重要功能：给图片加上说明文字。Markdown 插入图片的语法是这样的：
+本文测试于 [Hugo extended 0.125.6](https://github.com/gohugoio/hugo/releases/tag/v0.125.6)，完整的网站代码[在此](https://github.com/CyrusYip/cyrusyip-blog/tree/544754a84a3e80358880e8f5729c0a674d64bd1e)。
+
+## 将图片标题用作说明文字（推荐）
+
+Markdown 插入图片的代码是这样的：
 
 ```markdown
-![这是一张图片](图片链接)
+![描述](链接 "标题")
 ```
 
-我希望「这是一张图片」可以显示在图片底部。想修改网站样式的时候，我常常告诫自己要[多写文章，少美化网站](http://disq.us/p/2eextk4)。毕竟写作灵感稍纵即逝，样式却随时可以改。可能是今天牙痛比较烦躁，想起这个问题就很想解决掉。在谷歌搜索一番，发现了[一篇文章](https://sebastiandedeyne.com/captioned-images-with-markdown-render-hooks-in-hugo/)（[存档](https://web.archive.org/web/20210311160748/https://sebastiandedeyne.com/captioned-images-with-markdown-render-hooks-in-hugo/)）里有给图片加说明文字的方法。我根据里面的代码略作修改，就搞定这个问题了。步骤如下：
+对于的 HTML 代码：
+
+```html
+<img src="链接" alt="描述" title="标题" />
+```
+
+用户的光标放在图片时，会有提示框，其内容为标题。提示框不好用，因为用户不一定会把光标移动到图片上，而且用户可能不用鼠标。
+
+既然提示框不好用，那我们可以将标题转换为图片底下的说明文字，这样用户一定会看到。对应的 HTML 代码为：
+
+```html
+<figure>
+  <img src="链接" alt="描述">
+  <figcaption>标题</figcaption>
+</figure>
+```
+
+配置流程：
 
 1. 在博客根目录下新建 `layouts/_default/_markup/render-image.html`
 
@@ -22,28 +44,72 @@ tags:
     touch layouts/_default/_markup/render-image.html
     ```
 
-2. 往 `render-image.html` 填入以下内容
+2. 往 `render-image.html` 填入以下内容（如果不需要修改样式，可以去除 `class="..."`）：
 
     ```html
-    <figure>
-    <center>
-    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
-    <figcaption>{{ .Text }}</figcaption>
-    </center>
-    </figure>
+    {{ if .Title }}
+      <figure class="figure">
+        <img class="img" src="{{ .Destination | safeURL }}"
+          {{- with .Text }} alt="{{ . }}"{{ end -}} >
+        <figcaption>{{ .Title }}</figcaption>
+      </figure>
+    {{ else }}
+      <img class="img" src="{{ .Destination | safeURL }}"
+        {{- with .Text }} alt="{{ . }}"{{ end -}} >
+    {{ end }}
     ```
 
-现在输入：
+`![](https://upload.wikimedia.org/wikipedia/commons/1/1f/Wiki-sisters.png "维基娘的姊妹们（由左至右）：维基共享资源娘、维基百科娘、维基语录娘")` 会[显示成这样](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static@main/images/2021-03-11_wikisisters-with-caption_2.png)。
 
-```markdown
-![维基娘的姊妹们（由左至右）：维基共享资源娘、维基百科娘、维基语录娘](https://upload.wikimedia.org/wikipedia/commons/1/1f/Wiki-sisters.png)
+<!-- ![](https://upload.wikimedia.org/wikipedia/commons/1/1f/Wiki-sisters.png "维基娘的姊妹们（由左至右）：维基共享资源娘、维基百科娘、维基语录娘") -->
+
+如果不需要说明文字，就写 `![维基娘的姊妹们（由左至右）：维基共享资源娘、维基百科娘、维基语录娘](https://upload.wikimedia.org/wikipedia/commons/1/1f/Wiki-sisters.png)`。
+
+<!-- ![维基娘的姊妹们（由左至右）：维基共享资源娘、维基百科娘、维基语录娘](https://upload.wikimedia.org/wikipedia/commons/1/1f/Wiki-sisters.png) -->
+
+## 将图片描述用作说明文字（不推荐）
+
+不推荐此方法的原因是 [`<img>` 元素的 `alt` 属性（描述）](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/alt) 和 [`<figcaption> 元素`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption)意义不同，将前者转换成后者是错的。
+
+如果你的 Markdown 图片链接是只有描述没有标题，也可以把描述变成说明文字。`render-image.html` 需要改为：
+
+```html
+<figure class="figure">
+  <img class="img" src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
+  <figcaption>{{ .Text }}</figcaption>
+</figure>
 ```
 
-它会被显示为：
+`![维基娘的姊妹们（由左至右）：维基共享资源娘、维基百科娘、维基语录娘](https://upload.wikimedia.org/wikipedia/commons/1/1f/Wiki-sisters.png)` 会[显示成这样](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static@main/images/2021-03-11_wikisisters-with-caption_2.png)。
 
-![](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static/images/2021-03-11_wikisisters-with-caption.png)
+<!-- ![维基娘的姊妹们（由左至右）：维基共享资源娘、维基百科娘、维基语录娘](https://upload.wikimedia.org/wikipedia/commons/1/1f/Wiki-sisters.png) -->
 
-另外，我还在 Stack Overflow 发现了一个[怪招](https://stackoverflow.com/a/45191209/14399237)：使用单列双行的表格，第一行放图片，第二行放说明文字。
+## 样式
+
+我给本站加了一些额外的样式，你可以根据你的需求调整你的网站。`!important` 必要时才用。
+
+```scss
+/* remove figure margin */
+figure {
+  margin: 0 !important;
+}
+figure > figcaption {
+  color: gray;
+}
+/* image is not clickable because photoswipe is disabled */
+p > img {
+  cursor: auto !important;
+}
+/* center img */
+// :has only works for browsers after December 2023, see https://caniuse.com/css-has
+p:has(.img), .figure{
+  text-align: center;
+}
+```
+
+## 用表格添加说明文字
+
+我还在 Stack Overflow 发现了一个[怪招](https://stackoverflow.com/a/45191209/14399237)：使用单列双行的表格，第一行放图片，第二行放说明文字。
 
 ```markdown
 |![](图片链接)|
@@ -52,13 +118,16 @@ tags:
 ```
 
 ```markdown
-| ![space-1.jpg](http://www.storywarren.com/wp-content/uploads/2016/09/space-1.jpg) | 
-|:--:| 
-| *Space* |
+| ![](https://www.storywarren.com/wp-content/uploads/2016/09/space-1.jpg) |
+|:--:|
+| Space |
 ```
 
-效果如下：
+## 参考资料
 
-| ![space-1.jpg](https://www.storywarren.com/wp-content/uploads/2016/09/space-1.jpg) | 
-|:--:| 
-| *Space* |
+- [Caption images with markdown render hooks in Hugo | Sebastian De Deyne](https://sebastiandedeyne.com/captioned-images-with-markdown-render-hooks-in-hugo/)
+- [Image render hooks | Hugo](https://gohugo.io/render-hooks/images/)
+- [html - Accessibility - Difference between `<img alt>` and `<figcaption>` - Stack Overflow](https://stackoverflow.com/questions/58447538/accessibility-difference-between-img-alt-and-figcaption/58468470#58468470)
+- [Alt vs Figcaption](https://thoughtbot.com/blog/alt-vs-figcaption)
+- [`<img>`: The Image Embed element - HTML: HyperText Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
+- [`<figure>`: The Figure with Optional Caption element - HTML: HyperText Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
