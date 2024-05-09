@@ -67,8 +67,6 @@ npm install
 npx hugo version # Hugo v0.99.1
 ```
 
----
-
 ## Clean cache
 
 ```bash
@@ -76,6 +74,21 @@ npx hugo version # Hugo v0.99.1
 npx clear-npx-cache
 # clean npm cache
 npm cache clean --force
+```
+
+## Note about package-lock.json
+
+By default, the directory name of source code will be shown in the name field in `package-lock.json`. To override that, set name field in `package.json` and run `npm install`.
+
+Example of `package.json`:
+
+```json
+{
+  "name": "cyrusyip-blog",
+  "devDependencies": {
+    "hugo-extended": "^0.125.6"
+  }
+}
 ```
 
 ---

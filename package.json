@@ -1,4 +1,5 @@
 {
+  "name": "cyrusyip-blog",
   "scripts": {
     "build": "hugo",
     "build:cloudflare": "git fetch --unshallow && hugo --minify",
