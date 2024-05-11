@@ -15,7 +15,7 @@
           "title": "Date",
           "name": "date",
           "type": "datetime",
-          "dateFormat": "yyyy-MM-dd"
+          "dateFormat": "yyyy-MM-dd'T'HH:mm:ssxxx"
         },
         {
           "title": "Slug",

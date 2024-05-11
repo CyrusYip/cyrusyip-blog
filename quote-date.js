@@ -1,6 +1,8 @@
 #!/usr/bin/env node
+// This file is obsolete because it's okay not to have quotes around the dates
 // This file is used by Front Matter CMS
-// Add single quotes to date to keep the weirdness introduced by blogdown
+// Add single quotes to date to keep the weirdness introduced by blogdown (https://d.cosx.org/d/425173-yong-blogdown-chuang-jian-tie-zi-wei-shi-yao-ri-qi-dai-dan-yin-hao/3)
+// date: 2024-04-25 -> date: '2024-04-25'
 
 const { readFile, writeFile } = require("node:fs");
 
