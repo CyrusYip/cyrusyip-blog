@@ -6,8 +6,8 @@
     "build:draft": "hugo --config no-comments.toml",
     "build:draft:cloudflare": "git fetch --unshallow && hugo --config no-comments.toml --minify && cp robots.txt public/robots.txt",
     "clean": "rm --recursive public/",
-    "dev": "hugo server --navigateToChanged",
-    "dev:draft": "hugo server --navigateToChanged --config no-comments.toml"
+    "serve": "hugo server --navigateToChanged",
+    "serve:draft": "hugo server --navigateToChanged --config no-comments.toml"
   },
   "devDependencies": {
     "hugo-extended": "^0.125.6"
