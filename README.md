@@ -68,6 +68,9 @@ You can find the Hugo version that I use in [.Rprofile](.Rprofile).
 blogdown.hugo.version = "x.xx.x"
 ```
 -->
+## Contributing Guidelines
+
+See [CONTRIBUTING.md](.github/CONTRIBUTING.md).
 
 ## Note
 
@@ -77,11 +80,3 @@ blogdown.hugo.version = "x.xx.x"
 ## Changes
 
 1. Posts after 2024-05-11 use a detailed date that contains time and timezone, such as `2024-05-12T00:22:18+08:00`. Posts before 2024-05-11 use a undetailed date, such as `'2023-12-20'`. If I change the undetailed dates into the detailed ones, lastmod will be changed, which is unwanted. Thus I keep them unchanged for now.
-
-## Contributing Guidelines
-
-First off, thank you for considering contributing to this project. Any help would be much appreciated.
-
-Please feel free to improve the quality of this content by submitting pull requests. A merged PR will make you appear in the contributor list. It will, however, be considered a donation of your work to this project. You are still bound by the conditions of the license, meaning that you are not considered an author or owner of the content once it has been merged in.
-
-You may also open issues for pointing out mistakes or suggesting ideas.
