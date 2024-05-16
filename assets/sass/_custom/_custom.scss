@@ -83,10 +83,6 @@ figure {
 figure > figcaption {
   color: gray;
 }
-/* image is not clickable because photoswipe is disabled */
-p > img {
-  cursor: auto !important;
-}
 /* center img */
 // :has only works for browsers after December 2023, see https://caniuse.com/css-has
 p:has(.img), .figure{

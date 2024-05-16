@@ -1,7 +1,9 @@
 {{ if .Title }}
   <figure class="figure">
-    <img class="img" src="{{ .Destination | safeURL }}"
-      {{- with .Text }} alt="{{ . }}"{{ end -}} >
+    <p> <!-- wrap <img> inside <p> to make photoswipe work -->
+      <img class="img" src="{{ .Destination | safeURL }}"
+        {{- with .Text }} alt="{{ . }}"{{ end -}} >
+    </p>
     <figcaption>{{ .Title }}</figcaption>
   </figure>
 {{ else }}

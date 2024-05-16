@@ -115,7 +115,7 @@ timeZone = "Etc/GMT-8"    # UTC+08:00 timezone
   dateFormatToUse = "2006-01-02"
 
   toc = true
-  photoswipe = false # image gallery and lightbox, it doesn't work for <img> inside <figure>
+  photoswipe = true # image gallery and lightbox, it doesn't work for <img> inside <figure> unless <img> is wrapped inside <p>
   contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
 
   # Link custom CSS and JS assets
