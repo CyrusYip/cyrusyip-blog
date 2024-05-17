@@ -34,7 +34,7 @@ defaultContentLanguage = "en"
 
 timeZone = "Etc/GMT-8"    # UTC+08:00 timezone
 # ]]]
-# permalinks, author, sitemap, markup[[[
+# permalinks, author, sitemap, markup, frontmatter[[[
 [permalinks]
   post = "/post/:year/:month/:day/:slug/"
 [author]
@@ -52,6 +52,8 @@ timeZone = "Etc/GMT-8"    # UTC+08:00 timezone
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+[frontmatter]
+  lastmod = ['lastmod', ':default']
 # ]]]
 # Chinese and English[[[
 [langusges]
