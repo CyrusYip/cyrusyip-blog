@@ -1,6 +1,6 @@
 ---
 title: blog 的词源
-date: '2021-01-01'
+date: 2021-01-01T00:00:00+08:00
 slug: blog-etymology
 tags:
   - blog

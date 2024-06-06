@@ -1,6 +1,6 @@
 ---
 title: 完全删除 Git 仓库的文件
-date: '2021-01-25'
+date: 2021-01-25T00:00:00+08:00
 slug: git-remove-sensitive-data
 tags:
   - CLI

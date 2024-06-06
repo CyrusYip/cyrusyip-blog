@@ -1,6 +1,6 @@
 ---
 title: 做笔译需要什么能力
-date: '2020-12-29'
+date: 2020-12-29T00:00:00+08:00
 slug: on-translation
 tags:
   - English

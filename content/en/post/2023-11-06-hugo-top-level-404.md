@@ -1,6 +1,6 @@
 ---
 title: Create Top-Level 404 Page for a Multilingual Hugo Site
-date: '2023-11-06'
+date: 2023-11-06T00:00:00+08:00
 slug: hugo-top-level-404
 tags:
   - Hugo
@@ -29,7 +29,7 @@ Create `404.md` in a subdirectory, such as `content/en/`. Set `url` to `/404.htm
 ```markdown
 ---
 # content/en/404.md
-date: "2023-11-06"
+date: 2023-11-06T00:00:00+08:00
 title: "404 Page Not Found"
 url: "/404.html"
 comment: false

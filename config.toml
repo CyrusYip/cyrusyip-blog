@@ -31,8 +31,6 @@ pygmentsOptions = "linenos=table"
 # Render English site under /en
 defaultContentLanguageInSubdir = "true"
 defaultContentLanguage = "en"
-
-timeZone = "Etc/GMT-8"    # UTC+08:00 timezone
 # ]]]
 # permalinks, author, sitemap, markup, frontmatter[[[
 [permalinks]

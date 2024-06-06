@@ -1,6 +1,6 @@
 ---
 title: Upgrading NixOS to Unstable Channel
-date: '2023-01-12'
+date: 2023-01-12T00:00:00+08:00
 slug: upgrade-nixos-to-unstable
 lastmod: 2023-01-12T01:25:13+08:00 # remove this line if the content is actually changed
 ---

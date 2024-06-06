@@ -1,6 +1,6 @@
 ---
 title: 用 Cloudflare 缓存本站的订阅文件
-date: '2022-11-22'
+date: 2022-11-22T00:00:00+08:00
 slug: cache-rss-with-cloudflare
 tags:
   - blog

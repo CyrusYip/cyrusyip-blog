@@ -1,6 +1,6 @@
 ---
 title: Markdown 技巧
-date: '2020-12-15'
+date: 2020-12-15T00:00:00+08:00
 slug: markdown-tricks
 tags:
   - Markdown

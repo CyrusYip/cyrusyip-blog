@@ -1,6 +1,6 @@
 ---
 title: How to Paste over Selected Text without Overwriting the Unnamed Register in Vim
-date: '2022-08-08'
+date: 2022-08-08T00:00:00+08:00
 slug: paste-over-selected-text-in-vim
 tags:
   - Vim

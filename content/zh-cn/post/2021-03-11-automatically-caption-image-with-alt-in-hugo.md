@@ -1,6 +1,6 @@
 ---
 title: 让 Hugo 自动给图片加上说明文字
-date: '2021-03-11'
+date: 2021-03-11T00:00:00+08:00
 slug: automatically-caption-image-with-alt-in-hugo
 tags:
   - Hugo

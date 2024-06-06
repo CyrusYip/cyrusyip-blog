@@ -1,6 +1,6 @@
 ---
 title: 中文没有斜体
-date: '2020-11-26'
+date: 2020-11-26T00:00:00+08:00
 slug: no-italic-chinese
 tags:
   - font

@@ -1,6 +1,6 @@
 ---
 title: 不指定路径运行自己写的软件
-date: '2020-12-24'
+date: 2020-12-24T00:00:00+08:00
 slug: put-software-into-path
 tags:
   - CLI

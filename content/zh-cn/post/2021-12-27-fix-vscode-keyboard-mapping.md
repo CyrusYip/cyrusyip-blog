@@ -1,6 +1,6 @@
 ---
 title: 修复键盘映射在 VS Code 失效的问题
-date: '2021-12-27'
+date: 2021-12-27T00:00:00+08:00
 slug: fix-vscode-keyboard-mapping
 tags:
   - Visual Studio Code

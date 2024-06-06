@@ -1,6 +1,6 @@
 ---
 title: 在 Linux 上使用京东京造（Keychron）K1 SE 的功能键（F1～F12）
-date: '2022-01-18'
+date: 2022-01-18T00:00:00+08:00
 slug: k1se-function-keys-on-linux
 tags:
   - Linux

@@ -1,6 +1,6 @@
 ---
 title: 大学咸鱼指北
-date: '2020-11-28'
+date: 2020-11-28T00:00:00+08:00
 slug: nobody-in-university
 tags:
   - university

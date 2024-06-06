@@ -1,6 +1,6 @@
 ---
 title: /æ/ 在美式英语的 3 种发音
-date: '2021-04-13'
+date: 2021-04-13T00:00:00+08:00
 slug: pronunciation-a-in-sad
 tags:
   - English

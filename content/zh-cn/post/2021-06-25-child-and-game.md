@@ -1,6 +1,6 @@
 ---
 title: 小孩能玩游戏吗
-date: '2021-06-25'
+date: 2021-06-25T00:00:00+08:00
 slug: child-and-game
 tags:
   - education

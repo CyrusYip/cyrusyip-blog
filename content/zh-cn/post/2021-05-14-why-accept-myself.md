@@ -1,6 +1,6 @@
 ---
 title: 为什么要接纳自己
-date: '2021-05-14'
+date: 2021-05-14T00:00:00+08:00
 slug: why-accept-myself
 tags:
   - life

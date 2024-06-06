@@ -1,6 +1,6 @@
 ---
 title: 牙的回忆
-date: '2021-06-09'
+date: 2021-06-09T00:00:00+08:00
 slug: memories-of-teeth
 tags:
   - life

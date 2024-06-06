@@ -1,6 +1,6 @@
 ---
 title: 随想
-date: '2021-04-01'
+date: 2021-04-01T00:00:00+08:00
 slug: random-thoughts
 tags:
   - life

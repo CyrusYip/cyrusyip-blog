@@ -1,6 +1,6 @@
 ---
 title: 关于心理咨询的疑问
-date: '2021-04-30'
+date: 2021-04-30T00:00:00+08:00
 slug: about-psychological-counseling
 tags:
   - life

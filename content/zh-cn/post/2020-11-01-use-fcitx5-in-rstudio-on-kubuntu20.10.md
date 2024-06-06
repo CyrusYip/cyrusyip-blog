@@ -1,6 +1,6 @@
 ---
 title: 在 RStudio 中使用 Fcitx5（Kubuntu 20.10）
-date: '2020-11-01'
+date: 2020-11-01T00:00:00+08:00
 slug: use-fcitx5-in-rstudio-on-kubuntu20.10
 tags:
   - Fcitx5

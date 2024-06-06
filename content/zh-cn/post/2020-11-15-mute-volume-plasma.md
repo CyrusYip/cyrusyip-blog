@@ -1,6 +1,6 @@
 ---
 title: KDE Plasma 开机静音设置
-date: '2020-11-15'
+date: 2020-11-15T00:00:00+08:00
 slug: mute-volume-plasma
 tags:
   - Kubuntu

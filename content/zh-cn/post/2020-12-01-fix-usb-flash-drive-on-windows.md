@@ -1,6 +1,6 @@
 ---
 title: 在 Windows 下修复 U 盘错误
-date: '2020-12-01'
+date: 2020-12-01T00:00:00+08:00
 slug: fix-usb-flash-drive-on-windows
 tags:
   - Windows

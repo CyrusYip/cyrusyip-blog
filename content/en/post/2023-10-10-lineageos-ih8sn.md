@@ -1,6 +1,6 @@
 ---
 title: How to Fix Banking Apps / SafetyNet / Play Integrity on LineageOS without Root
-date: '2023-10-10'
+date: 2023-10-10T00:00:00+08:00
 slug: lineageos-ih8sn
 tags:
   - Android

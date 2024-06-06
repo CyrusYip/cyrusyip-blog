@@ -1,6 +1,6 @@
 ---
 title: Hugo 多语言博客折腾记
-date: '2022-05-30'
+date: 2022-05-30T00:00:00+08:00
 slug: hugo-multilingual
 tags:
   - blog

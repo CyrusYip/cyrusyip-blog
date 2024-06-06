@@ -1,6 +1,6 @@
 ---
 title: 不要注册 cn 域名
-date: '2021-05-25'
+date: 2021-05-25T00:00:00+08:00
 slug: damn-cn-domain
 tags:
   - blog

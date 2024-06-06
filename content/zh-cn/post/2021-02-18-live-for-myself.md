@@ -1,6 +1,6 @@
 ---
 title: 为自己而活
-date: '2021-02-18'
+date: 2021-02-18T00:00:00+08:00
 slug: live-for-myself
 tags:
   - life

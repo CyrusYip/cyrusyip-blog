@@ -1,6 +1,6 @@
 ---
 title: Mastodon 不是长毛象
-date: '2024-03-12'
+date: 2024-03-12T00:00:00+08:00
 slug: mastodon-isnt-changmaoxiang
 tags:
   - Chinese

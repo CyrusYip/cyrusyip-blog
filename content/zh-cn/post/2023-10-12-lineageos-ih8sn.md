@@ -1,6 +1,6 @@
 ---
 title: 无需 root 修复 LineageOS 的银行应用 / SafetyNet / Play Integrity
-date: '2023-10-12'
+date: 2023-10-12T00:00:00+08:00
 slug: lineageos-ih8sn
 tags:
   - Android

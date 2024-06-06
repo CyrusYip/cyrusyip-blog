@@ -1,6 +1,6 @@
 ---
 title: 用笔记本电脑屏幕玩 Nintendo Switch
-date: '2021-08-05'
+date: 2021-08-05T00:00:00+08:00
 slug: play-ns-on-laptop
 tags:
   - Nintendo Switch

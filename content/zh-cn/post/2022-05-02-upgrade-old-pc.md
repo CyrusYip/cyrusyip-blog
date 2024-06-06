@@ -1,6 +1,6 @@
 ---
 title: 旧电脑升级未遂记
-date: '2022-05-02'
+date: 2022-05-02T00:00:00+08:00
 slug: upgrade-old-pc
 tags:
   - computer

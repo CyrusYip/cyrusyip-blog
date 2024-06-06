@@ -1,6 +1,6 @@
 ---
 title: 增强计算机安全性的技巧
-date: '2020-12-08'
+date: 2020-12-08T00:00:00+08:00
 slug: secure-computer
 tags:
   - BIOS

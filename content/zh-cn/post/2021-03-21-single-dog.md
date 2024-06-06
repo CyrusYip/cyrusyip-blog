@@ -1,6 +1,6 @@
 ---
 title: 单身狗
-date: '2021-03-21'
+date: 2021-03-21T00:00:00+08:00
 slug: single-dog
 tags:
   - language

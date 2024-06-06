@@ -1,6 +1,6 @@
 ---
 title: 在哔哩哔哩看未删减动画
-date: '2021-02-02'
+date: 2021-02-02T00:00:00+08:00
 slug: watch-uncensored-anime-on-bilibili
 tags:
   - entertainment

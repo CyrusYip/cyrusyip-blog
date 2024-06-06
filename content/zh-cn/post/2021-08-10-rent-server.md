@@ -1,6 +1,6 @@
 ---
 title: 第一次租国外的服务器
-date: '2021-08-10'
+date: 2021-08-10T00:00:00+08:00
 slug: rent-server
 tags:
   - server

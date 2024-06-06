@@ -1,6 +1,6 @@
 ---
 title: 人不应适应衣服
-date: '2022-05-29'
+date: 2022-05-29T00:00:00+08:00
 slug: dont-adapt-to-clothes
 tags:
   - life

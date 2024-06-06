@@ -1,6 +1,6 @@
 ---
 title: Removing Python 2 on Arch Linux
-date: '2022-09-23'
+date: 2022-09-23T00:00:00+08:00
 slug: remove-python2-on-arch
 tags:
   - Arch Linux

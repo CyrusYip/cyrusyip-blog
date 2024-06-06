@@ -1,6 +1,6 @@
 ---
 title: VSCodeVim 自动切换 Fcitx5
-date: '2021-12-24'
+date: 2021-12-24T00:00:00+08:00
 slug: vscodevim-auto-switch-fcitx5
 tags:
   - Fcitx5

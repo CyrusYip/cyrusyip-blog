@@ -1,5 +1,5 @@
 ---
-date: "2022-05-22"
+date: 2022-05-22T00:00:00+08:00
 menu: main
 title: "About"
 # weight: 10

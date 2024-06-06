@@ -1,6 +1,6 @@
 ---
 title: 在 Ubuntu 下配置 Fcitx5
-date: '2020-11-06'
+date: 2020-11-06T00:00:00+08:00
 slug: configure-fcitx5-on-ubuntu
 tags:
   - Fcitx5

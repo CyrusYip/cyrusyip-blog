@@ -1,6 +1,6 @@
 ---
 title: 键盘使用技巧
-date: '2020-12-21'
+date: 2020-12-21T00:00:00+08:00
 slug: keyboard-usage
 tags:
   - CLI

@@ -1,6 +1,6 @@
 ---
 title: 以 WPS 为例，手动构建和安装 AUR 的包
-date: '2021-10-11'
+date: 2021-10-11T00:00:00+08:00
 slug: build-aur-wps
 tags:
   - Arch Linux

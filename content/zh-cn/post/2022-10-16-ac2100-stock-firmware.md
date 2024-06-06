@@ -1,6 +1,6 @@
 ---
 title: 红米 AC2100 刷 breed 后刷回官方固件
-date: '2022-10-16'
+date: 2022-10-16T00:00:00+08:00
 slug: ac2100-stock-firmware
 tags:
   - AC2100

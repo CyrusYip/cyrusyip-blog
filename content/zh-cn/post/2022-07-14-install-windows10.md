@@ -1,6 +1,6 @@
 ---
 title: Windows 10 简易安装教程
-date: '2022-07-14'
+date: 2022-07-14T00:00:00+08:00
 slug: install-windows10
 tags:
   - Windows

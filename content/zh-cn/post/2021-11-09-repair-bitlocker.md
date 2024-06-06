@@ -1,6 +1,6 @@
 ---
 title: 修复 BitLocker 错误：The system cannot find the file specified
-date: '2021-11-09'
+date: 2021-11-09T00:00:00+08:00
 slug: repair-bitlocker
 tags:
   - Windows

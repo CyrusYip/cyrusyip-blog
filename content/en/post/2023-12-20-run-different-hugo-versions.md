@@ -1,6 +1,6 @@
 ---
 title: Run Different Versions of Hugo without Installation via npx
-date: '2023-12-20'
+date: 2023-12-20T00:00:00+08:00
 slug: run-different-hugo-versions
 tags:
   - Hugo

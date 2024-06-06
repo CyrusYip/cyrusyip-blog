@@ -1,6 +1,6 @@
 ---
 title: 在 Ubuntu 编译 GoldenDict
-date: '2020-10-02'
+date: 2020-10-02T00:00:00+08:00
 slug: ubuntu-compile-goldendict
 tags:
   - Ubuntu

@@ -1,6 +1,6 @@
 ---
 title: 密码管理器
-date: '2021-06-24'
+date: 2021-06-24T00:00:00+08:00
 slug: password-manager
 tags:
   - browser

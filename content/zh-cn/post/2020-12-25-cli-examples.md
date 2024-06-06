@@ -1,6 +1,6 @@
 ---
 title: 命令行实例
-date: '2020-12-25'
+date: 2020-12-25T00:00:00+08:00
 slug: cli-examples
 tags:
   - CLI

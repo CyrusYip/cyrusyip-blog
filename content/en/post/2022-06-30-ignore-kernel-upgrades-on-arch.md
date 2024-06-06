@@ -1,6 +1,6 @@
 ---
 title: How to Ignore Kernel Upgrades on Arch Linux
-date: '2022-06-30'
+date: 2022-06-30T00:00:00+08:00
 slug: ignore-kernel-upgrades-on-arch
 tags:
   - Arch Linux

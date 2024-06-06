@@ -1,6 +1,6 @@
 ---
 title: 跳过 Android 应用广告
-date: '2024-03-19'
+date: 2024-03-19T00:00:00+08:00
 slug: skip-android-app-ads
 tags:
   - Android

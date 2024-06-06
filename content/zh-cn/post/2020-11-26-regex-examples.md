@@ -1,6 +1,6 @@
 ---
 title: 正则表达式实例
-date: '2020-11-26'
+date: 2020-11-26T00:00:00+08:00
 slug: regex-examples
 tags:
   - regex

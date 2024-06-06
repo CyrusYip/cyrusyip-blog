@@ -1,6 +1,6 @@
 ---
 title: How to Change Network Configuration on Proxmox VE
-date: '2023-11-30'
+date: 2023-11-30T00:00:00+08:00
 slug: proxmox-network-config
 tags:
   - Proxmox Virtual Environment

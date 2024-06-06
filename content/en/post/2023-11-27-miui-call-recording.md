@@ -1,6 +1,6 @@
 ---
 title: How to Enable Call Recording on Xiaomi / Redmi / MIUI
-date: '2023-11-27'
+date: 2023-11-27T00:00:00+08:00
 slug: miui-call-recording
 tags:
   - Xiaomi

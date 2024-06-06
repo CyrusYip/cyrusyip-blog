@@ -1,6 +1,6 @@
 ---
 title: Fixing File Permission Problem of Jellyfin on Arch Linux
-date: '2023-01-11'
+date: 2023-01-11T00:00:00+08:00
 slug: fix-jellyfin-permission
 tags:
   - Arch Linux

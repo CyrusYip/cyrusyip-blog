@@ -1,6 +1,6 @@
 ---
 title: 解决用笔记本作 OpenWrt 路由器遇到的免密码登陆与屏幕常亮问题
-date: '2021-09-22'
+date: 2021-09-22T00:00:00+08:00
 slug: laptop-openwrt-problems
 tags:
   - OpenWrt

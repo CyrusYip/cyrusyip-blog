@@ -1,5 +1,5 @@
 ---
-date: "2020-12-29"
+date: 2020-12-29T00:00:00+08:00
 menu: main
 title: 订阅
 lastmod: 2022-06-06T14:06:45+08:00 # remove this line if the content is actually changed

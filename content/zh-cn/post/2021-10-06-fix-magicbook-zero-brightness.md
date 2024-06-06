@@ -1,6 +1,6 @@
 ---
 title: 修复 MagicBook 14（Ryzen5 3500U）在 Arch Linux 下亮度突然变 0 的问题
-date: '2021-10-06'
+date: 2021-10-06T00:00:00+08:00
 slug: fix-magicbook-zero-brightness
 tags:
   - Arch Linux

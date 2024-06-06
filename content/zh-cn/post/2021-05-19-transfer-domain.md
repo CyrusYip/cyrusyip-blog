@@ -1,6 +1,6 @@
 ---
 title: 把域名转移到便宜的域名注册商
-date: '2021-05-19'
+date: 2021-05-19T00:00:00+08:00
 slug: transfer-domain
 tags:
   - domain name

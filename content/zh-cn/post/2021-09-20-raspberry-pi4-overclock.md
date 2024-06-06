@@ -1,6 +1,6 @@
 ---
 title: 树莓派 4B 超频教程
-date: '2021-09-20'
+date: 2021-09-20T00:00:00+08:00
 slug: raspberry-pi4-overclock
 tags:
   - Raspberry Pi 4B

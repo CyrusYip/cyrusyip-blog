@@ -1,6 +1,6 @@
 ---
 title: 轻松安装 Python 和 Python 包
-date: '2021-02-01'
+date: 2021-02-01T00:00:00+08:00
 slug: simple-method-of-installing-python-and-python-packages
 tags:
   - programming

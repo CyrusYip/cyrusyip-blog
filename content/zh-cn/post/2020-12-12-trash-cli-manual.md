@@ -1,6 +1,6 @@
 ---
 title: trash-cli 中文手册
-date: '2020-12-12'
+date: 2020-12-12T00:00:00+08:00
 tags:
   - Ubuntu
   - Linux

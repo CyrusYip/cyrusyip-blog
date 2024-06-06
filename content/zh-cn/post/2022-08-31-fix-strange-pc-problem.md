@@ -1,6 +1,6 @@
 ---
 title: 修复奇怪的电脑问题
-date: '2022-08-31'
+date: 2022-08-31T00:00:00+08:00
 slug: fix-strange-pc-problem
 tags:
   - computer

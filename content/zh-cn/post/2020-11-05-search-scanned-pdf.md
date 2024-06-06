@@ -1,6 +1,6 @@
 ---
 title: 在扫描版 PDF 中查找内容
-date: '2020-11-05'
+date: 2020-11-05T00:00:00+08:00
 slug: search-scanned-pdf
 tags:
   - PDF
