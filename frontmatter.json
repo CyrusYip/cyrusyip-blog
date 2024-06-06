@@ -29,6 +29,12 @@
           "type": "tags"
         },
         {
+          "title": "Lastmod",
+          "name": "lastmod",
+          "type": "datetime",
+          "dateFormat": "yyyy-MM-dd'T'HH:mm:ssxxx"
+        },
+        {
           "title": "TranslationKey",
           "name": "translationKey",
           "type": "string"
