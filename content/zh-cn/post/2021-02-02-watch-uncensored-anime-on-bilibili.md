@@ -5,6 +5,7 @@ slug: watch-uncensored-anime-on-bilibili
 tags:
   - entertainment
   - anime
+lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
 ---
 
 **2021-02-18 更新**：哔哩哔哩港澳台动画仍然有些是删减版的，我现在改用[巴哈姆特动画疯](https://ani.gamer.com.tw/)看动画了，终于不用担心删减和下架了。会员价格是每月 99 新台币（22.8 人民币）。不开会员也能看所有动画，只是看 30 秒广告，然后可以看 720P 画质的动画。不过不开会员就不能通过年龄验证，可能有些动画看不了。所以最好还是开通一次吧。

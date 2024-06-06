@@ -6,6 +6,7 @@ tags:
   - Cloudflare
   - Hugo
   - Vercel
+lastmod: 2023-12-17T03:35:00+08:00 # remove this line if the content is actually changed
 ---
 
 ## 起因

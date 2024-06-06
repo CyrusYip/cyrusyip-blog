@@ -4,6 +4,7 @@ date: '2021-02-18'
 slug: live-for-myself
 tags:
   - life
+lastmod: 2024-02-20T00:16:05+08:00 # remove this line if the content is actually changed
 ---
 
 现在是凌晨四点十三分，我又失眠了。脑海里闪烁着白天和亲戚的对话。

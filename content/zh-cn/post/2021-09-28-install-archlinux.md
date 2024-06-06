@@ -5,6 +5,7 @@ slug: install-archlinux
 tags:
   - Arch Linux
   - Linux
+lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
 ---
 
 ## 使用感受

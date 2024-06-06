@@ -4,6 +4,7 @@ date: '2023-11-06'
 slug: hugo-top-level-404
 tags:
   - Hugo
+lastmod: 2023-12-07T22:24:17+08:00 # remove this line if the content is actually changed
 ---
 
 If you build a multilangual Hugo site, you may want to enable `defaultContentLanguageInSubdir` to make URLs look consistent. For example:

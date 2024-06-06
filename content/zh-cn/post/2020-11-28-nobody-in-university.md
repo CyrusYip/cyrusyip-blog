@@ -5,6 +5,7 @@ slug: nobody-in-university
 tags:
   - university
   - life
+lastmod: 2024-03-31T20:30:15+08:00 # remove this line if the content is actually changed
 ---
 
 ## 工地大学

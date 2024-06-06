@@ -4,6 +4,7 @@ date: '2024-03-19'
 slug: skip-android-app-ads
 tags:
   - Android
+lastmod: 2024-03-23T18:59:15+08:00 # remove this line if the content is actually changed
 ---
 
 [GKD](https://github.com/gkd-kit/gkd) 是开源的屏幕点击应用，可以自动跳过应用的开屏广告和应用内广告。实际测试 GKD 可以跳过铁路 12306 和京东的开屏广告。

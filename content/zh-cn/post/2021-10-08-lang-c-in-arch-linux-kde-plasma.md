@@ -5,6 +5,7 @@ slug: lang-c-in-arch-linux-kde-plasma
 tags:
   - Arch Linux
   - Linux
+lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
 ---
 
 最近在 Arch Linux 上的 Git 显示不了中文，执行了 `git config --global core.quotepath false` 还是不行。`git log` 显示的中文变成这样了：

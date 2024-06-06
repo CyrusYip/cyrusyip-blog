@@ -4,6 +4,7 @@ date: '2022-03-30'
 slug: why-hongcha-is-black-tea
 tags:
   - English
+lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
 ---
 
 小学刚学英语的时候有个困惑我很久的问题：为什么绿茶是 green tea，红茶却不是 red tea。后来上大学的英汉对比课听到了答案：中文的颜色指茶水的颜色，英语指茶叶的颜色。红茶茶叶是黑色的，所以英语是 black tea。

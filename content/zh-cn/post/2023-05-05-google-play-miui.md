@@ -8,6 +8,7 @@ tags:
   - MIUI
   - HyperOS
   - Android
+lastmod: 2023-11-27T10:54:41+08:00 # remove this line if the content is actually changed
 ---
 
 在 [Google Play 支持的设备列表](https://support.google.com/googleplay/answer/1727131)[^biao]内的小米/红米手机已预装谷歌服务，我们只需要安装 Play 商店。

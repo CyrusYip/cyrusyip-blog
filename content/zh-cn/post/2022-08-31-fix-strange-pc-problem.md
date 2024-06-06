@@ -4,6 +4,7 @@ date: '2022-08-31'
 slug: fix-strange-pc-problem
 tags:
   - computer
+lastmod: 2022-09-26T21:47:18+08:00 # remove this line if the content is actually changed
 ---
 
 友情提示：你可以边看本文边猜问题的原因，这样可能比较有趣。

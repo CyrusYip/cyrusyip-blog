@@ -4,6 +4,7 @@ date: '2022-05-29'
 slug: dont-adapt-to-clothes
 tags:
   - life
+lastmod: 2022-06-05T23:58:49+08:00 # remove this line if the content is actually changed
 ---
 
 前些天陪女友买衣服。女友试穿了一条阔腿牛仔裤，结果裤子长到拖地了。女友说裤子太长了，能不能改短些。结果店员说拖地才好看，改短了不好看，而且这种裤子很难改。最后还是没买，女友可不想要拖地之后脏脏的裤子。

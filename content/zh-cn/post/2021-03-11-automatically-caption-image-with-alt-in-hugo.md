@@ -6,6 +6,7 @@ tags:
   - Hugo
   - Markdown
   - blog
+lastmod: 2024-05-09T01:43:46+08:00 # remove this line if the content is actually changed
 ---
 
 本文测试于 [Hugo extended 0.125.6](https://github.com/gohugoio/hugo/releases/tag/v0.125.6)，完整的网站代码[在此](https://github.com/CyrusYip/cyrusyip-blog/tree/544754a84a3e80358880e8f5729c0a674d64bd1e)。

@@ -4,6 +4,7 @@ date: '2021-08-05'
 slug: play-ns-on-laptop
 tags:
   - Nintendo Switch
+lastmod: 2024-05-08T21:07:27+08:00 # remove this line if the content is actually changed
 ---
 
 ## 缘起

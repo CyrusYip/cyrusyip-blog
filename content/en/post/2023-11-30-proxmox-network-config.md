@@ -4,6 +4,7 @@ date: '2023-11-30'
 slug: proxmox-network-config
 tags:
   - Proxmox Virtual Environment
+lastmod: 2023-12-10T02:08:40+08:00 # remove this line if the content is actually changed
 ---
 
 When a Proxmox server connects to a new network (e.g. a new router), its network configuration needs to be changed.

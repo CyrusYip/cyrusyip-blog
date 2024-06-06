@@ -5,6 +5,7 @@ slug: rent-server
 tags:
   - server
   - VPS
+lastmod: 2022-06-12T18:08:47+08:00 # remove this line if the content is actually changed
 ---
 
 最近想租个服务器玩玩，因为我讨厌手机号注册和提交身份信息，就不考虑国内厂商了。之前在知乎好几次看到有人推荐 Vultr，那就试试看吧。注册好就用 Paypal 充了 10 美元，结果就倒霉了。Vultr 提示我帐号审核可能要 24 小时。

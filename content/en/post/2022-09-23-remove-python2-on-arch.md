@@ -4,6 +4,7 @@ date: '2022-09-23'
 slug: remove-python2-on-arch
 tags:
   - Arch Linux
+lastmod: 2022-09-26T21:41:06+08:00 # remove this line if the content is actually changed
 ---
 
 [Python 2 was dropped from Arch Linux](https://archlinux.org/news/removing-python2-from-the-repositories/). It was lucky that there were only two python2 packages on my Arch.

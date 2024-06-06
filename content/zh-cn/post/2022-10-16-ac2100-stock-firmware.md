@@ -4,6 +4,7 @@ date: '2022-10-16'
 slug: ac2100-stock-firmware
 tags:
   - AC2100
+lastmod: 2022-11-29T20:35:00+08:00 # remove this line if the content is actually changed
 ---
 
 相关文章：[红米 AC2100 刷入 OpenWrt 固件](/zh-cn/post/2021/06/19/ac2100-openwrt/)

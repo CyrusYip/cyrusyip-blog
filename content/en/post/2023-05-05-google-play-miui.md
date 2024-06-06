@@ -8,6 +8,7 @@ tags:
   - MIUI
   - HyperOS
   - Android
+lastmod: 2023-11-27T10:54:41+08:00 # remove this line if the content is actually changed
 ---
 
 China Xiaomi / Redmi phones in [Google Play supported devices](https://support.google.com/googleplay/answer/1727131)[^devices] have built-in Google Services. We just need to install Google Play.

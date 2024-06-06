@@ -5,6 +5,7 @@ slug: fix-slow-arch-linux
 tags:
   - Arch Linux
   - Linux
+lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
 ---
 
 最近 Arch Linux 用起来有点慢，有时候桌面会卡住一两秒。我用 auto-cpufreq(1.7.2) 调节 CPU 频率，该不会是它出问题了吧。先看看数据：

@@ -4,6 +4,7 @@ date: '2022-08-03'
 slug: semi-in-ear-headphones
 tags:
   - headphones
+lastmod: 2022-08-24T20:07:53+08:00 # remove this line if the content is actually changed
 ---
 
 2019 年买了一款[小米有线耳机](https://item.jd.com/6968445.html)，一直用到现在。前些天用的时候总有电流声，仔细一看才发现有些地方的金属线都露出来了，用透明胶贴上继续用着。过几天又发现耳机按键附近的线快断了，是时候买新耳机了。我的手机没有耳机插口，每次用耳机都要靠转接线，用转接线又得占用充电口，还是买蓝牙耳机吧。我对耳机的要求：半入耳、舒适、音质不亚于原来耳机。

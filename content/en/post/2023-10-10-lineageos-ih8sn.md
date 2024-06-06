@@ -6,6 +6,7 @@ tags:
   - Android
   - LineageOS
 translationKey: lineageos-ih8sn
+lastmod: 2023-10-12T23:35:45+08:00 # remove this line if the content is actually changed
 ---
 
 ## Summary

@@ -5,6 +5,7 @@ slug: raspberry-pi4-overclock
 tags:
   - Raspberry Pi 4B
   - OpenWrt
+lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
 ---
 
 本文配套文章：[在 OpenWrt 控制树莓派 Argon Mini Fan](/zh-cn/post/2021/09/15/openwrt-argon-mini-fan/)

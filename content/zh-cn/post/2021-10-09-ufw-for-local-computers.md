@@ -5,6 +5,7 @@ slug: ufw-for-local-computers
 tags:
   - Linux
   - Arch Linux
+lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
 ---
 
 ## 安装

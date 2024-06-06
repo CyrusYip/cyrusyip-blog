@@ -6,6 +6,7 @@ tags:
   - Android
   - LineageOS
 translationKey: lineageos-ih8sn
+lastmod: 2023-10-12T23:35:45+08:00 # remove this line if the content is actually changed
 ---
 
 有些银行应用在没有 root 的 LineageOS 打开会提示「不支持在 root 设备使用」，然后退出。用 Lineage Recovery 安装由 [althafvly](https://github.com/althafvly/ih8sn) 或者你的维护者提供的 ih8sn，这样银行应用就正常了。

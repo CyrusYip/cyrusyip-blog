@@ -6,6 +6,7 @@ tags:
   - life
 categories:
   - psychological counseling
+lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
 ---
 
 最近感觉心理咨询的谈话内容挺值得记录的，就写下来了。

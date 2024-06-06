@@ -8,6 +8,7 @@ tags:
   - MIUI
   - Android
 translationKey: miui-call-recording
+lastmod: 2023-12-10T01:55:47+08:00 # remove this line if the content is actually changed
 ---
 
 通话录音：打开设置 -> 应用设置 -> 系统应用设置 -> 电话 -> 通话录音 -> 打开「录音通知」和「自动录音」 -> 选择「自动录音对象」

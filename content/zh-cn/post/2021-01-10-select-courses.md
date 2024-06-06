@@ -4,6 +4,7 @@ date: '2021-01-10'
 slug: select-courses
 tags:
   - university
+lastmod: 2024-05-08T21:07:27+08:00 # remove this line if the content is actually changed
 ---
 
 让大学生感到惊心动魄的事情，除了期末考试，可能还有抢选修课。如果没能抢到心仪的课，就只能捡漏了，不管愿不愿意，都得上一个学期的课。作为抢课界的博尔特，我就来分享一下我的抢课技巧。

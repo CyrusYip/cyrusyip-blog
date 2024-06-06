@@ -4,6 +4,7 @@ date: '2022-05-02'
 slug: upgrade-old-pc
 tags:
   - computer
+lastmod: 2022-07-16T17:11:46+08:00 # remove this line if the content is actually changed
 ---
 
 相关文章：[Windows 10 简易安装教程](/zh-cn/post/2022/07/14/install-windows10/)

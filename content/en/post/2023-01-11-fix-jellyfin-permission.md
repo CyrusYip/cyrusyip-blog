@@ -6,6 +6,7 @@ tags:
   - Arch Linux
   - Linux
   - Jellyfin
+lastmod: 2023-01-13T21:42:05+08:00 # remove this line if the content is actually changed
 ---
 
 This tutorial should work for other Linux distributions, but I only tested it on Arch Linux.

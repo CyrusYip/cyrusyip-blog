@@ -4,6 +4,7 @@ date: '2021-04-01'
 slug: random-thoughts
 tags:
   - life
+lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
 ---
 
 本文用于记录难以成文但值得分享的内容，不定时更新。

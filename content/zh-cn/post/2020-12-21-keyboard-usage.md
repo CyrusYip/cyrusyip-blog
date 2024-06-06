@@ -7,6 +7,7 @@ tags:
   - LaTeX
   - Markdown
   - Linux
+lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
 ---
 
 以前用 Windows 的时候用鼠标比较多，一直忽略键盘右边的按键。转到 Linux 之后才发现被我忽略的按键是多么好用。

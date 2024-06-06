@@ -6,6 +6,7 @@ tags:
   - blog
   - Hugo
   - blogdown
+lastmod: 2022-07-31T02:00:07+08:00 # remove this line if the content is actually changed
 ---
 
 最近在统计之都看大家[讨论博客](https://d.cosx.org/d/423166-frank-harrell-quarto/)，又激起了我的折腾之心，打算把一个大坑给填了：把中文博客改为双语博客。我先建立了一个新的 Git 分支来折腾，成功后才合并到主分支。以下是详细的折腾过程。

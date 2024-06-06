@@ -5,6 +5,7 @@ slug: vscodevim-auto-switch-fcitx5
 tags:
   - Fcitx5
   - Visual Studio Code
+lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
 ---
 
 在 `$HOME/.config/Code/User/settings.json` 加入以下内容：

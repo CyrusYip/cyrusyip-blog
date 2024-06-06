@@ -8,6 +8,7 @@ tags:
   - MIUI
   - Android
 translationKey: miui-call-recording
+lastmod: 2023-12-10T01:55:47+08:00 # remove this line if the content is actually changed
 ---
 
 Call recording in phone: Open Settings -> Apps -> System app settings -> Call settings -> Call recording -> enable "Call recording notification" and "Record calls automatically"

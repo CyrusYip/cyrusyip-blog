@@ -4,6 +4,7 @@ date: '2022-11-22'
 slug: cache-rss-with-cloudflare
 tags:
   - blog
+lastmod: 2022-11-29T23:13:06+08:00 # remove this line if the content is actually changed
 ---
 
 本站目前使用 Vercel 部署。最近看了下 Vercel 的使用量，10 月份中文订阅文件（`/zh-cn/index.xml`）用了 17 GB 流量（平均每日 561 MB），占据了大部分流量，消耗流量第二多的文件只占 79 MB。本站 10 月就 959 次访问，没想到有那么多人订阅。Vercel 免费账户每月 100 GB 流量，真担心有一天流量超标了。

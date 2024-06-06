@@ -6,6 +6,7 @@ tags:
   - CLI
   - Linux
   - Ubuntu
+lastmod: 2024-03-05T21:34:10+08:00 # remove this line if the content is actually changed
 ---
 
 本文用于收集~~我记不住的~~实用的命令行用法。

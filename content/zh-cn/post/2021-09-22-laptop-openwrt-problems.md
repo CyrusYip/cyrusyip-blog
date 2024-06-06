@@ -4,6 +4,7 @@ date: '2021-09-22'
 slug: laptop-openwrt-problems
 tags:
   - OpenWrt
+lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
 ---
 
 用笔记本电脑作 OpenWrt 路由器有两个问题：不需要密码就登陆、屏幕不会自动关闭，解决办法如下。

@@ -4,6 +4,7 @@ date: '2021-06-09'
 slug: memories-of-teeth
 tags:
   - life
+lastmod: 2024-05-08T21:07:27+08:00 # remove this line if the content is actually changed
 ---
 
 ## 第一次蛀牙

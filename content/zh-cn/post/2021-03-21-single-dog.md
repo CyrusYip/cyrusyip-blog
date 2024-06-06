@@ -4,6 +4,7 @@ date: '2021-03-21'
 slug: single-dog
 tags:
   - language
+lastmod: 2022-06-06T00:39:54+08:00 # remove this line if the content is actually changed
 ---
 
 单身是个中性的词，而狗除了指动物以外的定义都是贬义。

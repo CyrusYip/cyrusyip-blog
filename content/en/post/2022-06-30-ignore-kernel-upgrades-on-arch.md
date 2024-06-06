@@ -5,6 +5,7 @@ slug: ignore-kernel-upgrades-on-arch
 tags:
   - Arch Linux
   - pacman
+lastmod: 2022-09-01T21:07:16+08:00 # remove this line if the content is actually changed
 ---
 
 Warning: Ignoring kernel upgrades makes the system more vulnerable due to the lack of the latest security fixes.

@@ -4,6 +4,7 @@ date: '2021-11-09'
 slug: repair-bitlocker
 tags:
   - Windows
+lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
 ---
 
 用 BitLocker 给 Windows 10 加密时出现了错误信息：The system cannot find the file specified。这个提示信息简直是废话嘛，为什么不告诉我哪个文件有问题……提示信息还附上了 [Win10 安装要求](https://www.microsoft.com/en-us/windows/windows-10-specifications)，一样是没用……

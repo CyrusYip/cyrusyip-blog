@@ -6,6 +6,7 @@ tags:
   - Android
   - MIUI
   - Xiaomi
+lastmod: 2023-05-20T00:27:08+08:00 # remove this line if the content is actually changed
 ---
 
 ## 2023-05-19 更新：改用 LineageOS

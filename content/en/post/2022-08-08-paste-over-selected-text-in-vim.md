@@ -4,6 +4,7 @@ date: '2022-08-08'
 slug: paste-over-selected-text-in-vim
 tags:
   - Vim
+lastmod: 2022-08-16T02:55:27+08:00 # remove this line if the content is actually changed
 ---
 
 Summary: paste with `P` in visual mode.

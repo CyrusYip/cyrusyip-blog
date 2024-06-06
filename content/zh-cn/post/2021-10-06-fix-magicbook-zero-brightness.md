@@ -6,6 +6,7 @@ tags:
   - Arch Linux
   - Linux
   - MagicBook 14
+lastmod: 2023-03-08T14:03:06+08:00 # remove this line if the content is actually changed
 ---
 
 **2023 年 3 月 8 日更新**：MagicBook 14 在以下内核亮度正常，已经不需要改内核参数了。

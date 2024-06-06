@@ -6,6 +6,7 @@ tags:
   - Hugo
   - npm
   - npx
+lastmod: 2024-05-09T09:32:42+08:00 # remove this line if the content is actually changed
 ---
 
 `npx` lets you run different versions of Hugo without installation. To use it, install [Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) at first.

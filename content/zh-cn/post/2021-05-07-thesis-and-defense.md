@@ -7,6 +7,7 @@ tags:
 slug: thesis-and-defense
 categories:
   - psychological counseling
+lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
 ---
 
 ## 颓废
