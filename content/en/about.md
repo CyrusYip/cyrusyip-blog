@@ -1,9 +1,8 @@
 ---
 date: 2022-05-22T00:00:00+08:00
 menu: main
-title: "About"
-# weight: 10
-lastmod: 2024-04-07T23:40:16+08:00 # remove this line if the content is actually changed
+title: About
+lastmod: 2024-06-12T23:18:55+08:00
 ---
 
 ## Me
@@ -12,7 +11,7 @@ I am Cyrus Yip (叶寻). I like anime, games, books, and programming.
 
 ## Subscription
 
-Use a RSS reader to subscribe this site via <https://cyrusyip.org/en/index.xml>.
+Use an RSS reader to subscribe this site via <https://cyrusyip.org/en/index.xml>.
 
 ## Donation
 
