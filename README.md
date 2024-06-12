@@ -76,7 +76,3 @@ See [CONTRIBUTING.md](.github/CONTRIBUTING.md).
 
 - When Hugo version is upgraded, [package.json](package.json), [vercel.json](vercel.json), [netlify.toml](netlify.toml) and [.Rprofile](.Rprofile) should be modified accordingly.
 - When [config.toml](config.toml) is modified, run `./apply-no-comments-patch`.
-
-## Changes
-
-1. Posts after 2024-05-11 use a detailed date that contains time and timezone, such as `2024-05-12T00:22:18+08:00`. Posts before 2024-05-11 use a undetailed date, such as `'2023-12-20'`. If I change the undetailed dates into the detailed ones, lastmod will be changed, which is unwanted. Thus I keep them unchanged for now.
