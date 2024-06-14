@@ -69,7 +69,7 @@
         {{ with $.Site.GetPage "taxonomy" (printf "%s/%s" $type $tagName) }}
         <!--Current font size: {{$currentFontSize}}-->
         <a href="{{ .Permalink }}"
-          style="font-size:{{$currentFontSize}}{{$fontUnit}}">{{ $tagName }}</a>
+          style="font-size:{{$currentFontSize}}{{$fontUnit}}">{{ .LinkTitle }}</a>
         {{ end }}
       {{ end }}
       </div>

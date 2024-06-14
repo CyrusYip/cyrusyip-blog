@@ -67,7 +67,7 @@
           {{ range . }}
           {{- $name := . -}}
           {{- with $.Site.GetPage "taxonomy" (printf "tags/%s" $name) | default ($.Site.GetPage "taxonomy" (printf "tags/%s" ($name | urlize))) -}}
-          <a href="{{ .Permalink }}">{{ $name }}</a>
+          <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
           {{ end -}}
           {{ end }}
         </div>
