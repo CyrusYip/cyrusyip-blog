@@ -3,12 +3,12 @@ title: 小米 / 红米 / MIUI / HyperOS 的 Google Play 安装教程
 date: 2023-05-05T00:00:00+08:00
 slug: google-play-miui
 tags:
-  - Xiaomi
-  - Redmi
-  - MIUI
   - HyperOS
-  - Android
-lastmod: 2023-11-27T10:54:41+08:00 # remove this line if the content is actually changed
+  - MIUI
+  - Redmi
+  - Xiaomi
+  - android
+lastmod: 2023-11-27T10:54:41+08:00
 ---
 
 在 [Google Play 支持的设备列表](https://support.google.com/googleplay/answer/1727131)[^biao]内的小米/红米手机已预装谷歌服务，我们只需要安装 Play 商店。

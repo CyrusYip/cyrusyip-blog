@@ -3,12 +3,12 @@ title: How to Install Google Play On Xiaomi / Redmi / MIUI / HyperOS
 date: 2023-05-05T00:00:00+08:00
 slug: google-play-miui
 tags:
-  - Xiaomi
-  - Redmi
-  - MIUI
   - HyperOS
-  - Android
-lastmod: 2023-11-27T10:54:41+08:00 # remove this line if the content is actually changed
+  - MIUI
+  - Redmi
+  - Xiaomi
+  - android
+lastmod: 2023-11-27T10:54:41+08:00
 ---
 
 China Xiaomi / Redmi phones in [Google Play supported devices](https://support.google.com/googleplay/answer/1727131)[^devices] have built-in Google Services. We just need to install Google Play.

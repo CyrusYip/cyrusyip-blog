@@ -3,12 +3,12 @@ title: How to Enable Call Recording on Xiaomi / Redmi / MIUI
 date: 2023-11-27T00:00:00+08:00
 slug: miui-call-recording
 tags:
-  - Xiaomi
-  - Redmi
   - MIUI
-  - Android
+  - Redmi
+  - Xiaomi
+  - android
 translationKey: miui-call-recording
-lastmod: 2023-12-10T01:55:47+08:00 # remove this line if the content is actually changed
+lastmod: 2023-12-10T01:55:47+08:00
 ---
 
 Call recording in phone: Open Settings -> Apps -> System app settings -> Call settings -> Call recording -> enable "Call recording notification" and "Record calls automatically"
