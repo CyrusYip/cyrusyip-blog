@@ -3,10 +3,10 @@ title: 增强计算机安全性的技巧
 date: 2020-12-08T00:00:00+08:00
 slug: secure-computer
 tags:
-  - BIOS
   - UEFI
+  - bios
   - security
-lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
+lastmod: 2022-06-06T00:29:26+08:00
 ---
 
 ## 关闭 BIOS 的 USB Boot 和 PXE Boot 选项
