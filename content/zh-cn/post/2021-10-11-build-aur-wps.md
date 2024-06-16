@@ -3,9 +3,9 @@ title: 以 WPS 为例，手动构建和安装 AUR 的包
 date: 2021-10-11T00:00:00+08:00
 slug: build-aur-wps
 tags:
-  - Arch Linux
   - Linux
-lastmod: 2023-10-22T23:08:18+08:00 # remove this line if the content is actually changed
+  - arch-linux
+lastmod: 2023-10-22T23:08:18+08:00
 ---
 
 **更新**：安装好旧版后发现最新的 [WPS 国际版](https://aur.archlinux.org/packages/wps-office/)并没有界面模糊的问题，白折腾了。

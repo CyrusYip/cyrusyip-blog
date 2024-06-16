@@ -3,9 +3,9 @@ title: How to Ignore Kernel Upgrades on Arch Linux
 date: 2022-06-30T00:00:00+08:00
 slug: ignore-kernel-upgrades-on-arch
 tags:
-  - Arch Linux
+  - arch-linux
   - pacman
-lastmod: 2022-09-01T21:07:16+08:00 # remove this line if the content is actually changed
+lastmod: 2022-09-01T21:07:16+08:00
 ---
 
 Warning: Ignoring kernel upgrades makes the system more vulnerable due to the lack of the latest security fixes.

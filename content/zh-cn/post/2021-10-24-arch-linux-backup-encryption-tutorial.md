@@ -3,9 +3,9 @@ title: Arch Linux 备份、加密、还原教程
 date: 2021-10-24T00:00:00+08:00
 slug: arch-linux-backup-encryption-tutorial
 tags:
-  - Arch Linux
   - Linux
-lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
+  - arch-linux
+lastmod: 2022-06-06T00:29:26+08:00
 ---
 
 最近想加密笔记本电脑的硬盘，一般硬盘加密都是在安装系统前做的，但是我的笔记本已经装上 Arch Linux 了。我刚好有个闲置的移动硬盘，于是我就想到了办法：
