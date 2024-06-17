@@ -3,9 +3,9 @@ title: 完全删除 Git 仓库的文件
 date: 2021-01-25T00:00:00+08:00
 slug: git-remove-sensitive-data
 tags:
-  - CLI
   - Git
-lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
+  - cli
+lastmod: 2022-06-06T00:29:26+08:00
 ---
 
 <!--

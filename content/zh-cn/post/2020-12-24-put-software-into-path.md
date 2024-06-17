@@ -3,10 +3,10 @@ title: 不指定路径运行自己写的软件
 date: 2020-12-24T00:00:00+08:00
 slug: put-software-into-path
 tags:
-  - CLI
   - Linux
   - Ubuntu
-lastmod: 2022-06-06T00:39:54+08:00 # remove this line if the content is actually changed
+  - cli
+lastmod: 2022-06-06T00:39:54+08:00
 ---
 
 在 Linux 上运行自己写的软件必须指定路径才能运行。举个例子，我写了个 BASH 脚本，把代码保存到 `hello_world` 文件，放到 `~/Desktop`，并赋予它运行权限。
