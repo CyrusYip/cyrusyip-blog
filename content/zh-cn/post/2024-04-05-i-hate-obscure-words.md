@@ -3,9 +3,9 @@ title: 拒绝烂词
 date: 2024-04-05T23:37:10+08:00
 slug: i-hate-obscure-words
 tags:
-  - Chinese
+  - chinese
   - language
-lastmod: 2024-05-16T14:23:53+08:00 # remove this line if the content is actually changed
+lastmod: 2024-05-16T14:23:53+08:00
 ---
 
 ![迷因图：简单点，说话的方式简单点](https://cdn.jsdelivr.net/gh/CyrusYip/blog-static@main/images/2024-04-05_say-it-simpler.jpg)
