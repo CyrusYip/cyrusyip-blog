@@ -3,9 +3,9 @@ title: VSCodeVim 自动切换 Fcitx5
 date: 2021-12-24T00:00:00+08:00
 slug: vscodevim-auto-switch-fcitx5
 tags:
-  - Fcitx5
   - Visual Studio Code
-lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
+  - fcitx5
+lastmod: 2022-06-06T00:29:26+08:00
 ---
 
 在 `$HOME/.config/Code/User/settings.json` 加入以下内容：

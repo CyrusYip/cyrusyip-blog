@@ -3,9 +3,9 @@ title: 在 Ubuntu 下配置 Fcitx5
 date: 2020-11-06T00:00:00+08:00
 slug: configure-fcitx5-on-ubuntu
 tags:
-  - Fcitx5
   - Ubuntu
-lastmod: 2024-05-08T21:07:27+08:00 # remove this line if the content is actually changed
+  - fcitx5
+lastmod: 2024-05-08T21:07:27+08:00
 ---
 
 ## 安装
