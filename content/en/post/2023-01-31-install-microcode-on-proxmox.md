@@ -4,10 +4,10 @@ date: 2023-01-31T00:00:00+08:00
 slug: install-microcode-on-proxmox
 tags:
   - Proxmox Virtual Environment
+  - debian
   - homelab
-  - Debian
 translationKey: install-microcode-on-proxmox
-lastmod: 2023-09-24T22:11:02+08:00 # remove this line if the content is actually changed
+lastmod: 2023-09-24T22:11:02+08:00
 ---
 
 In this tutorial, I will help you install the latest microcode in a upgradable way so that you can upgrade it via `apt` command. Please don't install packages except microcode packages from the unstable repository to [avoid a broken system](https://wiki.debian.org/DontBreakDebian#Don.27t_make_a_FrankenDebian). This tutorial was tested on Proxmox VE 7.4 / 8.0.2 .
