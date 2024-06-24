@@ -3,10 +3,10 @@ title: Run Different Versions of Hugo without Installation via npx
 date: 2023-12-20T00:00:00+08:00
 slug: run-different-hugo-versions
 tags:
-  - Hugo
+  - hugo
   - npm
   - npx
-lastmod: 2024-05-09T09:32:42+08:00 # remove this line if the content is actually changed
+lastmod: 2024-05-09T09:32:42+08:00
 ---
 
 `npx` lets you run different versions of Hugo without installation. To use it, install [Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) at first.

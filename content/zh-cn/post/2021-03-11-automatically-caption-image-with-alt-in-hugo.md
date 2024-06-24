@@ -3,10 +3,10 @@ title: 让 Hugo 自动给图片加上说明文字
 date: 2021-03-11T00:00:00+08:00
 slug: automatically-caption-image-with-alt-in-hugo
 tags:
-  - Hugo
   - Markdown
   - blog
-lastmod: 2024-05-09T01:43:46+08:00 # remove this line if the content is actually changed
+  - hugo
+lastmod: 2024-05-09T01:43:46+08:00
 ---
 
 本文测试于 [Hugo extended 0.125.6](https://github.com/gohugoio/hugo/releases/tag/v0.125.6)，完整的网站代码[在此](https://github.com/CyrusYip/cyrusyip-blog/tree/544754a84a3e80358880e8f5729c0a674d64bd1e)。

@@ -3,8 +3,8 @@ title: Create Top-Level 404 Page for a Multilingual Hugo Site
 date: 2023-11-06T00:00:00+08:00
 slug: hugo-top-level-404
 tags:
-  - Hugo
-lastmod: 2023-12-07T22:24:17+08:00 # remove this line if the content is actually changed
+  - hugo
+lastmod: 2023-12-07T22:24:17+08:00
 ---
 
 If you build a multilangual Hugo site, you may want to enable `defaultContentLanguageInSubdir` to make URLs look consistent. For example:
