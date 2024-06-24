@@ -4,8 +4,8 @@ date: 2020-11-15T00:00:00+08:00
 slug: mute-volume-plasma
 tags:
   - Kubuntu
-  - KDE Plasma
-lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
+  - kde-plasma
+lastmod: 2022-06-06T00:29:26+08:00
 ---
 
 Kubuntu 休眠之后开机总会报错：
