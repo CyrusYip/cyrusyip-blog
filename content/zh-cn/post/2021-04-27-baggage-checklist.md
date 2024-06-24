@@ -2,11 +2,11 @@
 title: 行李清单
 date: 2021-04-27T00:00:00+08:00
 tags:
-  - life
-  - GitHub
   - Markdown
+  - github
+  - life
 slug: baggage-checklist
-lastmod: 2022-06-06T00:39:54+08:00 # remove this line if the content is actually changed
+lastmod: 2022-06-06T00:39:54+08:00
 ---
 
 收拾行李对我来说一直是个大难题。每次出门都要收拾很久，还常常丢三落四。现在终于想到了个好办法——行李清单。出门前先写一份行李清单，然后把清单上的东西都拿出来，再逐一清点，有的东西就打个勾。就像这样：
