@@ -3,10 +3,10 @@ title: 键盘使用技巧
 date: 2020-12-21T00:00:00+08:00
 slug: keyboard-usage
 tags:
-  - LaTeX
   - Linux
   - Markdown
   - cli
+  - latex
 lastmod: 2022-06-06T00:29:26+08:00
 ---
 
