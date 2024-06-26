@@ -3,10 +3,10 @@ title: 在 Debian/Ubuntu 安装旧版 WPS Linux
 date: 2021-08-08T00:00:00+08:00
 slug: ubuntu-install-older-wps
 tags:
-  - Kubuntu
-  - Ubuntu
   - Linux
-lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
+  - Ubuntu
+  - kubuntu
+lastmod: 2022-06-06T00:29:26+08:00
 ---
 
 最近把 WPS For Linux 更新到最新的 11.1.0.10702，打开就提示「系统DPI不对称，WPS可能存在显示问题」，果然 WPS 都是模糊的。打算去[官网](https://linux.wps.cn/)找上个版本，结果只有最新版，气死我了！在谷歌搜了几次也找不到历史版本。随后我在万能的 AUR（Arch User Repository）找到了 [WPS](https://aur.archlinux.org/packages/wps-office-cn/)，这里有旧版的下载链接。以下是下载与安装步骤：

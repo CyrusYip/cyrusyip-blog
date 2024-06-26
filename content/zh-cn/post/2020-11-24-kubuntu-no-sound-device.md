@@ -3,8 +3,8 @@ title: 修复 Kubuntu 无音频设备的问题
 date: 2020-11-24T00:00:00+08:00
 slug: kubuntu-no-sound-device
 tags:
-  - Kubuntu
-lastmod: 2022-06-06T00:39:54+08:00 # remove this line if the content is actually changed
+  - kubuntu
+lastmod: 2022-06-06T00:39:54+08:00
 ---
 
 执行命令：
