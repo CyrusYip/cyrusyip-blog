@@ -3,9 +3,9 @@ title: 小米 9 SE 刷欧版 MIUI 记录
 date: 2022-04-22T00:00:00+08:00
 slug: flash-miui-eu-on-xiaomi9se
 tags:
-  - MIUI
   - Xiaomi
   - android
+  - miui
 lastmod: 2023-05-20T00:27:08+08:00
 ---
 
