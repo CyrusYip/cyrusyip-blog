@@ -3,9 +3,9 @@ title: 催生的恶果
 date: 2021-02-06T00:00:00+08:00
 slug: lesbian-in-china
 tags:
-  - LGBT
   - chinese-culture
   - homosexuality
+  - lgbt
 lastmod: 2022-06-06T00:39:54+08:00
 ---
 
