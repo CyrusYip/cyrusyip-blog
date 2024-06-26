@@ -3,9 +3,9 @@ title: 正则表达式实例
 date: 2020-11-26T00:00:00+08:00
 slug: regex-examples
 tags:
+  - markdown
   - regex
-  - Markdown
-lastmod: 2024-03-31T20:30:15+08:00 # remove this line if the content is actually changed
+lastmod: 2024-03-31T20:30:15+08:00
 ---
 
 2024 年 3 月 31 日更新：像有序列表和无序列表互换这样比较简单的问题，现在我都用 Vim 处理，不想费脑筋想正则了。

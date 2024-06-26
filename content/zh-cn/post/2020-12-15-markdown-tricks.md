@@ -3,8 +3,8 @@ title: Markdown 技巧
 date: 2020-12-15T00:00:00+08:00
 slug: markdown-tricks
 tags:
-  - Markdown
-lastmod: 2024-05-08T21:07:27+08:00 # remove this line if the content is actually changed
+  - markdown
+lastmod: 2024-05-08T21:07:27+08:00
 ---
 
 ## 使用 R Markdown

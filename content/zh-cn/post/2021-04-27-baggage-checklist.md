@@ -2,9 +2,9 @@
 title: 行李清单
 date: 2021-04-27T00:00:00+08:00
 tags:
-  - Markdown
   - github
   - life
+  - markdown
 slug: baggage-checklist
 lastmod: 2022-06-06T00:39:54+08:00
 ---
