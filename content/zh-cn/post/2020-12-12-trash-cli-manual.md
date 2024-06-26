@@ -2,9 +2,9 @@
 title: trash-cli 中文手册
 date: 2020-12-12T00:00:00+08:00
 tags:
-  - Linux
   - Ubuntu
   - cli
+  - linux
 slug: trash-cli-manual
 lastmod: 2022-06-06T00:29:26+08:00
 ---

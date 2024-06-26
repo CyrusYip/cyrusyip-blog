@@ -3,8 +3,8 @@ title: 给本地电脑配置 UFW（Uncomplicated Firewall）防火墙
 date: 2021-10-09T00:00:00+08:00
 slug: ufw-for-local-computers
 tags:
-  - Linux
   - arch-linux
+  - linux
 lastmod: 2022-06-06T00:29:26+08:00
 ---
 

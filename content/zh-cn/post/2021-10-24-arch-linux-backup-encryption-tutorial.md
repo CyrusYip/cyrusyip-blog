@@ -3,8 +3,8 @@ title: Arch Linux 备份、加密、还原教程
 date: 2021-10-24T00:00:00+08:00
 slug: arch-linux-backup-encryption-tutorial
 tags:
-  - Linux
   - arch-linux
+  - linux
 lastmod: 2022-06-06T00:29:26+08:00
 ---
 

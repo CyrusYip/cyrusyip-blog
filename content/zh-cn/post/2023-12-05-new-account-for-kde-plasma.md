@@ -3,9 +3,9 @@ title: KDE Plasma X11 黑屏后重建账号
 date: 2023-12-05T00:00:00+08:00
 slug: new-account-for-kde-plasma
 tags:
-  - Linux
   - arch-linux
   - kde-plasma
+  - linux
 lastmod: 2024-02-18T00:18:43+08:00
 ---
 

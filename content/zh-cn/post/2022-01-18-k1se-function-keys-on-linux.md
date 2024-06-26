@@ -3,9 +3,9 @@ title: 在 Linux 上使用京东京造（Keychron）K1 SE 的功能键（F1～F1
 date: 2022-01-18T00:00:00+08:00
 slug: k1se-function-keys-on-linux
 tags:
-  - Linux
   - keyboard
   - keychron
+  - linux
 lastmod: 2022-06-06T00:29:26+08:00
 ---
 

@@ -3,9 +3,9 @@ title: 不指定路径运行自己写的软件
 date: 2020-12-24T00:00:00+08:00
 slug: put-software-into-path
 tags:
-  - Linux
   - Ubuntu
   - cli
+  - linux
 lastmod: 2022-06-06T00:39:54+08:00
 ---
 

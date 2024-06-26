@@ -3,8 +3,8 @@ title: 修复变慢的 Arch Linux（起因：auto-cpufreq）
 date: 2021-11-29T00:00:00+08:00
 slug: fix-slow-arch-linux
 tags:
-  - Linux
   - arch-linux
+  - linux
 lastmod: 2022-06-06T00:29:26+08:00
 ---
 

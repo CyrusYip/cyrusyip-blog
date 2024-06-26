@@ -3,8 +3,8 @@ title: Arch Linux 安装与配置记录
 date: 2021-09-28T00:00:00+08:00
 slug: install-archlinux
 tags:
-  - Linux
   - arch-linux
+  - linux
 lastmod: 2022-06-06T00:29:26+08:00
 ---
 

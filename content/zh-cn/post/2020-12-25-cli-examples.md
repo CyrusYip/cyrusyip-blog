@@ -3,9 +3,9 @@ title: 命令行实例
 date: 2020-12-25T00:00:00+08:00
 slug: cli-examples
 tags:
-  - Linux
   - Ubuntu
   - cli
+  - linux
 lastmod: 2024-03-05T21:34:10+08:00
 ---
 

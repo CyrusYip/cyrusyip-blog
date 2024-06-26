@@ -3,8 +3,8 @@ title: 解决 Miix 510-12IKB（Miix 5 Plus）在 Arch Linux 休眠后触控板�
 date: 2021-10-14T00:00:00+08:00
 slug: miix510-12ikb-touchpad-arch-linux
 tags:
-  - Linux
   - arch-linux
+  - linux
 lastmod: 2022-06-06T00:29:26+08:00
 ---
 

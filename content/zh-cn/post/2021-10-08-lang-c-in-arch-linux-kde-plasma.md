@@ -3,8 +3,8 @@ title: 解决 Arch Linux（KDE Plasma）中 Locale LANG=C 的问题
 date: 2021-10-08T00:00:00+08:00
 slug: lang-c-in-arch-linux-kde-plasma
 tags:
-  - Linux
   - arch-linux
+  - linux
 lastmod: 2022-06-06T00:29:26+08:00
 ---
 
