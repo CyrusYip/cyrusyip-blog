@@ -3,8 +3,8 @@ title: How to Fix Banking Apps / SafetyNet / Play Integrity on LineageOS without
 date: 2023-10-10T00:00:00+08:00
 slug: lineageos-ih8sn
 tags:
-  - LineageOS
   - android
+  - lineageos
 translationKey: lineageos-ih8sn
 lastmod: 2023-10-12T23:35:45+08:00
 ---
