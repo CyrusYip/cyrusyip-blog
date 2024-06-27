@@ -3,9 +3,9 @@ title: 在 Debian/Ubuntu 安装旧版 WPS Linux
 date: 2021-08-08T00:00:00+08:00
 slug: ubuntu-install-older-wps
 tags:
-  - Ubuntu
   - kubuntu
   - linux
+  - ubuntu
 lastmod: 2022-06-06T00:29:26+08:00
 ---
 

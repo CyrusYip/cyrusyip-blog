@@ -3,8 +3,8 @@ title: 在 Ubuntu 编译 GoldenDict
 date: 2020-10-02T00:00:00+08:00
 slug: ubuntu-compile-goldendict
 tags:
-  - Ubuntu
   - goldendict
+  - ubuntu
 lastmod: 2022-06-06T00:29:26+08:00
 ---
 
