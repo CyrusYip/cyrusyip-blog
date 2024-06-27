@@ -3,9 +3,9 @@ title: How to Install the Latest Microcode on Proxmox VE (Debian stable)
 date: 2023-01-31T00:00:00+08:00
 slug: install-microcode-on-proxmox
 tags:
-  - Proxmox Virtual Environment
   - debian
   - homelab
+  - proxmox-virtual-environment
 translationKey: install-microcode-on-proxmox
 lastmod: 2023-09-24T22:11:02+08:00
 ---

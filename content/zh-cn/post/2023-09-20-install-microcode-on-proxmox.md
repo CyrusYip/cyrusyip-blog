@@ -3,9 +3,9 @@ title: 在 Proxmox VE 安装最新 microcode
 date: 2023-09-20T00:00:00+08:00
 slug: install-microcode-on-proxmox
 tags:
-  - Proxmox Virtual Environment
   - debian
   - homelab
+  - proxmox-virtual-environment
 translationKey: install-microcode-on-proxmox
 lastmod: 2023-11-18T20:28:13+08:00
 ---
