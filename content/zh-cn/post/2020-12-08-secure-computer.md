@@ -3,9 +3,9 @@ title: 增强计算机安全性的技巧
 date: 2020-12-08T00:00:00+08:00
 slug: secure-computer
 tags:
-  - UEFI
   - bios
   - information-security
+  - uefi
 lastmod: 2022-06-06T00:29:26+08:00
 ---
 
