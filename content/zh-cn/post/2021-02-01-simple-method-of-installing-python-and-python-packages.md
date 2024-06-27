@@ -4,8 +4,8 @@ date: 2021-02-01T00:00:00+08:00
 slug: simple-method-of-installing-python-and-python-packages
 tags:
   - programming
-  - Python
-lastmod: 2024-05-08T21:07:27+08:00 # remove this line if the content is actually changed
+  - python
+lastmod: 2024-05-08T21:07:27+08:00
 ---
 
 ## 安装
