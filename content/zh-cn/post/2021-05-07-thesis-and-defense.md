@@ -3,7 +3,7 @@ title: 念头不等于现实
 date: 2021-05-07T00:00:00+08:00
 tags:
   - life
-  - psychological-counseling
+  - psychology
 slug: thesis-and-defense
 lastmod: 2022-06-06T00:29:26+08:00
 ---
