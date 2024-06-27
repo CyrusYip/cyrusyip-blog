@@ -3,9 +3,9 @@ title: 用 Python 计算水电费
 date: 2021-01-29T00:00:00+08:00
 slug: python-calculate-utility-bills
 tags:
-  - R Markdown
   - programming
   - python
+  - rmarkdown
 lastmod: 2022-06-06T00:29:26+08:00
 ---
 
