@@ -3,8 +3,8 @@ title: 解锁 Twitter 帐号
 date: 2021-07-25T00:00:00+08:00
 slug: unlock-twitter
 tags:
-  - Twitter
-lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
+  - twitter
+lastmod: 2022-06-06T00:29:26+08:00
 ---
 
 Twitter 也太坑了，我刚注册完，一登陆就锁定[我帐号](https://twitter.com/CyrusYip10)。联系客服解锁一个月后又锁定了。解锁要我验证手机号，可中国手机号也收不到验证码。罢了，反正我也不想绑定手机号。还是照旧发邮件让客服解锁。点击 [Contact Us](https://help.twitter.com/en/forms) 里的 [Locked and suspend account issues](https://help.twitter.com/forms/general?subtopic=suspended) 就可以联系客服了，在 Description of problem 填入以下内容：
