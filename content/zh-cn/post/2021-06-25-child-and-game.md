@@ -4,8 +4,7 @@ date: 2021-06-25T00:00:00+08:00
 slug: child-and-game
 tags:
   - education
-categories:
-  - psychological counseling
+  - psychological-counseling
 lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
 ---
 
