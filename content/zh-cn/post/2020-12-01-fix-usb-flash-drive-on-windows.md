@@ -3,8 +3,8 @@ title: 在 Windows 下修复 U 盘错误
 date: 2020-12-01T00:00:00+08:00
 slug: fix-usb-flash-drive-on-windows
 tags:
-  - Windows
   - usb
+  - windows
 lastmod: 2024-05-08T21:07:27+08:00
 ---
 
