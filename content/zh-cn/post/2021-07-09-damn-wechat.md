@@ -3,9 +3,9 @@ title: 被微信绑架
 date: 2021-07-09T00:00:00+08:00
 slug: damn-wechat
 tags:
-  - WeChat
   - life
-lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
+  - wechat
+lastmod: 2022-06-06T00:29:26+08:00
 ---
 
 我[大学](/zh-cn/post/2020/11/28/nobody-in-university/)基本上都是用微信处理学校的事务，比如收通知、联系老师。唯一的例外是收作业，基本上作业都是用电子邮件交，不过也有用微信的。在大学用微信办公 4 年了，我真的是气到吐血。微信本来是个聊天软件，**微信办公，什么狗屁玩意**。我必须要好好吐槽一番滥用微信的现象。
