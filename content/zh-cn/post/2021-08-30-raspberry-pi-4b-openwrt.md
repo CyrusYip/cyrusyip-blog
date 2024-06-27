@@ -3,9 +3,9 @@ title: 树莓派 4B OpenWrt 旁路由教程
 date: 2021-08-30T00:00:00+08:00
 slug: raspberry-pi-4b-openwrt
 tags:
-  - OpenWrt
   - Raspberry Pi 4B
-lastmod: 2022-12-04T22:05:35+08:00 # remove this line if the content is actually changed
+  - openwrt
+lastmod: 2022-12-04T22:05:35+08:00
 ---
 
 ## 2022-12-04 更新
