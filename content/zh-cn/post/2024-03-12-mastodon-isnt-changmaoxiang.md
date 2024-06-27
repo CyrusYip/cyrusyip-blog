@@ -5,7 +5,7 @@ slug: mastodon-isnt-changmaoxiang
 tags:
   - chinese
   - language
-  - wrong translation
+  - wrong-translation
 lastmod: 2024-03-23T18:27:24+08:00
 ---
 
