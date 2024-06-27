@@ -5,7 +5,7 @@ slug: secure-computer
 tags:
   - UEFI
   - bios
-  - security
+  - information-security
 lastmod: 2022-06-06T00:29:26+08:00
 ---
 
