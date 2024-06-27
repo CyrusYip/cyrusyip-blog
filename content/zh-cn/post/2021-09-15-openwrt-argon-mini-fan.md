@@ -3,8 +3,8 @@ title: 在 OpenWrt 控制树莓派 Argon Mini Fan
 date: 2021-09-15T00:00:00+08:00
 slug: openwrt-argon-mini-fan
 tags:
-  - Raspberry Pi 4B
   - openwrt
+  - raspberry-pi-4b
 lastmod: 2022-06-06T00:29:26+08:00
 ---
 

@@ -3,8 +3,8 @@ title: 树莓派 4B 超频教程
 date: 2021-09-20T00:00:00+08:00
 slug: raspberry-pi4-overclock
 tags:
-  - Raspberry Pi 4B
   - openwrt
+  - raspberry-pi-4b
 lastmod: 2022-06-06T00:29:26+08:00
 ---
 
