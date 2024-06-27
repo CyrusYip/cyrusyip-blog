@@ -3,10 +3,10 @@ title: How to Enable Call Recording on Xiaomi / Redmi / MIUI
 date: 2023-11-27T00:00:00+08:00
 slug: miui-call-recording
 tags:
-  - Xiaomi
   - android
   - miui
   - redmi
+  - xiaomi
 translationKey: miui-call-recording
 lastmod: 2023-12-10T01:55:47+08:00
 ---

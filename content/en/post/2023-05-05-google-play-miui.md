@@ -3,11 +3,11 @@ title: How to Install Google Play On Xiaomi / Redmi / MIUI / HyperOS
 date: 2023-05-05T00:00:00+08:00
 slug: google-play-miui
 tags:
-  - Xiaomi
   - android
   - hyperos
   - miui
   - redmi
+  - xiaomi
 lastmod: 2023-11-27T10:54:41+08:00
 ---
 
