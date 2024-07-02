@@ -3,10 +3,10 @@ title: 催生的恶果
 date: 2021-02-06T00:00:00+08:00
 slug: lesbian-in-china
 tags:
+  - chinese-culture
   - homosexuality
-  - Chinese culture
-  - LGBT
-lastmod: 2022-06-06T00:39:54+08:00 # remove this line if the content is actually changed
+  - lgbt
+lastmod: 2022-06-06T00:39:54+08:00
 ---
 
 昨天听了故事 FM 的第 458 期节目《[拉拉自述：和直男接吻后，我决定再也不相亲了](https://mp.weixin.qq.com/s?__biz=Mzk0MDIwNTQxNw==&mid=2247505391&idx=1&sn=f6fd48f8b339117d7840ff321944adbf)》。故事讲述人小A今年 29 岁，生活在贵州贵阳，是一名中学老师，是女同性恋者。

@@ -3,8 +3,8 @@ title: 把域名转移到便宜的域名注册商
 date: 2021-05-19T00:00:00+08:00
 slug: transfer-domain
 tags:
-  - domain name
-lastmod: 2023-08-15T01:13:16+08:00 # remove this line if the content is actually changed
+  - domain-name
+lastmod: 2023-08-15T01:13:16+08:00
 ---
 
 **2023-05-02 总结**：最便宜的域名注册商是 Cloudflare，但它有些缺点：不能改域名服务器、WHOIS 信息会显示注册人地址的国家与省份/州，不过其余信息会被隐藏。不喜欢 Cloudflare 的话可以选择 Porkbun。注册或转移域名 60 天后才能转移域名，这是 ICANN[^icann]（互联网名称与数字地址分配机构）的规定。请选择 [ICANN 认证注册商（ICANN Accredited Registrars）](https://www.icann.org/en/accredited-registrars)。要是去买三手四手的域名，出了问题 ICANN 都保不了你。

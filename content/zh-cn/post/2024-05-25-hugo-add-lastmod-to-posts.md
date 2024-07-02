@@ -3,8 +3,8 @@ title: Hugo：给文章添加 lastmod（上次修改时间）
 date: 2024-05-25T00:00:00+08:00
 slug: hugo-add-lastmod-to-posts
 tags:
-  - Hugo
   - blog
+  - hugo
 lastmod: 2024-06-07T11:00:41+08:00
 ---
 

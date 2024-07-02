@@ -3,10 +3,10 @@ title: 把 Hugo 网站从 Vercel 搬到 Cloudflare Pages
 date: 2023-11-05T00:00:00+08:00
 slug: hugo-vercel-to-cloudflare-pages
 tags:
-  - Cloudflare
-  - Hugo
-  - Vercel
-lastmod: 2023-12-17T03:35:00+08:00 # remove this line if the content is actually changed
+  - cloudflare
+  - hugo
+  - vercel
+lastmod: 2023-12-17T03:35:00+08:00
 ---
 
 ## 起因

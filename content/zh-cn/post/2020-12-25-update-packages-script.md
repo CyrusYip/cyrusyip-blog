@@ -2,11 +2,11 @@
 title: 用 BASH 脚本更新各类软件包
 date: 2020-12-25T00:00:00+08:00
 tags:
-  - CLI
-  - Linux
-  - Ubuntu
+  - cli
+  - linux
+  - ubuntu
 slug: update-packages-script
-lastmod: 2022-06-06T00:39:54+08:00 # remove this line if the content is actually changed
+lastmod: 2022-06-06T00:39:54+08:00
 ---
 
 刚用 Ubuntu 的时候，觉得用 apt 安装软件很方便，从此不再需要像用 Windows 一样要去官方下载软件。用久了也发现 Ubuntu 软件仓库有两个问题：软件不是最新版本、缺少某些软件。要解决这些问题，除了添加 PPA 以外，就只能用的其他包管理器作为补充。用多了包管理器，每次更新都要输入好几个命令，太麻烦啦。还是用 BASH 脚本一次性更新各类软件包吧。

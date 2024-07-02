@@ -3,10 +3,10 @@ title: KDE Plasma X11 黑屏后重建账号
 date: 2023-12-05T00:00:00+08:00
 slug: new-account-for-kde-plasma
 tags:
-  - Arch Linux
-  - KDE Plasma
-  - Linux
-lastmod: 2024-02-18T00:18:43+08:00 # remove this line if the content is actually changed
+  - arch-linux
+  - kde-plasma
+  - linux
+lastmod: 2024-02-18T00:18:43+08:00
 ---
 
 最近 Arch Linux 升级重启后进 KDE Plasma X11 就黑屏剩下光标，某次升级后 Wayland 也用不上了。在 Arch 论坛看到一个[相似的情况](https://bbs.archlinux.org/viewtopic.php?id=290292)，但是里面的方法在我这边没用。提问和等待也要花时间，索性就新建账号吧，至少新账户用 KDE Plasma 没问题。

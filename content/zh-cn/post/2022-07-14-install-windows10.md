@@ -3,8 +3,8 @@ title: Windows 10 简易安装教程
 date: 2022-07-14T00:00:00+08:00
 slug: install-windows10
 tags:
-  - Windows
-lastmod: 2022-07-16T17:11:46+08:00 # remove this line if the content is actually changed
+  - windows
+lastmod: 2022-07-16T17:11:46+08:00
 ---
 
 安装系统有三个基本步骤：刻录系统映像、分区、安装。如果你要安装其他系统，也可以参考本文的步骤。

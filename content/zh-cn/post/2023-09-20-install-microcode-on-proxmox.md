@@ -3,11 +3,11 @@ title: 在 Proxmox VE 安装最新 microcode
 date: 2023-09-20T00:00:00+08:00
 slug: install-microcode-on-proxmox
 tags:
-  - Proxmox Virtual Environment
+  - debian
   - homelab
-  - Debian
+  - proxmox-virtual-environment
 translationKey: install-microcode-on-proxmox
-lastmod: 2023-11-18T20:28:13+08:00 # remove this line if the content is actually changed
+lastmod: 2023-11-18T20:28:13+08:00
 ---
 
 本教程介绍用 `apt` 命令安装最新版微码（microcode）的方法，以改善 N5105 虚拟机死机问题。为了避免弄坏系统，请勿从 unstable 软件仓库安装微码以外的软件包。本教程测试于 Proxmox VE 7.4 / 8.0.2。

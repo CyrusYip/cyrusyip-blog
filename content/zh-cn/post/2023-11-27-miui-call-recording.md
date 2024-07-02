@@ -3,12 +3,12 @@ title: 小米 / 红米 / MIUI 自动通话录音教程
 date: 2023-11-27T00:00:00+08:00
 slug: miui-call-recording
 tags:
-  - Xiaomi
-  - Redmi
-  - MIUI
-  - Android
+  - android
+  - miui
+  - redmi
+  - xiaomi
 translationKey: miui-call-recording
-lastmod: 2023-12-10T01:55:47+08:00 # remove this line if the content is actually changed
+lastmod: 2023-12-10T01:55:47+08:00
 ---
 
 通话录音：打开设置 -> 应用设置 -> 系统应用设置 -> 电话 -> 通话录音 -> 打开「录音通知」和「自动录音」 -> 选择「自动录音对象」

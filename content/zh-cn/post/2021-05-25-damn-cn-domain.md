@@ -4,8 +4,8 @@ date: 2021-05-25T00:00:00+08:00
 slug: damn-cn-domain
 tags:
   - blog
-  - domain name
-lastmod: 2022-06-06T00:39:54+08:00 # remove this line if the content is actually changed
+  - domain-name
+lastmod: 2022-06-06T00:39:54+08:00
 ---
 
 去年想学习搭建网站，当时啥也不懂，以为建站一定要有服务器、域名和备案。于是在腾讯云租了一年服务器，付费的时候看到 cn 域名才 17 块，就顺便买了一个。备案过程[十分曲折](http://disq.us/p/2ev0ji9)，要填很多个人信息。备案后那段时间没空学建站，然后因为一周[^zhou]内没有解析网站，备案就自动注销了。真的是气死，辛辛苦苦备案完，还给我注销了。最近又看了些 cn 域名的资料，发现有挺多坑人的地方。

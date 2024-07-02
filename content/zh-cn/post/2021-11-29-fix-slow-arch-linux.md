@@ -3,9 +3,9 @@ title: 修复变慢的 Arch Linux（起因：auto-cpufreq）
 date: 2021-11-29T00:00:00+08:00
 slug: fix-slow-arch-linux
 tags:
-  - Arch Linux
-  - Linux
-lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
+  - arch-linux
+  - linux
+lastmod: 2022-06-06T00:29:26+08:00
 ---
 
 最近 Arch Linux 用起来有点慢，有时候桌面会卡住一两秒。我用 auto-cpufreq(1.7.2) 调节 CPU 频率，该不会是它出问题了吧。先看看数据：

@@ -3,9 +3,9 @@ title: 在 RStudio 中使用 Fcitx5（Kubuntu 20.10）
 date: 2020-11-01T00:00:00+08:00
 slug: use-fcitx5-in-rstudio-on-kubuntu20.10
 tags:
-  - Fcitx5
-  - RStudio
-lastmod: 2022-07-16T17:28:17+08:00 # remove this line if the content is actually changed
+  - fcitx5
+  - rstudio
+lastmod: 2022-07-16T17:28:17+08:00
 ---
 
 2022 年 7 月 16 日更新：[Electron 版的 RStudio 可以正常使用 Fcitx5 了](https://github.com/rstudio/rstudio/issues/1903#issuecomment-1183477202)，位置也正常。

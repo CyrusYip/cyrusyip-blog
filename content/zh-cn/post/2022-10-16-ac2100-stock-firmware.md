@@ -3,8 +3,8 @@ title: 红米 AC2100 刷 breed 后刷回官方固件
 date: 2022-10-16T00:00:00+08:00
 slug: ac2100-stock-firmware
 tags:
-  - AC2100
-lastmod: 2022-11-29T20:35:00+08:00 # remove this line if the content is actually changed
+  - redmi-ac2100
+lastmod: 2022-11-29T20:35:00+08:00
 ---
 
 相关文章：[红米 AC2100 刷入 OpenWrt 固件](/zh-cn/post/2021/06/19/ac2100-openwrt/)

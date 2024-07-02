@@ -1,0 +1,3 @@
+---
+title: MagicBook 14
+---

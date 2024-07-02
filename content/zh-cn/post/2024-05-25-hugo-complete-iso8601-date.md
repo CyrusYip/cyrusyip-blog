@@ -3,8 +3,8 @@ title: Hugo：补全文章的 ISO 8601 日期
 date: 2024-05-25T00:00:00+08:00
 slug: hugo-complete-iso8601-date
 tags:
-  - Hugo
   - blog
+  - hugo
 lastmod: 2024-06-07T11:01:08+08:00
 ---
 

@@ -3,9 +3,9 @@ title: GitHub/jsDelivr 图床教程
 date: 2020-12-05T00:00:00+08:00
 slug: host-images-on-github
 tags:
-  - Github
   - blog
-lastmod: 2024-05-09T01:55:39+08:00 # remove this line if the content is actually changed
+  - github
+lastmod: 2024-05-09T01:55:39+08:00
 ---
 
 因为在博客的源代码仓库加图片（二进制文件）会导致仓库变大，所以我就把图片放到另一个仓库，直接使用链接来引用图片。

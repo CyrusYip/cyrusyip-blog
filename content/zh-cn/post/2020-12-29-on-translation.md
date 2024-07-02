@@ -3,10 +3,10 @@ title: 做笔译需要什么能力
 date: 2020-12-29T00:00:00+08:00
 slug: on-translation
 tags:
-  - English
+  - english
   - language
   - translation
-lastmod: 2024-05-08T21:07:27+08:00 # remove this line if the content is actually changed
+lastmod: 2024-05-08T21:07:27+08:00
 ---
 
 疫情刚爆发的时候在家上学，比较清闲，就在网上尝试兼职笔译。在网上搜了一圈笔译网站，感觉有道人工翻译和我译网还可以。有道人工翻译需要投简历，我~~没什么可写~~懒得写就去试试我译网了。注册了帐号之后，不能直接接单，得通过测试才行。参加考试这个事也是六七个月之前了，有些细节可能记得不太清楚。
