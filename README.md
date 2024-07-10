@@ -76,3 +76,4 @@ See [CONTRIBUTING.md](.github/CONTRIBUTING.md).
 
 - When Hugo version is upgraded, [package.json](package.json), [vercel.json](vercel.json), [netlify.toml](netlify.toml) and [.Rprofile](.Rprofile) should be modified accordingly.
 - When [config.toml](config.toml) is modified, run `./apply-no-comments-patch`.
+- Before 2024-03-13, the date in `/content/**/*.md` indicates when I start writing an article (usually unfinished). After 2024-03-13, the date in `/content/**/*.md` indicates when I finish the first draft, which will undergo multiple edits. `T00:00:00` means the exact time is unknown, and only date part (e.g. 2022-06-30) is correct.
