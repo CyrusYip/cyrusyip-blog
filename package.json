@@ -3,11 +3,8 @@
   "scripts": {
     "build": "hugo",
     "build:cloudflare": "git fetch --unshallow && hugo --minify",
-    "build:draft": "hugo --config no-comments.toml",
-    "build:draft:cloudflare": "git fetch --unshallow && hugo --config no-comments.toml --minify && cp robots.txt public/robots.txt",
     "clean": "rm --recursive public/",
-    "serve": "hugo server --navigateToChanged",
-    "serve:draft": "hugo server --navigateToChanged --config no-comments.toml"
+    "server": "hugo server --navigateToChanged"
   },
   "devDependencies": {
     "hugo-extended": "^0.125.6"
