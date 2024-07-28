@@ -10,6 +10,7 @@ enableRobotsTXT: true
 permalinks:
   page:
     post: /post/:year/:month/:day/:slug/
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"] # Ignore R Markdown files
 
 params:
   _merge: deep
