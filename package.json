@@ -4,7 +4,9 @@
     "build": "hugo",
     "build:cloudflare": "git fetch --unshallow && hugo --minify",
     "clean": "rm --recursive public/",
-    "server": "hugo server --navigateToChanged"
+    "clean:server:shared": "npm run clean; npm run server:shared",
+    "server": "hugo server --navigateToChanged",
+    "server:shared": "hugo server --navigateToChanged --bind 0.0.0.0"
   },
   "devDependencies": {
     "hugo-extended": "^0.125.6"
