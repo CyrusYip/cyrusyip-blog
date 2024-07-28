@@ -1,11 +1,8 @@
 ---
 date: 2020-12-29T00:00:00+08:00
-menu: main
 title: 关于
-lastmod: 2024-04-07T23:40:16+08:00 # remove this line if the content is actually changed
+lastmod: 2024-07-28T21:24:11+08:00 # remove this line if the content is actually changed
 ---
-
-> Do few things and do them well.
 
 ## 自我介绍
 
@@ -43,6 +40,10 @@ lastmod: 2024-04-07T23:40:16+08:00 # remove this line if the content is actually
 - [Arch Linux 中文社区](https://bbs.archlinuxcn.org/profile.php?id=163433)
 - [小众软件官方论坛](https://meta.appinn.net/u/CyrusYip/)
 - [统计之都](https://d.cosx.org/u/CyrusYip)
+
+## 鼓励
+
+[鼓励](/zh-cn/donate).
 
 ## 常见问题
 
@@ -99,8 +100,8 @@ lastmod: 2024-04-07T23:40:16+08:00 # remove this line if the content is actually
 
 本站采用以下工具搭建。
 
-- 搭建：blogdown、Hugo
-- 主题：[hugo-theme-jane](https://github.com/xianmin/hugo-theme-jane)
+- 构建：Hugo
+- 主题：[hugo-theme-yue](https://github.com/CyrusYip/hugo-theme-yue)（我自己开发的，嘻嘻。）
 - 代码托管：GitHub（[本站的源代码](https://github.com/CyrusYip/cyrusyip-blog)）
 - 部署：Cloudflare Pages
 - 评论系统：Disqus、[utterances](https://github.com/utterance/utterances)

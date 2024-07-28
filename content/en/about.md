@@ -1,6 +1,5 @@
 ---
 date: 2022-05-22T00:00:00+08:00
-menu: main
 title: About
 lastmod: 2024-06-12T23:18:55+08:00
 ---
