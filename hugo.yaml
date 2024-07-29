@@ -97,3 +97,8 @@ languages:
           yearStart: 2020
           # yearEnd: 2024
           author: 叶寻
+
+# Custom settings
+services:
+  disqus:
+    shortname: cyrusyip
