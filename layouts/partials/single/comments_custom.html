@@ -7,4 +7,6 @@
         async>
 </script>
 
-{{ template "_internal/disqus.html" . }}
+{{ if eq site.BaseURL "https://cyrusyip.org/" }}
+  {{ template "_internal/disqus.html" . }}
+{{ end }}
