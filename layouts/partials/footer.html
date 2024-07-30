@@ -1,0 +1,12 @@
+{{ $lang := site.Language.Lang }}
+{{ $socialMedia := "" }}
+{{ if eq $lang "zh-cn"}}
+  {{ $socialMedia = "<a href=\"/zh-cn/about/#网站帐号\">社交媒体</a>" }}
+{{ else }}
+  {{ $socialMedia = "<a href=\"/en/about/#online-accounts\">Social media</a>" }}
+{{ end }}
+
+{{ partial "footer/rss_link.html" . }}
+<p class="footer__social-media">{{$socialMedia | safeHTML }}</p>
+{{ partial "footer/copyright.html" . }}
+{{ partial "footer/theme_info.html" . }}
