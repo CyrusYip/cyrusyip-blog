@@ -1,8 +1,7 @@
 {
   "name": "cyrusyip-blog",
   "scripts": {
-    "build": "hugo",
-    "build:cloudflare": "git fetch --unshallow && hugo --minify",
+    "build": "hugo --minify --gc",
     "clean": "rm --recursive public/",
     "clean:server:shared": "npm run clean; npm run server:shared",
     "server": "hugo server --navigateToChanged",
