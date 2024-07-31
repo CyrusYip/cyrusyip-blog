@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-patch config.toml -o no-comments.toml < no-comments.diff
-
-# Create diff file
-# diff config.toml no-comments.toml > no-comments.diff

@@ -1,8 +1,7 @@
 ---
 date: 2021-06-10T00:00:00+08:00
-menu: main
 title: 鼓励
-lastmod: 2023-09-03T18:55:53+08:00 # remove this line if the content is actually changed
+lastmod: 2024-07-28T21:23:11+08:00 # remove this line if the content is actually changed
 ---
 
 如果我的文章帮助到你，你可以通过以下方式鼓励我。
@@ -20,7 +19,11 @@ lastmod: 2023-09-03T18:55:53+08:00 # remove this line if the content is actually
 
 请我喝瓶东方树叶😊。
 
+<!--
+最近访问不了，先关闭。
 - [爱发电](https://afdian.net/a/cyrusyip)（支付宝、微信）
+-->
+
 - [Patreon](https://www.patreon.com/cyrusyip)（信用卡、Paypal、Apple Pay）
 
 ## 互助

@@ -1,0 +1,12 @@
+{{- /* utterances */ -}}
+<script src="https://utteranc.es/client.js"
+        repo="CyrusYip/blog-comment"
+        issue-term="pathname"
+        theme="preferred-color-scheme"
+        crossorigin="anonymous"
+        async>
+</script>
+
+{{ if eq site.BaseURL "https://cyrusyip.org/" }}
+  {{ template "_internal/disqus.html" . }}
+{{ end }}

@@ -1,0 +1,104 @@
+# TODO: add description
+# Don't remove _merge, which imports default config
+theme: hugo-theme-yue
+baseURL: https://cyrusyip.org/
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+enableGitInfo: false
+enableEmoji: true
+enableRobotsTXT: true
+permalinks:
+  page:
+    post: /post/:year/:month/:day/:slug/
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"] # Ignore R Markdown files
+
+params:
+  _merge: deep
+  rssFullContent: true
+  homePagerSize: 5
+  sectionPagerSize: 10000
+  images:
+    # Default image used in Open Graph, see https://gohugo.io/templates/embedded/#configure-open-graph
+    - favicon.ico # /static/favicon.ico
+
+frontmatter:
+  lastmod: ['lastmod', ':default']
+
+markup:
+  _merge: deep
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      wrapStandAloneImageWithinParagraph: false # Used with image render hook
+
+# Any key not defined under a languages will fall back to the global value in the root of configuration
+languages:
+  en:
+    contentDir: content/en
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    title: Cyrus Yip's blog
+    weight: 10
+    menus:
+      main:
+        - name: Home
+          pageRef: /
+          weight: 10
+        - name: Posts
+          pageRef: /post
+          weight: 20
+        - name: Tags
+          pageRef: /tags
+          weight: 30
+        - name: About
+          pageRef: /about
+          weight: 40
+    params:
+      dateFormat: Jan 02, 2006
+      author: Cyrus Yip
+      footer:
+        copyright:
+          yearStart: 2020
+          # yearEnd: 2024 # Optional, default value: current year
+          author: Cyrus Yip
+  zh-CN:
+    hasCJKLanguage: true
+    summaryLength: 100
+    contentDir: content/zh-CN
+    languageCode: zh-CN
+    languageDirection: ltr
+    languageName: 中文
+    title: 叶寻的博客
+    weight: 20
+    menus:
+      main:
+        - name: 主页
+          pageRef: /
+          weight: 10
+        - name: 文章
+          pageRef: /post
+          weight: 20
+        - name: 标签
+          pageRef: /tags
+          weight: 30
+        - name: 关于
+          pageRef: /about
+          weight: 40
+        - name: 订阅
+          pageRef: /subscribe
+          weight: 50
+    params:
+      dateFormat: 2006年1月02日
+      author: 叶寻
+      footer:
+        copyright:
+          yearStart: 2020
+          # yearEnd: 2024
+          author: 叶寻
+
+# Custom settings
+services:
+  disqus:
+    shortname: cyrusyip

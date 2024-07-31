@@ -57,24 +57,18 @@
       "previewPath": "'/en/post/'yyyy/MM/dd"
     },
     {
-      "title": "/zh-cn",
-      "path": "[[workspace]]/content/zh-cn",
-      "previewPath": "/zh-cn"
+      "title": "/zh-CN",
+      "path": "[[workspace]]/content/zh-CN",
+      "previewPath": "/zh-CN"
     },
     {
-      "title": "/zh-cn/post",
-      "path": "[[workspace]]/content/zh-cn/post",
-      "previewPath": "'/zh-cn/post/'yyyy/MM/dd"
+      "title": "/zh-CN/post",
+      "path": "[[workspace]]/content/zh-CN/post",
+      "previewPath": "'/zh-CN/post/'yyyy/MM/dd"
     }
   ],
   "frontMatter.framework.startCommand": "./node_modules/hugo-extended/vendor/hugo server --buildDrafts --navigateToChanged",
   "frontMatter.custom.scripts": [
-    {
-      "title": "Quote date",
-      "id": "quote-date",
-      "script": "./quote-date.js",
-      "command": "node"
-    },
     {
       "title": "Rename",
       "id": "rename",

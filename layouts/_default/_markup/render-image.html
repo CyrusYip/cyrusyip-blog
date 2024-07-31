@@ -1,12 +1,13 @@
-{{ if .Title }}
-  <figure class="figure">
-    <p> <!-- wrap <img> inside <p> to make photoswipe work -->
-      <img class="img" src="{{ .Destination | safeURL }}"
-        {{- with .Text }} alt="{{ . }}"{{ end -}} >
-    </p>
-    <figcaption>{{ .Title }}</figcaption>
+{{- if .IsBlock -}}
+  <figure>
+    <img src="{{ .Destination | safeURL }}"
+      {{- with .Text }} alt="{{ . }}"{{ end -}}
+    >
+    {{- with .Title }}<figcaption>{{ . }}</figcaption>{{ end -}}
   </figure>
-{{ else }}
-  <img class="img" src="{{ .Destination | safeURL }}"
-    {{- with .Text }} alt="{{ . }}"{{ end -}} >
-{{ end }}
+{{- else -}}
+  <img src="{{ .Destination | safeURL }}"
+    {{- with .Text }} alt="{{ . }}"{{ end -}}
+    {{- with .Title }} title="{{ . }}"{{ end -}}
+  >
+{{- end -}}
