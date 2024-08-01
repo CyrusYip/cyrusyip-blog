@@ -1,9 +1,14 @@
 # This file is used by Cloudflare Pages
-# To improve performance, put splats and placeholders to the bottom
 
-###########################
-### Old Chinese Website ###
-###########################
+# 2024-08-02:
+#   I don't think it's neccessary to redirect non-existing page.
+#   For example, /index.xml/ -> /index.xml, /about -> /about/ .
+#   I forgot why I did this, but it's better to keep them to avoid unexpected problems.
+
+#################################################
+# From Chinese website to Chinese/English website
+# / -> /zh-cn
+#################################################
 ## RSS
 /index.xml         /zh-cn/index.xml          308
 /index.xml/        /zh-cn/index.xml          308
@@ -28,9 +33,10 @@
 # /post/2020/10/02/ubuntu-compile-goldendict/
 
 
-#######################
-### Current Website ###
-#######################
+###################
+# Bilingual website
+# /en/ and /zh-cn/
+###################
 ## RSS links shouldn't contain a trailing slash
 /en/index.xml/     /en/index.xml             308
 /zh-cn/index.xml/  /zh-cn/index.xml          308
