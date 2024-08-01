@@ -7,6 +7,30 @@
         async>
 </script>  */}}
 
+{{- /* giscus */ -}}
+{{ $language := "" }}
+{{ if eq .Language.Lang "zh-cn" }}
+  {{ $language = "zh-CN" }}
+{{ else }}
+  {{ $language = "en" }}
+{{ end }}
+<script src="https://giscus.app/client.js"
+        data-repo="CyrusYip/blog-comments"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkzNDg2NjkxMTQ="
+        data-category="Comments"
+        data-category-id="DIC_kwDOFMhEus4ChUiV"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="{{ $language }}"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
 {{- /* Disqus */ -}}
 {{ $lang := "" }}
 {{ if eq .Language.Lang "zh-cn" }}
