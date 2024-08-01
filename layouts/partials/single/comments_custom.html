@@ -1,19 +1,16 @@
-{{- /* utterances */ -}}
-{{/*  <script src="https://utteranc.es/client.js"
-        repo="CyrusYip/blog-comment"
-        issue-term="pathname"
-        theme="preferred-color-scheme"
-        crossorigin="anonymous"
-        async>
-</script>  */}}
+{{- /* Set language */ -}}
+{{ $disqusLanguage := "" }}
+{{ $giscusLanguage := "" }}
+
+{{ if eq .Language.Lang "zh-cn" }}
+  {{ $giscusLanguage = "zh-CN" }}
+  {{ $disqusLanguage = "zh" }}
+{{ else }}
+  {{ $giscusLanguage = "en" }}
+  {{ $disqusLanguage = "en" }}
+{{ end }}
 
 {{- /* giscus */ -}}
-{{ $language := "" }}
-{{ if eq .Language.Lang "zh-cn" }}
-  {{ $language = "zh-CN" }}
-{{ else }}
-  {{ $language = "en" }}
-{{ end }}
 <script src="https://giscus.app/client.js"
         data-repo="CyrusYip/blog-comments"
         data-repo-id="MDEwOlJlcG9zaXRvcnkzNDg2NjkxMTQ="
@@ -25,20 +22,13 @@
         data-emit-metadata="0"
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
-        data-lang="{{ $language }}"
+        data-lang="{{ $giscusLanguage }}"
         data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>
 
 {{- /* Disqus */ -}}
-{{ $lang := "" }}
-{{ if eq .Language.Lang "zh-cn" }}
-  {{ $lang = "zh" }}
-{{ else }}
-  {{ $lang = "en" }}
-{{ end }}
-
 {{ if eq site.BaseURL "https://cyrusyip.org/" }}
   {{- $pc := .Site.Config.Privacy.Disqus -}}
   {{- if not $pc.Disable -}}
@@ -48,7 +38,7 @@
       {{with .Params.disqus_identifier }}this.page.identifier = '{{ . }}';{{end}}
       {{with .Params.disqus_title }}this.page.title = '{{ . }}';{{end}}
       {{with .Params.disqus_url }}this.page.url = '{{ . | html  }}';{{end}}
-      this.language = "{{ $lang }}"
+      this.language = "{{ $disqusLanguage }}"
       };
       (function() {
           if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
