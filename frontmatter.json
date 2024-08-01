@@ -53,7 +53,7 @@
     },
     {
       "title": "/en/post",
-      "path": "[[workspace]]/content/en/post",
+      "path": "[[workspace]]/content/en/posts",
       "previewPath": "'/en/post/'yyyy/MM/dd"
     },
     {
@@ -63,7 +63,7 @@
     },
     {
       "title": "/zh-CN/post",
-      "path": "[[workspace]]/content/zh-CN/post",
+      "path": "[[workspace]]/content/zh-CN/posts",
       "previewPath": "'/zh-CN/post/'yyyy/MM/dd"
     }
   ],

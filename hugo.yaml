@@ -9,7 +9,7 @@ enableEmoji: true
 enableRobotsTXT: true
 permalinks:
   page:
-    post: /post/:year/:month/:day/:slug/
+    posts: /posts/:year/:month/:day/:slug/
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"] # Ignore R Markdown files
 
 params:
@@ -47,7 +47,7 @@ languages:
           pageRef: /
           weight: 10
         - name: Posts
-          pageRef: /post
+          pageRef: /posts
           weight: 20
         - name: Tags
           pageRef: /tags
@@ -78,7 +78,7 @@ languages:
           pageRef: /
           weight: 10
         - name: 文章
-          pageRef: /post
+          pageRef: /posts
           weight: 20
         - name: 标签
           pageRef: /tags
