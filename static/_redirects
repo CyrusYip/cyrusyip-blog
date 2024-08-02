@@ -1,9 +1,11 @@
 # This file is used by Cloudflare Pages
+# This site is built with Hugo
 
 # 2024-08-02:
 #   I don't think it's neccessary to redirect non-existing page.
 #   For example, /index.xml/ -> /index.xml, /about -> /about/ .
 #   I forgot why I did this, but it's better to keep them to avoid unexpected problems.
+
 
 #################################################
 # From Chinese website to Chinese/English website
@@ -40,3 +42,18 @@
 ## RSS links shouldn't contain a trailing slash
 /en/index.xml/     /en/index.xml             308
 /zh-cn/index.xml/  /zh-cn/index.xml          308
+
+
+######################################################################
+# Rename "content/{en,zh-CN}/post" to "content/{en,zh-CN}/posts"
+# URL changes: /en/post/ -> /en/posts/ , /zh-cn/post/ -> /zh-cn/posts/
+######################################################################
+/en/post/*      /en/posts/:splat      308
+/zh-cn/post/*   /zh-cn/posts/:splat   308
+# Examples:
+# /en/post/
+# /en/post/index.xml
+# /en/post/2023/12/20/run-different-hugo-versions/
+# /zh-cn/post/
+# /zh-cn/post/index.xml
+# /zh-cn/post/2024/04/05/i-hate-obscure-words/
