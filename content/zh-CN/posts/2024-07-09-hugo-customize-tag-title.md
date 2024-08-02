@@ -10,7 +10,7 @@ lastmod: 2024-07-10T16:08:15+08:00
 
 ## 背景
 
-一开始我用 Hugo 做中文网站时打算在文章里用中文标签，但是链接里面的中文会被[转换](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURI)为人类读不懂的字符。比如：`http://localhost:1313/zh-cn/tags/博客/` 会变成 `http://localhost:1313/zh-cn/tags/%E5%8D%9A%E5%AE%A2/`。我不喜欢这样，当时搜索一番也没找到办法，就用英文标签了。现在终于知道怎么改了，最终改为链接里面还是用英文，但是页面就显示中文。
+一开始我用 Hugo 做中文网站时打算在文章里用中文标签，但是链接里面的中文会被[转换](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURI)为人类读不懂的字符。比如：`/zh-cn/tags/博客/` 会变成 `/zh-cn/tags/%E5%8D%9A%E5%AE%A2/`。我不喜欢这样，当时搜索一番也没找到办法，就用英文标签了。现在终于知道怎么改了，最终改为链接里面还是用英文，但是页面就显示中文。
 
 下面是针对 [hugo-theme-jane（ef8a126）主题](https://github.com/xianmin/hugo-theme-jane/tree/ef8a12657b0700f9acd693894597d50746365ed8)的更改方法，方法是通用的，但是不同主题修改的部分可能不同。开始前先厘清两个概念：标签名（tag name）、标签标题（tag title）。在文章前页（front matter）写的是标签名，用于链接；在 `_index.md` 文件定义的是 title 是标签标题，它会显示于页面。
 
@@ -30,7 +30,7 @@ title: 日本动画 # 标签标题
 ---
 ```
 
-如果你启用了 GitInfo 而且不想更改 lastmod，请参考 [Hugo：给文章添加 lastmod（上次修改时间）](/zh-cn/post/2024/05/25/hugo-add-lastmod-to-posts/)。
+如果你启用了 GitInfo 而且不想更改 lastmod，请参考 [Hugo：给文章添加 lastmod（上次修改时间）](/zh-cn/posts/2024/05/25/hugo-add-lastmod-to-posts/)。
 
 ## 修改标签单页标题（`/zh-cn/tags/*/`）
 

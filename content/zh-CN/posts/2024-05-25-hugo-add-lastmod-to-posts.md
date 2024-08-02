@@ -8,7 +8,7 @@ tags:
 lastmod: 2024-06-07T11:00:41+08:00
 ---
 
-背景：本站文章的 lastmod（上次修改时间）就是 Git 提交的 author date（作者日期）。我需要批量修改文章（[Hugo：补全文章的 ISO 8601 日期](http://localhost:1313/zh-cn/post/2024/05/25/hugo-complete-iso8601-date/)），这会导致所有文章的 lastmod 都变成今天。文章内容没变就不应该改 lastmod，所以我打算给每篇文章都加上 lastmod，后面改动文章就 lastmod 就不会变。
+背景：本站文章的 lastmod（上次修改时间）就是 Git 提交的 author date（作者日期）。我需要批量修改文章（[Hugo：补全文章的 ISO 8601 日期](/zh-cn/posts/2024/05/25/hugo-complete-iso8601-date/)），这会导致所有文章的 lastmod 都变成今天。文章内容没变就不应该改 lastmod，所以我打算给每篇文章都加上 lastmod，后面改动文章就 lastmod 就不会变。
 
 ---
 

@@ -7,7 +7,7 @@ tags:
 lastmod: 2022-07-16T17:11:46+08:00 # remove this line if the content is actually changed
 ---
 
-相关文章：[Windows 10 简易安装教程](/zh-cn/post/2022/07/14/install-windows10/)
+相关文章：[Windows 10 简易安装教程](/zh-cn/posts/2022/07/14/install-windows10/)
 
 最近亲戚抱怨家里的台式电脑很慢，我就打算帮忙升级硬件，让电脑重获新生（苟延残喘）。电脑配置如下。
 

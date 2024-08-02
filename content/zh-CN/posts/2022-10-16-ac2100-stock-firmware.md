@@ -7,7 +7,7 @@ tags:
 lastmod: 2022-11-29T20:35:00+08:00
 ---
 
-相关文章：[红米 AC2100 刷入 OpenWrt 固件](/zh-cn/post/2021/06/19/ac2100-openwrt/)
+相关文章：[红米 AC2100 刷入 OpenWrt 固件](/zh-cn/posts/2021/06/19/ac2100-openwrt/)
 
 
 红米 AC2100 刷回官方固件的主要步骤：准备工具、刷入官方 bootloader、刷入官方固件。
