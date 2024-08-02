@@ -386,7 +386,7 @@ echo 'export PATH="$PATH:$(yarn global bin)"' >> ~/.zshrc
 
 ### 防火墙
 
-请看我的这篇教程：[给本地电脑配置 UFW（Uncomplicated Firewall）防火墙](/zh-cn/post/2021/10/09/ufw-for-local-computers/)。
+请看我的这篇教程：[给本地电脑配置 UFW（Uncomplicated Firewall）防火墙](/zh-cn/posts/2021/10/09/ufw-for-local-computers/)。
 
 ### 迁移 Thunderbird 数据
 

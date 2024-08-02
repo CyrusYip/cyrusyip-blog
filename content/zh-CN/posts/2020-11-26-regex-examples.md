@@ -503,4 +503,4 @@ title: 几何
 
 ## 在扫描版 PDF 中查找内容
 
-[在扫描版 PDF 中查找内容 - 叶寻 | Cyrus Yip](/zh-cn/post/2020/11/05/search-scanned-pdf/)
+[在扫描版 PDF 中查找内容](/zh-cn/posts/2020/11/05/search-scanned-pdf/)

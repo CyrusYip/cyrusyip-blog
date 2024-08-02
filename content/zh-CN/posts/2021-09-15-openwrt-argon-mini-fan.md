@@ -8,7 +8,7 @@ tags:
 lastmod: 2022-06-06T00:29:26+08:00
 ---
 
-本文配套文章：[树莓派 4B 超频教程](/zh-cn/post/2021/09/20/raspberry-pi4-overclock/)
+本文配套文章：[树莓派 4B 超频教程](/zh-cn/posts/2021/09/20/raspberry-pi4-overclock/)
 
 本文测试于 [SuLingGG/OpenWrt-Mini](https://github.com/SuLingGG/OpenWrt-Mini) 固件，系统版本：`ImmortalWrt 18.06-SNAPSHOT r0-b0fa0c9 / LuCI openwrt-18.06-k5.4 branch (git-21.247.81448-3061bdd)`。
 

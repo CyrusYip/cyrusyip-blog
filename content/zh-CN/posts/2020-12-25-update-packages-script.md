@@ -30,7 +30,7 @@ pip install pipupgrade
 sudo npm install -g npm-check
 ```
 
-下面就是更新脚本，将它[保存到 PATH 变量包含的目录](/zh-cn/post/2020/12/24/put-software-into-path/)里，然后授予执行权限就可以直接在命令行运行了。
+下面就是更新脚本，将它[保存到 PATH 变量包含的目录](/zh-cn/posts/2020/12/24/put-software-into-path/)里，然后授予执行权限就可以直接在命令行运行了。
 
 ```bash
 #!/bin/bash -x

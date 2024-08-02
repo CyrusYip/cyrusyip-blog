@@ -47,7 +47,7 @@ lastmod: 2024-05-09T01:55:39+08:00
     
     把链接放到 Markdown 文件里就可以使用了。比如：`![](https://raw.githubusercontent.com/CyrusYip/blog-static/main/images/2020-11-06_fcitx5-unicode.gif)`。
 
-1. 删除文件请参考[《完全删除 Git 仓库的文件》](/zh-cn/post/2021/01/25/git-remove-sensitive-data/)
+1. 删除文件请参考[《完全删除 Git 仓库的文件》](/zh-cn/posts/2021/01/25/git-remove-sensitive-data/)
 
 自己手动拼凑链接太费劲，我写了个 [Bash 程序](https://github.com/CyrusYip/blog-static/blob/main/url.sh)来获取文件链接并将其写入 X11 剪贴板（使用 [fzf](https://github.com/junegunn/fzf) 模糊搜索，找文件很快）。
 

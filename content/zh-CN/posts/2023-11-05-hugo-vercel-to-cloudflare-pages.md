@@ -11,7 +11,7 @@ lastmod: 2023-12-17T03:35:00+08:00
 
 ## 起因
 
-本 Hugo 网站原本使用 Vercel 构建，但是它只获取 Git 源代码仓库的前十次提交[^jiao]，多数文章的更新时间会出错，变成最新提交的时间。于是我就改用支持克隆整个仓库的 Cloudflare Pages。本站的 [RSS 订阅文件消耗流量大](/zh-cn/post/2022/11/22/cache-rss-with-cloudflare/)，搬到无限流量的 Cloudflare Pages 也比较合适。本文发布时本站已搬到 Cloudflare Pages 超过一个月，一切正常。
+本 Hugo 网站原本使用 Vercel 构建，但是它只获取 Git 源代码仓库的前十次提交[^jiao]，多数文章的更新时间会出错，变成最新提交的时间。于是我就改用支持克隆整个仓库的 Cloudflare Pages。本站的 [RSS 订阅文件消耗流量大](/zh-cn/posts/2022/11/22/cache-rss-with-cloudflare/)，搬到无限流量的 Cloudflare Pages 也比较合适。本文发布时本站已搬到 Cloudflare Pages 超过一个月，一切正常。
 
 [^jiao]: [Configuring a Build | Vercel Docs](https://vercel.com/docs/deployments/configure-a-build): When you make a [deployment](https://vercel.com/docs/deployments/overview), Vercel builds your project. During this time, Vercel performs a "shallow clone" on your Git repository using the command `git clone --depth=10 (...)` and fetches ten levels of git commit history. This means that only the latest ten commits are pulled and not the entire repository history.
 
@@ -93,11 +93,11 @@ Cloudflare Pages 的重定向配置写法和 Vercel 不一样。参考 [Redirect
 
 ## 在根目录创建 404 页面
 
-本 Hugo 多语言网站的 `defaultContentLanguageInSubdir = "true"` 配置导致构建网站后根目录没有 404.html 文件，`/en/` 和 `/zh-cn/` 才有。[此时 Cloudflare 认为网站是单页应用](https://community.cloudflare.com/t/redirects-rule-for-all-404-page-to-homepage/449500)，用户访问 `/non-existent-page/` 这样的路径网页就会跳转到 `/` 并且返回 200 状态码。这是错误的行为，所以要让 Hugo 构建后根目录有 404.html。解决方法请看 [Create Top-Level 404 Page for a Multilingual Hugo Site - Cyrus Yip's Blog](/en/post/2023/11/06/hugo-top-level-404/)，我目前使用了[自己写的 404 页面](https://github.com/CyrusYip/cyrusyip-blog/blob/0b6d0b826d25470a471f5e8503d49055b8a7fc95/static/404.html)。
+本 Hugo 多语言网站的 `defaultContentLanguageInSubdir = "true"` 配置导致构建网站后根目录没有 404.html 文件，`/en/` 和 `/zh-cn/` 才有。[此时 Cloudflare 认为网站是单页应用](https://community.cloudflare.com/t/redirects-rule-for-all-404-page-to-homepage/449500)，用户访问 `/non-existent-page/` 这样的路径网页就会跳转到 `/` 并且返回 200 状态码。这是错误的行为，所以要让 Hugo 构建后根目录有 404.html。解决方法请看 [Create Top-Level 404 Page for a Multilingual Hugo Site](/en/posts/2023/11/06/hugo-top-level-404/)，我目前使用了[自己写的 404 页面](https://github.com/CyrusYip/cyrusyip-blog/blob/0b6d0b826d25470a471f5e8503d49055b8a7fc95/static/404.html)。
 
 ## 去掉缓存规则
 
-之前在 [Cloudflare 设置了缓存 RSS 文件](/zh-cn/post/2022/11/22/cache-rss-with-cloudflare/)，现在不需要这些规则了，删除之。
+之前在 [Cloudflare 设置了缓存 RSS 文件](/zh-cn/posts/2022/11/22/cache-rss-with-cloudflare/)，现在不需要这些规则了，删除之。
 
 ## 自定义样式使用 SCSS 格式
 

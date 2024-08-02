@@ -206,8 +206,8 @@ ping 192.168.0.100
 
 超频后性能更强，相关教程请看我写的两篇博客。
 
-- [在 OpenWrt 控制树莓派 Argon Mini Fan](/zh-cn/post/2021/09/15/openwrt-argon-mini-fan/)
-- [树莓派 4B 超频教程](/zh-cn/post/2021/09/20/raspberry-pi4-overclock/)
+- [在 OpenWrt 控制树莓派 Argon Mini Fan](/zh-cn/posts/2021/09/15/openwrt-argon-mini-fan/)
+- [树莓派 4B 超频教程](/zh-cn/posts/2021/09/20/raspberry-pi4-overclock/)
 
 ## 问答
 

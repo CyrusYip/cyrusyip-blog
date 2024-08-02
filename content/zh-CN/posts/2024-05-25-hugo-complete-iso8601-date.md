@@ -28,7 +28,7 @@ date: 2020-10-02T00:00:00+08:00
 
 [^hao]: 日期的引号去不去都行，我觉得不用更简洁就选择去掉。
 
-修改日期前先[给全部文章加上 lastmod（上次修改时间）](/zh-cn/post/2024/05/25/hugo-add-lastmod-to-posts/)，不然修改日期后 lastmod 全部变成今天了。
+修改日期前先[给全部文章加上 lastmod（上次修改时间）](/zh-cn/posts/2024/05/25/hugo-add-lastmod-to-posts/)，不然修改日期后 lastmod 全部变成今天了。
 
 ## 操作流程
 

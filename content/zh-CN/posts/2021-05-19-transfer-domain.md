@@ -44,4 +44,4 @@ Cloudflare 的续费价格是 10.11，比 Porkbun 便宜了 0.61。
 
 > We don't recommend that you enable the Cloudflare proxy unless you have specific constraints for your project since **it will introduce a minor performance penalty to your website due to the additional hop**.
 
-按照说明把 Proxy status 改为了 DNS only，然后把 Quick Start Guide 那些功能都关掉。[因为博客的 RSS 用太多 Vercel 流量，我又用 Cloudflare 缓存了](/zh-cn/post/2022/11/22/cache-rss-with-cloudflare/)。
+按照说明把 Proxy status 改为了 DNS only，然后把 Quick Start Guide 那些功能都关掉。[因为博客的 RSS 用太多 Vercel 流量，我又用 Cloudflare 缓存了](/zh-cn/posts/2022/11/22/cache-rss-with-cloudflare/)。
