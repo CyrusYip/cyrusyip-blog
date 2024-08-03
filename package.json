@@ -8,6 +8,10 @@
     "server:shared": "hugo server --navigateToChanged --bind 0.0.0.0"
   },
   "devDependencies": {
-    "hugo-extended": "^0.125.6"
+    "hugo-bin": "^0.128.0"
+  },
+  "hugo-bin": {
+    "buildTags": "extended",
+    "version": "0.131.0"
   }
 }
