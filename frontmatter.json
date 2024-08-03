@@ -52,9 +52,9 @@
       "previewPath": "/en"
     },
     {
-      "title": "/en/post",
+      "title": "/en/posts",
       "path": "[[workspace]]/content/en/posts",
-      "previewPath": "'/en/post/'yyyy/MM/dd"
+      "previewPath": "'/en/posts/'yyyy/MM/dd"
     },
     {
       "title": "/zh-CN",
@@ -62,9 +62,9 @@
       "previewPath": "/zh-CN"
     },
     {
-      "title": "/zh-CN/post",
+      "title": "/zh-CN/posts",
       "path": "[[workspace]]/content/zh-CN/posts",
-      "previewPath": "'/zh-CN/post/'yyyy/MM/dd"
+      "previewPath": "'/zh-CN/posts/'yyyy/MM/dd"
     }
   ],
   "frontMatter.framework.startCommand": "./node_modules/hugo-extended/vendor/hugo server --buildDrafts --navigateToChanged",
