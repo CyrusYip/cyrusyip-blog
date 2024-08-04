@@ -3,9 +3,9 @@ title: 在扫描版 PDF 中查找内容
 date: 2020-11-05T00:00:00+08:00
 slug: search-scanned-pdf
 tags:
-  - PDF
+  - pdf
   - regex
-lastmod: 2022-06-06T00:29:26+08:00 # remove this line if the content is actually changed
+lastmod: 2022-06-06T00:29:26+08:00
 ---
 
 扫描版的 PDF 都是图片，在里面查找内容是不可能的。所以「在扫描版 PDF 文档中查找内容」这个问题可以拆解为两部分：一是识别 PDF 中的文字，二是搜索里面的内容。
