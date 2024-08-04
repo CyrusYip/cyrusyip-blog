@@ -1,4 +1,3 @@
-# TODO: add description
 # Don't remove _merge, which imports default config
 theme: hugo-theme-yue
 baseURL: https://cyrusyip.org/
