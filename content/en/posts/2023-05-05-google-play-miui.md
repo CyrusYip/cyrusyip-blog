@@ -8,8 +8,10 @@ tags:
   - miui
   - redmi
   - xiaomi
-lastmod: 2023-11-27T10:54:41+08:00
+lastmod: 2024-08-06T02:40:34+08:00
 ---
+
+## Guide
 
 China Xiaomi / Redmi phones in [Google Play supported devices](https://support.google.com/googleplay/answer/1727131)[^devices] have built-in Google Services. We just need to install Google Play.
 
@@ -24,9 +26,23 @@ Now you should find Play Store on the home screen.
 
 This tutorial was tested on Mi 11 LE, Redmi K40S, Redmi Note 12 Turbo and Xiaomi 14.
 
----
-
 Thanks to [Shitao Wu](https://shitao5.org/) for testing Xiaomi 14 (HyperOS).
+
+## Notice
+
+This guide may not work for some phones. I don't know which phones it doesn't work for. You need to to try it by yourself.
+
+If you haven't buy the phone you want, you can:
+
+- Try this guide on the phone in a Xiaomi Store.
+- Buy a refundable phone online and try it.
+- Search online to see if someone succeeded with the phone you want.
+- Ask online if this guide works for the phone you want.
+
+If you have already bought the phone but this guide doesn't work for you, you can:
+
+- Return or sell it, and buy another one.
+- Unlock the bootloader and flash a custom ROM bundled with Google Play (this is quite complicated for average users. If you want to try, check [XDA Forums](https://xdaforums.com/) and [xiaomi.eu](https://xiaomi.eu/community/)).
 
 <!--
 Xiaomi 14

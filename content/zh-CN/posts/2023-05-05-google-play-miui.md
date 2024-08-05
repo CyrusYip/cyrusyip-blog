@@ -8,8 +8,10 @@ tags:
   - miui
   - redmi
   - xiaomi
-lastmod: 2023-11-27T10:54:41+08:00
+lastmod: 2024-08-06T02:40:34+08:00
 ---
+
+## 指南
 
 在 [Google Play 支持的设备列表](https://support.google.com/googleplay/answer/1727131)[^biao]内的小米/红米手机已预装谷歌服务，我们只需要安装 Play 商店。
 
@@ -27,6 +29,22 @@ lastmod: 2023-11-27T10:54:41+08:00
 ---
 
 感谢[吴诗涛](https://shitao5.org/)测试小米 14（小米澎湃 OS）。
+
+## 注意
+
+本指南不适用于所有手机，我也不知道哪些手机不行，只能你自己试试看了。
+
+如果你还没买你想要的手机，你可以
+
+- 在小米门店尝试本指南
+- 上网买支持无理由退货的手机，尝试本指南
+- 上网搜索是否有人在你想要的手机上按照本方法成功安装 Google Play
+- 上网问本指南是否适用于你想要的手机
+
+如果你已经买了手机但本指南没用，你可以
+
+- 退货或者卖掉，再买另一台
+- 解锁 bootloader 并安装自带 Google Play 的系统（对一般用户来说挺难，如果你想试试，请看 [XDA Forums](https://xdaforums.com/) 和 [xiaomi.eu](https://xiaomi.eu/community/)）
 
 <!--
 Xiaomi 14
