@@ -1,0 +1,9 @@
+{{ $lang := site.Language.Lang }}
+{{ $links := "" }}
+{{ if eq $lang "zh-cn" }}
+  {{ $links = "[GitHub](https://github.com/CyrusYip) | [Mastodon](https://mastodon.social/@cyrusyip) | [X](https://x.com/CyrusYip10) | [社交媒体](/zh-cn/about/#网站帐号)" | markdownify }}
+{{ else }}
+  {{ $links = "[GitHub](https://github.com/CyrusYip) | [Mastodon](https://mastodon.social/@cyrusyip) | [X](https://x.com/CyrusYip10) | [Social media](/en/about/#online-accounts)" | markdownify }}
+{{ end }}
+
+<p class="footer__links">{{ $links }}</p>
