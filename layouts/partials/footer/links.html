@@ -6,4 +6,9 @@
   {{ $links = "[GitHub](https://github.com/CyrusYip) | [Mastodon](https://mastodon.social/@cyrusyip) | [X](https://x.com/CyrusYip10) | [Social media](/en/about/#online-accounts)" | markdownify }}
 {{ end }}
 
-<p class="footer__links">{{ $links }}</p>
+{{ $rssLink := "" }}
+{{- with .OutputFormats.Get "rss" -}}
+  {{ $rssLink = (printf "<a href='%s'>RSS</a> |" .RelPermalink) | safeHTML }}
+{{- end }}
+
+<p class="footer__links">{{ $rssLink }} {{ $links }}</p>
