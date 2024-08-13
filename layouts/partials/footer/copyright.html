@@ -1,0 +1,21 @@
+{{ $lang := site.Language.Lang }}
+{{ $license := "" }}
+{{ if eq $lang "zh-cn" }}
+  {{ $license = "[CC BY-NC-SA 4.0 协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)" | markdownify }}
+{{ else }}
+  {{ $license = "[CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)" | markdownify }}
+{{ end }}
+
+{{- $author := site.Params.footer.copyright.author }}
+{{- $yearStart := string site.Params.footer.copyright.yearStart }}
+{{- $yearEnd := string (default (now.Format "2006") site.Params.footer.copyright.yearEnd) }}
+{{- $yearSpan := "" }}
+{{- if not $yearStart }}
+  {{- /* Use $yearEnd if $yearStart doesn't exist */ -}}
+  {{- $yearSpan = $yearEnd }}
+{{- else if eq $yearStart $yearEnd }}
+  {{- $yearSpan = $yearEnd }}
+{{- else }}
+  {{- $yearSpan = printf "%s-%s" $yearStart $yearEnd }}
+{{- end -}}
+<p class="footer__copyright-notice">&copy; {{ $yearSpan }} {{ $author }} | {{ $license }}</p>
