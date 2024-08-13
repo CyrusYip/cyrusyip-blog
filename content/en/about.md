@@ -18,6 +18,8 @@ If you find my posts helpful, you can buy me a tea via [Patreon](https://www.pat
 
 ## Online accounts
 
+<!-- This section is referenced in footer.html -->
+
 - [My Blog](https://cyrusyip.org)
 - [Arch Linux Forum](https://bbs.archlinux.org/profile.php?id=138854)
 - [ArchWiki](https://wiki.archlinux.org/title/Special:Contributions/Cyrus_Yip)

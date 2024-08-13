@@ -24,6 +24,8 @@ lastmod: 2024-07-28T21:24:11+08:00 # remove this line if the content is actually
 
 ## 网站帐号
 
+<!-- This section is referenced in footer.html -->
+
 - [My Blog](https://cyrusyip.org)
 - [Arch Linux Forum](https://bbs.archlinux.org/profile.php?id=138854)
 - [ArchWiki](https://wiki.archlinux.org/title/Special:Contributions/Cyrus_Yip)
