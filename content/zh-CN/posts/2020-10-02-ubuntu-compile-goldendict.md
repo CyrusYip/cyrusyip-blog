@@ -5,12 +5,18 @@ slug: ubuntu-compile-goldendict
 tags:
   - goldendict
   - ubuntu
-lastmod: 2022-06-06T00:29:26+08:00
+lastmod: 2024-08-14T18:34:14+08:00
 ---
 
-本文测试于 Ubuntu 21.04。
+## 2024年8月14日更新
+
+写这篇文章的初衷是 [GoldenDict](https://github.com/goldendict/goldendict) 没有停止开发但又很少发布新版，最近一次还是[一年前（2023年5月31号）](https://github.com/goldendict/goldendict/releases/tag/1.5.0)。现在推荐大家使用更新和发布频繁的 [Goldendict-ng](https://github.com/xiaoyifang/goldendict-ng)。Goldendict-ng 已被收录于 Debian、Ubuntu、Fedora、OpenSUSE 等 Linux 发行版，用 flatpak 安装也方便。
+
+如果你点进来就是想编译 GoldenDict，请看 [Goldendict 的文档](https://github.com/goldendict/goldendict)，下面的内容可能已过时。
 
 ## 安装依赖
+
+测试于 Ubuntu 21.04。
 
 ```bash
 sudo apt-get update
@@ -46,11 +52,3 @@ sudo make install
 chmod +x ./goldendict # 增加可执行权限
 ./goldendict          # 运行
 ```
-
-## Appimage 版本
-
-想使用最新版的 GoldenDict，也可以试试 [Appimage 版](https://github.com/Abs62/goldendict/releases/tag/continuous)。
-
-## 参考资料
-
-- GoldenDict 代码库的[说明文档](https://github.com/goldendict/goldendict/blob/master/README.md)
