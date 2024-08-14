@@ -19,6 +19,7 @@ params:
   images:
     # Default image used in Open Graph, see https://gohugo.io/templates/embedded/#configure-open-graph
     - favicon.ico # /static/favicon.ico
+  tocFolded: false
 
 frontmatter:
   lastmod: ['lastmod', ':default']
