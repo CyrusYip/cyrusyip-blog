@@ -16,23 +16,23 @@ hugo server
 
 ---
 
-I use npm to manage Hugo version, and [estruyf/vscode-front-matter](https://github.com/estruyf/vscode-front-matter) to manage content.
+I use pnpm to manage Hugo version, and [estruyf/vscode-front-matter](https://github.com/estruyf/vscode-front-matter) to manage content.
 
 
 ```bash
 # Clone this repo with its submodule.
-git clone --recursive https://github.com/CyrusYip/cyrusyip-blog.git
-# git clone --recursive git@github.com:CyrusYip/cyrusyip-blog.git
+git clone --recursive git@github.com:CyrusYip/cyrusyip-blog.git
+# git clone --recursive https://github.com/CyrusYip/cyrusyip-blog.git
 
 # Install Hugo
 cd cyrusyip-blog
-npm install
+pnpm install
 
 # Preview
-npm run server
+pnpm run server
 
 # Build
-npm run build
+pnpm run build
 ```
 
 ## Contributing Guidelines
