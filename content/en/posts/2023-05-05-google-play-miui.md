@@ -24,7 +24,7 @@ China Xiaomi / Redmi phones in [Google Play supported devices](https://support.g
 
 Now you should find Play Store on the home screen.
 
-This tutorial was tested on Mi 11 LE, Redmi K40S, Redmi Note 12 Turbo and Xiaomi 14.
+This tutorial was tested on Redmi K40S, Redmi Note 12 Turbo, Redmi Turbo 3, Mi 11 LE, and Xiaomi 14.
 
 Thanks to [Shitao Wu](https://shitao5.org/) for testing Xiaomi 14 (HyperOS).
 
@@ -47,6 +47,9 @@ If you have already bought the phone but this guide doesn't work for you, you ca
 <!--
 Xiaomi 14
 HyperOS: 1.0.19.0.UNCCNXM
+
+Redmi Turbo 3
+HyperOS: 1.0.14.0 UNPCNXM
 
 P.S. In my first attempt, I found no Google Play on GetApps and installed it from Aptoide. However, I find it on GetApps now. This is weird.
 -->

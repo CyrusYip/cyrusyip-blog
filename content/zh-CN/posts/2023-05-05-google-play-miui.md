@@ -24,7 +24,7 @@ lastmod: 2024-08-06T02:40:34+08:00
 
 安装完桌面就有 Play 商店啦。
 
-经测试，本文适用于 Xiaomi 11 青春活力版、Redmi K40S、Redmi Note 12 Turbo、Xiaomi 14。
+经测试，本文适用于 Redmi K40S、Redmi Note 12 Turbo、Redmi Turbo 3、Xiaomi 11 青春活力版、Xiaomi 14。
 
 ---
 
@@ -49,6 +49,9 @@ lastmod: 2024-08-06T02:40:34+08:00
 <!--
 Xiaomi 14
 HyperOS: 1.0.19.0.UNCCNXM
+
+Redmi Turbo 3
+HyperOS: 1.0.14.0 UNPCNXM
 
 后记：我第一次在应用商店搜不到 Google Play 就从 Aptoide 安装了，现在又能搜到了，好奇怪。
 -->
