@@ -20,7 +20,7 @@ China Xiaomi / Redmi phones in [Google Play supported devices](https://support.g
 1. Turn on Google Services
     - MIUI: Settings -> Account & sync -> Basic Google Services
     - HyperOS: Settings -> Additional settings -> Account & sync -> Basic Google Services
-1. Install Google Play: search "google play" on GetApps and update "Google Play Store". If Google Play isn't found on GetApps, install it from [Aptoide](https://en.aptoide.com/).
+1. Install Google Play: search "google play" on GetApps, and install or update "Google Play Store". If Google Play isn't found on GetApps, install it from [Aptoide](https://en.aptoide.com/).
 
 Now you should find Play Store on the home screen.
 

@@ -20,7 +20,7 @@ lastmod: 2024-08-06T02:40:34+08:00
 1. 开启谷歌服务：
     - MIUI：设置 -> 帐号与同步 -> 谷歌基础服务
     - HyperOS：设置 -> 更多设置 -> 帐号与同步 -> 谷歌基础服务
-1. 安装 Play 商店：在应用商店搜索「google play」，安装「Google Play 商店」。如果找不到就从 [Aptoide](https://en.aptoide.com/) 安装。
+1. 安装 Play 商店：在应用商店搜索「google play」，安装或者升级「Google Play 商店」。如果找不到就从 [Aptoide](https://en.aptoide.com/) 安装。
 
 安装完桌面就有 Play 商店啦。
 
