@@ -26,7 +26,7 @@ git clone --recursive git@github.com:CyrusYip/cyrusyip-blog.git
 
 # Install Hugo
 cd cyrusyip-blog
-pnpm install
+pnpm install # Use --force flag when postinstall script is not running
 
 # Preview
 pnpm run server
