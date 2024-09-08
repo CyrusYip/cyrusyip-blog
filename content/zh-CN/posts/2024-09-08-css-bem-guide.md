@@ -6,6 +6,7 @@ tags:
   - css
   - web
 lastmod: 2024-09-08T23:29:51+08:00
+translationKey: css-bem-guide
 ---
 
 BEM（Block, Element, Modifier）是 HTML/CSS 类的命名方法，它可以让 HTML 和 CSS 代码更有条理。
