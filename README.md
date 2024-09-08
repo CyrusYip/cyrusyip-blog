@@ -42,3 +42,4 @@ See [CONTRIBUTING.md](.github/CONTRIBUTING.md).
 ## Note
 
 - Before 2024-03-13, the date in `/content/**/*.md` indicates when I start writing an article (usually unfinished). After 2024-03-13, the date in `/content/**/*.md` indicates when I finish the first draft, which will undergo multiple edits. `T00:00:00` means the exact time is unknown, and only date part (e.g. 2022-06-30) is correct.
+- The article title follows *The Chicago Manual of Style*.
