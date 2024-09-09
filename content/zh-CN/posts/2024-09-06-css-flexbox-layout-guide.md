@@ -1,17 +1,14 @@
 ---
-title: CSS flexbox 布局教程
+title: CSS Flexbox 布局教程
 date: 2024-09-06T00:00:00+08:00
 slug: css-flexbox-layout-guide
 tags:
   - css
   - web
-lastmod: 2024-09-06T18:30:04+08:00
+lastmod: 2024-09-09T23:59:43+08:00
 ---
 
-flexbox（弹性盒子）是一维的布局方法，也就是在一条横线（row）或者竖线（column）上排列元素。推荐大家看完本文后做以下练习：
-
-- [Flexbox Froggy](https://flexboxfroggy.com/)（点底下的 Settings 可以设置难度和语言，可以先用中等难度，不懂再调到新手难度看提示）
-- [Test your skills: Flexbox - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox_skills)
+Flexbox（弹性盒子）是一维的布局方法，也就是在一条横线（row）或者竖线（column）上排列元素。推荐大家看完本文后做[文末提到的习题](#习题)。
 
 ## flex 容器的属性
 
@@ -311,6 +308,13 @@ flex 容器有多余空间时，`flex-grow` 设置 flex 项的增长系数，默
 ### align-self 交叉轴对齐
 
 `align-self` 设置单个 flex 项的交叉轴对齐方式，用法和 `align-items` 一样，两者可以同时用。
+
+## 习题
+
+<!-- 此标题被引用于第一段 -->
+
+- [Flexbox Froggy](https://flexboxfroggy.com/)（点底下的 Settings 可以设置难度和语言，可以先用中等难度，不懂再调到新手难度看提示。第 24 题难得离谱，现实中不会遇到这种情况，想不到就去查答案吧。）
+- [Test your skills: Flexbox - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox_skills)
 
 ## 参考资料
 
