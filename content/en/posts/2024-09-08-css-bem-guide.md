@@ -5,7 +5,7 @@ slug: css-bem-guide
 tags:
   - css
   - web
-lastmod: 2024-09-08T23:34:27+08:00
+lastmod: 2024-09-17T01:42:14+08:00
 translationKey: css-bem-guide
 ---
 
@@ -65,7 +65,7 @@ Don't worry if you don't understand it at first. There are examples later on.
 
 ## SCSS Demo
 
-I strongly recommend SCSS because you can use the parent selector `&` to group together all styles of both a block and its elements. This structure clearly reflects the hierarchical relationship between them..
+I strongly recommend SCSS because you can use the parent selector `&` to group together all styles of both a block and its elements. This structure clearly reflects the hierarchical relationship between them.
 
 ```scss
 .menu {
@@ -88,10 +88,39 @@ I strongly recommend SCSS because you can use the parent selector `&` to group t
 }
 ```
 
-If you still hate writing class names, you could try atomic CSS frameworks, such as [Tailwind CSS](https://tailwindcss.com/) and [UnoCSS](https://unocss.dev/).
+## Alternative: Atomic CSS
+
+If you find BEM too verbose or difficult to maintain, you can try atomic CSS frameworks like [Tailwind CSS](https://tailwindcss.com/) and [UnoCSS](https://unocss.dev/) that provide utilities (predefined classes).
+
+To rewrite the previous CSS code in Tailwind CSS ([online demo](https://jsbin.com/kolanoyele/2/edit?html,css,output)):
+
+```html
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    corePlugins: {
+      preflight: false,
+    }
+  }
+</script>
+<nav>
+  <ul class="flex flex-row flex-wrap justify-between list-none ps-0">
+    <li>
+      <a class="font-bold" href="/en/">Home</a>
+    </li>
+    <li>
+      <a href="/en/posts/">Posts</a>
+    </li>
+    <li>
+      <a href="/en/about/">About</a>
+    </li>
+  </ul>
+</nav>
+```
 
 ## Further Reading
 
 - <https://en.bem.info/> (official guide)
 - <https://getbem.com> (unofficial guide)
 - [Naming convention / Methodology / BEM](https://en.bem.info/methodology/naming-convention/)
+- [troxler/awesome-css-frameworks: List of awesome CSS frameworks](https://github.com/troxler/awesome-css-frameworks)
