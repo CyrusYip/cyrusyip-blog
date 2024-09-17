@@ -5,7 +5,7 @@ slug: css-bem-guide
 tags:
   - css
   - web
-lastmod: 2024-09-17T01:42:14+08:00
+lastmod: 2024-09-18T00:35:41+08:00
 translationKey: css-bem-guide
 ---
 
@@ -90,7 +90,16 @@ I strongly recommend SCSS because you can use the parent selector `&` to group t
 
 ## Alternative: Atomic CSS
 
-If you find BEM too verbose or difficult to maintain, you can try atomic CSS frameworks like [Tailwind CSS](https://tailwindcss.com/) and [UnoCSS](https://unocss.dev/) that provide utilities (predefined classes).
+If you find BEM too verbose or difficult to maintain, you can try atomic CSS frameworks like [Tailwind CSS](https://tailwindcss.com/) and [UnoCSS](https://unocss.dev/) that provide utilities (predefined classes). Developers only need to write predefined class names and don't need to write CSS code. Here are some utilities in Tailwind CSS:
+
+```css
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+```
 
 To rewrite the previous CSS code in Tailwind CSS ([online demo](https://jsbin.com/kolanoyele/2/edit?html,css,output)):
 
