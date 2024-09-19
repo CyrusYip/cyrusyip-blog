@@ -4,3 +4,8 @@
 #disqus_thread {
   padding-block-start: 2rem;
 }
+
+// Hide website title
+.header > h1 {
+  display: none;
+}
