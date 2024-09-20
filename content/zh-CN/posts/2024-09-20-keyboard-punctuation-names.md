@@ -7,6 +7,7 @@ tags:
   - keyboard
   - programming
 lastmod: 2024-09-20T00:00:00+08:00
+translationKey: keyboard-punctuation-names
 ---
 
 AmE 表示 American English（美式英语），BrE 表示 British English（英式英语），表格的空白表示没有对应名称。
