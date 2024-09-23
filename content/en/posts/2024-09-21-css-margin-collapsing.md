@@ -5,7 +5,7 @@ slug: css-margin-collapsing
 tags:
   - css
   - web
-lastmod: 2024-09-23T10:19:45+08:00
+lastmod: 2024-09-23T10:32:38+08:00
 ---
 
 Margin collapsing is a feature in the [flow layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flow_layout). When an block element comes after another block elements, the bottom margin of the upper element and the top margin of the lower element collapse (merge into a single margin). The larger margin remains, and the smaller margin disappears. If the two margins are equal, one of them remains. Margins don't collapse in a flex container or a grid container.
@@ -47,7 +47,9 @@ p {
 }
 ```
 
-The bottom margin of the upper element (50px) is larger, so it remains and another margin (10px) disappears. When we add `display: grid;` to the container to make it a grid container, the two margins exist at the same time.
+The bottom margin of the upper element (50px) is larger, so it remains and another margin (10px) disappears. When we add `display: grid;` to the container, `<p>` elements become grid items, which establish block formatting contexts, so margin collapsing is disabled. Now you can see the two margins exist at the same time.
+
+For more details on block formatting context, see [What is Block Formatting Context (BFC) in CSS](/en/posts/2024/09/22/css-block-formatting-context/).
 
 ---
 

@@ -5,7 +5,7 @@ slug: css-clearfix
 tags:
   - css
   - web
-lastmod: 2024-09-22T00:00:00+08:00
+lastmod: 2024-09-23T10:32:45+08:00
 ---
 
 [Float](https://developer.mozilla.org/en-US/docs/Web/CSS/float) can be used to lay out elements. Clearfix is a method used to fix the zero-height container issue caused by floated elements.
@@ -71,9 +71,11 @@ The classic method is obsolete and difficult to understand. Here is the modern a
 
 ```css
 .clearfix {
-  display: flow-root; /* Establishes a new block formatting context */
+  display: flow-root;
 }
 ```
+
+`display: flow-root` makes the container establish a block formatting context, which contains internal floated elements. For more details on block formatting context, see [What is Block Formatting Context (BFC) in CSS](/en/posts/2024/09/22/css-block-formatting-context/).
 
 ---
 
