@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       hugo-bin:
-        specifier: ^0.131.3
-        version: 0.131.3
+        specifier: ^0.132.0
+        version: 0.132.0
 
 packages:
 
@@ -74,11 +74,11 @@ packages:
   arch@3.0.0:
     resolution: {integrity: sha512-AmIAC+Wtm2AU8lGfTtHsw0Y9Qtftx2YXEEtiBP10xFUtMOA+sHHx6OAddyL52mUKh1vsXQ6/w1mVDptZCyUt4Q==}
 
-  b4a@1.6.6:
-    resolution: {integrity: sha512-5Tk1HLk6b6ctmjIkAcU/Ujv/1WqiDl0F0JdRCR80VsOcUlHcu7pWeWRlOqQLHfDEsVx9YH/aif5AG4ehoCtTmg==}
+  b4a@1.6.7:
+    resolution: {integrity: sha512-OnAYlL5b7LEkALw87fUVafQw5rVR9RjwGd4KUwNQ6DrrNmaVaUCgLipfVlzrPQ4tWOR9P0IXGNOx50jYCCdSJg==}
 
-  bare-events@2.4.2:
-    resolution: {integrity: sha512-qMKFd2qG/36aA4GwvKq8MxnPgCQAmBWmSyLWsJcbn8v03wvIPQ/hG1Ms8bPzndZxMDoHpxez5VOS+gC9Yi24/Q==}
+  bare-events@2.5.0:
+    resolution: {integrity: sha512-/E8dDe9dsbLyh2qrZ64PEPadOQ0F4gbl1sUJOrmph7xOiIxfY8vwab/4bFLh4Y88/Hk/ujKcrQKc+ps0mv873A==}
 
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
@@ -144,8 +144,8 @@ packages:
   fast-fifo@1.3.2:
     resolution: {integrity: sha512-/d9sfos4yxzpwkDkuN7k2SqFKtYNmCTzgfEpz82x34IM9/zc8KGxQoXg1liNC/izpRM/MBdt44Nmx41ZWqk+FQ==}
 
-  file-type@19.4.1:
-    resolution: {integrity: sha512-RuWzwF2L9tCHS76KR/Mdh+DwJZcFCzrhrPXpOw6MlEfl/o31fjpTikzcKlYuyeV7e7ftdCGVJTNOCzkYD/aLbw==}
+  file-type@19.5.0:
+    resolution: {integrity: sha512-dMuq6WWnP6BpQY0zYJNpTtQWgeCImSMG0BTIzUBXvxbwc1HWP/E7AE4UWU9XSCOPGJuOHda0HpDnwM2FW+d90A==}
     engines: {node: '>=18'}
 
   filename-reserved-regex@3.0.0:
@@ -190,8 +190,8 @@ packages:
     resolution: {integrity: sha512-V5nVw1PAOgfI3Lmeaj2Exmeg7fenjhRUgz1lPSezy1CuhPYbgQtbQj4jZfEAEMlaL+vupsvhjqCyjzob0yxsmQ==}
     engines: {node: '>=10.19.0'}
 
-  hugo-bin@0.131.3:
-    resolution: {integrity: sha512-8+NVbq5ttvhUO2BHS+/qHKypXLxzAZ0ctLL/rkBU7DR+W1uTdSOZaxDZoFi67w5RquZCKoBTvHfJVtQgAOk/wQ==}
+  hugo-bin@0.132.0:
+    resolution: {integrity: sha512-P8Bjl2ussOFzDJVppZfjxuyRegklKnlz2ILeFUszwkq9aDab8il0IJgr6pNxI0bbPIbLcoV64FmStyB1vXsynQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -285,8 +285,8 @@ packages:
     resolution: {integrity: sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==}
     engines: {node: '>=8'}
 
-  peek-readable@5.1.4:
-    resolution: {integrity: sha512-E7mY2VmKqw9jYuXrSWGHFuPCW2SLQenzXLF3amGaY6lXXg4/b3gj5HVM7h8ZjCO/nZS9ICs0Cz285+32FvNd/A==}
+  peek-readable@5.2.0:
+    resolution: {integrity: sha512-U94a+eXHzct7vAd19GH3UQ2dH4Satbng0MyYTMaQatL0pvYYL5CTPR25HBhKtecl+4bfu1/i3vC6k0hydO5Vcw==}
     engines: {node: '>=14.16'}
 
   pend@1.2.0:
@@ -345,8 +345,8 @@ packages:
     resolution: {integrity: sha512-vzn8aSqKgytVik0iwdBEi+zevbTYZogewTUM6dtpmGwEcdzbub/TX4bCzRhebDCRC3QzXgJsLRKB2V/Oof7HXg==}
     engines: {node: '>=0.10.0'}
 
-  streamx@2.19.0:
-    resolution: {integrity: sha512-5z6CNR4gtkPbwlxyEqoDGDmWIzoNJqCBt4Eac1ICP9YaIT08ct712cFj0u1rx4F8luAuL+3Qc+RFIdI4OX00kg==}
+  streamx@2.20.1:
+    resolution: {integrity: sha512-uTa0mU6WUC65iUvzKH4X9hEdvSW7rbPxPtwfWiLMSj3qTdQbAiUboZTxauKfpFuGIGa1C2BYijZ7wgdUXICJhA==}
 
   strip-dirs@3.0.0:
     resolution: {integrity: sha512-I0sdgcFTfKQlUPZyAqPJmSG3HLO9rWDFnxonnIbskYNM3DwFOeTNB5KzVq3dA1GdRAc/25b5Y7UO2TQfKWw4aQ==}
@@ -362,8 +362,8 @@ packages:
   tar-stream@3.1.7:
     resolution: {integrity: sha512-qJj60CXt7IU1Ffyc3NJMjh6EkuCFej46zUqJ4J7pqYlThyd9bO0XBTmcOIhSzZJVWfsLks0+nle/j538YAW9RQ==}
 
-  text-decoder@1.1.1:
-    resolution: {integrity: sha512-8zll7REEv4GDD3x4/0pW+ppIxSNs7H1J10IKFZsuOMscumCdM2a+toDGLPA3T+1+fLBql4zbt5z83GEQGGV5VA==}
+  text-decoder@1.2.0:
+    resolution: {integrity: sha512-n1yg1mOj9DNpk3NeZOx7T6jchTbyJS3i3cucbNN6FcdPriMZx7NsgrGpWWdWZZGxD7ES1XB+3uoqHMgOKaN+fg==}
 
   through@2.3.8:
     resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
@@ -404,7 +404,7 @@ snapshots:
 
   '@xhmikosr/archive-type@7.0.0':
     dependencies:
-      file-type: 19.4.1
+      file-type: 19.5.0
 
   '@xhmikosr/bin-check@7.0.3':
     dependencies:
@@ -420,14 +420,14 @@ snapshots:
 
   '@xhmikosr/decompress-tar@8.0.1':
     dependencies:
-      file-type: 19.4.1
+      file-type: 19.5.0
       is-stream: 2.0.1
       tar-stream: 3.1.7
 
   '@xhmikosr/decompress-tarbz2@8.0.1':
     dependencies:
       '@xhmikosr/decompress-tar': 8.0.1
-      file-type: 19.4.1
+      file-type: 19.5.0
       is-stream: 2.0.1
       seek-bzip: 2.0.0
       unbzip2-stream: 1.4.3
@@ -435,12 +435,12 @@ snapshots:
   '@xhmikosr/decompress-targz@8.0.1':
     dependencies:
       '@xhmikosr/decompress-tar': 8.0.1
-      file-type: 19.4.1
+      file-type: 19.5.0
       is-stream: 2.0.1
 
   '@xhmikosr/decompress-unzip@7.0.0':
     dependencies:
-      file-type: 19.4.1
+      file-type: 19.5.0
       get-stream: 6.0.1
       yauzl: 3.1.3
 
@@ -461,7 +461,7 @@ snapshots:
       content-disposition: 0.5.4
       defaults: 3.0.0
       ext-name: 5.0.0
-      file-type: 19.4.1
+      file-type: 19.5.0
       filenamify: 6.0.0
       get-stream: 6.0.1
       got: 13.0.0
@@ -472,9 +472,9 @@ snapshots:
 
   arch@3.0.0: {}
 
-  b4a@1.6.6: {}
+  b4a@1.6.7: {}
 
-  bare-events@2.4.2:
+  bare-events@2.5.0:
     optional: true
 
   base64-js@1.5.1: {}
@@ -552,7 +552,7 @@ snapshots:
 
   fast-fifo@1.3.2: {}
 
-  file-type@19.4.1:
+  file-type@19.5.0:
     dependencies:
       get-stream: 9.0.1
       strtok3: 8.1.0
@@ -603,7 +603,7 @@ snapshots:
       quick-lru: 5.1.1
       resolve-alpn: 1.2.1
 
-  hugo-bin@0.131.3:
+  hugo-bin@0.132.0:
     dependencies:
       '@xhmikosr/bin-wrapper': 13.0.5
       package-config: 5.0.0
@@ -669,7 +669,7 @@ snapshots:
 
   path-key@3.1.1: {}
 
-  peek-readable@5.1.4: {}
+  peek-readable@5.2.0: {}
 
   pend@1.2.0: {}
 
@@ -713,13 +713,13 @@ snapshots:
     dependencies:
       is-plain-obj: 1.1.0
 
-  streamx@2.19.0:
+  streamx@2.20.1:
     dependencies:
       fast-fifo: 1.3.2
       queue-tick: 1.0.1
-      text-decoder: 1.1.1
+      text-decoder: 1.2.0
     optionalDependencies:
-      bare-events: 2.4.2
+      bare-events: 2.5.0
 
   strip-dirs@3.0.0:
     dependencies:
@@ -731,17 +731,17 @@ snapshots:
   strtok3@8.1.0:
     dependencies:
       '@tokenizer/token': 0.3.0
-      peek-readable: 5.1.4
+      peek-readable: 5.2.0
 
   tar-stream@3.1.7:
     dependencies:
-      b4a: 1.6.6
+      b4a: 1.6.7
       fast-fifo: 1.3.2
-      streamx: 2.19.0
+      streamx: 2.20.1
 
-  text-decoder@1.1.1:
+  text-decoder@1.2.0:
     dependencies:
-      b4a: 1.6.6
+      b4a: 1.6.7
 
   through@2.3.8: {}
 
