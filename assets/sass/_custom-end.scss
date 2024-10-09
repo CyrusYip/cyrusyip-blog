@@ -6,6 +6,24 @@
 }
 
 // Hide website title
-.header > h1 {
+.header>h1 {
   display: none;
+}
+
+// Arrange terms in rows
+.term-list {
+  &__item {
+    display: inline flow-root;
+    margin-block-start: 0;
+  }
+
+  &__item:not(:last-child) {
+    margin-inline-end: 1rem; // Right margin
+  }
+
+  &__link {
+    text-decoration: underline;
+    text-decoration-thickness: 0.75px;
+    text-underline-offset: 0.4rem;
+  }
 }
