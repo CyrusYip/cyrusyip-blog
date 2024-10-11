@@ -1,5 +1,5 @@
 ---
-title: 小米 / 红米 / MIUI / HyperOS 的 Google Play 安装教程
+title: 小米 / 红米 / HyperOS / MIUI 的 Google Play 安装教程
 date: 2023-05-05T00:00:00+08:00
 slug: google-play-miui
 tags:
@@ -8,7 +8,7 @@ tags:
   - miui
   - redmi
   - xiaomi
-lastmod: 2024-08-06T02:40:34+08:00
+lastmod: 2024-10-12T00:01:31+08:00
 ---
 
 ## 指南
@@ -18,8 +18,8 @@ lastmod: 2024-08-06T02:40:34+08:00
 [^biao]: 这不是硬性要求。有些不在列表的手机也可以安装 Play 商店。
 
 1. 开启谷歌服务：
-    - MIUI：设置 -> 帐号与同步 -> 谷歌基础服务
-    - HyperOS：设置 -> 更多设置 -> 帐号与同步 -> 谷歌基础服务
+    - **HyperOS**：设置 -> 更多设置 -> 帐号与同步 -> 谷歌基础服务
+    - **MIUI**：设置 -> 帐号与同步 -> 谷歌基础服务
 1. 安装 Play 商店：在应用商店搜索「google play」，安装或者升级「Google Play 商店」。如果找不到就从 [Aptoide](https://en.aptoide.com/) 安装。
 
 安装完桌面就有 Play 商店啦。
