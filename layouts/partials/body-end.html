@@ -88,7 +88,10 @@ loadGiscus()
           var d = document, s = d.createElement('script'); s.async = true;
           s.src = '//' + {{ .Site.Config.Services.Disqus.Shortname }} + '.disqus.com/embed.js';
           s.setAttribute('data-timestamp', +new Date());
-          d.body.appendChild(s);
+          setTimeout(()=>{
+            d.body.appendChild(s);
+            console.log('Disqus loaded')
+          }, 100)
       })();
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
