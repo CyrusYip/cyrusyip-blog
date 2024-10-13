@@ -1,0 +1,27 @@
+<script>
+  // Load script asynchronously
+  function loadScript(url, delay, callback) {
+    setTimeout(() => {
+      const script = document.createElement("script");
+      script.src = url;
+      if (callback) script.onload = callback;
+      script.async = true;
+      document.body.appendChild(script);
+    }, delay);
+  }
+
+  // Google Analytics
+  loadScript(
+    "https://www.googletagmanager.com/gtag/js?id=G-8TSPGDFPRC",
+    100,
+    function () {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-8TSPGDFPRC");
+      console.log("Google Analytics loaded")
+    }
+  );
+</script>

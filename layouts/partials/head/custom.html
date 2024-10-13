@@ -1,13 +1,3 @@
-<!-- Google tag (gtag.js) -->
-<script defer src="https://www.googletagmanager.com/gtag/js?id=G-8TSPGDFPRC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-8TSPGDFPRC');
-</script>
-
 {{/* Don't index non-production site */}}
 {{ if ne site.BaseURL "https://cyrusyip.org/" }}
   <meta name="robots" content="noindex, nofollow" />
