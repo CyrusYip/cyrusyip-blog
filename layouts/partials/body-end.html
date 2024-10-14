@@ -127,7 +127,8 @@ loadGiscus()
         plugins: [
           new SwupHeadPlugin(),
           new SwupPreloadPlugin({ preloadVisibleLinks: true }),
-        ]
+        ],
+        animationSelector: false,
       });
       console.log("swup loaded");
 
