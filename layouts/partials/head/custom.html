@@ -5,7 +5,44 @@
     script.src = "https://unpkg.com/swup@4";
     script.onload = () => {
       const swup = new Swup();
-      console.log("swup loaded")
+      console.log("swup loaded");
+      swup.hooks.on("page:view", () => {
+        let giscusLang, disqusLang;
+        if (document.documentElement.lang === "zh-CN") {
+          giscusLang = "zh-CN";
+          disqusLang = "zh";
+        } else {
+          giscusLang = "en";
+          disqusLang = "en";
+        }
+        function loadGiscus() {
+          const script = document.createElement('script');
+          script.src = 'https://giscus.app/client.js';
+          script.setAttribute('data-repo', 'CyrusYip/blog-comments');
+          script.setAttribute('data-repo-id', 'MDEwOlJlcG9zaXRvcnkzNDg2NjkxMTQ=');
+          script.setAttribute('data-category', 'Comments');
+          script.setAttribute('data-category-id', 'DIC_kwDOFMhEus4ChUiV');
+          script.setAttribute('data-mapping', 'pathname');
+          script.setAttribute('data-strict', '0');
+          script.setAttribute('data-reactions-enabled', '1');
+          script.setAttribute('data-emit-metadata', '0');
+          script.setAttribute('data-input-position', 'bottom');
+          script.setAttribute('data-theme', 'preferred_color_scheme');
+          script.setAttribute('data-lang', giscusLang);
+          script.setAttribute('data-loading', 'lazy');
+          script.crossOrigin = 'anonymous';
+          script.async = true;
+          setTimeout(()=>{
+            document.body.appendChild(script);
+            console.log("Giscus loaded");
+          }, 100)
+        }
+        const giscusElement = document.querySelector("div.giscus")
+        // Only load Giscus if .giscus exists
+        if (giscusElement) {
+          loadGiscus();
+        }
+      })
     };
     script.async = true;
     document.head.appendChild(script);
