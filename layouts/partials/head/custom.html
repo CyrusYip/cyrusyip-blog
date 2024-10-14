@@ -6,7 +6,9 @@
     script.onload = () => {
       const swup = new Swup();
       console.log("swup loaded");
+
       swup.hooks.on("page:view", () => {
+        // Load comment services
         let giscusLang, disqusLang;
         if (document.documentElement.lang === "zh-CN") {
           giscusLang = "zh-CN";
@@ -15,6 +17,7 @@
           giscusLang = "en";
           disqusLang = "en";
         }
+
         function loadGiscus() {
           const script = document.createElement('script');
           script.src = 'https://giscus.app/client.js';
@@ -37,10 +40,41 @@
             console.log("Giscus loaded");
           }, 100)
         }
-        const giscusElement = document.querySelector("div.giscus")
+        const giscusElement = document.querySelector("div.giscus");
         // Only load Giscus if .giscus exists
         if (giscusElement) {
           loadGiscus();
+        }
+
+        function loadDisqus() {
+          // Reload
+          if (DISQUS) {
+            DISQUS.reset({
+              reload: true,
+              config: function() {
+                this.page.url = window.location.href;
+                this.language = disqusLang;
+              }
+            });
+            DISQUS_RECOMMENDATIONS.reset();
+            console.log("Disqus reloaded");
+          } else {
+            // Load
+            const disqus_config = function () {
+              this.language = disqusLang;
+            };
+            const script = document.createElement("script");
+            script.src = "https://cyrusyip.disqus.com/embed.js";
+            script.setAttribute('data-timestamp', +new Date());
+            document.body.appendChild(script);
+            console.log("Disqus loaded")
+          }
+        }
+        const disqusElement = document.querySelector("div#disqus_thread");
+        if (disqusElement) {
+          setTimeout(()=>{
+            loadDisqus();
+          }, 100)
         }
       })
     };
