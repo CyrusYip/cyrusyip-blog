@@ -14,18 +14,28 @@
   // swup head plugin
   const script = document.createElement("script");
   script.src = "https://unpkg.com/@swup/head-plugin@2";
-  script.onload = loadSwup;
+  script.onload = ()=>{ loadSwupPreload(); loadSwup()};
   script.async = true;
   setTimeout(()=>{
     document.body.appendChild(script);
   }, 1000)
+  // swup preload plugin
+  function loadSwupPreload() {
+    const script = document.createElement("script");
+    script.src = "https://unpkg.com/@swup/preload-plugin@3";
+    script.async = false;
+    document.body.appendChild(script)
+  }
   // swup
   function loadSwup() {
     const script = document.createElement("script");
     script.src = "https://unpkg.com/swup@4";
     script.onload = () => {
       const swup = new Swup({
-        plugins: [new SwupHeadPlugin()]
+        plugins: [
+          new SwupHeadPlugin(),
+          new SwupPreloadPlugin({ preloadVisibleLinks: true }),
+        ]
       });
       console.log("swup loaded");
 
@@ -56,7 +66,7 @@
           script.setAttribute('data-lang', giscusLang);
           script.setAttribute('data-loading', 'lazy');
           script.crossOrigin = 'anonymous';
-          script.async = true;
+          script.async = false;
           setTimeout(()=>{
             document.body.appendChild(script);
             console.log("Giscus loaded");
