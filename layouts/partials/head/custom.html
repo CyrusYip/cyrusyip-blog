@@ -1,3 +1,17 @@
+<!-- Import Swup as ESM -->
+<script>
+  setTimeout(() => {
+    const script = document.createElement("script");
+    script.src = "https://unpkg.com/swup@4";
+    script.onload = () => {
+      const swup = new Swup();
+      console.log("swup loaded")
+    };
+    script.async = true;
+    document.head.appendChild(script);
+  }, 1000);
+</script>
+
 {{/* Don't index non-production site */}}
 {{ if ne site.BaseURL "https://cyrusyip.org/" }}
   <meta name="robots" content="noindex, nofollow" />
