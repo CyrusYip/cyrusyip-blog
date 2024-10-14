@@ -37,3 +37,8 @@ html.is-changing .transition-fade {
 html.is-animating .transition-fade {
   opacity: 0;
 }
+
+// Don't bold active menu link
+.menu__link--active {
+  font-weight: normal;
+}

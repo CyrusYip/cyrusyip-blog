@@ -10,11 +10,11 @@
   <link rel="preload" as="script" href="https://unpkg.com/swup@4">
   {{ partial "head.html" . }}
 </head>
-<body class="body transition-fade" id="swup">
+<body class="body">
   <header class="header">
     {{ partial "header.html" . }}
   </header>
-  <main class="main">
+  <main class="main transition-fade" id="swup">
     {{ block "main" . }}{{ end }}
   </main>
   <footer class="footer">
