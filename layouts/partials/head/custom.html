@@ -1,10 +1,20 @@
-<!-- Import Swup as ESM -->
 <script>
-  setTimeout(() => {
+  // swup head plugin
+  const script = document.createElement("script");
+  script.src = "https://unpkg.com/@swup/head-plugin@2";
+  script.onload = loadSwup;
+  script.async = true;
+  setTimeout(()=>{
+    document.body.appendChild(script);
+  }, 1000)
+  // swup
+  function loadSwup() {
     const script = document.createElement("script");
     script.src = "https://unpkg.com/swup@4";
     script.onload = () => {
-      const swup = new Swup();
+      const swup = new Swup({
+        plugins: [new SwupHeadPlugin()]
+      });
       console.log("swup loaded");
 
       swup.hooks.on("page:view", () => {
@@ -48,7 +58,7 @@
 
         function loadDisqus() {
           // Reload
-          if (DISQUS) {
+          if (typeof DISQUS === 'object') {
             DISQUS.reset({
               reload: true,
               config: function() {
@@ -80,7 +90,7 @@
     };
     script.async = true;
     document.head.appendChild(script);
-  }, 1000);
+  }
 </script>
 
 {{/* Don't index non-production site */}}
