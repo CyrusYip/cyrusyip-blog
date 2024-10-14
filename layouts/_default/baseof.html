@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html class="html" lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
 <head>
+  <!-- Preload scripts -->
+  <link rel="preload" as="script" href="https://www.googletagmanager.com/gtag/js?id=G-8TSPGDFPRC">
+  <link rel="preload" as="script" href="https://giscus.app/client.js">
+  <link rel="preload" as="script" href="https://cyrusyip.disqus.com/embed.js">
+  <link rel="preload" as="script" href="https://unpkg.com/@swup/head-plugin@2">
+  <link rel="preload" as="script" href="https://unpkg.com/@swup/preload-plugin@3">
+  <link rel="preload" as="script" href="https://unpkg.com/swup@4">
   {{ partial "head.html" . }}
 </head>
 <body class="body transition-fade" id="swup">
