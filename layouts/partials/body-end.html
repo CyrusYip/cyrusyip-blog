@@ -1,26 +1,30 @@
 <script>
-  // Load script asynchronously
-  function loadScript(url, delay, onloadCallback, asyncValue, preloadCallback) {
+  function loadScript({
+    url,
+    delay = 0,
+    onloadCallback,
+    async,
+    preloadCallback,
+  }) {
     setTimeout(() => {
       if (preloadCallback) preloadCallback();
+
       const script = document.createElement("script");
       script.src = url;
+      script.async = async;
+
       if (onloadCallback) script.onload = onloadCallback;
-      // Use async by default
-      if (typeof asyncValue === 'undefined') {
-        script.async = true;
-      } else {
-        script.async = asyncValue;
-      }
+
       document.body.appendChild(script);
     }, delay);
   }
 
   // Google Analytics
-  loadScript(
-    "https://www.googletagmanager.com/gtag/js?id=G-8TSPGDFPRC",
-    100,
-    function () {
+  loadScript({
+    url: "https://www.googletagmanager.com/gtag/js?id=G-8TSPGDFPRC",
+    delay: 100,
+    async: true,
+    onloadCallback: function() {
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
@@ -29,7 +33,7 @@
       gtag("config", "G-8TSPGDFPRC");
       console.log("Google Analytics loaded")
     }
-  );
+  })
 </script>
 
 {{/* Only load comment services for regular page */}}
