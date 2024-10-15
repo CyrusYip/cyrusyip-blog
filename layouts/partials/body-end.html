@@ -176,7 +176,7 @@ loadDisqus()
             console.log("Disqus reloaded");
           } else {
             // Load
-            const disqus_config = function () {
+            window.disqus_config = function () {
               this.language = disqusLang;
             };
             const script = document.createElement("script");
