@@ -1,11 +1,16 @@
 <script>
   // Load script asynchronously
-  function loadScript(url, delay, callback) {
+  function loadScript(url, delay, callback, asyncValue) {
     setTimeout(() => {
       const script = document.createElement("script");
       script.src = url;
       if (callback) script.onload = callback;
-      script.async = true;
+      // Use async by default
+      if (typeof asyncValue === 'undefined') {
+        script.async = true;
+      } else {
+        script.async = asyncValue;
+      }
       document.body.appendChild(script);
     }, delay);
   }
