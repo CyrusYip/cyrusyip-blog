@@ -5,6 +5,7 @@
     onloadCallback,
     async,
     preloadCallback,
+    attributes = {},
   }) {
     setTimeout(() => {
       if (preloadCallback) preloadCallback();
@@ -12,6 +13,11 @@
       const script = document.createElement("script");
       script.src = url;
       script.async = async;
+
+      // Set attributes
+      Object.entries(attributes).forEach(([key, value]) => {
+        script.setAttribute(key, value);
+      });
 
       if (onloadCallback) script.onload = onloadCallback;
 
@@ -49,29 +55,28 @@ if (document.documentElement.lang === "zh-CN") {
   giscusLang = "en";
   disqusLang = "en";
 }
-function loadGiscus() {
-  const script = document.createElement('script');
-  script.src = 'https://giscus.app/client.js';
-  script.setAttribute('data-repo', 'CyrusYip/blog-comments');
-  script.setAttribute('data-repo-id', 'MDEwOlJlcG9zaXRvcnkzNDg2NjkxMTQ=');
-  script.setAttribute('data-category', 'Comments');
-  script.setAttribute('data-category-id', 'DIC_kwDOFMhEus4ChUiV');
-  script.setAttribute('data-mapping', 'pathname');
-  script.setAttribute('data-strict', '0');
-  script.setAttribute('data-reactions-enabled', '1');
-  script.setAttribute('data-emit-metadata', '0');
-  script.setAttribute('data-input-position', 'bottom');
-  script.setAttribute('data-theme', 'preferred_color_scheme');
-  script.setAttribute('data-lang', giscusLang);
-  script.setAttribute('data-loading', 'lazy');
-  script.crossOrigin = 'anonymous';
-  script.async = true;
-  setTimeout(()=>{
-    document.body.appendChild(script);
-    console.log("Giscus loaded");
-  }, 100)
-}
-loadGiscus()
+// Giscus
+loadScript({
+  url: 'https://giscus.app/client.js',
+  delay: 100,
+  onloadCallback: () => console.log("Giscus loaded"),
+  attributes: {
+    'data-repo': 'CyrusYip/blog-comments',
+    'data-repo-id': 'MDEwOlJlcG9zaXRvcnkzNDg2NjkxMTQ=',
+    'data-category': 'Comments',
+    'data-category-id': 'DIC_kwDOFMhEus4ChUiV',
+    'data-mapping': 'pathname',
+    'data-strict': '0',
+    'data-reactions-enabled': '1',
+    'data-emit-metadata': '0',
+    'data-input-position': 'bottom',
+    'data-theme': 'preferred_color_scheme',
+    'data-lang': giscusLang,
+    'data-loading': 'lazy',
+    'crossorigin': 'anonymous'
+  }
+});
+
 
 function loadDisqus() {
   window.disqus_config = function () {
