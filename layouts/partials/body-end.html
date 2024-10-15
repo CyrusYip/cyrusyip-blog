@@ -34,20 +34,16 @@
 {{/* Only load comment services for regular page */}}
 {{ if .IsPage }}
 
-{{- /* Set language */ -}}
-{{ $disqusLanguage := "" }}
-{{ $giscusLanguage := "" }}
-
-{{ if eq .Language.Lang "zh-cn" }}
-  {{ $giscusLanguage = "zh-CN" }}
-  {{ $disqusLanguage = "zh" }}
-{{ else }}
-  {{ $giscusLanguage = "en" }}
-  {{ $disqusLanguage = "en" }}
-{{ end }}
-
-{{- /* giscus */ -}}
 <script>
+// Check languages for comment services
+let giscusLang, disqusLang;
+if (document.documentElement.lang === "zh-CN") {
+  giscusLang = "zh-CN";
+  disqusLang = "zh";
+} else {
+  giscusLang = "en";
+  disqusLang = "en";
+}
 function loadGiscus() {
   const script = document.createElement('script');
   script.src = 'https://giscus.app/client.js';
@@ -61,7 +57,7 @@ function loadGiscus() {
   script.setAttribute('data-emit-metadata', '0');
   script.setAttribute('data-input-position', 'bottom');
   script.setAttribute('data-theme', 'preferred_color_scheme');
-  script.setAttribute('data-lang', '{{ $giscusLanguage }}');
+  script.setAttribute('data-lang', giscusLang);
   script.setAttribute('data-loading', 'lazy');
   script.crossOrigin = 'anonymous';
   script.async = true;
@@ -82,7 +78,7 @@ loadGiscus()
       {{with .Params.disqus_identifier }}this.page.identifier = '{{ . }}';{{end}}
       {{with .Params.disqus_title }}this.page.title = '{{ . }}';{{end}}
       {{with .Params.disqus_url }}this.page.url = '{{ . | html  }}';{{end}}
-      this.language = "{{ $disqusLanguage }}"
+      this.language = disqusLang;
       };
       (function() {
           var d = document, s = d.createElement('script'); s.async = true;
