@@ -104,17 +104,17 @@ loadScript({
 
 <script>
   // swup head plugin
-  const script = document.createElement("script");
-  script.src = "https://unpkg.com/@swup/head-plugin@2";
-  script.onload = ()=>{
-    console.log("swup head plugin loaded")
-    loadSwupPreload();
-    loadSwup();
-  };
-  script.async = true;
-  setTimeout(()=>{
-    document.body.appendChild(script);
-  }, 200)
+  loadScript({
+    url: "https://unpkg.com/@swup/head-plugin@2",
+    async: false,
+    delay: 200,
+    onloadCallback: function() {
+      console.log("swup head plugin loaded");
+      loadSwupPreload();
+      loadSwup();
+    },
+  })
+
   // swup preload plugin
   function loadSwupPreload() {
     const script = document.createElement("script");
