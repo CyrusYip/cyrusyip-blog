@@ -110,21 +110,19 @@ loadScript({
     delay: 200,
     onloadCallback: function() {
       console.log("swup head plugin loaded");
-      loadSwupPreload();
       loadSwup();
     },
   })
 
   // swup preload plugin
-  function loadSwupPreload() {
-    const script = document.createElement("script");
-    script.src = "https://unpkg.com/@swup/preload-plugin@3";
-    script.onload = ()=>{
+  loadScript({
+    url: "https://unpkg.com/@swup/preload-plugin@3",
+    async: false,
+    delay: 200,
+    onloadCallback: function() {
       console.log("swup preload plugin loaded")
-    };
-    script.async = false;
-    document.body.appendChild(script);
-  }
+    }
+  })
   // swup
   function loadSwup() {
     const script = document.createElement("script");
