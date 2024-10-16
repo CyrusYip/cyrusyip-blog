@@ -1,57 +1,55 @@
 <script>
-  function loadScript({
-    url,
-    delay,
-    onloadCallback,
-    async,
-    preloadCallback,
-    attributes = {},
-  }) {
-    function load() {
-      if (preloadCallback) preloadCallback();
+function loadScript({
+  url,
+  delay,
+  onloadCallback,
+  async,
+  preloadCallback,
+  attributes = {},
+}) {
+  function load() {
+    if (preloadCallback) preloadCallback();
 
-      const script = document.createElement("script");
-      script.src = url;
-      script.async = async;
+    const script = document.createElement("script");
+    script.src = url;
+    script.async = async;
 
-      // Set attributes
-      Object.entries(attributes).forEach(([key, value]) => {
-        script.setAttribute(key, value);
-      });
+    // Set attributes
+    Object.entries(attributes).forEach(([key, value]) => {
+      script.setAttribute(key, value);
+    });
 
-      if (onloadCallback) script.onload = onloadCallback;
+    if (onloadCallback) script.onload = onloadCallback;
 
-      document.body.appendChild(script);
-    }
-
-    if (typeof delay !== "undefined") {
-      setTimeout(load, delay);
-    } else {
-      load();
-    }
+    document.body.appendChild(script);
   }
 
+  if (typeof delay !== "undefined") {
+    setTimeout(load, delay);
+  } else {
+    load();
+  }
+}
 
-  // Google Analytics
-  loadScript({
-    url: "https://www.googletagmanager.com/gtag/js?id=G-8TSPGDFPRC",
-    delay: 100,
-    async: true,
-    onloadCallback: function() {
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-8TSPGDFPRC");
-      console.log("Google Analytics loaded")
+// Google Analytics
+loadScript({
+  url: "https://www.googletagmanager.com/gtag/js?id=G-8TSPGDFPRC",
+  delay: 100,
+  async: true,
+  onloadCallback: function () {
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
     }
-  })
+    gtag("js", new Date());
+    gtag("config", "G-8TSPGDFPRC");
+    console.log("Google Analytics loaded")
+  }
+})
 </script>
 
 {{/* Only load comment services for regular page */}}
 {{ if .IsPage }}
-
 <script>
 // Check languages for comment services
 let giscusLang, disqusLang;
@@ -62,6 +60,7 @@ if (document.documentElement.lang === "zh-CN") {
   giscusLang = "en";
   disqusLang = "en";
 }
+
 // Giscus
 const giscusConfig = {
   url: 'https://giscus.app/client.js',
@@ -92,63 +91,62 @@ loadScript({
   delay: 100,
   async: true,
   attributes: { "data-timestamp": +new Date() },
-  preloadCallback: function() {
+  preloadCallback: function () {
     window.disqus_config = function () {
       this.language = disqusLang;
     }
   },
-  onloadCallback: function() { console.log("Disqus loaded") },
+  onloadCallback: function () { console.log("Disqus loaded") },
 })
 </script>
-
 {{ end }}
 
 <script>
-  // swup head plugin
-  loadScript({
-    url: "https://unpkg.com/@swup/head-plugin@2",
-    async: false,
-    delay: 200,
-    onloadCallback: function() {
-      console.log("swup head plugin loaded");
-    },
-  })
+// swup head plugin
+loadScript({
+  url: "https://unpkg.com/@swup/head-plugin@2",
+  async: false,
+  delay: 200,
+  onloadCallback: function () {
+    console.log("swup head plugin loaded");
+  },
+})
 
-  // swup preload plugin
-  loadScript({
-    url: "https://unpkg.com/@swup/preload-plugin@3",
-    async: false,
-    delay: 200,
-    onloadCallback: function() {
-      console.log("swup preload plugin loaded")
-    }
-  })
+// swup preload plugin
+loadScript({
+  url: "https://unpkg.com/@swup/preload-plugin@3",
+  async: false,
+  delay: 200,
+  onloadCallback: function () {
+    console.log("swup preload plugin loaded")
+  }
+})
 
-  // swup
-  loadScript({
-    url: "https://unpkg.com/swup@4",
-    async: false,
-    delay: 200,
-    onloadCallback: function () {
-      const swup = new Swup({
-        plugins: [
-          new SwupHeadPlugin(),
-          new SwupPreloadPlugin({ preloadVisibleLinks: true }),
-        ],
-        animationSelector: false,
-      });
-      console.log("swup loaded");
+// swup
+loadScript({
+  url: "https://unpkg.com/swup@4",
+  async: false,
+  delay: 200,
+  onloadCallback: function () {
+    const swup = new Swup({
+      plugins: [
+        new SwupHeadPlugin(),
+        new SwupPreloadPlugin({ preloadVisibleLinks: true }),
+      ],
+      animationSelector: false,
+    });
+    console.log("swup loaded");
 
-      swup.hooks.on("page:view", () => {
-        // Load comment services
-        let giscusLang, disqusLang;
-        if (document.documentElement.lang === "zh-CN") {
-          giscusLang = "zh-CN";
-          disqusLang = "zh";
-        } else {
-          giscusLang = "en";
-          disqusLang = "en";
-        }
+    swup.hooks.on("page:view", () => {
+      // Load comment services
+      let giscusLang, disqusLang;
+      if (document.documentElement.lang === "zh-CN") {
+        giscusLang = "zh-CN";
+        disqusLang = "zh";
+      } else {
+        giscusLang = "en";
+        disqusLang = "en";
+      }
 
       function loadGiscus() {
         const giscusConfig = {
@@ -180,41 +178,41 @@ loadScript({
         loadGiscus();
       }
 
-        function loadDisqus() {
-          // Reload
-          if (typeof DISQUS === 'object') {
-            DISQUS.reset({
-              reload: true,
-              config: function() {
-                this.page.url = window.location.href;
+      function loadDisqus() {
+        // Reload
+        if (typeof DISQUS === 'object') {
+          DISQUS.reset({
+            reload: true,
+            config: function () {
+              this.page.url = window.location.href;
+              this.language = disqusLang;
+            }
+          });
+          DISQUS_RECOMMENDATIONS.reset();
+          console.log("Disqus reloaded");
+        } else {
+          // Load
+          loadScript({
+            url: "https://cyrusyip.disqus.com/embed.js",
+            // delay: 100,
+            async: true,
+            attributes: { "data-timestamp": +new Date() },
+            preloadCallback: function () {
+              window.disqus_config = function () {
                 this.language = disqusLang;
               }
-            });
-            DISQUS_RECOMMENDATIONS.reset();
-            console.log("Disqus reloaded");
-          } else {
-            // Load
-            loadScript({
-              url: "https://cyrusyip.disqus.com/embed.js",
-              // delay: 100,
-              async: true,
-              attributes: { "data-timestamp": +new Date() },
-              preloadCallback: function() {
-                window.disqus_config = function () {
-                  this.language = disqusLang;
-                }
-              },
-              onloadCallback: function() { console.log("Disqus loaded") },
-            })
-          }
+            },
+            onloadCallback: function () { console.log("Disqus loaded") },
+          })
         }
-        const disqusElement = document.querySelector("div#disqus_thread");
-        if (disqusElement) {
-          setTimeout(()=>{
-            loadDisqus();
-          }, 100)
-        }
-      })
-    }
-  })
+      }
+      const disqusElement = document.querySelector("div#disqus_thread");
+      if (disqusElement) {
+        setTimeout(() => {
+          loadDisqus();
+        }, 100)
+      }
+    })
+  }
+})
 </script>
