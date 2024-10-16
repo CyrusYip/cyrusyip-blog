@@ -63,7 +63,7 @@ if (document.documentElement.lang === "zh-CN") {
   disqusLang = "en";
 }
 // Giscus
-loadScript({
+const giscusConfig = {
   url: 'https://giscus.app/client.js',
   delay: 100,
   async: true,
@@ -83,7 +83,8 @@ loadScript({
     'data-loading': 'lazy',
     'crossorigin': 'anonymous'
   }
-});
+}
+loadScript(giscusConfig);
 
 // Disqus
 loadScript({
