@@ -1,13 +1,13 @@
 <script>
   function loadScript({
     url,
-    delay = 0,
+    delay,
     onloadCallback,
     async,
     preloadCallback,
     attributes = {},
   }) {
-    setTimeout(() => {
+    function load() {
       if (preloadCallback) preloadCallback();
 
       const script = document.createElement("script");
@@ -22,8 +22,15 @@
       if (onloadCallback) script.onload = onloadCallback;
 
       document.body.appendChild(script);
-    }, delay);
+    }
+
+    if (typeof delay !== "undefined") {
+      setTimeout(load, delay);
+    } else {
+      load();
+    }
   }
+
 
   // Google Analytics
   loadScript({
