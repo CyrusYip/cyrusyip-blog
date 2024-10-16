@@ -194,14 +194,18 @@ loadScript({
             console.log("Disqus reloaded");
           } else {
             // Load
-            window.disqus_config = function () {
-              this.language = disqusLang;
-            };
-            const script = document.createElement("script");
-            script.src = "https://cyrusyip.disqus.com/embed.js";
-            script.setAttribute('data-timestamp', +new Date());
-            document.body.appendChild(script);
-            console.log("Disqus loaded")
+            loadScript({
+              url: "https://cyrusyip.disqus.com/embed.js",
+              // delay: 100,
+              async: true,
+              attributes: { "data-timestamp": +new Date() },
+              preloadCallback: function() {
+                window.disqus_config = function () {
+                  this.language = disqusLang;
+                }
+              },
+              onloadCallback: function() { console.log("Disqus loaded") },
+            })
           }
         }
         const disqusElement = document.querySelector("div#disqus_thread");
