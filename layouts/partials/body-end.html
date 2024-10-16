@@ -66,6 +66,7 @@ if (document.documentElement.lang === "zh-CN") {
 loadScript({
   url: 'https://giscus.app/client.js',
   delay: 100,
+  async: true,
   onloadCallback: () => console.log("Giscus loaded"),
   attributes: {
     'data-repo': 'CyrusYip/blog-comments',
@@ -84,21 +85,19 @@ loadScript({
   }
 });
 
-
-function loadDisqus() {
-  window.disqus_config = function () {
-    this.language = disqusLang;
-  }
-  const script = document.createElement('script');
-  script.async = true;
-  script.src = 'https://cyrusyip.disqus.com/embed.js';
-  script.setAttribute('data-timestamp', +new Date());
-  setTimeout(()=>{
-    document.body.appendChild(script);
-    console.log('Disqus loaded');
-  }, 100)
-}
-loadDisqus()
+// Disqus
+loadScript({
+  url: "https://cyrusyip.disqus.com/embed.js",
+  delay: 100,
+  async: true,
+  attributes: { "data-timestamp": +new Date() },
+  preloadCallback: function() {
+    window.disqus_config = function () {
+      this.language = disqusLang;
+    }
+  },
+  onloadCallback: function() { console.log("Disqus loaded") },
+})
 </script>
 
 {{ end }}
