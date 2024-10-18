@@ -35,7 +35,7 @@ function loadScript({
 loadScript({
   url: "https://www.googletagmanager.com/gtag/js?id=G-8TSPGDFPRC",
   delay: 100,
-  async: true,
+  async: false,
   onloadCallback: function () {
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -65,7 +65,7 @@ if (document.documentElement.lang === "zh-CN") {
 const giscusConfig = {
   url: 'https://giscus.app/client.js',
   delay: 100,
-  async: true,
+  async: false,
   onloadCallback: () => console.log("Giscus loaded"),
   attributes: {
     'data-repo': 'CyrusYip/blog-comments',
@@ -89,7 +89,7 @@ loadScript(giscusConfig);
 loadScript({
   url: "https://cyrusyip.disqus.com/embed.js",
   delay: 100,
-  async: true,
+  async: false,
   attributes: { "data-timestamp": +new Date() },
   preloadCallback: function () {
     window.disqus_config = function () {
