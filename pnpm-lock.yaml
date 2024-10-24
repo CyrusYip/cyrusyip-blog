@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       hugo-bin:
-        specifier: ^0.133.3
-        version: 0.133.3
+        specifier: ^0.133.5
+        version: 0.133.5
 
 packages:
 
@@ -190,8 +190,8 @@ packages:
     resolution: {integrity: sha512-V5nVw1PAOgfI3Lmeaj2Exmeg7fenjhRUgz1lPSezy1CuhPYbgQtbQj4jZfEAEMlaL+vupsvhjqCyjzob0yxsmQ==}
     engines: {node: '>=10.19.0'}
 
-  hugo-bin@0.133.3:
-    resolution: {integrity: sha512-5Jd52s5FWQRSlj4xQh73claNnIMQWcILqO7bzruVV/wRdbLItZN3dXVP/TZ510wg0ebL0rBGt0/P4clbLlClvg==}
+  hugo-bin@0.133.5:
+    resolution: {integrity: sha512-6LpV7smMEaE0wFgzo0B3QHjcJYoH9I76edNI6xPZroDysxv1UV12nzb0Zw5YEr5TwL9PDQjg1aYzJrQjaXbLWQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -603,7 +603,7 @@ snapshots:
       quick-lru: 5.1.1
       resolve-alpn: 1.2.1
 
-  hugo-bin@0.133.3:
+  hugo-bin@0.133.5:
     dependencies:
       '@xhmikosr/bin-wrapper': 13.0.5
       package-config: 5.0.0
