@@ -1,4 +1,4 @@
-{{/* Don't index non-production site */}}
+{{- /* Don't index non-production site */ -}}
 {{ if ne site.BaseURL "https://cyrusyip.org/" }}
   <meta name="robots" content="noindex, nofollow" />
 {{ end }}
