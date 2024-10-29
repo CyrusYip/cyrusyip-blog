@@ -1,5 +1,5 @@
 ---
-title: What is Margin Collapsing in CSS
+title: What Is Margin Collapsing in CSS
 date: 2024-09-21T00:00:00+08:00
 slug: css-margin-collapsing
 tags:

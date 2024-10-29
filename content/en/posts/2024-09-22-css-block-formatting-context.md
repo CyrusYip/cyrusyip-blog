@@ -1,5 +1,5 @@
 ---
-title: What is Block Formatting Context (BFC) in CSS
+title: What Is Block Formatting Context (BFC) in CSS
 date: 2024-09-22T00:00:00+08:00
 slug: css-block-formatting-context
 tags:

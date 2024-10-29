@@ -1,5 +1,5 @@
 ---
-title: What is Clearfix in CSS
+title: What Is Clearfix in CSS
 date: 2024-09-22T00:00:00+08:00
 slug: css-clearfix
 tags:
