@@ -27,3 +27,9 @@
     text-underline-offset: 0.4rem;
   }
 }
+
+// swup progress bar
+.swup-progress-bar {
+  height: 4px;
+  background-color: var(--accent-color);
+}

@@ -122,6 +122,16 @@ loadScript({
   }
 })
 
+// swup progress bar plugin
+loadScript({
+  url: "https://unpkg.com/@swup/progress-plugin@3",
+  async: false,
+  delay: 200,
+  onloadCallback: function () {
+    console.log("swup progress bar plugin loaded")
+  }
+})
+
 // swup
 loadScript({
   url: "https://unpkg.com/swup@4",
@@ -132,6 +142,7 @@ loadScript({
       plugins: [
         new SwupHeadPlugin(),
         new SwupPreloadPlugin({ preloadVisibleLinks: true }),
+        new SwupProgressPlugin(),
       ],
       animationSelector: false,
     });
