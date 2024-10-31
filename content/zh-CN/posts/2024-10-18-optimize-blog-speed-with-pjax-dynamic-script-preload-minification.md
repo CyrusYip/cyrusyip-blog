@@ -8,7 +8,7 @@ tags:
   - javascript
   - pjax
   - web
-lastmod: 2024-10-18T00:00:00+08:00
+lastmod: 2024-10-31T10:49:56+08:00
 ---
 
 本文介绍了优化博客速度的几个方式：Pjax（免刷新加载页面）、dynamic script（动态插入脚本）、[rel=preload](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/preload)（预加载）、minification（极简化）。
@@ -23,6 +23,14 @@ lastmod: 2024-10-18T00:00:00+08:00
 
 如果网站没有 JavaScript 代码，那直接加载 swup 就好了。
 
+用 id 指定需要修改的内容：
+
+```html
+<body class="body" id="swup">
+  <p>Content...</p>
+</body>
+```
+
 添加脚本：
 
 ```html
@@ -32,18 +40,11 @@ lastmod: 2024-10-18T00:00:00+08:00
 </script>
 ```
 
-用 id 指定需要修改的内容：
-
-```html
-<body class="body" id="swup">
-  <p>Content...</p>
-</body>
-```
-
-建议使用这两个插件：
+建议使用这些插件：
 
 - [Head Plugin](https://swup.js.org/plugins/head-plugin/)：刷新 `<head>` 元素的内容和 `<html>` 元素的 `lang` 属性。
 - [Preload Plugin](https://swup.js.org/plugins/preload-plugin/)：光标在链接时预加载 URL，用户点击时就会内容会马上替换，还可以配置自动加载出现在可见区域的链接。
+- [Progress Bar Plugin](https://swup.js.org/plugins/progress-plugin/)：加载时间较长时显示进度条。
 
 注意要先加载插件再加载 swup。
 
@@ -127,7 +128,7 @@ Hugo 可以极简化 HTML、CSS 和 JavaScript 文件。本博客的代码用 Hu
 以下是这次优化用到的代码：
 
 - [preload](https://github.com/CyrusYip/cyrusyip-blog/blob/dae0bf10daf552e5dab43fc92b808e78d3d08fd4/layouts/_default/baseof.html#L4-L10)
-- [Pjax、dynamic script](https://github.com/CyrusYip/cyrusyip-blog/blob/992f112a3fa9fc6cf96b19bc3cee1e7e415ae81a/layouts/partials/body-end.html)
+- [Pjax、dynamic script](https://github.com/CyrusYip/cyrusyip-blog/blob/70f3f2577989eee4f02a9eb30f9a7d48edc6b694/layouts/partials/body/body-end.html)
 
 ## 感想
 
