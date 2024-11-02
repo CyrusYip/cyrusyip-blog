@@ -31,21 +31,36 @@ function loadScript({
   }
 }
 
+function isCyrusYipDomainOrLocalhost() {
+  const currentDomain = window.location.hostname;
+  const tartgetDomain = "cyrusyip.org";
+  console.log(`hostname: ${currentDomain}`);
+  return (
+    currentDomain === tartgetDomain ||
+    currentDomain.endsWith("." + tartgetDomain) ||
+    currentDomain === "localhost" ||
+    currentDomain === "127.0.0.1"
+  )
+}
+
 // Google Analytics
-loadScript({
-  url: "https://www.googletagmanager.com/gtag/js?id=G-8TSPGDFPRC",
-  delay: 100,
-  async: false,
-  onloadCallback: function () {
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
+// Only load it on cyrusyip.org, preventing unwanted data collections when people fork this repository
+if (isCyrusYipDomainOrLocalhost()) {
+  loadScript({
+    url: "https://www.googletagmanager.com/gtag/js?id=G-8TSPGDFPRC",
+    delay: 100,
+    async: false,
+    onloadCallback: function () {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-8TSPGDFPRC");
+      console.log("Google Analytics loaded")
     }
-    gtag("js", new Date());
-    gtag("config", "G-8TSPGDFPRC");
-    console.log("Google Analytics loaded")
-  }
-})
+  })
+}
 </script>
 
 {{/* Only load comment services for regular page */}}
