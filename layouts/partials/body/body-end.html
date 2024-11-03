@@ -154,6 +154,7 @@ loadScript({
   delay: 200,
   onloadCallback: function () {
     const swup = new Swup({
+      containers: ["body"],
       plugins: [
         new SwupHeadPlugin(),
         new SwupPreloadPlugin({ preloadVisibleLinks: true }),
