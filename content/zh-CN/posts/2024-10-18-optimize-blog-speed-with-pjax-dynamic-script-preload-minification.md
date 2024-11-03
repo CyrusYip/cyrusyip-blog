@@ -8,8 +8,12 @@ tags:
   - javascript
   - pjax
   - web
-lastmod: 2024-10-31T10:49:56+08:00
+lastmod: 2024-11-03T11:55:30+08:00
 ---
+
+<!--
+更新的时候记得更新相关代码的链接
+-->
 
 本文介绍了优化博客速度的几个方式：Pjax（免刷新加载页面）、dynamic script（动态插入脚本）、[rel=preload](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/preload)（预加载）、minification（极简化）。
 
@@ -23,23 +27,6 @@ lastmod: 2024-10-31T10:49:56+08:00
 
 如果网站没有 JavaScript 代码，那直接加载 swup 就好了。
 
-用 id 指定需要修改的内容：
-
-```html
-<body class="body" id="swup">
-  <p>Content...</p>
-</body>
-```
-
-添加脚本：
-
-```html
-<script src="https://unpkg.com/swup@4"></script>
-<script>
-  const swup = new Swup();
-</script>
-```
-
 建议使用这些插件：
 
 - [Head Plugin](https://swup.js.org/plugins/head-plugin/)：刷新 `<head>` 元素的内容和 `<html>` 元素的 `lang` 属性。
@@ -47,6 +34,24 @@ lastmod: 2024-10-31T10:49:56+08:00
 - [Progress Bar Plugin](https://swup.js.org/plugins/progress-plugin/)：加载时间较长时显示进度条。
 
 注意要先加载插件再加载 swup。
+
+```html
+<script src="https://unpkg.com/@swup/head-plugin@2"></script>
+<script src="https://unpkg.com/@swup/preload-plugin@3"></script>
+<script src="https://unpkg.com/@swup/progress-plugin@3"></script>
+<script src="https://unpkg.com/swup@4"></script>
+
+<script>
+  const swup = new Swup({
+    containers: ["body"], // 替换 <body> 的内容
+    plugins: [
+      new SwupHeadPlugin(),
+      new SwupPreloadPlugin({ preloadVisibleLinks: true }), // 预加载页面可见的链接
+      new SwupProgressPlugin(),
+    ],
+  });
+</script>
+```
 
 我的博客用到了 3 个 JavaScript 程序：Google Analytics（流量统计）、Giscus（评论服务）、Disqus（评论服务），用了 swup 之后要考虑是否需要额外处理。
 
@@ -127,8 +132,14 @@ Hugo 可以极简化 HTML、CSS 和 JavaScript 文件。本博客的代码用 Hu
 
 以下是这次优化用到的代码：
 
-- [preload](https://github.com/CyrusYip/cyrusyip-blog/blob/dae0bf10daf552e5dab43fc92b808e78d3d08fd4/layouts/_default/baseof.html#L4-L10)
-- [Pjax、dynamic script](https://github.com/CyrusYip/cyrusyip-blog/blob/70f3f2577989eee4f02a9eb30f9a7d48edc6b694/layouts/partials/body/body-end.html)
+- [preload](https://github.com/CyrusYip/cyrusyip-blog/blob/c1cce4360cc73bc2ad48bead3095633e0b6ad179/layouts/partials/head/head-start.html)
+- [Pjax、dynamic script](https://github.com/CyrusYip/cyrusyip-blog/blob/c1cce4360cc73bc2ad48bead3095633e0b6ad179/layouts/partials/body/body-end.html)
+
+<!--
+最新版文件：
+https://github.com/CyrusYip/cyrusyip-blog/blob/main/layouts/partials/head/head-start.html
+https://github.com/CyrusYip/cyrusyip-blog/blob/main/layouts/partials/body/body-end.html
+-->
 
 ## 感想
 
