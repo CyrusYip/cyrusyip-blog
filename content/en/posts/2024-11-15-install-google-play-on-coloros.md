@@ -1,12 +1,12 @@
 ---
-title: How to install Google Play on OnePlus / ColorOS
+title: How to install Google Play on OPPO / OnePlus / ColorOS
 date: 2024-11-15T00:00:00+08:00
 slug: install-google-play-on-coloros
 tags:
   - android
   - coloros
   - oneplus
-lastmod: 2024-11-15T00:00:00+08:00
+lastmod: 2024-11-16T01:42:04+08:00
 translationKey: install-google-play-on-coloros
 ---
 
@@ -15,4 +15,4 @@ translationKey: install-google-play-on-coloros
 
 ---
 
-Tested device: OnePlus Ace 3 (ColorOS 14).
+Tested device: OnePlus Ace 3 (ColorOS 14) and OPPO Reno12 (ColorOS 14).
