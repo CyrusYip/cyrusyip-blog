@@ -5,6 +5,7 @@ slug: install-google-play-on-coloros
 tags:
   - android
   - coloros
+  - google-play
   - oneplus
 lastmod: 2024-11-16T01:42:13+08:00
 translationKey: install-google-play-on-coloros

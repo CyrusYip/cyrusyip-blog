@@ -4,6 +4,7 @@ date: 2023-05-05T00:00:00+08:00
 slug: google-play-miui
 tags:
   - android
+  - google-play
   - hyperos
   - miui
   - redmi
