@@ -5,7 +5,7 @@ slug: css-box-sizing
 tags:
   - css
   - web
-lastmod: 2024-09-24T00:00:00+08:00
+lastmod: 2024-12-02T13:29:00+08:00
 ---
 
 In CSS, a block element is a box (rectangle) made up of four parts: content, padding, border, and margin. `box-sizing` determines how total width and height of an element is calculated.
@@ -33,7 +33,7 @@ By default (`box-sizing: content-box;`), the `width` property only sets the widt
 }
 ```
 
-When we use `box-sizing: border-box` on the child element, the `width` property sets the width of content, padding and margin, so the child element won't be wider than the parent element.
+If we use `box-sizing: border-box` on the child element, the `width` property sets the width of content, padding and border, so the child element won't be wider than the parent element.
 
 It's recommended to set `border-box` to all elements to avoid pitfalls about width and height.
 
