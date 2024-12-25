@@ -7,7 +7,7 @@ tags:
   - oneplus
   - oneplus-ace-3
   - pixelos
-lastmod: 2024-12-06T09:13:51+08:00
+lastmod: 2024-12-25T18:10:44+08:00
 ---
 
 ## 注意事项
@@ -16,7 +16,6 @@ lastmod: 2024-12-06T09:13:51+08:00
 - 拿到手机要马上关闭自动更新，避免更新到不合适刷机的版本。
 - 解锁 bootloader 重启后马上关掉自动更新。
 - 解锁 bootloader 时会清除数据。如果确定要刷机，建议买到手机马上解锁，后面拿到 root 权限可以用 Neo Backup 备份应用数据。
-- PixelOS 安装完第一次后就清除数据并重启，然后在设置里再次安装系统。我在 recovery 安装两次 PixelOS 应该是错误操作。
 
 ## 名词解释
 
@@ -162,9 +161,12 @@ adb pull /sdcard/Download/persist.img
 
 参考以下资料安装 Pixel OS。
 
-- [PixelOS - aston](https://pixelos.net/download/aston)
+- [PixelOS - aston](https://pixelos.net/download/aston)（点击页面的 Download 可以下载需要的文件）
 - [Development - [12R/ACE3][ROM][14][OFFICIAL] PixelOS [AOSP][19/10/24] | XDA Forums](https://xdaforums.com/t/12r-ace3-rom-14-official-pixelos-aosp-19-10-24.4662225/)
 
+我的安装过程有错误操作，为了避免误导读者，就删掉了。如果你真的想看，请点击[这里](https://github.com/CyrusYip/blog-comments/discussions/83#discussioncomment-11663008)。
+
+<!--
 ```shell
 adb reboot bootloader
 fastboot flash boot boot-aston-20241019.img
@@ -193,15 +195,14 @@ adb sideload PixelOS_aston-14.0-20241018-1605.zip
 
 开机连接 WIFI 后等了有两三分钟，显示 Slow connection，选择左边的 Set up offline。字体有点小，在设置里调大 Display size。
 
-<!--
 原系统在 https://resolution-viewer.cyrusyip.org/ 看到的缩放值好像是 350%
--->
 
 下拉通知栏，点击「Charging this device via USB」，选择 File Transfer。在电脑把 `PixelOS_aston-14.0-20241018-1605.zip` 复制到 Download 文件夹。
 
 在手机打开 Settings -> System -> System updates -> Local update，选择刚刚的 `.zip`文件，点击 INSTALL，完成后点 Reboot，重启成功。
 
 再重启一次，没事，应该算成功安装 PixelOS 了。
+-->
 
 系统自带谷歌服务，用 YASNAC 测试 SafetyNet，Basic integrity 显示 pass。
 
