@@ -4,7 +4,7 @@ date: 2024-12-23T00:00:00+08:00
 slug: android-root-introduction
 tags:
   - android
-lastmod: 2024-12-23T00:00:00+08:00
+lastmod: 2025-01-04T00:13:12+08:00
 ---
 
 <!--
@@ -54,10 +54,17 @@ root 权限可以很危险，比如用来清除手机数据或者弄坏系统。
 用到 root 的应用有：
 
 - Brevent
+- [DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup)
 - Material Files
-- MMRL
+- [MMRL](https://github.com/DerGoogler/MMRL)
 - Neo Backup
 - Shizuku
+    - [App Ops](https://appops.rikka.app/)
+    - Droid-ify
+    - [GKD](https://github.com/gkd-kit/gkd)
+    - Hail
+    - Obtainium
+    - aShell You
 
 模块有：
 
