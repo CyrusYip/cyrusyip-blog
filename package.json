@@ -9,5 +9,8 @@
   },
   "devDependencies": {
     "hugo-bin": "^0.138.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["hugo-bin"]
   }
 }
