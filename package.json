@@ -8,9 +8,11 @@
     "server:shared": "hugo server --navigateToChanged --bind 0.0.0.0"
   },
   "devDependencies": {
-    "hugo-bin": "^0.139.0"
+    "hugo-bin": "^0.140.1"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["hugo-bin"]
+    "onlyBuiltDependencies": [
+      "hugo-bin"
+    ]
   }
 }
