@@ -7,8 +7,10 @@ tags:
   - oneplus
   - oneplus-ace-3
   - pixelos
-lastmod: 2024-12-25T18:10:44+08:00
+lastmod: 2025-02-13T22:30:18+08:00
 ---
+
+PixelOS 升级流程：[将一加 Ace 3 从 PixelOS 14 升级到 PixelOS 15](/zh-cn/posts/2025/02/13/oneplus-ace3-from-pixelos14-to-pixelos15/)。
 
 ## 注意事项
 
