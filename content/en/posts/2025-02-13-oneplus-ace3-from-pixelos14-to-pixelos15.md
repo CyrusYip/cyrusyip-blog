@@ -7,7 +7,7 @@ tags:
   - oneplus
   - oneplus-ace-3
   - pixelos
-lastmod: 2025-02-13T23:01:48+08:00
+lastmod: 2025-02-13T23:16:29+08:00
 translationKey: oneplus-ace3-from-pixelos14-to-pixelos15
 ---
 
@@ -25,3 +25,7 @@ translationKey: oneplus-ace3-from-pixelos14-to-pixelos15
 1. Flash `ColorOS PJE110_15.0.0.500` using local install on ColorOS 15 (flash ColorOS 15 the second time).
 1. Flash [PixelOS 15](https://pixelos.net/download/aston) following the instructions on the website.
 1. Restore data using DataBackup (optional step).
+
+---
+
+This post was shared on [XDA forum](https://xdaforums.com/t/upgrade-oneplus-ace-3-from-pixelos-14-to-pixelos-15.4718511/).
