@@ -7,7 +7,7 @@ tags:
   - oneplus
   - oneplus-ace-3
   - pixelos
-lastmod: 2025-02-13T00:00:00+08:00
+lastmod: 2025-02-13T23:01:48+08:00
 translationKey: oneplus-ace3-from-pixelos14-to-pixelos15
 ---
 
@@ -19,9 +19,9 @@ translationKey: oneplus-ace3-from-pixelos14-to-pixelos15
 
 ## Steps
 
-1. Backup apps and data using [DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup) (root required, optional step)
-2. Follow [How To Guide - [12R/Ace 3] EDL DownloadTool to restore your device to OxygenOS/ColorOS | XDA Forums](https://xdaforums.com/t/12r-ace-3-edl-downloadtool-to-restore-your-device-to-oxygenos-coloros.4654245/) to flash `PJE110domestic_11_14.0.0.317CN01_2024012904340000.zip`
-3. Flash `ColorOS PJE110_15.0.0.500` using local update on ColorOS 14 (flash ColorOS 15 the first time)
-4. Flash `ColorOS PJE110_15.0.0.500` using local update on ColorOS 15 (flash ColorOS 15 the second time)
-5. Flash [PixelOS 15](https://pixelos.net/download/aston) following the instructions on the website
-6. Restore data using DataBackup (optional step)
+1. Backup apps and data using [DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup) (root required, optional step).
+1. Follow [How To Guide - [12R/Ace 3] EDL DownloadTool to restore your device to OxygenOS/ColorOS | XDA Forums](https://xdaforums.com/t/12r-ace-3-edl-downloadtool-to-restore-your-device-to-oxygenos-coloros.4654245/) to flash `PJE110domestic_11_14.0.0.317CN01_2024012904340000.zip`.
+1. Flash `ColorOS PJE110_15.0.0.500` using local install on ColorOS 14 (flash ColorOS 15 the first time). Try [General - General Local install issues on system updater and how to fix it | XDA Forums](https://xdaforums.com/t/general-local-install-issues-on-system-updater-and-how-to-fix-it.4714365/) if local install is gray in the system updater.
+1. Flash `ColorOS PJE110_15.0.0.500` using local install on ColorOS 15 (flash ColorOS 15 the second time).
+1. Flash [PixelOS 15](https://pixelos.net/download/aston) following the instructions on the website.
+1. Restore data using DataBackup (optional step).
