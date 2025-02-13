@@ -8,6 +8,7 @@ tags:
   - oneplus-ace-3
   - pixelos
 lastmod: 2025-02-13T00:00:00+08:00
+translationKey: oneplus-ace3-from-pixelos14-to-pixelos15
 ---
 
 现在 PixelOS 15 发布了，我就打算从 PixelOS 14 升级上去，但是事情没那么简单。因为 PixelOS 15 要用到 ColorOS 15 的固件，所以不能直接升级。要安装 ColorOS 14，升级到 ColorOS 15（15.0.0.200 或者以上的版本），在 ColorOS 的更新器再次安装 ColorOS 15 以确保两个系统槽位（slot）都是 ColorOS 15。安装 ColorOS 14 的时候会清空用户数据，所以要先备份应用和文件，最后再恢复。
