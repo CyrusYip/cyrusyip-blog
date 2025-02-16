@@ -7,7 +7,7 @@ tags:
   - oneplus
   - oneplus-ace-3
   - pixelos
-lastmod: 2025-02-13T00:00:00+08:00
+lastmod: 2025-02-16T21:56:04+08:00
 translationKey: oneplus-ace3-from-pixelos14-to-pixelos15
 ---
 
@@ -165,6 +165,8 @@ KernelSU 也试了下，刷入修补的 `init_boot.img` 后并不能获取 root 
 ## Magisk 的问题
 
 Magisk 真的太容易被检测到了，云闪付、支付宝、微信里面都没有人脸支付、指纹支付的选项，云闪付直接提示处于 root 环境。之前用 APatch，支付宝是可以人脸支付的。真是头疼，只能先不用 root 了，支付宝又能用人脸支付了。
+
+**2025-02-16 更新**：PixelOS 的维护者 [inferno0230](https://xdaforums.com/m/inferno0230.12118995/) 提供了[支持 KernelSU 的内核](https://files.inferno0230.in/test/kernel/)。我试了 `OP12R-v5.15.175-20250119-0950.zip`，在 PixelOS Recovery 里选 Apply update - Apply from ADB，在电脑执行 `adb sideload OP12R-v5.15.175-20250119-0950.zip` 就安装成功了。我把 KernelSU 管理器安装到 [private space](https://source.android.com/docs/security/features/private-space)，用支付宝人脸识别正常，云闪付也没有提示 root 环境。
 
 ## 清理
 
