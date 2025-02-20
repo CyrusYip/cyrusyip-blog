@@ -7,7 +7,7 @@ tags:
   - oneplus
   - oneplus-ace-3
   - pixelos
-lastmod: 2025-02-16T21:56:04+08:00
+lastmod: 2025-02-20T23:13:28+08:00
 translationKey: oneplus-ace3-from-pixelos14-to-pixelos15
 ---
 
@@ -172,7 +172,13 @@ Magisk 真的太容易被检测到了，云闪付、支付宝、微信里面都�
 
 删除电脑的备份文件、刷机包、刷机工具、微信记录。
 
+---
+
 文章到这里就结束了，下面是安装 ColosOS 14 的失败尝试，不知道是我操作不当还是工具有问题。
+
+**2025-02-20 更新**：今天看到用 fastboot 安装原厂系统的教程（[How To Guide - Flashing stock firmware on 12r/Ace 3 from fastboot. | XDA Forums](https://xdaforums.com/t/flashing-stock-firmware-on-12r-ace-3-from-fastboot.4719377/)），可能我下面失败的原因是没装好驱动，手机在 fastbootd 模式时未被电脑检测到。
+
+> Download the usb drivers, extract them and install "android_winusb.inf" by right clicking on it then click install. **Install them even if your device is detected in fastboot mode because further in the guide the phone will go in fastbootD mode and your computer might not detect the phone in that mode**.
 
 ## 用 fastboot 安装 ColorOS 14（失败）
 
@@ -180,4 +186,4 @@ Magisk 真的太容易被检测到了，云闪付、支付宝、微信里面都�
 1. 打开 Fastboot Firmware Flasher。
 1. 选择 `[7] FIRMWARE UNPACKER`，解开 ColorOS 14。
 1. 返回主菜单，选择 `[3] FLASH ROM`。
-1. 电脑显示 Rebooting into fastboot，但是手机进了 fastbootd。可以选择清除数据、重启、关机，我选了选择关机，结果就反复启动了。啊！也许我应该选择清除数据。
+1. 电脑显示 Rebooting into fastboot，但是手机进了 fastbootd，电脑显示「waiting for any device」。手机可以选择清除数据、重启、关机，我选了选择关机，结果就反复启动了。
