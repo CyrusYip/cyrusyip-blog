@@ -4,13 +4,17 @@ date: 2021-04-13T00:00:00+08:00
 slug: pronunciation-a-in-sad
 tags:
   - english
-lastmod: 2022-06-06T00:39:54+08:00
+lastmod: 2025-02-24T21:44:49+08:00
 ---
 
-/æ/是一个曾经让我很迷惑的发音。多数情况下，我听到的 /æ/ 和在《[美语音标](https://book.douban.com/subject/25853203/)》听到的是一样的。但我总感觉 /æ/ 跟在鼻音 /m/、/n/、/ŋ/ 后面就变音了。后来我看了 Rachel's English 的讲解视频才发现原来 /æ/ 有 3 种发音，/æ/ 的发音取决于它后面的音标。
+/æ/ 在美式英语中有 3 种发音：
 
-- 如果 /æ/ 后面是 /m/ 或 /n/，那么 /æ/ 的发音和 /e/ 相似
-- 如果 /æ/ 后面是 /ŋ/，那么 /æ/ 的发音和 /eɪ/ 相似
-- 其余情况 /æ/ 的发音和 /ɑː/ 有点像
+1. 正常发音，舌头抵住下齿，咧嘴，发类似 /ɑː/ 的音。示例单词：[back](https://dictionary.cambridge.org/dictionary/english/back)（点击 US 旁边的喇叭可以听录音）。
+1. /æ/ 加上 /n/、/m/ 时，会变成 /e/，也就是 /æn/ -> /en/、/æm/ -> /em/。示例单词：[land](https://dictionary.cambridge.org/dictionary/english/land)。
+1. /æ/ 加上鼻音 /ŋ/ 时，会变成 /eɪ/，也就是 /æŋ/ -> /eɪŋ/。示例单词：[gang](https://dictionary.cambridge.org/dictionary/english/gang)。
 
-光看文字应该很难理解，可以点开[剑桥词典](https://dictionary.cambridge.org/)，搜索 bad、land 和 gang，点击 US 旁边那个喇叭按钮，听一听 3 种发音。不过最好还是看这个[讲解视频](https://www.youtube.com/watch?v=-i7-DDAW-ok)（[哔哩哔哩](https://www.bilibili.com/video/BV11s411p78r)），边看边练习应该更易懂。
+/æ/ 加鼻音会发生变化的现象叫做 [/æ/ raising](https://en.wikipedia.org/wiki//%C3%A6/_raising)。
+
+[American English - AA [æ] Vowel - How to make the AA Vowel - YouTube](https://www.youtube.com/watch?v=-i7-DDAW-ok)（[哔哩哔哩](https://www.bilibili.com/video/BV11s411p78r)）这个视频演示了 3 种发音。
+
+我的发音是跟着[《赖世雄美语发音》](https://book.douban.com/subject/25853203/)学的。这本书讲解质量高，但是没讲 /æ/ 加鼻音时的变化，真是可惜。于是我就写了这篇文章作补充。
