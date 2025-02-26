@@ -4,7 +4,7 @@ date: 2025-02-26T00:00:00+08:00
 slug: british-english-phonetic-symbols
 tags:
   - english
-lastmod: 2025-02-26T00:00:00+08:00
+lastmod: 2025-02-26T11:14:35+08:00
 ---
 
 本文采用 DJ 音标。英式英语中，元音有 20 个，辅音有 24 个，常用辅音连缀有 4 个。
@@ -28,13 +28,13 @@ lastmod: 2025-02-26T00:00:00+08:00
 1. /e/ bet /bet/
 1. /æ/ cat /kæt/
 1. /ɑː/ car /kɑː/
-1. /ɒ/ lot /lɒt/
 1. /ɔː/ law /lɔː/
-1. /ʊ/ put /pʊt/
+1. /ɒ/ lot /lɒt/
 1. /uː/ blue /bluː/
+1. /ʊ/ put /pʊt/
+1. /ə/ sofa /ˈsəʊ.fə/
 1. /ʌ/ cup /kʌp/
 1. /ɜː/ bird /bɜːd/
-1. /ə/ sofa /ˈsəʊ.fə/
 
 ### 双元音（Diphthongs）
 
@@ -64,13 +64,13 @@ lastmod: 2025-02-26T00:00:00+08:00
 
 1. /f/ fish /fɪʃ/
 1. /v/ van /væn/
-1. /θ/ think /θɪŋk/
-1. /ð/ this /ðɪs/
 1. /s/ see /siː/
 1. /z/ zoo /zuː/
 1. /ʃ/ she /ʃiː/
-1. /ʒ/ measure /ˈmeʒə/
 1. /h/ hat /hæt/
+1. /ʒ/ measure /ˈmeʒə/
+1. /θ/ think /θɪŋk/
+1. /ð/ this /ðɪs/
 
 ### 破擦音（Affricates）
 
@@ -91,9 +91,9 @@ lastmod: 2025-02-26T00:00:00+08:00
 
 ### 边音（Lateral Approximant）
 
-1. /l/ light /laɪt/
+1. /l/ light /laɪt/ cool /kuːl/
 
-### 辅音连缀
+### 辅音连缀（Consonant Cluster）
 
 1. /ts/ cats /kæts/
 2. /dz/ beds /bedz/
