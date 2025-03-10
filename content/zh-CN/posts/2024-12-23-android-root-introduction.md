@@ -72,6 +72,8 @@ Xposed 是修改系统和应用行为的模块，供其他模块使用。[Xposed
 
 Android 系统允许应用获取所有应用的名字。有些应用发现系统有 root 管理器或者使用 root 的应用，就认为系统有 root 权限而拒绝运行。我们可以使用 [Hide My Applist](https://github.com/Dr-TSNG/Hide-My-Applist) 或者 [HMAL](https://github.com/pumPCin/HMAL) 来隐藏应用名称，从而躲过检测。
 
+隐藏完 root 后可以使用[root 检测应用](https://github.com/rushiranpise/detection)查看效果。如果你用的应用没检测出 root，就不要纠结 root 检测应用的结果。
+
 ## 银行应用与 Play Integrity
 
 一些银行应用会检测 Play Integrity（设备完整性，等级包适 BASIC、DEVICE、STRONG），手机解锁引导程序后 Play Integrity 等级下降，导致银行应用拒绝运行或者隐藏部分功能（比如指纹支付）。可以使用 [Play Integrity Fix](https://github.com/chiteroman/PlayIntegrityFix) 和 [TrickyStore](https://github.com/5ec1cff/TrickyStore) 来修复 Play Integrity。
