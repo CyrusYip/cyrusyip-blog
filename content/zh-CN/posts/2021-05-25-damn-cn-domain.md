@@ -1,11 +1,11 @@
 ---
-title: 不要注册 cn 域名
+title: 不推荐使用 cn 域名
 date: 2021-05-25T00:00:00+08:00
 slug: damn-cn-domain
 tags:
   - blog
   - domain-name
-lastmod: 2025-03-31T20:31:37+08:00
+lastmod: 2025-03-31T20:41:22+08:00
 ---
 
 **2025-03-31 更新**：cn 域名已经支持隐私保护了（[例子](https://github.com/CyrusYip/blog-comments/discussions/57#discussioncomment-12673922)）。
@@ -28,4 +28,4 @@ lastmod: 2025-03-31T20:31:37+08:00
 
 **cn 域名有被停用的风险**。2008 年，有人以跳水奥运冠军吴敏霞拼音注册了 wuminxia.cn，[结果被中国互联网络信息中心（CNNIC）回收了域名](https://www.cnbeta.com/articles/tech/62209.htm)，并转交给国家体育总局。此域名在 2021 年 2 月 28 日被优视科技[注册](https://whois.cnnic.cn/WhoisServlet?queryType=Domain&domain=wuminxia.cn)，呵呵。2009 年，牛博网被域名注册商万网停止解析。
 
-其他 CNNIC 的臭事我就不讲了，感兴趣就去看[维基百科](https://zh.wikipedia.org/zh-cn/%E4%B8%AD%E5%9C%8B%E4%BA%92%E8%81%AF%E7%B6%B2%E7%B5%A1%E4%BF%A1%E6%81%AF%E4%B8%AD%E5%BF%83)吧。
+其他 CNNIC 的争议就不讲了，感兴趣就去看[维基百科](https://zh.wikipedia.org/zh-cn/%E4%B8%AD%E5%9C%8B%E4%BA%92%E8%81%AF%E7%B6%B2%E7%B5%A1%E4%BF%A1%E6%81%AF%E4%B8%AD%E5%BF%83)吧。
