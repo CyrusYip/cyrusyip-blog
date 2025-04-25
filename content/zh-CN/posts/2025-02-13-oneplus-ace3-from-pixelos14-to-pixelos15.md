@@ -7,7 +7,7 @@ tags:
   - oneplus
   - oneplus-ace-3
   - pixelos
-lastmod: 2025-02-20T23:13:28+08:00
+lastmod: 2025-04-25T10:57:17+08:00
 translationKey: oneplus-ace3-from-pixelos14-to-pixelos15
 ---
 
@@ -166,7 +166,28 @@ KernelSU 也试了下，刷入修补的 `init_boot.img` 后并不能获取 root 
 
 Magisk 真的太容易被检测到了，云闪付、支付宝、微信里面都没有人脸支付、指纹支付的选项，云闪付直接提示处于 root 环境。之前用 APatch，支付宝是可以人脸支付的。真是头疼，只能先不用 root 了，支付宝又能用人脸支付了。
 
-**2025-02-16 更新**：PixelOS 的维护者 [inferno0230](https://xdaforums.com/m/inferno0230.12118995/) 提供了[支持 KernelSU 的内核](https://files.inferno0230.in/test/kernel/)。我试了 `OP12R-v5.15.175-20250119-0950.zip`，在 PixelOS Recovery 里选 Apply update - Apply from ADB，在电脑执行 `adb sideload OP12R-v5.15.175-20250119-0950.zip` 就安装成功了。我把 KernelSU 管理器安装到 [private space](https://source.android.com/docs/security/features/private-space)，用支付宝人脸识别正常，云闪付也没有提示 root 环境。
+## 改用 KernelSU
+
+PixelOS 的维护者 [inferno0230](https://xdaforums.com/m/inferno0230.12118995/) 提供了[支持 KernelSU 的内核](https://files.inferno0230.in/test/kernel/)。我试了 `OP12R-v5.15.175-20250119-0950.zip`，在 PixelOS Recovery 里选 Apply update - Apply from ADB，在电脑执行 `adb sideload OP12R-v5.15.175-20250119-0950.zip` 就安装成功了。我把 KernelSU 管理器安装到 [private space](https://source.android.com/docs/security/features/private-space)，用支付宝人脸识别正常，云闪付也没有提示 root 环境。
+
+## 更新 PixelOS 时保留 root
+
+推荐方法：
+
+1. 下载最新的 [KernelSU 内核](https://files.inferno0230.in/test/kernel/)。
+1. 在设置更新系统，安装完按住电源下键，重启。
+1. 按音量键选择 recovery，按电源键确认，进入 recovery。
+1. Apply update - Apply from ADB / Choose from disk[^disk] - Yes - Reboot system now。
+
+[^disk]: 可以把内核放到 U 盘，从 U 盘安装，这样就不需要用电脑。注意：PixelOS recovery 无法读取多分区的 U 盘。
+
+不太推荐的方法（手误跨版本升级 PixelOS 可能会出问题，比如 PixelOS 15 升级到 PixelOS 16）：
+
+1. 下载 [KernelSU 内核](https://files.inferno0230.in/test/kernel/)和 [PixelOS 系统](https://pixelos.net/download/aston)
+1. 重启到 recovery
+1. 安装 PixelOS，重启到 recovery，此时系统槽位（slot）变化
+1. 安装 KernelSU 内核
+1. 重启
 
 ## 清理
 
