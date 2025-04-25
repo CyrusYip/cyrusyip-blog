@@ -6,41 +6,30 @@ tags:
   - android
   - hyperos
   - redmi
-lastmod: 2025-03-13T00:00:00+08:00
+lastmod: 2025-04-25T11:46:14+08:00
 ---
 
 <!-- 写英文版？ -->
 
-解锁时系统版本是 HyperOS 1.0.8.0.ULMCNXM。
+从 HyperOS 开始，[解锁 bootloader（引导程序）的难度大大增加](/zh-cn/posts/2024/12/08/xiaomi-no-longer-for-fans/)，不过还是有办法绕过限制。建议想解锁的读者先暂停系统更新和应用更新，以免升级后无法绕过限制。
 
-## 第一次尝试
+这台 Redmi K40S 的系统版本是 HyperOS 1.0.8.0.ULMCNXM。以下是解锁方法：
 
-1. 安装 php（Windows 可以用 winget 安装）
-1. 下载 [HyperOS 解锁工具](https://github.com/MlgmXyysd/Xiaomi-HyperOS-BootLoader-Bypass/releases/download/1.0-fix/Bypass-1.0-fix-universal.zip) 并解压
-1. 下载[小米官方解锁工具](https://en.miui.com/unlock/download_en.html)
-1. 参考[教程](https://github.com/MlgmXyysd/Xiaomi-HyperOS-BootLoader-Bypass/blob/master/docs/README-zh.md)，进入解锁工具的文件夹后执行 `php bypass.php`
-1. 按照解锁程序的提示操作（电脑报错了，当时以为没事，后来才知道没搞成功）
-1. 打开小米官方解锁工具，登录小米账号，重启到 bootloader 发现这台手机似乎不用等就可以直接解锁
-1. 解锁到 99% 就不行了，显示 Please add your account in Settings > Developer options > Mi Unlock status
-1. 进去开发者模式绑定，显示「绑定失败，请前往小米社区申请授权后重试」
+1. 插入手机卡。
+1. 下载[设置应用](https://github.com/MlgmXyysd/Xiaomi-HyperOS-BootLoader-Bypass/releases/download/1.0-fix/Settings_Redmi_marble_V816.0.5.0.UMRINXM.zip)，解压后传到手机安装，成功。
+1. 根据电脑系统下载 [HyperSploit](https://github.com/TheAirBlow/HyperSploit/releases) 并运行，根据提示操作。
+1. 这台手机显示验证失败，电脑显示 `Error 401: Xiaomi account credentials expired, login again`。
+1. 退出账号，登录账号。再次运行 HyperSploit，这次电脑显示绑定成功了。运行[小米官方解锁工具](https://en.miui.com/unlock/download_en.html)（[备用版](https://miuirom.xiaomi.com/rom/u1106245679/7.6.727.43/miflash_unlock_en_7.6.727.43.zip)），提示等待 168 小时。
+1. 手机卡就留在这里了[^le]。
+1. 打开应用商店，关闭自动升级。打开系统更新，关闭自动下载和夜间安装。让手机一直开机。
+1. 等够 7 天后再次运行小米官方解锁工具，成功啦！
 
-## 第二次尝试
+[^le]: 我不确定是否要一直插卡，只是感觉这样比较稳妥。
 
-1. 尝试新工具 [HyperSploit-Linux](https://github.com/TheAirBlow/HyperSploit)
-1. 绑定失败，降级设置应用，失败
+---
 
-## 第三次尝试
+重启完居然显示有账号锁，需要联网后验证小米账号密码。我的手机卡设置了密码，系统它又不让我输入手机卡密码（这太傻了吧！），这样无法用手机卡的网络。只好连接 WIFI 了，输入密码后进入系统，再退出小米账号。最后装上了我最喜欢的 [LineageOS 系统](https://wiki.lineageos.org/devices/munch/)。
 
-1. 下载设置应用（<https://github.com/MlgmXyysd/Xiaomi-HyperOS-BootLoader-Bypass/releases/download/1.0-fix/Settings_Redmi_marble_V816.0.5.0.UMRINXM.zip>）
-1. 解压后传到手机安装，成功。
-1. 运行 `HyperSploit-Linux`
-1. 手机显示验证失败，电脑显示 `Error 401: Xiaomi account credentials expired, login again`。
-1. 退出账号，登录账号。
-1. 运行 HyperSploit-Linux，这次电脑显示绑定成功了。运行小米官方解锁工具，提示等待 168 小时。
-1. 手机卡就留在这里了。打开应用商店，关闭自动升级。打开系统更新，关闭自动下载和夜间安装。让手机一直开机。
-1. 等七天后在运行小米官方解锁工具，成功啦！
-1. 重启完居然显示有账号锁，需要联网后验证小米账号密码。我的手机卡设置了密码，系统它又不让我输入手机卡密码（这太傻了吧！），这样无法用手机卡的网络。只好连接WIFI了，输入密码后进入系统，再退出小米账号。
-1. 最后装上我最喜欢的 [LineageOS 系统](https://wiki.lineageos.org/devices/munch/)。
 
 <!--
 ## 安装固件记录
