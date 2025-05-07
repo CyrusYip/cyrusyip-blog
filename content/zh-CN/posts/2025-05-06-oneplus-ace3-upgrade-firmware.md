@@ -21,17 +21,17 @@ translationKey: oneplus-ace3-upgrade-firmware
 1. 运行 `fastboot reboot fastboot`，进入 fastbootd
 1. 运行 `fastboot devices`，确定手机处于 fastbootd
 
-我的手机目前系统版本是 PixelOS_aston-15.0-20250424，固件是 PJE110_15.0.0.500，固件要升级到 PJE110_15.0.0.701。
+我的手机目前系统版本是 `PixelOS_aston-15.0-20250424`，固件是 `PJE110_15.0.0.500`，固件要升级到 `PJE110_15.0.0.701`。
 
 安装过程：
 
 1. 按住音量下键和电源键开机进入 fastboot
-1. 在[这里](https://github.com/inferno0230/op12r-fw-repo/releases)下载固件，这次下载 [PJE110_15.0.0.701](https://github.com/inferno0230/op12r-fw-repo/releases/tag/PJE110_15.0.0.701(CN01))，下载固件后解压
+1. 在[这里](https://github.com/inferno0230/op12r-fw-repo/releases)下载固件，这次下载 [`PJE110_15.0.0.701`](https://github.com/inferno0230/op12r-fw-repo/releases/tag/PJE110_15.0.0.701(CN01))，下载固件后解压
 1. 电脑是 Linux/macOS 系统就运行固件文件夹里面的 `install_images.sh`，Windows 就运行 `install_images.bat`
 
 ---
 
 安装记录（写给自己看的）：
 
-- PJE110_15.0.0.500 -> PJE110_15.0.0.701（系统版本：PixelOS_aston-15.0-20250424）
-- PJE110_15.0.0.701 -> PJE110_15.0.0.801（系统版本：PixelOS_aston-15.0-20250506）
+- `PJE110_15.0.0.500` -> `PJE110_15.0.0.701`（系统版本：`PixelOS_aston-15.0-20250424`）
+- `PJE110_15.0.0.701` -> `PJE110_15.0.0.801`（系统版本：`PixelOS_aston-15.0-20250506`）
