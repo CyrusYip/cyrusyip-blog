@@ -1,3 +1,3 @@
-{{- $hugo := "<a href='https://gohugo.io'>Hugo</a>" -}}
+{{- $hugo := printf "<a href='https://gohugo.io'>Hugo %s</a>" hugo.Version}}
 {{- $yue := "<a href='https://github.com/CyrusYip/hugo-theme-yue'>Yue</a>" -}}
 <p class="footer__theme-info">{{ i18n "themeInfo" (dict "hugo" $hugo "yue" $yue) | safeHTML }}</p>
