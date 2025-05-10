@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       hugo-bin:
-        specifier: ^0.144.1
-        version: 0.144.1
+        specifier: ^0.144.2
+        version: 0.144.2
 
 packages:
 
@@ -183,15 +183,15 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
-  http-cache-semantics@4.1.1:
-    resolution: {integrity: sha512-er295DKPVsV82j5kw1Gjt+ADA/XYHsajl82cGNQG2eyoPkvgUhX+nDIyelzhIWbbsXP39EHcI6l5tYs2FYqYXQ==}
+  http-cache-semantics@4.2.0:
+    resolution: {integrity: sha512-dTxcvPXqPvXBQpq5dUr6mEMJX4oIEFv6bwom3FDwKRDsuIjjJGANqhBuoAn9c1RQJIdAKav33ED65E2ys+87QQ==}
 
   http2-wrapper@2.2.1:
     resolution: {integrity: sha512-V5nVw1PAOgfI3Lmeaj2Exmeg7fenjhRUgz1lPSezy1CuhPYbgQtbQj4jZfEAEMlaL+vupsvhjqCyjzob0yxsmQ==}
     engines: {node: '>=10.19.0'}
 
-  hugo-bin@0.144.1:
-    resolution: {integrity: sha512-zxGjz8/if+NzCdl4TBpqv0f3GrQsjs1imNhPQwfWbOrqb4EfvVWQFV+Q4CCdKeeeJqXTE8lEyM5L1bIkzHlDkA==}
+  hugo-bin@0.144.2:
+    resolution: {integrity: sha512-OHkNrnRsJKrSZse3Mli5fOd8w2mbBI6FwHz5op8RQG0XKD2NSOkb9s4EV7Z94j37787/TsO2fT5rbhCoCy1w1A==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -500,7 +500,7 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       get-stream: 6.0.1
-      http-cache-semantics: 4.1.1
+      http-cache-semantics: 4.2.0
       keyv: 4.5.4
       mimic-response: 4.0.0
       normalize-url: 8.0.1
@@ -593,14 +593,14 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  http-cache-semantics@4.1.1: {}
+  http-cache-semantics@4.2.0: {}
 
   http2-wrapper@2.2.1:
     dependencies:
       quick-lru: 5.1.1
       resolve-alpn: 1.2.1
 
-  hugo-bin@0.144.1:
+  hugo-bin@0.144.2:
     dependencies:
       '@xhmikosr/bin-wrapper': 13.0.5
       package-config: 5.0.0
