@@ -3,7 +3,7 @@
   "scripts": {
     "build": "hugo --minify --gc",
     "clean": "rm --recursive public/",
-    "clean:server:shared": "npm run clean; npm run server:shared",
+    "clean:server:shared": "pnpm run clean; pnpm run server:shared",
     "server": "hugo server --navigateToChanged",
     "server:shared": "hugo server --navigateToChanged --bind 0.0.0.0"
   },
