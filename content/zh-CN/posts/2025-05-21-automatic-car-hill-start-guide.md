@@ -1,5 +1,5 @@
 ---
-title: 自动挡半坡起步方法
+title: 自动挡半坡起步的 3 个方法（手刹、左脚脚刹、跟趾）
 date: 2025-05-21T00:00:00+08:00
 slug: automatic-car-hill-start-guide
 tags:
