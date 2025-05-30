@@ -53,7 +53,7 @@ languages:
         - name: Posts
           pageRef: /posts
           weight: 20
-        - name: Tags
+        - name: Topics
           pageRef: /tags
           weight: 30
         - name: About
@@ -84,7 +84,7 @@ languages:
         - name: 文章
           pageRef: /posts
           weight: 20
-        - name: 标签
+        - name: 话题
           pageRef: /tags
           weight: 30
         - name: 关于
