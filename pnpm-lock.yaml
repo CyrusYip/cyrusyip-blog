@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       hugo-bin:
-        specifier: ^0.144.9
-        version: 0.144.9
+        specifier: ^0.145.0
+        version: 0.145.0
 
 packages:
 
@@ -190,8 +190,8 @@ packages:
     resolution: {integrity: sha512-V5nVw1PAOgfI3Lmeaj2Exmeg7fenjhRUgz1lPSezy1CuhPYbgQtbQj4jZfEAEMlaL+vupsvhjqCyjzob0yxsmQ==}
     engines: {node: '>=10.19.0'}
 
-  hugo-bin@0.144.9:
-    resolution: {integrity: sha512-SsAgkkXTl0Mwzgf5HYiE8gmWwfAkCCs7KFcVt0uZjmPI+Xflr3q9maxEDcNmTxSp/NMLSnPhqcGZwlHzh5oXMw==}
+  hugo-bin@0.145.0:
+    resolution: {integrity: sha512-+2zcJ7+u7Tdda9AtPzNM9v+ybkoBY0d6GIgYV9Pl5i512RgAbEvHOSU/dk5JIC9pHFEhQyG60bzGurMdQJfK5Q==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -365,8 +365,8 @@ packages:
   through@2.3.8:
     resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
 
-  token-types@6.0.0:
-    resolution: {integrity: sha512-lbDrTLVsHhOMljPscd0yitpozq7Ga2M5Cvez5AjGg8GASBjtt6iERCAJ93yommPmz62fb45oFIXHEZ3u9bfJEA==}
+  token-types@6.0.3:
+    resolution: {integrity: sha512-IKJ6EzuPPWtKtEIEPpIdXv9j5j2LGJEYk0CKY2efgKoYKLBiZdh6iQkLVBow/CB3phyWAWCyk+bZeaimJn6uRQ==}
     engines: {node: '>=14.16'}
 
   uint8array-extras@1.4.0:
@@ -553,7 +553,7 @@ snapshots:
     dependencies:
       get-stream: 9.0.1
       strtok3: 9.1.1
-      token-types: 6.0.0
+      token-types: 6.0.3
       uint8array-extras: 1.4.0
 
   filename-reserved-regex@3.0.0: {}
@@ -600,7 +600,7 @@ snapshots:
       quick-lru: 5.1.1
       resolve-alpn: 1.2.1
 
-  hugo-bin@0.144.9:
+  hugo-bin@0.145.0:
     dependencies:
       '@xhmikosr/bin-wrapper': 13.0.5
       package-config: 5.0.0
@@ -739,7 +739,7 @@ snapshots:
 
   through@2.3.8: {}
 
-  token-types@6.0.0:
+  token-types@6.0.3:
     dependencies:
       '@tokenizer/token': 0.3.0
       ieee754: 1.2.1
