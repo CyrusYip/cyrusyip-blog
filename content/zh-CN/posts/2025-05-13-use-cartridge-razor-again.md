@@ -4,6 +4,7 @@ date: 2025-05-13T00:00:00+08:00
 slug: use-cartridge-razor-again
 tags:
   - life
+  - shaving
 lastmod: 2025-05-13T00:00:00+08:00
 ---
 
