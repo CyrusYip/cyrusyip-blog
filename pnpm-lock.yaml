@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       hugo-bin:
-        specifier: ^0.146.1
-        version: 0.146.1
+        specifier: ^0.147.0
+        version: 0.147.0
 
 packages:
 
@@ -202,8 +202,8 @@ packages:
     resolution: {integrity: sha512-V5nVw1PAOgfI3Lmeaj2Exmeg7fenjhRUgz1lPSezy1CuhPYbgQtbQj4jZfEAEMlaL+vupsvhjqCyjzob0yxsmQ==}
     engines: {node: '>=10.19.0'}
 
-  hugo-bin@0.146.1:
-    resolution: {integrity: sha512-b5ETmUIWDaFxQU3FJ+h5fQCC18/09dSQj9hKVGgG2kbctNzILX9HfaKPYEPK47El64VTQiAhKpeGtq/Ndp/6/g==}
+  hugo-bin@0.147.0:
+    resolution: {integrity: sha512-8ZO/uEVbYUQzTaPGmB0Www53GeKq6A2oyQs1+0wyV9BR5jWQt7HPpl5U4sCioRTsTF73UQVQMTzIPdg9Iaw4Vw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -268,8 +268,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  normalize-url@8.0.2:
-    resolution: {integrity: sha512-Ee/R3SyN4BuynXcnTaekmaVdbDAEiNrHqjQIA37mHU8G9pf7aaAD4ZX3XjBLo6rsdcxA/gtkcNYZLt30ACgynw==}
+  normalize-url@8.1.0:
+    resolution: {integrity: sha512-X06Mfd/5aKsRHc0O0J5CUedwnPmnDtLF2+nq+KN9KSDlJHkPuh0JUviWjEWMe0SW/9TDdSLVPuk7L5gGTIA1/w==}
     engines: {node: '>=14.16'}
 
   npm-run-path@4.0.1:
@@ -529,7 +529,7 @@ snapshots:
       http-cache-semantics: 4.2.0
       keyv: 4.5.4
       mimic-response: 4.0.0
-      normalize-url: 8.0.2
+      normalize-url: 8.1.0
       responselike: 3.0.0
 
   commander@6.2.1: {}
@@ -629,7 +629,7 @@ snapshots:
       quick-lru: 5.1.1
       resolve-alpn: 1.2.1
 
-  hugo-bin@0.146.1:
+  hugo-bin@0.147.0:
     dependencies:
       '@xhmikosr/bin-wrapper': 13.2.0
       package-config: 5.0.0
@@ -674,7 +674,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  normalize-url@8.0.2: {}
+  normalize-url@8.1.0: {}
 
   npm-run-path@4.0.1:
     dependencies:
