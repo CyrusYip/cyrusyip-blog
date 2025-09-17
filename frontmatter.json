@@ -1,5 +1,6 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.global.timezone": "Asia/Shanghai",
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
