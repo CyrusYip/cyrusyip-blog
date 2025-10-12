@@ -7,8 +7,10 @@ tags:
   - lineageos
   - oneplus
   - oneplus-ace-3
-lastmod: 2025-10-11T00:00:00+08:00
+lastmod: 2025-10-12T16:02:17+08:00
 ---
+
+**2025 年 10 月 12 日更新**：LineageOS 已经更新到 23 版了，建议安装 23 版。安装了 22.2 版还得升级到 23 版本。如果 LineageOS 官网上还没出现 23 版的安装包，就再等等，应该在构建中。
 
 PixelOS 15 三四个月没更新，我发现 LineageOS 22.2 已经支持一加 Ace 3，所以打算安装 LineageOS。我更喜欢 LineageOS，因为它每周更新，还支持大版本更新。
 
