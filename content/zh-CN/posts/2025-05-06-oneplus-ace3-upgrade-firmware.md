@@ -7,7 +7,7 @@ tags:
   - oneplus
   - oneplus-ace-3
   - pixelos
-lastmod: 2025-06-22T23:20:31+08:00
+lastmod: 2025-10-12T21:19:03+08:00
 translationKey: oneplus-ace3-upgrade-firmware
 ---
 
@@ -36,3 +36,4 @@ translationKey: oneplus-ace3-upgrade-firmware
 - `PJE110_15.0.0.500` -> `PJE110_15.0.0.701`（系统版本：`PixelOS_aston-15.0-20250424`）
 - `PJE110_15.0.0.701` -> `PJE110_15.0.0.801`（系统版本：`PixelOS_aston-15.0-20250506`）
 - `PJE110_15.0.0.801` -> `PJE110_15.0.0.820`（系统版本：`PixelOS_aston-15.0-20250621`）
+- `PJE110_15.0.0.820` -> `PJE110_15.0.0.840`（系统版本：`LineageOS 23.0-20251012-NIGHTLY-aston`）
