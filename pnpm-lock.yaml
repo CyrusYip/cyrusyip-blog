@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       hugo-bin:
-        specifier: ^0.149.0
-        version: 0.149.0
+        specifier: ^0.149.1
+        version: 0.149.1
 
 packages:
 
@@ -86,8 +86,8 @@ packages:
       react-native-b4a:
         optional: true
 
-  bare-events@2.8.0:
-    resolution: {integrity: sha512-AOhh6Bg5QmFIXdViHbMc2tLDsBIRxdkIaIddPslJF9Z5De3APBScuqGP2uThXnIpqFrgoxMNC6km7uXNIMLHXA==}
+  bare-events@2.8.1:
+    resolution: {integrity: sha512-oxSAxTS1hRfnyit2CL5QpAOS5ixfBjj6ex3yTNvXyY/kE719jQ/IjuESJBK2w5v4wwQRAHGseVJXx9QBYOtFGQ==}
     peerDependencies:
       bare-abort-controller: '*'
     peerDependenciesMeta:
@@ -215,8 +215,8 @@ packages:
     resolution: {integrity: sha512-V5nVw1PAOgfI3Lmeaj2Exmeg7fenjhRUgz1lPSezy1CuhPYbgQtbQj4jZfEAEMlaL+vupsvhjqCyjzob0yxsmQ==}
     engines: {node: '>=10.19.0'}
 
-  hugo-bin@0.149.0:
-    resolution: {integrity: sha512-w3RYvD5nD8nFGOrKdtkYEsrvXS/0DKFnTOrF7iDtfkOz/D2Z0lWs50wiYYbHppkOauPQlwQHpLATXjXj2cy35g==}
+  hugo-bin@0.149.1:
+    resolution: {integrity: sha512-f+38rRcQ3ZiEyghOCXNnc+pesDMJucjXTR+/Qd0gXmzxYOS3z/tgcYQZymXPVlxc9FTYuz2ggnIpUR/rpXqbGw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -522,7 +522,7 @@ snapshots:
 
   b4a@1.7.3: {}
 
-  bare-events@2.8.0: {}
+  bare-events@2.8.1: {}
 
   base64-js@1.5.1: {}
 
@@ -582,7 +582,7 @@ snapshots:
 
   events-universal@1.0.1:
     dependencies:
-      bare-events: 2.8.0
+      bare-events: 2.8.1
     transitivePeerDependencies:
       - bare-abort-controller
 
@@ -659,7 +659,7 @@ snapshots:
       quick-lru: 5.1.1
       resolve-alpn: 1.2.1
 
-  hugo-bin@0.149.0:
+  hugo-bin@0.149.1:
     dependencies:
       '@xhmikosr/bin-wrapper': 13.2.0
       package-config: 5.0.0
