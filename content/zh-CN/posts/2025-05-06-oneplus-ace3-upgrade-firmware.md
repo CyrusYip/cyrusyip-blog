@@ -37,3 +37,4 @@ translationKey: oneplus-ace3-upgrade-firmware
 - `PJE110_15.0.0.701` -> `PJE110_15.0.0.801`（系统版本：`PixelOS_aston-15.0-20250506`）
 - `PJE110_15.0.0.801` -> `PJE110_15.0.0.820`（系统版本：`PixelOS_aston-15.0-20250621`）
 - `PJE110_15.0.0.820` -> `PJE110_15.0.0.840`（系统版本：`LineageOS 23.0-20251012-NIGHTLY-aston`）
+- `PJE110_15.0.0.840` -> `PJE110_15.0.0.870`（系统版本：`LineageOS 23.0-20251107-NIGHTLY-aston`）
