@@ -4,14 +4,16 @@ date: 2025-12-13T00:00:00+08:00
 slug: shaving-and-skincare-products-i-use
 tags:
   - shaving
-lastmod: 2025-12-13T00:00:00+08:00
+lastmod: 2025-12-13T01:19:24+08:00
 ---
 
-这是我目前使用的剃须装备和护肤品，供对剃须和护肤感兴趣的读者参考。
+本文列举了我目前使用的剃须装备和护肤品，供对剃须和护肤感兴趣的读者参考。
 
 请注意，每个人肤质不同，这里列举的产品可能不适合你。
 
 我懒得写价钱，感兴趣的读者可以留言让我补充。
+
+关于我不用或少用的剃须装备和护肤品，请看[这篇文章](/zh-cn/posts/2025/12/13/shaving-and-skincare-products-i-dont-use/)。
 
 ## 须前 / 清洁
 
@@ -42,7 +44,8 @@ lastmod: 2025-12-13T00:00:00+08:00
 
 - 同诗 S9 电动剃须刀
 - 穆乐 Muhle R89 闭合式双刃剃须刀
-- RazoRock OLD TYPE（UFO 手柄）开放式双刃剃须刀
+- RazoRock OLD TYPE（UFO 手柄）开放式双刃剃须刀（RazoRock 的手柄防滑且沉重，非常好用，我用其他剃须刀也喜欢接这个手柄）
+- 超级蓝吉列（SUPER Gillette BLUE）闭合式双刃剃须刀
 - 帝师便携安全剃须刀包
 - [舒适超巧（Schick Exacta 2）](/zh-cn/posts/2025/09/29/schick-exacta-2-review/)
 
