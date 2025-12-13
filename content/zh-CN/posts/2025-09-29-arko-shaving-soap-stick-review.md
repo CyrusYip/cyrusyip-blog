@@ -7,7 +7,7 @@ tags:
 lastmod: 2025-12-13T23:48:22+08:00
 ---
 
-**2025-12-13 更新**：Arko 会让皮肤变干，而且洗脸后还是有部分残留在脸上。PRORASO 桉树薄荷款就没有这些缺点。
+**2025-12-13 更新**：Arko 会让皮肤变干，而且洗脸后还是有部分残留在脸上。[PRORASO 桉树薄荷剃须皂](/zh-cn/posts/2025/12/14/proraso-shaving-soap-refreshing-review/)就没有这些缺点。
 
 ---
 

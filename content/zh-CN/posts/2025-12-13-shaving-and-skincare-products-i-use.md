@@ -24,7 +24,7 @@ lastmod: 2025-12-13T01:19:24+08:00
 
 剃须皂和配套工具：
 
-- PRORASO 桉树薄荷（绿色包装）剃须皂
+- [PRORASO 桉树薄荷剃须皂（绿色包装）](/zh-cn/posts/2025/12/14/proraso-shaving-soap-refreshing-review/)
 - 10 厘米不锈钢勺子（用于挖剃须皂）
 - FRUIT SONG 芦荟凝胶（加一些到剃须泡沫，泡沫会绵密水润）
 
