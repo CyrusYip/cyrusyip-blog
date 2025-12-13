@@ -46,7 +46,7 @@ lastmod: 2025-12-13T01:19:24+08:00
 - 穆乐 Muhle R89 闭合式双刃剃须刀
 - RazoRock OLD TYPE（UFO 手柄）开放式双刃剃须刀（RazoRock 的手柄防滑且沉重，非常好用，我用其他剃须刀也喜欢接这个手柄）
 - 超级蓝吉列（SUPER Gillette BLUE）闭合式双刃剃须刀
-- 帝师便携安全剃须刀包
+- 帝诗便携安全剃须刀包
 - [舒适超巧（Schick Exacta 2）](/zh-cn/posts/2025/09/29/schick-exacta-2-review/)
 
 双刃刀片和配套产品（建议先买刀片体验套装，不同刀片的使用感受不一样，遇到合适的再多买）：
