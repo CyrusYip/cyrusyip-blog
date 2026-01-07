@@ -4,7 +4,7 @@ date: 2025-12-13T00:00:00+08:00
 slug: shaving-and-skincare-products-i-use
 tags:
   - shaving
-lastmod: 2025-12-13T01:19:24+08:00
+lastmod: 2026-01-07T16:18:53+08:00
 ---
 
 本文列举了我目前使用的剃须装备和护肤品，供对剃须和护肤感兴趣的读者参考。
@@ -27,6 +27,7 @@ lastmod: 2025-12-13T01:19:24+08:00
 - [PRORASO 桉树薄荷剃须皂（绿色包装）](/zh-cn/posts/2025/12/14/proraso-shaving-soap-refreshing-review/)
 - 10 厘米不锈钢勺子（用于挖剃须皂）
 - FRUIT SONG 芦荟凝胶（加一些到剃须泡沫，泡沫会绵密水润）
+- 甘油（作用如上）
 
 剃须刷：
 
@@ -57,6 +58,7 @@ lastmod: 2025-12-13T01:19:24+08:00
 - Feather Hi-Stainless（俗称黄羽毛）
 - Feather New Hi-Stainless（俗称黑羽毛）
 - Perma-Sharp（俗称黄脸、马杀鸡[^ji]）
+- Gillette Platinum（包装蓝底白字，俗称吉列纸飞机，中国产）
 - 软木塞（用刀片划软木塞，可以消除刀刃的毛刺）
 - 骰子（放在刀片旁标记使用次数）
 
