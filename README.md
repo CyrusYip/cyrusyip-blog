@@ -46,6 +46,8 @@ To upgrade Hugo, modify `hugo_bin_hugo_version` in `.npmrc`.
 
 Then run `pnpm update --latest`.
 
+If Hugo is not automatically installed, run `pnpm install --force`.
+
 ## Contributing Guidelines
 
 See [CONTRIBUTING.md](.github/CONTRIBUTING.md).
