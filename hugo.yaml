@@ -40,9 +40,9 @@ markup:
 languages:
   en:
     contentDir: content/en
-    languageCode: en-US
-    languageDirection: ltr
-    languageName: English
+    locale: en-US
+    direction: ltr
+    label: English
     title: Cyrus Yip's blog
     weight: 10
     menus:
@@ -71,9 +71,9 @@ languages:
     hasCJKLanguage: true
     summaryLength: 100
     contentDir: content/zh-CN
-    languageCode: zh-CN
-    languageDirection: ltr
-    languageName: 中文
+    locale: zh-CN
+    direction: ltr
+    label: 中文
     title: 叶寻的博客
     weight: 20
     menus:
