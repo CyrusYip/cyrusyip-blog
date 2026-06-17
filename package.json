@@ -10,9 +10,8 @@
   "devDependencies": {
     "hugo-bin": "^0.149.2"
   },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "hugo-bin"
-    ]
+  "hugo-bin": {
+    "buildTags": "extended",
+    "version": "0.163.2"
   }
 }

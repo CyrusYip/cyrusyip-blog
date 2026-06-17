@@ -1,0 +1,3 @@
+sideEffectsCache: false
+allowBuilds:
+  hugo-bin: true
