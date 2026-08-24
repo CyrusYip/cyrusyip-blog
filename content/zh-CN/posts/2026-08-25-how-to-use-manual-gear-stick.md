@@ -11,6 +11,16 @@ markup:
     lineNos: true
 ---
 
+**手动挡新手教程**：
+
+1. 挂挡手法（本文）
+1. [起步、熄火处理、搭电](/zh-cn/posts/2026/07/21/manual-car-tutorial-start-stall-jump-start/)
+1. [转速匹配与挡位选择](/zh-cn/posts/2026/08/25/rev-matching-and-gear-selection/)
+
+学完这三篇教程你应该就会开手动挡了，希望你可以感受到开手动挡的快乐。
+
+---
+
 开手动挡车要自己换挡，所以一定要学会不看挡把的情况下操作。
 
 要挂挡做得好，就是做好三件事：
