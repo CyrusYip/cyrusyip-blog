@@ -4,6 +4,7 @@ date: 2026-11-19T00:00:00+08:00
 slug: credit-card-basics
 tags:
   - credit-card
+  - hao-yang-mao
   - life
 lastmod: 2026-11-19T00:00:00+08:00
 ---

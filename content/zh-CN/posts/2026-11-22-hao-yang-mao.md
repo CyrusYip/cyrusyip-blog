@@ -3,6 +3,7 @@ title: 薅羊毛：边花钱边省钱
 date: 2026-11-22T00:00:00+08:00
 slug: hao-yang-mao
 tags:
+  - hao-yang-mao
   - life
 lastmod: 2026-11-22T00:00:00+08:00
 ---
