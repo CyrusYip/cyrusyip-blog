@@ -37,11 +37,13 @@ pnpm run build
 
 ## Upgrade Hugo
 
-To upgrade Hugo, modify `hugo_bin_hugo_version` in `.npmrc`.
+To upgrade Hugo, modify the version under `hugo-bin` in `package.json`.
 
 ```diff
--hugo_bin_hugo_version = "0.134.3"
-+hugo_bin_hugo_version = "0.135.0"
+"hugo-bin": {
+-  "version": "0.170.0"
++  "version": "0.170.1"
+}
 ```
 
 Then run `pnpm update --latest`.
