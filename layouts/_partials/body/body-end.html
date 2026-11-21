@@ -33,11 +33,11 @@ function loadScript({
 
 function isCyrusYipDomainOrLocalhost() {
   const currentDomain = window.location.hostname;
-  const targetDomain = "cyrusyip.org";
+  const allowedDomain = "cyrusyip.org";
   console.log(`hostname: ${currentDomain}`);
   return (
-    currentDomain === targetDomain ||
-    currentDomain.endsWith("." + targetDomain)
+    currentDomain === allowedDomain ||
+    currentDomain.endsWith("." + allowedDomain)
     // Preventing unwanted data collection when people fork this repository and run the site locally
     // Uncomment to test Google Analytics on localhost if you are Cyrus Yip
     // ||
