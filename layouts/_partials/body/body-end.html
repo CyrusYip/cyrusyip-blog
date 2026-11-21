@@ -37,9 +37,12 @@ function isCyrusYipDomainOrLocalhost() {
   console.log(`hostname: ${currentDomain}`);
   return (
     currentDomain === tartgetDomain ||
-    currentDomain.endsWith("." + tartgetDomain) ||
-    currentDomain === "localhost" ||
-    currentDomain === "127.0.0.1"
+    currentDomain.endsWith("." + tartgetDomain)
+    // Preventing unwanted data collections when people fork this repository and run the site locally
+    // Uncomment to test Google Analytics on localhost if you are Cyrus Yip
+    // ||
+    // currentDomain === "localhost" ||
+    // currentDomain === "127.0.0.1"
   )
 }
 
